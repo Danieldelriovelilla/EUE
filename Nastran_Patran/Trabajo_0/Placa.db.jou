@@ -1,0 +1,290 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Nastran_Patran\Trabajo_0\Placa.db.jou at 
+$# 01-Mar-21 16:44:47
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Nastran_Patran\Trabajo_0\Placa.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Nastran_Patran\Trabajo_0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_center_set( 0.217614, 0.032827 )
+ga_view_zoom_set( 0.933333 )
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+pref_geo_set_v1( 0, 0.0099999998, 3 )
+pref_global_set_v3( TRUE, 3, "5e-06", "SAVE" )
+pref_env_set_logical( "revert_enabled", FALSE )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+ga_view_aa_set( -63.657913, 79.319626, 37.003834 )
+point_size( 9 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 1", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 1
+asm_const_grid_xyz( "1", "[-0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[-0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_delete_point( "Point 4", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 4
+asm_delete_point( "Point 3", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 3
+asm_delete_point( "Point 2", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 2
+asm_delete_point( "Point 1", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 1
+asm_const_grid_xyz( "1", "[-0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[-0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_delete_point( "Point 1", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 1
+asm_delete_point( "Point 2", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 2
+asm_delete_point( "Point 3", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 3
+asm_const_grid_xyz( "1", "[-0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_delete_point( "Point 1", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 1
+asm_delete_point( "Point 2", asm_delete_any_deleted_ids )
+$# No Geometry Deleted.
+asm_delete_point( "Point 3", asm_delete_any_deleted_ids )
+$# No Geometry Deleted.
+$# UNDO: Delete for entities Point
+asm_delete_point( "Point 4", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 4
+asm_delete_point( "Point 5", asm_delete_any_deleted_ids )
+$# No Geometry Deleted.
+asm_const_grid_xyz( "1", "[-0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.25 -0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[-0.25 0.125 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+ga_view_center_set( 0.019876, -0.036694 )
+ga_view_center_set( -0.047476, 0.086123 )
+ga_view_center_set( -0.044728, 0.089034 )
+ga_view_zoom_set( 0.222854 )
+ga_view_center_set( -0.041637, 0.092309 )
+ga_view_zoom_set( 0.250711 )
+ga_view_center_set( -0.038160, 0.095994 )
+ga_view_zoom_set( 0.282050 )
+ga_view_center_set( -0.044419, 0.089362 )
+ga_view_zoom_set( 0.225640 )
+ga_view_center_set( -0.041289, 0.092678 )
+ga_view_zoom_set( 0.253845 )
+ga_view_center_set( -0.037769, 0.096408 )
+ga_view_zoom_set( 0.285575 )
+ga_view_aa_set( -168.795746, -24.492952, 36.057915 )
+ga_view_center_set( -0.032655, 0.086726 )
+ga_view_zoom_set( 0.253845 )
+ga_view_aa_set( -59.504498, 6.556935, 14.761773 )
+ga_view_center_set( -0.016559, 0.095184 )
+ga_view_zoom_set( 0.225640 )
+ga_view_center_set( -0.010531, 0.102503 )
+ga_view_zoom_set( 0.200569 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0.000000, 2.000000, 0.000000 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 3", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 4", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "5", "[-0.2 -0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+asm_const_grid_xyz( "6", "[0.2 -0.075 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 6
+$# UNDO: Transform Point Translate Command Point 5
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "7", "<0 0.15 0>", 0.15000001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 5 6", sgm_transform_point_created_ids )
+$# 2 Points created: Grid 7,8
+STRING sgm_create_curve_2d_created_ids[VIRTUAL]
+sgm_const_curve_2d_circle_v2( "5", 1, 0.02, "Coord 0.3", "", "Point 5", FALSE, @
+ sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 5
+sgm_const_curve_2d_circle_v2( "6", 1, 0.02, "Coord 0.3", "", "Point 6", FALSE, @
+ sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 6
+sgm_const_curve_2d_circle_v2( "7", 1, 0.02, "Coord 0.3", "", "Point 8", FALSE, @
+ sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 7
+sgm_const_curve_2d_circle_v2( "8", 1, 0.02, "Coord 0.3", "", "Point 7", FALSE, @
+ sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 8
+$# UNDO: Create Curve 2D Circle for Coord 0.3Point 5:12
+sgm_const_curve_2d_circle_v2( "9", 1, 0.029999999, "Coord 0.3", "", "Point 5", @
+ FALSE, sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 9
+sgm_const_curve_2d_circle_v2( "10", 1, 0.029999999, "Coord 0.3", "", "Point 6" @
+, FALSE, sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 10
+sgm_const_curve_2d_circle_v2( "11", 1, 0.029999999, "Coord 0.3", "", "Point 8" @
+, FALSE, sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 11
+sgm_const_curve_2d_circle_v2( "12", 1, 0.029999999, "Coord 0.3", "", "Point 7" @
+, FALSE, sgm_create_curve_2d_created_ids )
+$# 1 Curve Created: Curve 12
+STRING sgm_surface_trimmed__created_id[VIRTUAL]
+sgm_create_surface_trimmed_v1( "1", "Curve 1:4", "Curve 5:8", "", FALSE,  @
+FALSE, TRUE, TRUE, sgm_surface_trimmed__created_id )
+$# 1 Surface Created: Surface 1
+uil_toolbar.shaded_smooth(  )
+STRING sgm_surface_break_c_created_ids[VIRTUAL]
+sgm_edit_surface_break_v1( "2", "Surface 1", TRUE, 3, 0, 0., "", "",  @
+"Curve 9:12", sgm_surface_break_c_created_ids )
+$# Question from application SGM
+$#     Do you wish to delete the original surfaces?
+$? YES 38000219 
+$# 1 Surface Created: Surface 8
+gm_visibility_widget( "Surface 8", FALSE )
+ga_view_center_set( 0.006375, 0.003188 )
+ga_view_zoom_set( 0.185625 )
+ga_view_center_set( 0.013548, 0.006774 )
+ga_view_zoom_set( 0.208828 )
+ga_view_center_set( 0.029686, 0.014843 )
+ga_view_zoom_set( 0.261035 )
+ga_view_center_set( 0.039772, 0.019886 )
+ga_view_zoom_set( 0.293665 )
+ga_view_center_set( 0.029686, 0.014843 )
+ga_view_zoom_set( 0.261035 )
+ga_view_center_set( 0.020720, 0.010360 )
+ga_view_zoom_set( 0.232031 )
+ga_view_center_set( 0.006375, 0.003188 )
+ga_view_zoom_set( 0.185625 )
+ga_view_center_set( -0.000000, -0.000000 )
+ga_view_zoom_set( 0.165000 )
+ga_view_center_set( -0.005667, -0.002834 )
+ga_view_zoom_set( 0.146667 )
+ga_view_center_set( -0.013417, 0.001259 )
+ga_view_zoom_set( 0.165000 )
+gm_plot_erase_geometry( 1 )
+ga_view_aa_set( -48.009426, -3.460320, 21.420727 )
+ga_view_center_set( 0.012434, -0.004819 )
+ga_view_zoom_set( 0.146667 )
+ga_view_center_set( 0.024532, -0.009103 )
+ga_view_zoom_set( 0.130370 )
+ga_view_center_set( 0.032531, -0.015093 )
+ga_view_zoom_set( 0.115885 )
+ga_view_center_set( 0.035831, -0.023206 )
+ga_view_zoom_set( 0.103009 )
+ga_view_center_set( 0.037532, -0.015059 )
+ga_view_zoom_set( 0.115885 )
+ga_view_center_set( 0.039445, -0.005893 )
+ga_view_zoom_set( 0.130370 )
+ga_view_center_set( 0.042761, 0.005065 )
+ga_view_zoom_set( 0.146667 )
+ga_view_center_set( 0.046490, 0.017392 )
+ga_view_zoom_set( 0.165000 )
+ga_view_center_set( 0.061203, 0.034747 )
+ga_view_zoom_set( 0.185625 )
+ga_view_center_set( 0.083640, 0.056786 )
+ga_view_zoom_set( 0.208828 )
+ga_view_center_set( 0.108950, 0.081717 )
+ga_view_zoom_set( 0.234932 )
+ga_view_center_set( 0.099717, 0.071592 )
+ga_view_zoom_set( 0.264298 )
+ga_view_center_set( 0.087847, 0.059328 )
+ga_view_zoom_set( 0.297335 )
+ga_view_center_set( 0.073510, 0.044844 )
+ga_view_zoom_set( 0.334502 )
+ga_view_center_set( 0.056939, 0.028108 )
+ga_view_zoom_set( 0.376315 )
+ga_view_center_set( 0.040286, 0.011020 )
+ga_view_zoom_set( 0.423355 )
+ga_view_center_set( 0.032829, -0.000973 )
+ga_view_zoom_set( 0.376315 )
+ga_view_center_set( 0.020103, -0.020162 )
+ga_view_zoom_set( 0.301052 )
+ga_view_center_set( 0.008332, -0.034717 )
+ga_view_zoom_set( 0.240842 )
+ga_view_center_set( 0.002817, -0.031924 )
+ga_view_zoom_set( 0.214081 )
+ga_view_center_set( 0.004828, -0.022278 )
+ga_view_zoom_set( 0.190295 )
+ga_view_center_set( 0.006616, -0.013703 )
+ga_view_zoom_set( 0.169151 )
+ga_view_center_set( 0.005163, -0.018200 )
+ga_view_zoom_set( 0.190295 )
+ga_view_center_set( 0.003529, -0.022316 )
+ga_view_zoom_set( 0.214081 )
+ga_view_center_set( 0.004535, -0.020588 )
+ga_view_zoom_set( 0.190295 )
+ga_view_center_set( 0.005428, -0.019052 )
+ga_view_zoom_set( 0.169151 )
+ga_view_aa_set( 0., 0., 0. )
+sgm_verify_surface_boundary( "Surface 3:7:2 8 9", 4.9999999E-06, 1 )
+$# Warning reported from application SGM
+$#     Free edges and/or non-manifold edges exist. Free edges may be due to 
+$# edges not matching directly or a missing face.  Non-manifold edges are due 
+$# to more than two surfaces connecting at the same edges. Edges are 
+$# highlighted and marked with primary markers for free edges and secondary 
+$# markers for non-manifold edges.
+sgm_incongruent_geom_display(  )
+sgm_verify_surface_boundary( "Surface 3:7:2 8 9", 4.9999999E-06, 1 )
+$# Warning reported from application SGM
+$#     Free edges and/or non-manifold edges exist. Free edges may be due to 
+$# edges not matching directly or a missing face.  Non-manifold edges are due 
+$# to more than two surfaces connecting at the same edges. Edges are 
+$# highlighted and marked with primary markers for free edges and secondary 
+$# markers for non-manifold edges.
+sgm_incongruent_geom_display(  )
+sgm_incongruent_geom_seg_exit(  )
+STRING sgm_edit_point_equiva_point_ids[VIRTUAL]
+sgm_edit_point_equivalence( "Point 1:16 Curve 1.2 1.1 2.2 2.1 3.1 3.2 4.2 " // @
+"4.1 5.2 5.1 6.2 6.1 7.2 7.1 8.1 8.2 9.2 9.1 10.2 10.1 11.2 11.1 12.2 12.1",  @
+sgm_edit_point_equiva_point_ids )
+$# No Points Edited.
+$# No Points Deleted.
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 01-Mar-21 17:50:21
