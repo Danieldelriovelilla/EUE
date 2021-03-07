@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on March     07, 2021 at 20:33:16 by
+$ MSC.Nastran input file created on March     07, 2021 at 20:44:18 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -597,7 +597,6 @@ CQUAD4   2424    2       1070    1071    2019    2018
 CQUAD4   2425    2       2521    2396    2397    2520
 CQUAD4   2426    2       2476    2425    2436    2477
 CQUAD4   2427    2       2399    2400    2517    2518
-CQUAD4   2428    2       2266    2278    2536    2265
 CQUAD4   2429    2       2438    2469    2537    2437
 CQUAD4   2430    2       2533    2532    2522    2534
 CQUAD4   2431    2       2321    2022    2021    2317
@@ -606,6 +605,8 @@ CQUAD4   2433    2       2327    2352    2313    2314
 CQUAD4   2434    2       2490    2489    2538    2491
 CTRIA3   2435    2       1062    2125    1059
 CTRIA3   2436    2       1059    1060    1062
+CTRIA3   2437    2       2266    2278    2536
+CTRIA3   2438    2       2536    2265    2266
 $ Elements and Element Properties for region : 1D_CBUSH_IF
 PBUSH    3       K       1.+9    1.+9    1.+9    100.    1.+7    1.+7
 $ Pset: "1D_CBUSH_IF" will be imported as: "pbush.3"
@@ -1630,4 +1631,4 @@ SPCADD   2       1
 $ Displacement Constraints of Load Set : SPC_123456
 SPC1     1       123456  11      12      13      14
 $ Referenced Coordinate Frames
-ENDDATA 9fdd7742
+ENDDATA 9931b522
