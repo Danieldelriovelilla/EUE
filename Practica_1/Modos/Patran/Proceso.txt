@@ -10,3 +10,8 @@
 - VER: verificar elementos duplicados -> no hay elementos duplicados
 - VER: Verificar bordes libres -> la linea que une las dos circunferencias
 - VER: Equivalencia de nodos a todo -> elimina borde libre une circunferencias
+- VER: Comprobar que las normales de los elementos shell apuntan hacia afuera
+- MAS: Crear punto donde esta el CDG
+- MAS: Crear propiedad 0 dim de masa
+- MAS: Crear el nodo donde se pondra el elemento 0 dim de masa
+- MAS: Crear elemento 0 dim con las popiedades de masa
