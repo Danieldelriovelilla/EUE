@@ -11,7 +11,7 @@ D = 2;
 d = 1;
 t = 2e-3;
 % Satelite
-m = 2500;
+Mt = 2500;
 h = 0.25;
 % Material
 E = 200e9;
@@ -61,19 +61,9 @@ teta = Gdt*D + Gtt*M;
 
 desplazamiento = delta + h*teta;
 
-f1 = sqrt(1/desplazamiento)/(2*pi)
+f_lat = sqrt(1/desplazamiento)/(2*pi)
 
-% Giro
-D = Mt*h;
-M = Mt*h^2;
-
-delta = Gdd*D + Gdt*M;
-teta = Gdt*D + Gtt*M;
-
-giro = -delta/h + teta;
-
-f2 = sqrt(1/giro)/(2*pi)
-
+f_long = sqrt( ( 2*pi*sin(alfa)*cos(alfa)^2*E*t )/( log(s2/s1)*Mt ) )/(2*pi)
 
 
 %% CON MATRICES
