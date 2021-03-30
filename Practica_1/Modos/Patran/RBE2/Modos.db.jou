@@ -721,3 +721,72 @@ uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 30-Mar-21 21:42:51
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\Modos.db.jou at 
+$# 30-Mar-21 22:48:07
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( -0.008857, -0.038183 )
+ga_view_zoom_set( 1.433562 )
+ga_view_center_set( -0.015229, -0.072695 )
+ga_view_zoom_set( 1.274277 )
+ga_view_center_set( -0.025423, -0.127913 )
+ga_view_zoom_set( 1.019422 )
+ga_view_center_set( -0.035617, -0.187946 )
+ga_view_zoom_set( 0.679614 )
+ga_view_center_set( -0.037882, -0.200531 )
+ga_view_zoom_set( 0.604102 )
+ga_view_center_set( -0.041507, -0.215835 )
+ga_view_zoom_set( 0.483281 )
+ga_view_center_set( -0.039695, -0.208183 )
+ga_view_zoom_set( 0.543692 )
+ga_view_center_set( -0.037656, -0.199575 )
+ga_view_zoom_set( 0.611653 )
+ga_view_center_set( -0.035362, -0.189890 )
+ga_view_zoom_set( 0.688110 )
+ga_view_center_set( -0.032782, -0.178995 )
+ga_view_zoom_set( 0.774123 )
+point_size( 1 )
+ga_view_aa_set( -75.947121, -3.734579, 87.076263 )
+display_cleanup(  )
+ga_view_aa_set( -80.712555, -3.079648, 91.029182 )
+point_size( 9 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( -77.154388, 0.398769, 103.515099 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "1", "Point 10",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 1.
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_elemen_elems_created[VIRTUAL]
+fem_create_elems_1( "Point ", "Point", "1", "Standard", 3, "Node 1", "", "",  @
+"", "", "", "", "", fem_create_elemen_elems_created )
+$# === 1 element created.  ID = 1.
+ga_view_aa_set( -82.535675, 1.283453, 97.306374 )
+mesh_seed_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 0.0049999999, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Geometric equivalencing completed. 0 nodes deleted.
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 30-Mar-21 22:54:59
