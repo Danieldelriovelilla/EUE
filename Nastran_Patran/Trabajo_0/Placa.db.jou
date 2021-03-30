@@ -3529,3 +3529,12 @@ uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 07-Mar-21 21:05:58
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Nastran_Patran\Trabajo_0\Placa.db.jou at 
+$# 09-Mar-21 12:53:14
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Nastran_Patran\Trabajo_0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
