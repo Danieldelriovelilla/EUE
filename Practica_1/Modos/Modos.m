@@ -6,31 +6,31 @@ clear all
 %% PRACTICA 1
 
 % Cono
-% H = 50e-2;
-% D = 2;
-% d = 1;
-% t = 2e-3;
-% % Satelite
-% m = 2500;
-% h = 0.25;
-% % Material
-% E = 200e9;
-% rho = 7900;
-% nu = 0.3;
-
-%% EJEMPLO LIBRO -> 15.2
-
-% Cono
-H = 1.5;
-D = 3;
-d = 1.2;
-t = 5e-3;
+H = 50e-2;
+D = 2;
+d = 1;
+t = 2e-3;
 % Satelite
-Mt = 2500;
-h = 1.5;
+m = 2500;
+h = 0.25;
 % Material
-E = 120e9;
+E = 200e9;
+rho = 7900;
 nu = 0.3;
+
+% %% EJEMPLO LIBRO -> 15.2
+% 
+% % Cono
+% H = 1.5;
+% D = 3;
+% d = 1.2;
+% t = 5e-3;
+% % Satelite
+% Mt = 2500;
+% h = 1.5;
+% % Material
+% E = 120e9;
+% nu = 0.3;
 
 
 % Geometria cono
@@ -59,9 +59,20 @@ M = h*Mt*1;         % [Nm]
 delta = Gdd*D + Gdt*M;
 teta = Gdt*D + Gtt*M;
 
-desplazamiento = delta + h*teta
+desplazamiento = delta + h*teta;
 
 f1 = sqrt(1/desplazamiento)/(2*pi)
+
+% Giro
+D = Mt*h;
+M = Mt*h^2;
+
+delta = Gdd*D + Gdt*M;
+teta = Gdt*D + Gtt*M;
+
+giro = -delta/h + teta;
+
+f2 = sqrt(1/giro)/(2*pi)
 
 
 

@@ -1,0 +1,12 @@
+- GEO: Crear puntos
+- GEO: Crear circunferencias
+- GEO: Crear superficie
+- GEO: Verificar normal superficie -> normal hacia afuera
+- GEO: Equivalencia de nodos
+- PROP: Crear material isotrópico -> Acero
+- PROP: Creal elemento 2D shell -> material Acero, 2mm 
+- MESH: Crear semilla de malla -> 30x400x400
+- VER: Verificar all elementos 2D -> todo bien
+- VER: verificar elementos duplicados -> no hay elementos duplicados
+- VER: Verificar bordes libres -> la linea que une las dos circunferencias
+- VER: Equivalencia de nodos a todo -> elimina borde libre une circunferencias
