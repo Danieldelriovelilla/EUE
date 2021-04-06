@@ -26,7 +26,7 @@
                                               * *          AUG  4, 2020           * *
                                               * *                                 * *
                                               * *              Intel              * *
-                                              * *MODEL Xeon/1150 (DESKTOP-NHC7R5K * *
+                                              * *MODEL Xeon/2939 (DESKTOP-NHC7R5K * *
                                               * *     Windows 10 Pro 6.2 9200     * *
                                               * * Compiled for 8664 (SINGLE Mode) * *
                                               * *                                 * *
@@ -193,20 +193,20 @@
   
       http://www.mscsoftware.com/Contents/Services/Training/
   
-1                                                       **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     1
+1                                                       **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
                                                                                                                                     
                                                                                                                                     
      NASTRAN BUFFSIZE=8193 $(C:/PROGRAM FILES/MSC.SOFTWARE/NAPA_SE/2020/NASTRAN/CONF/
-     $ MSC.NASTRAN INPUT FILE CREATED ON MARCH     30, 2021 AT 23:21:17 BY           
+     $ MSC.NASTRAN INPUT FILE CREATED ON APRIL     02, 2021 AT 12:38:08 BY           
      $ PATRAN 2020  (STUDENT EDITION)                                                
      $ DIRECT TEXT INPUT FOR NASTRAN SYSTEM CELL SECTION                             
      $ DIRECT TEXT INPUT FOR FILE MANAGEMENT SECTION                                 
      $ DIRECT TEXT INPUT FOR EXECUTIVE CONTROL                                       
      $ NORMAL MODES ANALYSIS, DATABASE                                               
-1                                                       **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     2
+1                                                       **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -214,7 +214,7 @@
                                                                                                                                     
      SOL 103                                                                                 
      CEND                                                                                    
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     3
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     3
                                                                                                                                     
 0                                                                                                                                   
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -231,7 +231,7 @@
                   9         VECTOR(SORT1,REAL)=ALL                                                               
                  10      $ DIRECT TEXT INPUT FOR THIS SUBCASE                                                    
                  11      BEGIN BULK                                                                              
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     4
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     4
                                                                                                                                     
 0                                                                                                                                   
                                         M O D E L   S U M M A R Y          BULK = 0
@@ -240,18 +240,18 @@
                                         CONM2                        1
                                        CQUAD4                      364
                                         EIGRL                        1
-                                         GRID                      417
+                                         GRID                      418
                                          MAT1                        1
                                         PARAM                        2
                                        PSHELL                        1
-                                         RBE2                        1
+                                         RBE2                        2
                                          SPC1                        1
                                        SPCADD                        1
 
  ^^^     
  ^^^ >>> IFP OPERATIONS COMPLETE <<< 
  ^^^     
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     5
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     5
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -280,7 +280,7 @@
      1.        1.5927673E+04          2.0086131E+01                 0                       13
      2.        1.1654751E+06          1.7181917E+02                10                        0
 
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     6
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     6
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0
@@ -298,7 +298,7 @@
 
                                      NUMBER OF SOLVES REQUIRED ............    15
 
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     7
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     7
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  
@@ -315,7 +315,7 @@
         8         8        1.155222E+06        1.074812E+03        1.710617E+02        1.000000E+00        1.155222E+06
         9         9        1.155233E+06        1.074818E+03        1.710625E+02        1.000000E+00        1.155233E+06
        10        10        1.165470E+06        1.079569E+03        1.718188E+02        1.000000E+00        1.165470E+06
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     8
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     8
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0                                                  MAXIMUM  DISPLACEMENTS   
@@ -331,7 +331,7 @@
 0        8   1.9996283E-01  1.8167727E-01  2.0143408E-01  2.3152248E+00  2.5587484E+00  2.5711654E+00
 0        9   1.8167115E-01  1.9990986E-01  2.0139365E-01  2.5581582E+00  2.3149475E+00  2.5705001E+00
 0       10   1.8269645E-01  1.8267450E-01  2.0271898E-01  3.1112754E+00  3.1110670E+00  3.3798902E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE     9
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE     9
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -388,7 +388,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    10
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    10
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -445,7 +445,7 @@
           1097      G     -3.532074E-03   3.386224E-03  -3.135146E-03  -3.637605E-02  -2.450313E-02   8.868636E-03
           1098      G     -4.278515E-03   3.504456E-03  -3.571437E-03  -3.768901E-02  -3.279519E-02   7.924704E-03
           1099      G     -5.031523E-03   3.440581E-03  -3.955600E-03  -3.697925E-02  -4.116326E-02   6.863297E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    11
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    11
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -502,7 +502,7 @@
           1148      G     -3.721645E-03   2.456456E-03  -1.260219E-03   1.205344E-02   2.286883E-03   1.056586E-02
           1149      G     -4.250770E-03   2.850709E-03  -1.567889E-03   1.423899E-02   5.222414E-03   9.881978E-03
           1150      G     -4.858981E-03   3.107046E-03  -1.852890E-03   1.565781E-02   8.589438E-03   9.049286E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    12
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    12
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -559,7 +559,7 @@
           1199      G     -4.979565E-03   1.438144E-03  -3.117658E-04  -2.388909E-03  -4.960533E-03   1.264519E-02
           1200      G     -5.244079E-03   1.989881E-03  -4.899788E-04  -3.457509E-03  -5.472283E-03   1.223608E-02
           1201      G     -5.632934E-03   2.462254E-03  -6.610204E-04  -4.370484E-03  -6.225851E-03   1.164686E-02
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    13
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    13
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -616,7 +616,7 @@
           1250      G     -7.286684E-03   4.373774E-04   2.478961E-05  -7.360151E-04  -7.097465E-03   1.463590E-02
           1251      G     -7.265197E-03   1.029830E-03  -5.743589E-05  -2.853322E-04  -7.111908E-03   1.459514E-02
           1252      G     -7.386132E-03   1.610332E-03  -1.389442E-04   1.568554E-04  -7.019007E-03   1.434047E-02
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    14
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    14
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -673,7 +673,7 @@
           1301      G     -1.064754E-02  -2.865520E-04  -1.270162E-05   5.859196E-03  -1.242653E-02   1.598024E-02
           1302      G     -1.037917E-02   1.825837E-04  -7.203440E-06   3.127940E-03  -1.086715E-02   1.641093E-02
           1303      G     -1.023089E-02   7.022905E-04  -1.573388E-06   1.039538E-04  -1.000287E-02   1.660628E-02
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    15
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    15
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -730,7 +730,7 @@
           1352      G     -1.526234E-02  -9.276686E-04   3.979520E-04  -8.629975E-03  -5.808635E-03   1.825791E-02
           1353      G     -1.474100E-02  -5.950199E-04   3.111591E-04  -7.409152E-03  -7.720269E-03   1.938451E-02
           1354      G     -1.431440E-02  -1.472756E-04   2.198327E-04  -5.766293E-03  -9.286051E-03   2.022677E-02
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    16
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    16
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -787,7 +787,7 @@
           1403      G     -1.829373E-02   1.548027E-03  -2.188127E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
           1404      G     -1.829373E-02   1.548027E-03  -1.895399E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
           1405      G     -1.829373E-02   1.548027E-03  -1.575031E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    17
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    17
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -811,7 +811,8 @@
           1420      G     -1.829373E-02   1.548027E-03   3.050044E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
           1421      G     -1.829373E-02   1.548027E-03   3.132712E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
           1422      G     -1.829373E-02   1.548027E-03   3.169698E-03  -5.348843E-04  -6.320970E-03   1.291561E-10
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    18
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    18
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -868,7 +869,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    19
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    19
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -925,7 +926,7 @@
           1097      G      2.642901E-03  -5.252129E-03   3.809062E-03   4.361466E-02   3.061221E-02   7.299590E-03
           1098      G      2.761122E-03  -4.505697E-03   3.403387E-03   3.531974E-02   3.192459E-02   8.315495E-03
           1099      G      2.697276E-03  -3.752669E-03   2.948088E-03   2.695380E-02   3.121632E-02   9.210312E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    20
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    20
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -982,7 +983,7 @@
           1148      G      1.507058E-03  -7.498158E-03   2.629117E-03  -2.320554E-02  -9.891483E-03   5.071199E-03
           1149      G      1.901288E-03  -6.968846E-03   2.457858E-03  -2.027375E-02  -1.208317E-02   6.300347E-03
           1150      G      2.157631E-03  -6.360931E-03   2.251190E-03  -1.690705E-02  -1.350174E-02   7.446541E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    21
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    21
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1039,7 +1040,7 @@
           1199      G      1.885400E-04  -9.787544E-03   1.496937E-03   1.427236E-02   7.596271E-04   2.631712E-03
           1200      G      7.402405E-04  -9.523117E-03   1.448529E-03   1.376094E-02   1.830328E-03   4.138773E-03
           1201      G      1.212593E-03  -9.134257E-03   1.378901E-03   1.300166E-02   2.742527E-03   5.582998E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    22
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    22
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1096,7 +1097,7 @@
           1250      G     -1.206859E-03  -1.214457E-02   6.808190E-04   3.392112E-03  -1.522017E-04  -5.338425E-04
           1251      G     -6.143809E-04  -1.216617E-02   6.789456E-04   3.382034E-03  -6.034682E-04   1.234843E-03
           1252      G     -3.395258E-05  -1.204543E-02   6.672554E-04   3.471558E-03  -1.046621E-03   2.984046E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    23
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    23
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1153,7 +1154,7 @@
           1301      G     -2.392996E-03  -1.424358E-02  -4.404008E-05   3.335333E-02  -9.733358E-03  -4.560001E-03
           1302      G     -1.923745E-03  -1.451191E-02  -4.531471E-05   3.491473E-02  -7.001650E-03  -2.599529E-03
           1303      G     -1.403908E-03  -1.466016E-02  -4.590524E-05   3.577612E-02  -3.978401E-03  -6.039842E-04
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    24
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    24
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1210,7 +1211,7 @@
           1352      G     -3.698326E-03  -1.748018E-02   6.955080E-04  -2.322852E-03   8.334499E-03  -1.044464E-02
           1353      G     -3.365743E-03  -1.800154E-02   7.384449E-04  -4.236915E-03   7.113731E-03  -8.169889E-03
           1354      G     -2.918071E-03  -1.842819E-02   7.706560E-04  -5.801317E-03   5.472793E-03  -5.773072E-03
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    25
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    25
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1267,7 +1268,7 @@
           1403      G     -1.548027E-03  -1.829373E-02  -2.296138E-03   6.320966E-03  -5.348843E-04   1.915666E-09
           1404      G     -1.548027E-03  -1.829373E-02  -2.543151E-03   6.320966E-03  -5.348843E-04   1.915666E-09
           1405      G     -1.548026E-03  -1.829373E-02  -2.753076E-03   6.320966E-03  -5.348843E-04   1.915666E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    26
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    26
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.350104E+05
@@ -1291,7 +1292,8 @@
           1420      G     -1.548027E-03  -1.829373E-02  -8.703220E-04   6.320966E-03  -5.348843E-04   1.915666E-09
           1421      G     -1.548027E-03  -1.829373E-02  -4.963316E-04   6.320966E-03  -5.348843E-04   1.915666E-09
           1422      G     -1.548027E-03  -1.829373E-02  -1.150997E-04   6.320966E-03  -5.348843E-04   1.915666E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    27
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    27
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1348,7 +1350,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    28
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    28
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1405,7 +1407,7 @@
           1097      G     -2.912101E-03   4.218165E-03  -3.029218E-03  -2.969894E-02  -2.050292E-02   2.857023E-07
           1098      G     -3.399333E-03   3.836410E-03  -3.029243E-03  -2.700985E-02  -2.393226E-02   2.331426E-07
           1099      G     -3.836958E-03   3.398671E-03  -3.029216E-03  -2.392810E-02  -2.701496E-02  -8.257676E-07
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    29
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    29
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1462,7 +1464,7 @@
           1148      G     -1.598303E-03   4.213394E-03  -6.251994E-05   3.775377E-02   1.431579E-02  -5.448328E-06
           1149      G     -2.094449E-03   3.989841E-03  -6.233387E-05   3.575219E-02   1.877063E-02   2.388761E-06
           1150      G     -2.560276E-03   3.708521E-03  -6.261942E-05   3.322959E-02   2.294303E-02   1.831472E-06
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    30
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    30
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1519,7 +1521,7 @@
           1199      G     -5.252754E-04   4.323137E-03   2.623942E-03   1.182868E-02   1.439162E-03   1.934797E-06
           1200      G     -1.042562E-03   4.228390E-03   2.623847E-03   1.156840E-02   2.852142E-03  -2.372079E-07
           1201      G     -1.544616E-03   4.071842E-03   2.623899E-03   1.114652E-02   4.227549E-03  -7.713072E-07
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    31
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    31
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1576,7 +1578,7 @@
           1250      G      5.250592E-04   4.327097E-03   5.391539E-03   2.853654E-02  -3.461006E-03   1.709940E-06
           1251      G     -3.587013E-07   4.358953E-03   5.391425E-03   2.874103E-02   3.726546E-06   1.445647E-06
           1252      G     -5.257975E-04   4.327342E-03   5.391207E-03   2.853332E-02   3.469742E-03   2.762421E-06
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    32
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    32
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1633,7 +1635,7 @@
           1301      G      1.499112E-03   3.953715E-03   8.578043E-03  -6.851858E-04   2.591471E-04  -5.354137E-07
           1302      G      1.011589E-03   4.105524E-03   8.578111E-03  -7.114463E-04   1.740519E-04  -1.187401E-06
           1303      G      5.093192E-04   4.197460E-03   8.578176E-03  -7.249023E-04   8.797228E-05  -1.579710E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    33
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    33
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1690,7 +1692,7 @@
           1352      G      2.982551E-03   4.321668E-03   1.100549E-02   6.403260E-02  -4.419210E-02  -7.757830E-07
           1353      G      2.439882E-03   4.649684E-03   1.100548E-02   6.889411E-02  -3.615021E-02   1.100718E-06
           1354      G      1.861658E-03   4.909968E-03   1.100538E-02   7.274993E-02  -2.758231E-02   1.286837E-06
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    34
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    34
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1747,7 +1749,7 @@
           1403      G      5.753485E-09   2.144105E-09   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
           1404      G      5.630505E-09   2.021106E-09   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
           1405      G      5.523249E-09   1.884180E-09   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    35
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    35
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.171954E+05
@@ -1771,7 +1773,8 @@
           1420      G      6.198086E-09  -2.807223E-10   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
           1421      G      6.364149E-09  -3.324493E-10   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
           1422      G      6.535237E-09  -3.637825E-10   1.996461E-02   1.478718E-09  -1.579732E-10  -2.880672E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    36
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    36
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -1828,7 +1831,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    37
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    37
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -1885,7 +1888,7 @@
           1097      G     -1.671656E-02   1.597678E-02  -2.110128E-02  -7.948484E-01   2.324981E-01   6.971373E-01
           1098      G     -4.359221E-02   4.911936E-02  -6.119614E-02  -1.137924E+00  -9.987179E-01   7.758363E-03
           1099      G     -1.482961E-02   1.933897E-02  -2.229285E-02   1.118032E-01  -8.358627E-01  -6.917256E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    38
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    38
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -1942,7 +1945,7 @@
           1148      G      5.091653E-02  -1.181986E-01   1.233172E-01   9.024412E-01  -5.098459E-01  -8.262302E-01
           1149      G      4.431623E-02  -1.013269E-01   1.058051E-01  -8.214537E-03   1.239446E+00   1.141961E+00
           1150      G     -3.787267E-02   3.504475E-02  -4.829761E-02  -1.110085E+00   1.150959E+00   1.636172E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    39
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    39
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -1999,7 +2002,7 @@
           1199      G     -1.921858E-02   1.906367E-01  -1.873881E-01  -5.496077E-01  -6.502485E-01  -5.863372E-01
           1200      G      1.028101E-02   2.908886E-02  -2.522019E-02   5.188420E-01  -2.455087E+00  -2.538757E+00
           1201      G      6.904107E-02  -1.591586E-01   1.695219E-01   9.532114E-01  -9.210939E-01  -1.214048E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    40
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    40
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -2056,7 +2059,7 @@
           1250      G     -2.863459E-02  -1.142458E-01   1.165017E-01   4.433790E-02   2.381979E+00   2.353294E+00
           1251      G     -1.488877E-02   1.133341E-01  -1.129843E-01   2.353887E-01   2.405190E+00   2.388245E+00
           1252      G     -1.970940E-02   1.963088E-01  -1.966424E-01   4.871720E-01  -6.101678E-01  -6.597957E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    41
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    41
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -2113,7 +2116,7 @@
           1301      G      6.709460E-03  -2.112843E-02   1.770433E-02  -9.728977E-01  -2.352589E+00  -2.474521E+00
           1302      G     -3.323870E-02  -1.493452E-01   1.558397E-01  -7.997531E-01  -4.611544E-01  -6.214753E-01
           1303      G     -2.220630E-02  -8.907702E-02   9.281841E-02  -1.420018E-01   2.124276E+00   2.034016E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    42
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    42
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -2170,7 +2173,7 @@
           1352      G      2.568131E-02   4.428057E-02  -5.390274E-02   1.566255E+00  -5.944252E-02   7.870040E-01
           1353      G      3.088616E-02   5.299502E-02  -6.472628E-02   1.141453E+00  -1.243247E+00  -5.340526E-01
           1354      G      2.875953E-03  -9.192043E-03   8.001667E-03  -6.251673E-01  -1.094884E+00  -1.165839E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    43
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    43
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -2227,7 +2230,7 @@
           1403      G     -1.027898E-08  -3.171365E-09   3.537141E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
           1404      G     -1.198637E-08  -4.879029E-09   4.099623E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
           1405      G     -1.347548E-08  -6.780045E-09   4.602430E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    44
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    44
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070705E+06
@@ -2251,7 +2254,8 @@
           1420      G     -4.106340E-09  -3.683657E-08   2.687901E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
           1421      G     -1.800803E-09  -3.755473E-08   2.018262E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
           1422      G      5.745119E-10  -3.798974E-08   1.319294E-08  -1.198648E-07  -1.188875E-08  -3.999395E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    45
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    45
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2308,7 +2312,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    46
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    46
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2365,7 +2369,7 @@
           1097      G     -3.359487E-02   5.168900E-02  -5.742199E-02  -1.034882E+00  -1.001515E+00  -2.561608E-01
           1098      G      3.285487E-03   3.807462E-03  -6.250207E-04   4.424531E-01  -5.226895E-01  -7.423899E-01
           1099      G      4.697547E-02  -3.918485E-02   5.697758E-02   1.121293E+00   8.898915E-01  -2.703443E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    47
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    47
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2422,7 +2426,7 @@
           1148      G      1.466023E-02  -6.841593E-02   6.634005E-02  -1.914041E-01   1.510111E+00   1.534532E+00
           1149      G     -5.249424E-02   8.051738E-02  -9.177882E-02  -1.026714E+00   8.943510E-01   1.316009E+00
           1150      G     -7.444658E-02   1.151164E-01  -1.314271E-01  -2.520510E-01  -8.785365E-01  -6.012139E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    48
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    48
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2479,7 +2483,7 @@
           1199      G      2.195816E-02  -4.279647E-02   4.414893E-02   4.428768E-01  -2.426285E+00  -2.492276E+00
           1200      G      4.887325E-02  -1.888867E-01   1.908424E-01   6.961930E-01  -1.687850E-01  -3.346108E-01
           1201      G      1.899217E-02  -9.250268E-02   9.119312E-02  -5.060836E-01   2.190430E+00   2.254922E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    49
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    49
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2536,7 +2540,7 @@
           1250      G      9.671708E-03   1.656148E-01  -1.650614E-01   5.431480E-01   1.618953E+00   1.660821E+00
           1251      G      1.003205E-02   1.679346E-01  -1.674140E-01   3.491830E-01  -1.623603E+00  -1.612201E+00
           1252      G      2.295075E-02  -4.402984E-02   4.633284E-02   2.446872E-01  -2.815043E+00  -2.804129E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    50
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    50
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2593,7 +2597,7 @@
           1301      G     -5.709554E-02  -1.462733E-01   1.599699E-01  -5.392837E-01   5.066348E-01   2.747380E-01
           1302      G     -2.244480E-02  -3.502572E-02   4.011951E-02   4.267633E-01   2.448866E+00   2.411463E+00
           1303      G      7.622994E-03   1.291085E-01  -1.315166E-01   7.359579E-01   1.397633E+00   1.435402E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    51
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    51
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2650,7 +2654,7 @@
           1352      G      2.988324E-02   3.548529E-02  -4.877768E-02   4.572504E-01  -1.444880E+00  -8.700744E-01
           1353      G     -9.855412E-03  -3.024833E-02   3.312902E-02  -1.238319E+00  -6.100784E-01  -1.044336E+00
           1354      G     -2.487493E-02  -6.374282E-02   7.227153E-02  -1.609371E+00   7.581128E-01   1.294619E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    52
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    52
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2707,7 +2711,7 @@
           1403      G      6.631047E-09  -3.153527E-09  -9.345741E-09   2.273306E-09  -2.558954E-08   6.825173E-09
           1404      G      6.922423E-09  -2.862106E-09  -8.350169E-09   2.273306E-09  -2.558954E-08   6.825173E-09
           1405      G      7.176547E-09  -2.537688E-09  -7.218474E-09   2.273306E-09  -2.558954E-08   6.825173E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    53
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    53
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.070711E+06
@@ -2731,7 +2735,8 @@
           1420      G      5.577655E-09   2.591614E-09   1.254530E-08   2.273306E-09  -2.558954E-08   6.825173E-09
           1421      G      5.184203E-09   2.714170E-09   1.313585E-08   2.273306E-09  -2.558954E-08   6.825173E-09
           1422      G      4.778844E-09   2.788408E-09   1.354921E-08   2.273306E-09  -2.558954E-08   6.825173E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    54
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    54
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -2788,7 +2793,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    55
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    55
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -2845,7 +2850,7 @@
           1097      G     -2.897523E-02   3.615863E-02  -4.317670E-02  -1.219700E+00  -1.533437E-01   6.069574E-01
           1098      G     -3.721842E-02   4.537205E-02  -5.478273E-02  -7.817185E-01  -1.204862E+00  -4.105539E-01
           1099      G      1.648762E-02  -8.764864E-03   1.695916E-02   8.457107E-01  -1.767465E-01  -8.034802E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    56
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    56
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -2902,7 +2907,7 @@
           1148      G      5.419422E-02  -1.327209E-01   1.379341E-01   9.143142E-01  -3.290785E-01  -6.509720E-01
           1149      G      2.996473E-02  -7.707398E-02   7.908564E-02  -3.838765E-01   1.641891E+00   1.681252E+00
           1150      G     -6.570193E-02   8.100851E-02  -1.000885E-01  -1.243636E+00   8.586333E-01   1.455635E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    57
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    57
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -2959,7 +2964,7 @@
           1199      G     -2.163892E-02   1.975434E-01  -1.950112E-01  -5.280997E-01  -5.020561E-01  -4.385808E-01
           1200      G      1.067668E-02   2.118233E-02  -1.767520E-02   6.334553E-01  -2.790615E+00  -2.886708E+00
           1201      G      7.213779E-02  -1.759486E-01   1.865561E-01   8.545663E-01  -6.753975E-01  -9.429486E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    58
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    58
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -3016,7 +3021,7 @@
           1250      G     -2.874119E-02  -1.593549E-01   1.615764E-01  -1.879331E-01   1.927622E+00   1.876633E+00
           1251      G     -1.453792E-02   7.701296E-02  -7.697588E-02   1.993105E-01   2.943378E+00   2.921085E+00
           1252      G     -2.158015E-02   1.973541E-01  -1.984176E-01   5.686922E-01  -4.167883E-01  -4.786861E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    59
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    59
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -3073,7 +3078,7 @@
           1301      G      3.271481E-02   5.695387E-02  -6.622299E-02  -5.150802E-01  -2.353768E+00  -2.322766E+00
           1302      G     -2.011098E-02  -1.125258E-01   1.164795E-01  -1.008136E+00  -1.497166E+00  -1.651699E+00
           1303      G     -2.119734E-02  -1.177478E-01   1.219673E-01  -4.557768E-01   1.639227E+00   1.532329E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    60
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    60
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -3130,7 +3135,7 @@
           1352      G     -2.730606E-03   4.163632E-03  -1.988494E-03   7.224772E-01   9.594940E-01   1.129874E+00
           1353      G      2.668742E-02   5.293504E-02  -6.283359E-02   1.504298E+00  -5.058313E-01   2.363864E-01
           1354      G      1.327256E-02   2.329822E-02  -2.808117E-02   2.719702E-01  -1.258046E+00  -1.016749E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    61
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    61
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -3187,7 +3192,7 @@
           1403      G      1.101046E-09   8.605165E-10  -4.258932E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
           1404      G      8.431258E-10   6.025567E-10  -4.100801E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
           1405      G      6.181814E-10   3.153892E-10  -3.962143E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    62
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    62
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078785E+06
@@ -3211,7 +3216,8 @@
           1420      G      2.033484E-09  -4.224951E-09  -4.758564E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
           1421      G      2.381758E-09  -4.333435E-09  -4.966623E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
           1422      G      2.740574E-09  -4.399148E-09  -5.181529E-09  -3.631695E-09  -7.232503E-11  -6.041486E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    63
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    63
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3268,7 +3274,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    64
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    64
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3325,7 +3331,7 @@
           1097      G     -2.528265E-02   4.210057E-02  -4.578491E-02  -6.484069E-01  -1.096913E+00  -5.722045E-01
           1098      G      2.492745E-02  -2.217487E-02   3.094852E-02   1.034986E+00   1.097409E-02  -7.262751E-01
           1099      G      4.774117E-02  -4.391998E-02   6.059100E-02   8.580332E-01   1.285049E+00   2.246427E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    65
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    65
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3382,7 +3388,7 @@
           1148      G      7.728613E-03  -4.985070E-02   4.749820E-02  -4.137041E-01   1.807288E+00   1.891732E+00
           1149      G     -6.448714E-02   1.099410E-01  -1.225380E-01  -1.070271E+00   6.279790E-01   1.085155E+00
           1150      G     -5.640814E-02   9.505543E-02  -1.061324E-01   2.895007E-01  -1.419080E+00  -1.372333E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    66
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    66
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3439,7 +3445,7 @@
           1199      G      1.887232E-02  -2.828686E-02   2.979165E-02   4.311684E-01  -2.808379E+00  -2.865285E+00
           1200      G      4.928456E-02  -1.940605E-01   1.964883E-01   6.339146E-01  -1.096562E-01  -2.605387E-01
           1201      G      9.515527E-03  -6.639959E-02   6.423871E-02  -7.831817E-01   2.607849E+00   2.740378E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    67
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    67
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3496,7 +3502,7 @@
           1250      G      1.770165E-03   1.197843E-01  -1.190663E-01   6.155485E-01   2.510508E+00   2.546953E+00
           1251      G      6.014367E-03   1.855247E-01  -1.854320E-01   4.806914E-01  -1.221373E+00  -1.212163E+00
           1252      G      1.910030E-02  -2.823074E-02   3.031360E-02   3.019591E-01  -3.137164E+00  -3.126836E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    68
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    68
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3553,7 +3559,7 @@
           1301      G     -4.259533E-02  -1.266070E-01   1.363047E-01  -1.090082E+00  -8.263458E-01  -1.129609E+00
           1302      G     -3.134798E-02  -9.008319E-02   9.697315E-02  -1.429691E-02   2.101530E+00   1.985186E+00
           1303      G      1.360348E-03   8.850159E-02  -8.988084E-02   7.325494E-01   2.060723E+00   2.079594E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    69
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    69
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3610,7 +3616,7 @@
           1352      G      3.454368E-02   4.980430E-02  -6.425100E-02   1.297867E+00  -9.405491E-01  -3.474914E-02
           1353      G      9.897442E-03   9.146654E-03  -1.346060E-02  -2.484760E-01  -1.195912E+00  -1.105740E+00
           1354      G     -1.744371E-02  -5.170157E-02   5.780216E-02  -1.534163E+00   2.001894E-02  -4.944714E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    70
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    70
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3667,7 +3673,7 @@
           1403      G      1.992969E-08  -6.067976E-09  -3.505564E-08   1.056225E-07  -7.193612E-11   5.891046E-08
           1404      G      2.244466E-08  -3.552613E-09  -3.956174E-08   1.056225E-07  -7.193612E-11   5.891046E-08
           1405      G      2.463809E-08  -7.524465E-10  -4.349100E-08   1.056225E-07  -7.193612E-11   5.891046E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    71
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    71
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.078787E+06
@@ -3691,7 +3697,8 @@
           1420      G      1.083749E-08   4.352035E-08  -1.869339E-08   1.056225E-07  -7.193612E-11   5.891046E-08
           1421      G      7.441474E-09   4.457818E-08  -1.260326E-08   1.056225E-07  -7.193612E-11   5.891046E-08
           1422      G      3.942672E-09   4.521895E-08  -6.329360E-09   1.056225E-07  -7.193612E-11   5.891046E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    72
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    72
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -3748,7 +3755,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    73
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    73
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -3805,7 +3812,7 @@
           1097      G     -3.742160E-02   5.177306E-02  -5.945219E-02  -1.263184E+00  -6.901009E-01   1.646945E-01
           1098      G     -2.597670E-02   3.567460E-02  -4.089207E-02  -4.340481E-01  -9.949582E-01  -5.024428E-01
           1099      G      2.076012E-02  -1.130657E-02   2.144499E-02   7.724489E-01   5.573075E-03  -6.318905E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    74
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    74
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -3862,7 +3869,7 @@
           1148      G      3.000885E-02  -1.037940E-01   1.030133E-01   1.608189E-01   1.096253E+00   1.011032E+00
           1149      G     -2.704346E-02   2.374862E-02  -3.213834E-02  -8.120014E-01   1.184957E+00   1.490113E+00
           1150      G     -8.159267E-02   1.124801E-01  -1.328871E-01  -7.760227E-01  -1.001934E-01   3.743876E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    75
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    75
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -3919,7 +3926,7 @@
           1199      G      2.144382E-02  -1.997464E-02   2.186800E-02   3.398391E-01  -2.175741E+00  -2.235284E+00
           1200      G      4.984963E-02  -1.736693E-01   1.761402E-01   7.769753E-01  -6.275052E-01  -8.077154E-01
           1201      G      3.985619E-02  -1.403999E-01   1.418539E-01  -6.322198E-02   1.538674E+00   1.483923E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    76
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    76
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -3976,7 +3983,7 @@
           1250      G      1.206398E-02   1.786686E-01  -1.778899E-01   4.593621E-01   1.167153E+00   1.205317E+00
           1251      G      1.146750E-02   1.671459E-01  -1.662742E-01   2.948084E-01  -1.460850E+00  -1.450432E+00
           1252      G      2.289496E-02  -2.084015E-02   2.332787E-02   2.689626E-01  -2.557375E+00  -2.552775E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    77
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    77
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -4033,7 +4040,7 @@
           1301      G     -5.854144E-02  -1.333160E-01   1.478922E-01  -9.513073E-02   1.208478E+00   1.062301E+00
           1302      G     -1.595402E-02   3.113646E-03   8.068814E-04   5.669856E-01   2.312445E+00   2.307198E+00
           1303      G      9.865189E-03   1.445149E-01  -1.471191E-01   6.454365E-01   1.046113E+00   1.081668E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    78
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    78
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -4090,7 +4097,7 @@
           1352      G      1.147933E-02   3.562286E-03  -9.954809E-03  -5.013284E-01  -1.147740E+00  -1.140920E+00
           1353      G     -2.487727E-02  -5.662474E-02   6.498170E-02  -1.712905E+00   9.807726E-02  -6.580434E-01
           1354      G     -2.689883E-02  -6.122712E-02   7.033851E-02  -1.378993E+00   1.132958E+00   5.294264E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    79
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    79
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -4147,7 +4154,7 @@
           1403      G     -1.228521E-08   4.131653E-09   2.416597E-08  -7.204733E-08   4.833512E-09  -3.239193E-08
           1404      G     -1.366807E-08   2.748580E-09   2.703539E-08  -7.204733E-08   4.833512E-09  -3.239193E-08
           1405      G     -1.487413E-08   1.208908E-09   2.948820E-08  -7.204733E-08   4.833512E-09  -3.239193E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    80
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    80
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155222E+06
@@ -4171,7 +4178,8 @@
           1420      G     -7.285863E-09  -2.313450E-08   8.977595E-09  -7.204733E-08   4.833512E-09  -3.239193E-08
           1421      G     -5.418561E-09  -2.371615E-08   4.737478E-09  -7.204733E-08   4.833512E-09  -3.239193E-08
           1422      G     -3.494743E-09  -2.406848E-08   4.058779E-10  -7.204733E-08   4.833512E-09  -3.239193E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    81
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    81
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4228,7 +4236,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    82
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    82
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4285,7 +4293,7 @@
           1097      G     -4.628413E-03   1.636466E-02  -1.498410E-02   4.099312E-02  -6.945178E-01  -6.542127E-01
           1098      G      3.538202E-02  -3.423934E-02   4.569859E-02   1.094946E+00   4.235785E-01  -4.499625E-01
           1099      G      4.488918E-02  -4.240668E-02   5.745493E-02   7.567170E-01   1.177975E+00   2.360353E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    83
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    83
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4342,7 +4350,7 @@
           1148      G     -4.284316E-02   8.478644E-02  -9.036801E-02  -8.338296E-01   8.645420E-01   1.153223E+00
           1149      G     -6.200042E-02   1.248028E-01  -1.332710E-01  -4.577451E-01  -6.287792E-01  -3.592856E-01
           1150      G     -9.293629E-03   3.612877E-02  -3.349150E-02   6.646552E-01  -1.271313E+00  -1.487198E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    84
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    84
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4399,7 +4407,7 @@
           1199      G      2.100489E-02  -1.910586E-01   1.874999E-01   6.075751E-01   3.312884E-01   2.595861E-01
           1200      G     -5.705276E-04  -7.177741E-02   6.785391E-02  -2.690988E-01   2.063566E+00   2.100338E+00
           1201      G     -5.860628E-02   1.141973E-01  -1.244420E-01  -9.901412E-01   1.406756E+00   1.692556E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    85
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    85
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4456,7 +4464,7 @@
           1250      G      2.928443E-02   9.214571E-02  -9.450752E-02  -1.090765E-01  -2.289492E+00  -2.269626E+00
           1251      G      1.681807E-02  -1.141244E-01   1.135313E-01  -2.010983E-01  -2.138211E+00  -2.122919E+00
           1252      G      2.192248E-02  -1.998967E-01   2.000342E-01  -3.880267E-01   2.537027E-01   2.965172E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    86
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    86
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4513,7 +4521,7 @@
           1301      G      1.323773E-02   7.556548E-02  -7.663581E-02   9.998679E-01   1.880943E+00   2.047796E+00
           1302      G      3.909388E-02   1.590140E-01  -1.665429E-01   5.685618E-01  -1.274262E-01   1.191799E-02
           1303      G      2.348727E-02   7.456164E-02  -7.815900E-02   1.822557E-02  -2.119471E+00  -2.036740E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    87
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    87
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4570,7 +4578,7 @@
           1352      G     -4.161008E-02  -6.194772E-02   7.858770E-02  -1.643437E+00   9.451051E-01  -1.444302E-01
           1353      G     -2.543415E-02  -3.526443E-02   4.533358E-02  -4.930550E-01   1.405965E+00   9.427707E-01
           1354      G      6.058907E-03   3.471780E-02  -3.645152E-02   1.209391E+00   7.176669E-01   1.020676E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    88
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    88
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4627,7 +4635,7 @@
           1403      G      1.078344E-09   3.812321E-09  -8.254644E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
           1404      G      9.525868E-10   3.686544E-09  -8.551770E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
           1405      G      8.429076E-10   3.546526E-09  -8.698931E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    89
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    89
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.155233E+06
@@ -4651,7 +4659,8 @@
           1420      G      1.532986E-09   1.332729E-09   3.655672E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
           1421      G      1.702799E-09   1.279834E-09   4.879427E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
           1422      G      1.877752E-09   1.247793E-09   6.057294E-09   1.783987E-08  -1.087834E-08  -2.945731E-09
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    90
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    90
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4708,7 +4717,7 @@
           1046      G      0.0            0.0            0.0            0.0            0.0            0.0
           1047      G      0.0            0.0            0.0            0.0            0.0            0.0
           1048      G      0.0            0.0            0.0            0.0            0.0            0.0
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    91
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    91
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4765,7 +4774,7 @@
           1097      G     -6.533447E-03   1.951355E-03  -4.986113E-03  -6.203903E-01   6.734244E-01   9.601366E-01
           1098      G     -4.739599E-02   5.319226E-02  -6.680113E-02  -1.311087E+00  -1.105647E+00   4.444141E-02
           1099      G     -6.073745E-03   1.101802E-02  -1.111298E-02   4.819793E-01  -8.080003E-01  -9.494369E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    92
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    92
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4822,7 +4831,7 @@
           1148      G      2.695483E-02  -4.314197E-02   4.821978E-02   9.979458E-01  -1.934900E+00  -2.214485E+00
           1149      G      7.136203E-02  -1.402941E-01   1.520953E-01   4.838792E-01   7.531937E-01   4.524909E-01
           1150      G     -1.534619E-02   3.944327E-03  -1.156233E-02  -1.338102E+00   1.834101E+00   2.323525E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    93
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    93
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4879,7 +4888,7 @@
           1199      G     -2.506442E-02   1.068155E-01  -1.074275E-01  -5.888973E-01   2.704545E+00   2.771464E+00
           1200      G     -3.886938E-02   1.826473E-01  -1.838495E-01  -1.002674E-01  -1.440900E+00  -1.382794E+00
           1201      G      3.529028E-02  -5.513696E-02   6.311086E-02   1.236876E+00  -2.832630E+00  -3.104681E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    94
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    94
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4936,7 +4945,7 @@
           1250      G     -7.513593E-03  -1.407665E-01   1.410295E-01  -7.585690E-01  -2.308275E+00  -2.362405E+00
           1251      G     -8.541311E-03  -1.526788E-01   1.530937E-01  -5.157445E-01   2.146097E+00   2.127726E+00
           1252      G     -2.399917E-02   1.016845E-01  -1.041196E-01  -1.650566E-03   2.921225E+00   2.875221E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    95
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    95
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -4993,7 +5002,7 @@
           1301      G      3.672127E-02   1.101431E-01  -1.188259E-01   1.214017E+00   9.503093E-01   1.286659E+00
           1302      G      2.668184E-02   7.725195E-02  -8.336936E-02   4.662840E-02  -2.151622E+00  -2.027047E+00
           1303      G     -5.153716E-03  -9.646389E-02   9.872396E-02  -8.776220E-01  -1.726770E+00  -1.775302E+00
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    96
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    96
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -5050,7 +5059,7 @@
           1352      G     -2.674223E-02  -4.043016E-02   5.161893E-02  -1.244784E+00   4.909894E-01  -2.860854E-01
           1353      G     -1.206691E-02  -1.635327E-02   2.139493E-02  -2.334738E-02   1.118069E+00   9.247006E-01
           1354      G      1.387664E-02   4.139106E-02  -4.646122E-02   1.288048E+00   8.808347E-02   5.090184E-01
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    97
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    97
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -5107,7 +5116,7 @@
           1403      G      5.712872E-09  -6.498166E-09  -3.573583E-09   6.034503E-09   9.113498E-09   1.069545E-08
           1404      G      6.169476E-09  -6.041491E-09  -4.220333E-09   6.034503E-09   9.113498E-09   1.069545E-08
           1405      G      6.567703E-09  -5.533109E-09  -4.878206E-09   6.034503E-09   9.113498E-09   1.069545E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    98
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    98
      LOADCASE_MODOS                                                                                                                 
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.165470E+06
@@ -5131,7 +5140,8 @@
           1420      G      4.062145E-09   2.504809E-09  -1.031358E-08   6.034503E-09   9.113498E-09   1.069545E-08
           1421      G      3.445583E-09   2.696862E-09  -1.012935E-08   6.034503E-09   9.113498E-09   1.069545E-08
           1422      G      2.810360E-09   2.813197E-09  -9.870082E-09   6.034503E-09   9.113498E-09   1.069545E-08
-1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    MARCH  30, 2021  MSC Nastran  8/ 4/20   PAGE    99
+          1423      G      0.0            0.0            0.0            0.0            0.0            0.0
+1    ANALISIS DE MODOS PROPIOS SATELITE + CONO          **STUDENT EDITION*    APRIL   2, 2021  MSC Nastran  8/ 4/20   PAGE    99
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71

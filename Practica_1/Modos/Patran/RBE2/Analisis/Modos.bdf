@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on March     30, 2021 at 23:21:17 by
+$ MSC.Nastran input file created on April     02, 2021 at 12:38:08 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -403,6 +403,13 @@ RBE2     1364    30      123456  1371    1372    1373    1374    1375
          1400    1401    1402    1403    1404    1405    1406    1407
          1408    1409    1410    1411    1412    1413    1414    1415
          1416    1417    1418    1419    1420    1421    1422
+RBE2     2       1423    123456  1000    1001    1002    1003    1004
+         1005    1006    1007    1008    1009    1010    1011    1012
+         1013    1014    1015    1016    1017    1018    1019    1020
+         1021    1022    1023    1024    1025    1026    1027    1028
+         1029    1030    1031    1032    1033    1034    1035    1036
+         1037    1038    1039    1040    1041    1042    1043    1044
+         1045    1046    1047    1048    1049    1050    1051
 $ Nodes of the Entire Model
 GRID     30              0.      0.      .75
 GRID     1000            1.      0.      0.
@@ -1235,9 +1242,11 @@ GRID*    1421                            .48548424243927 -.1196036785841
 *        .5
 GRID*    1422                           .496361285448074-.06021181121469
 *        .5
+GRID*    1423                           1.251239064004-5-9.01376949969-7
+*        0.
 $ Loads for Load Case : LoadCase_Modos
 SPCADD   2       1
 $ Displacement Constraints of Load Set : SPC_123456
-SPC1     1       123456  1000    THRU    1051
+SPC1     1       123456  1423
 $ Referenced Coordinate Frames
-ENDDATA a89521e9
+ENDDATA faedac3a
