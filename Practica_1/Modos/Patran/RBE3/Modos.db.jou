@@ -2216,3 +2216,399 @@ $# corresponding eigenvectors or principal directions is arbitrary and may
 $# not be what you expected.
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 04-Apr-21 23:55:18
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\RBE3\Modos.db.jou at 
+$# 06-Apr-21 20:39:58
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\RBE3" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+uil_imaging_bw_reverse(  )
+ui_repaint_tree( TRUE )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_center_set( -0.207951, -0.367991 )
+ga_view_zoom_set( 0.602996 )
+ga_view_center_set( -0.269780, -0.381743 )
+ga_view_zoom_set( 0.535997 )
+ga_view_center_set( -0.324739, -0.393967 )
+ga_view_zoom_set( 0.476442 )
+ga_view_center_set( -0.269780, -0.381743 )
+ga_view_zoom_set( 0.535997 )
+ga_view_center_set( -0.207952, -0.367991 )
+ga_view_zoom_set( 0.602996 )
+ga_view_center_set( -0.138394, -0.352520 )
+ga_view_zoom_set( 0.678371 )
+ga_view_center_set( -0.060142, -0.335115 )
+ga_view_zoom_set( 0.763167 )
+ga_view_center_set( 0.076451, -0.337778 )
+ga_view_zoom_set( 0.858563 )
+ga_view_center_set( 0.231175, -0.338307 )
+ga_view_zoom_set( 0.965883 )
+ga_view_center_set( 0.374313, -0.302027 )
+ga_view_zoom_set( 1.086619 )
+ga_view_center_set( 0.194459, -0.474387 )
+ga_view_zoom_set( 0.869295 )
+ga_view_center_set( 0.114523, -0.551309 )
+ga_view_zoom_set( 0.772707 )
+ga_view_center_set( 0.011608, -0.570905 )
+ga_view_zoom_set( 0.686850 )
+ga_view_aa_set( -78.000000, -0.000002, -33.999996 )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_aa_set( 157., 34, -180. )
+ga_view_aa_set( -173.567886, 12.099927, -169.987274 )
+ga_view_center_set( 0.026552, -0.563715 )
+ga_view_zoom_set( 0.772707 )
+ga_view_center_set( 0.043364, -0.555626 )
+ga_view_zoom_set( 0.869295 )
+ga_view_center_set( 0.062277, -0.546526 )
+ga_view_zoom_set( 0.977957 )
+ga_view_center_set( 0.083555, -0.536289 )
+ga_view_zoom_set( 1.100202 )
+ga_view_aa_set( -72.307434, -9.045903, 19.709051 )
+ga_view_aa_set( -72.874084, 3.189823, 101.340477 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( 0.070307, -0.550139 )
+ga_view_zoom_set( 0.977957 )
+ga_view_center_set( 0.058174, -0.562451 )
+ga_view_zoom_set( 0.869295 )
+ga_view_center_set( 0.047389, -0.573394 )
+ga_view_zoom_set( 0.772707 )
+ga_view_center_set( 0.037802, -0.583122 )
+ga_view_zoom_set( 0.686850 )
+ga_view_aa_set( -111.833923, -12.145748, 18.508753 )
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\RBE3\Modos.db.jou at 
+$# 06-Apr-21 23:26:05
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\RBE3" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+REAL mass_prop_mass_props_array(VIRTUAL)
+STRING mass_prop_entity_list[VIRTUAL]
+STRING mass_prop_reject_list[VIRTUAL]
+mass_prop.cleanup_detailed( mass_prop_mass_props_array, mass_prop_entity_list, @
+ mass_prop_reject_list )
+INTEGER mass_prop_noutputs
+STRING mass_prop_gnames_out[32](VIRTUAL)
+INTEGER mass_prop_entities(VIRTUAL)
+INTEGER mass_prop_entity_types(VIRTUAL)
+INTEGER mass_prop_len_elist
+INTEGER mass_prop_num_ents
+INTEGER mass_prop_len_rlist
+INTEGER mass_prop_num_rejects
+INTEGER mass_prop_segment_id
+INTEGER mass_prop_cord_label
+INTEGER mass_prop_user_cord_label
+mass_prop_create_detailed( "3D", "All", "FEM", "Summary", 0, [""], "",  @
+"Coord 0", "Use Element Properties", "Use Element Properties", "Coord 0", 3,  @
+1, TRUE, FALSE, mass_prop_noutputs, mass_prop_gnames_out, mass_prop_entities,  @
+mass_prop_entity_types, mass_prop_mass_props_array, mass_prop_entity_list,  @
+mass_prop_len_elist, mass_prop_num_ents, mass_prop_reject_list,  @
+mass_prop_len_rlist, mass_prop_num_rejects, mass_prop_segment_id,  @
+mass_prop_cord_label, mass_prop_user_cord_label )
+$# Warning reported from application MASP
+$#     The moment of inertia tensor has 2 equal eigenvalues, or principal 
+$# inertias, 32.775253, 31.78351, and 31.783506.  The choices of the 
+$# corresponding eigenvectors or principal directions is arbitrary and may 
+$# not be what you expected.
+ga_view_aa_set( -86.000000, 0.000000, 0.000000 )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( -90., 0., 0. )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\danie\Desktop\EUE\Practica_1\Modos\Patran\RBE3\Analisis\modos.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 4/3/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2877 (DESKTOP-N OPSYS:WINDOWS 10 PRO 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:MODOS
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+uil_toolbar.hidden_line(  )
+uil_toolbar.hidden_line(  )
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.hidden_line(  )
+display_cleanup(  )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -90.000000, 0.000000, 0.000000 )
+ga_view_center_set( -0.085621, -0.082489 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.161729, -0.155813 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.160492, -0.104455 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.163624, -0.079743 )
+ga_view_zoom_set( 0.905290 )
+ga_view_center_set( -0.164016, -0.016310 )
+ga_view_zoom_set( 1.018452 )
+ga_view_center_set( -0.135040, -0.129471 )
+ga_view_zoom_set( 0.905290 )
+ga_view_center_set( -0.105455, -0.222750 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.079158, -0.305664 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.055783, -0.379366 )
+ga_view_zoom_set( 0.635814 )
+ga_view_center_set( -0.049182, -0.403842 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.039901, -0.435399 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( 0.091315, -0.475077 )
+ga_view_zoom_set( 0.905290 )
+ga_view_center_set( -0.031896, -0.420084 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.140489, -0.369036 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.003743, -0.389455 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.027884, -0.107809 )
+ga_view_center_set( -0.945245, -0.317032 )
+ga_view_center_set( -0.994321, -0.261343 )
+ga_view_zoom_set( 0.905290 )
+ga_view_center_set( -1.049531, -0.198694 )
+ga_view_zoom_set( 1.018452 )
+ga_view_center_set( -0.994321, -0.261343 )
+ga_view_zoom_set( 0.905290 )
+ga_view_center_set( -0.945245, -0.317032 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.901622, -0.366533 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.862847, -0.410534 )
+ga_view_zoom_set( 0.635814 )
+ga_view_center_set( -0.828379, -0.449646 )
+ga_view_zoom_set( 0.565168 )
+ga_view_center_set( -0.862847, -0.410534 )
+ga_view_zoom_set( 0.635814 )
+ga_view_aa_set( -90.994522, 0.104523, -5.999093 )
+ga_view_center_set( -0.513149, -0.416893 )
+ga_view_center_set( -0.478926, -0.450138 )
+ga_view_zoom_set( 0.565168 )
+ga_view_center_set( -0.513149, -0.416893 )
+ga_view_zoom_set( 0.635814 )
+ga_view_center_set( -0.551649, -0.379492 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -0.594963, -0.337416 )
+ga_view_zoom_set( 0.804703 )
+ga_view_center_set( -0.844421, -0.433980 )
+ga_view_center_set( -0.868562, -0.409839 )
+ga_view_aa_set( -90.994522, 0.104523, -5.999093 )
+ga_view_center_set( -0.938172, -0.409839 )
+ga_view_zoom_set( 0.715291 )
+ga_view_center_set( -1.000049, -0.409839 )
+ga_view_zoom_set( 0.635814 )
+ga_view_center_set( -1.055050, -0.409839 )
+ga_view_zoom_set( 0.565168 )
+ga_view_center_set( -0.945047, -0.409839 )
+ga_view_zoom_set( 0.706460 )
+ga_view_center_set( -0.876295, -0.409839 )
+ga_view_zoom_set( 0.794768 )
+ga_view_center_set( -0.798949, -0.409839 )
+ga_view_zoom_set( 0.894114 )
+ga_view_center_set( -0.711935, -0.409839 )
+ga_view_zoom_set( 1.005878 )
+ga_view_center_set( -0.614045, -0.409838 )
+ga_view_zoom_set( 1.131613 )
+ga_view_center_set( -0.503918, -0.409838 )
+ga_view_zoom_set( 1.273065 )
+ga_view_center_set( -0.256132, -0.409838 )
+ga_view_zoom_set( 1.591331 )
+ga_view_center_set( -0.393790, -0.409838 )
+ga_view_zoom_set( 1.414516 )
+ga_view_center_set( -0.516154, -0.409838 )
+ga_view_zoom_set( 1.257348 )
+ga_view_center_set( -0.624921, -0.409838 )
+ga_view_zoom_set( 1.117642 )
+ga_view_center_set( -0.721602, -0.409838 )
+ga_view_zoom_set( 0.993460 )
+ga_view_center_set( -0.807541, -0.409838 )
+ga_view_zoom_set( 0.883075 )
+ga_view_center_set( -0.883932, -0.409838 )
+ga_view_zoom_set( 0.784956 )
+ga_view_center_set( -0.951835, -0.409838 )
+ga_view_zoom_set( 0.697739 )
+ga_view_center_set( -1.012192, -0.409838 )
+ga_view_zoom_set( 0.620212 )
+ga_view_center_set( -1.065844, -0.409838 )
+ga_view_zoom_set( 0.551300 )
+ga_view_center_set( -1.113534, -0.409838 )
+ga_view_zoom_set( 0.490044 )
+ga_view_center_set( -1.065844, -0.409838 )
+ga_view_zoom_set( 0.551300 )
+ga_view_center_set( -1.012192, -0.409838 )
+ga_view_zoom_set( 0.620212 )
+ga_view_center_set( -0.106683, -0.341614 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 2 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 2 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( 157., 34, -180. )
+ga_view_aa_set( 157.000000, 34.000000, -180.000000 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_center_set( -0.021900, -0.346325 )
+ga_view_zoom_set( 0.697739 )
+ga_view_center_set( 0.075485, -0.347900 )
+ga_view_zoom_set( 0.784956 )
+ga_view_center_set( 0.161521, -0.297148 )
+ga_view_zoom_set( 0.883075 )
+ga_view_center_set( 0.236560, -0.210690 )
+ga_view_zoom_set( 0.993460 )
+ga_view_center_set( 0.161521, -0.314187 )
+ga_view_zoom_set( 0.883075 )
+ga_view_center_set( 0.094819, -0.406184 )
+ga_view_zoom_set( 0.784956 )
+ga_view_center_set( 0.036388, -0.487959 )
+ga_view_zoom_set( 0.697739 )
+ga_view_center_set( 0.094819, -0.406184 )
+ga_view_zoom_set( 0.784956 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 1 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 2 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 2 : Freq. = 104.97", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Modos",  @
+"A1:Mode 3 : Freq. = 114.46", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Modos",  @
+"A1:Mode 3 : Freq. = 114.46", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 06-Apr-21 23:55:52

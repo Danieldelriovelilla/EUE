@@ -1677,3 +1677,14 @@ $# Property Set "1D_Beam" modified.
 $# UNDO: Analysis -- Analyze
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 06-Apr-21 12:01:59
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_1\Pandeo_1.db.jou at 
+$# 07-Apr-21 17:33:02
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 07-Apr-21 17:34:25

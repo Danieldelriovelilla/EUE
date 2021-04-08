@@ -1,0 +1,848 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Pandeo_Dos
+$# _Inercias.db.jou at 06-Apr-21 13:21:02
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Ine" // @
+"rcias\Pandeo_Dos_Inercias.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_" // @
+"Inercias" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0 0 1.1]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+ga_view_center_set( -0.000000, 0.000002 )
+ga_view_zoom_set( 0.000021 )
+ga_view_center_set( -0.000001, 0.000003 )
+ga_view_zoom_set( 0.000024 )
+ga_view_center_set( -0.000001, 0.000004 )
+ga_view_zoom_set( 0.000027 )
+ga_view_center_set( -0.000002, 0.000003 )
+ga_view_zoom_set( 0.000024 )
+ga_view_center_set( -0.000002, 0.000003 )
+ga_view_zoom_set( 0.000021 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( 0.000000, 0.000004 )
+ga_view_zoom_set( 0.000017 )
+ga_view_center_set( 0.000001, 0.000005 )
+ga_view_zoom_set( 0.000015 )
+ga_view_center_set( 0.000003, 0.000005 )
+ga_view_zoom_set( 0.000012 )
+ga_view_center_set( 0.000004, 0.000006 )
+ga_view_zoom_set( 0.000011 )
+ga_view_center_set( 0.000004, 0.000006 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( 0.000005, 0.000007 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.000006, 0.000007 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.000008, 0.000008 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000008, 0.000008 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000008 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000008 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000009, 0.000008 )
+ga_view_zoom_set( 0.000002 )
+gu_fit_view(  )
+point_size( 9 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "Aluminio", 0,  @
+"Date: 06-Apr-21           Time: 13:21:42", "Isotropic", 1, "Directionality",  @
+1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Density"], [2, 5, 16, 0], "Property Values", ["73.2e9",  @
+"0.33", "2800", ""] )
+beam_section_display( "ROD", "Circulo", ["0.06255"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.006255"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.006255"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.006255"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.007"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.009"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.01"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.02"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.01"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.011"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.012"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.0115"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.0112"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.0111"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.01115"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.01111"], "", "", 0. )
+beam_section_display( "ROD", "Circulo", ["0.01112"], "", "", 0. )
+beam_section_create( "Circulo", "ROD", ["0.01112"] )
+$# Beam Section "Circulo" created.
+$# Acknowledgement requested from application ELEM_PROPS
+$#     Property "Bar Orientation" is required.  Please enter data for it.
+$? NO 20039 
+elementprops_create( "1D_Beam_Aluminio", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Circulo", "m:Aluminio",  @
+"<1 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "1D_Beam_Aluminio" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_create( "Curve 1", 1, 100, 0., 0., 0. )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.11, "Bar2", "#", "#", "Coord 0",  @
+"Coord 0", fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 101 nodes and 100 elements created for Curve 1.
+$# === 101 nodes created.  IDs  = 1:101.
+$# === 100 elements created.  IDs  = 1:100.
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadcase_create2( "Pandeo", "Static", "", 1., [""], [0], [0.], "", 0., TRUE )
+$# Load Case "Pandeo" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_create2( "BC_Superior_1236", "Displacement", "Nodal", "", "Static", [ @
+"Node 1"], "FEM", "Coord 0", "1.", ["<  0, 0, 0   >", "<  , , 0   >",  @
+"<     >", "<     >"], ["", "", "", ""] )
+$# Load/BC set "BC_Superior_1236" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_modify2( "BC_Superior_1236", "BC_Infrerior_1236", "Displacement",  @
+"Nodal", "", "Static", ["Node 1"], "FEM", "Coord 0", "1.", ["<0., 0., 0.>",  @
+"< ,  , 0.>", "", ""], ["", "", "", ""] )
+$# Load/BC set "BC_Superior_1236" modified.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+$# UNDO: Loads/Boundary Conditions Create
+loadsbcs_create2( "BC_Superior_12", "Displacement", "Nodal", "", "Static", [ @
+"Node 101"], "FEM", "Coord 0", "1.", ["<0., 0., >", "< >", "", ""], ["", "",  @
+"", ""] )
+$# Load/BC set "BC_Superior_12" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_create2( "Load_Pandeo", "Force", "Nodal", "", "Static", ["Node 101"], @
+ "FEM", "Coord 0", "1.", ["< 0, 0, -1    >", "<     >", "<     >", "<     >"], @
+ ["", "", "", ""] )
+$# Load/BC set "Load_Pandeo" created.
+ga_view_center_set( -0.034454, -0.033511 )
+ga_view_zoom_set( 0.742500 )
+ga_view_center_set( -0.073214, -0.071212 )
+ga_view_zoom_set( 0.835312 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mscnastran_subcase.create( "105", "Pandeo", "This is a default subcase." )
+mscnastran_subcase.create_char_param( "LOAD CASE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE",  @
+"This is a default subcase." )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL", "" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE FLAG", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "Pandeo", "STRUCTURAL" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES", "1" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES 1",  @
+"SPCFORCES(SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS", "1" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS 1",  @
+"VECTOR(PLOT,SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "SUBCASE WRITE", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE DIRECT TEXT POS", "OFF" )
+mscnastran_subcase.create_int_param( "SUBCASE INPUT 0", 0 )
+mscnastran_subcase.create( "105", "Pandeo", "This is a default subcase." )
+$# Question from application APP INTERFACES
+$#     Subcase "Pandeo" already exists.  Do you wish to delete the existing 
+$# subcase and create a new one?
+$? YES 6022070 
+mscnastran_subcase.create_char_param( "LOAD CASE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE",  @
+"This is a default subcase." )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL", "" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE FLAG", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "Pandeo", "STRUCTURAL" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES", "1" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES 1",  @
+"SPCFORCES(SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS", "1" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS 1",  @
+"VECTOR(PLOT,SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "SUBCASE WRITE", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE DIRECT TEXT POS", "OFF" )
+mscnastran_subcase.create_int_param( "SUBCASE INPUT 0", 0 )
+$# UNDO: Analysis -- Analyze
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_curve( "Curve 1", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh deleted from 1 curve: Curve 1
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.11, "Bar2", "#", "#", "Coord 0",  @
+"Coord 0", fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 101 nodes and 100 elements created for Curve 1.
+$# === 101 nodes created.  IDs  = 1:101.
+$# === 100 elements created.  IDs  = 1:100.
+fem_associate_elems_to_ep( "1D_Beam_Aluminio",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 100 Element(s) associated to the Element Property 1D_Beam_Aluminio.
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_modify2( "BC_Infrerior_1236", "BC_Infrerior_1236", "Displacement",  @
+"Nodal", "", "Static", ["Node 1"], "FEM", "Coord 0", "1.", ["<0., 0., 0.>",  @
+"< ,  , 0.>", "", ""], ["", "", "", ""] )
+$# Load/BC set "BC_Infrerior_1236" modified.
+loadsbcs_modify2( "BC_Superior_12", "BC_Superior_12", "Displacement", "Nodal", @
+ "", "Static", ["Node 101"], "FEM", "Coord 0", "1.", ["<0., 0., >", "", "", "" @
+], ["", "", "", ""] )
+$# Load/BC set "BC_Superior_12" modified.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_modify2( "Load_Pandeo", "Load_Pandeo", "Force", "Nodal", "", "Static" @
+, ["Node 101"], "FEM", "Coord 0", "1.", ["<0., 0., -1.>", "", "", ""], ["", "" @
+, "", ""] )
+$# Load/BC set "Load_Pandeo" modified.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mscnastran_subcase.create( "105", "Pandeo", "This is a default subcase." )
+$# Question from application APP INTERFACES
+$#     Subcase "Pandeo" already exists.  Do you wish to delete the existing 
+$# subcase and create a new one?
+$? YES 6022070 
+mscnastran_subcase.create_char_param( "LOAD CASE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE",  @
+"This is a default subcase." )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL", "" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE FLAG", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "Pandeo", "STRUCTURAL" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES", "1" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES 1",  @
+"SPCFORCES(SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS", "1" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS 1",  @
+"VECTOR(PLOT,SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "SUBCASE WRITE", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE DIRECT TEXT POS", "OFF" )
+mscnastran_subcase.create_int_param( "SUBCASE INPUT 0", 0 )
+$#  Beginning analysis of  Pandeo_S1
+jobfile.open( "Pandeo_S1", "ANALYZE NO JOBFILE" )
+msc_delete_old_files( "Pandeo_S1", ".bdf", ".op2" )
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["06-Apr-21" @
+, "13:37:18"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\" // @
+"Pandeo_Dos_Inercias\Pandeo_Dos_Inercias.db" )
+jobfile.writec( "JOBNAME", "Pandeo_S1" )
+jobfile.writec( "ANALYSIS TITLE", "Estudio carga critica pandeo Seccion 1" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Analysis Deck" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Users\danie" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "HDF5+PRINT" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "4.9999999E-06" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "BUCKLING" )
+jobfile.writei( "SOLUTION SEQUENCE", 105 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "EXTRACTION METHOD", "Lanczos" )
+jobfile.writec( "LOWER EIGENVALUE", "" )
+jobfile.writec( "UPPER EIGENVALUE", "" )
+jobfile.writec( "NUMBER OF DESIRED ROOTS", "1" )
+jobfile.writec( "DIAGNOSTIC OUTPUT LEVEL", "0" )
+jobfile.writec( "NORMALIZATION METHOD", "Maximum" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "105", "Pandeo_S1", 1, ["Pandeo"] )
+analysis_submit_2( "MSC.Nastran", "Pandeo_S1" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-NHC7R5K(
+$# c821586ab454) (Windows 6.2 (Build 9200: Service Pack 0)) at 06-Apr-21 
+$# 13:37:18.
+$# 
+$# Reading model information from the specified database, 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Pandeo_Dos
+$# _Inercias.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on April     06, 2021 at 13:37:18.
+$# 
+$# The NASTRAN input file, Pandeo_S1.bdf, has been successfully opened.
+$# 
+$# Translating 100 elements from the element property region 1D_Beam_Aluminio.
+$# 
+$# 1 property regions translated.
+$# 
+$# Translating 1 referenced material records.
+$# 
+$# Translating 101 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Pandeo.
+$# 
+$# Translating nodal constraints in load set : BC_Infrerior_1236.
+$# 
+$# Translating nodal constraints in load set : BC_Superior_12.
+$# Writing interface element lbcs.
+$# 
+$# Translating nodal forces in load set : Load_Pandeo.
+$# Total execution time in real seconds: 1
+$# Total execution time in CPU seconds: 0.109985
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 06-Apr-21 13:37:19.
+$# The translation has completed successfully.
+$# No Analysis Requested
+mscnastran_subcase.create( "105", "Pandeo", "This is a default subcase." )
+$# Question from application APP INTERFACES
+$#     Subcase "Pandeo" already exists.  Do you wish to delete the existing 
+$# subcase and create a new one?
+$? YES 6022070 
+mscnastran_subcase.create_char_param( "LOAD CASE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE",  @
+"This is a default subcase." )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE", "Pandeo" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL", "" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE FLAG", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "Pandeo", "STRUCTURAL" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES", "1" )
+mscnastran_subcase.create_char_param( "CONSTRAINT FORCES 1",  @
+"SPCFORCES(SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS", "1" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS 1",  @
+"VECTOR(PLOT,SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "SUBCASE WRITE", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE DIRECT TEXT POS", "OFF" )
+mscnastran_subcase.create_int_param( "SUBCASE INPUT 0", 0 )
+$#  Beginning analysis of  Pandeo_S1
+jobfile.open( "Pandeo_S1", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (Pandeo_S1) is already defined in the database. Do you 
+$# wish to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "Pandeo_S1", ".bdf", ".op2" )
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["06-Apr-21" @
+, "13:39:11"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\" // @
+"Pandeo_Dos_Inercias\Pandeo_Dos_Inercias.db" )
+jobfile.writec( "JOBNAME", "Pandeo_S1" )
+jobfile.writec( "ANALYSIS TITLE", "Estudio carga critica pandeo Seccion 1" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Analysis Deck" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Users\danie" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "4.9999999E-06" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "BUCKLING" )
+jobfile.writei( "SOLUTION SEQUENCE", 105 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "EXTRACTION METHOD", "Lanczos" )
+jobfile.writec( "LOWER EIGENVALUE", "" )
+jobfile.writec( "UPPER EIGENVALUE", "" )
+jobfile.writec( "NUMBER OF DESIRED ROOTS", "1" )
+jobfile.writec( "DIAGNOSTIC OUTPUT LEVEL", "0" )
+jobfile.writec( "NORMALIZATION METHOD", "Maximum" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "105", "Pandeo_S1", 1, ["Pandeo"] )
+analysis_submit_2( "MSC.Nastran", "Pandeo_S1" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-NHC7R5K(
+$# c821586ab454) (Windows 6.2 (Build 9200: Service Pack 0)) at 06-Apr-21 
+$# 13:39:11.
+$# 
+$# Reading model information from the specified database, 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Pandeo_Dos
+$# _Inercias.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on April     06, 2021 at 13:39:11.
+$# 
+$# The NASTRAN input file, Pandeo_S1.bdf, has been successfully opened.
+$# 
+$# Translating 100 elements from the element property region 1D_Beam_Aluminio.
+$# 
+$# 1 property regions translated.
+$# 
+$# Translating 1 referenced material records.
+$# 
+$# Translating 101 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Pandeo.
+$# 
+$# Translating nodal constraints in load set : BC_Infrerior_1236.
+$# 
+$# Translating nodal constraints in load set : BC_Superior_12.
+$# Writing interface element lbcs.
+$# 
+$# Translating nodal forces in load set : Load_Pandeo.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.154968
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 06-Apr-21 13:39:11.
+$# The translation has completed successfully.
+$# No Analysis Requested
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_1\Pand" // @
+"eo\Pandeo_Dos_Inercias\Pandeo_Dos_Inercias.db" )
+msc_dra_add_param( "JOBNAME", "Pandeo_S1" )
+msc_dra_add_param( "RESULTS FILE", "C:\Users\danie\Desktop\EUE\Practica_1\" // @
+"Pandeo\Pandeo_Dos_Inercias\Analisis\pandeo_s1.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "Pandeo_S1", "Attach Results File No Job",  @
+"C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Analisis" // @
+"\pandeo_s1.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Analisis\
+$# pandeo_s1.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 4/6/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1819 (DESKTOP-N OPSYS:WINDOWS 10 PRO 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:PANDEO
+$# Processing result load case: SC2:PANDEO
+$# Processing result sub-case: Static Subcase
+$# Processing result sub-case: Mode 1 : Factor = 7164.6
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Pandeo",  @
+"A1:Mode 1 : Factor = 7164.6", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Pandeo",  @
+"A1:Mode 1 : Factor = 7164.6", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:OFF,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -118.703636, -18.335958, -80.702148 )
+ga_view_aa_set( -74.111542, -19.911276, -53.618809 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 06-Apr-21 13:44:54
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Pandeo_Dos
+$# _Inercias.db.jou at 07-Apr-21 17:08:08
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_" // @
+"Inercias" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+display_cleanup(  )
+ga_view_aa_set( -90., 0., 0. )
+loadsbcs_plot_markers_v2( ["BC_Infrerior_1236", "BC_Superior_12",  @
+"Load_Pandeo"], ["default_group"], TRUE, 0. )
+ga_view_aa_set( -90.000000, -0.000000, -1.000000 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Pandeo",  @
+"A1:Mode 1 : Factor = 7164.6", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Pandeo",  @
+"A1:Mode 1 : Factor = 7164.6", "Eigenvectors", "Translational",  @
+"(NON-LAYERED)", "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 07-Apr-21 17:31:13
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_Inercias\Pandeo_Dos
+$# _Inercias.db.jou at 07-Apr-21 17:35:48
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Pandeo_Dos_" // @
+"Inercias" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -95.564407, 18.774441, -76.526215 )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_center_set( -2.103023, -0.037799 )
+ga_view_center_set( -2.178202, -0.129684 )
+ga_view_center_set( -2.178202, -0.079565 )
+ga_view_center_set( -2.422119, -0.059295 )
+ga_view_zoom_set( 0.939727 )
+ga_view_center_set( -2.696526, -0.036492 )
+ga_view_zoom_set( 1.057192 )
+ga_view_center_set( -2.422119, -0.059295 )
+ga_view_zoom_set( 0.939727 )
+ga_view_center_set( -2.178202, -0.079565 )
+ga_view_zoom_set( 0.835312 )
+ga_view_center_set( -1.961388, -0.097582 )
+ga_view_zoom_set( 0.742500 )
+ga_view_center_set( -2.178202, -0.079565 )
+ga_view_zoom_set( 0.835312 )
+ga_view_center_set( -2.144789, -0.079565 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 07-Apr-21 18:20:48
