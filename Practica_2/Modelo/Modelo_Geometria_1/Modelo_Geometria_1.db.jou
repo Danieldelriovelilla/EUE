@@ -1,0 +1,786 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_2\Modelo\Modelo_Geometria_1\Modelo_Geom
+$# etria_1.db.jou at 19-Apr-21 19:06:53
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Practica_2\Modelo\Modelo_Geometr" // @
+"ia_1\Modelo_Geometria_1.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_2\Modelo\Modelo_Geom" // @
+"etria_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_A" )
+ga_group_current_set( "Bandeja_A" )
+$# Group "Bandeja_A" created.
+sys_poll_option( 0 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+point_size( 9 )
+asm_const_grid_xyz( "2", "[0.23 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0.23 0.23  0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[0.1417 0  0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+$# UNDO: Create Point XYZ command
+asm_const_grid_xyz( "5", "[0.1417 0.0587  0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+asm_const_grid_xyz( "6", "[0.1002 0.1002  0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 6
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 4", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 1", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 6", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 4", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 5", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+$# UNDO: Transform Point Translate Command Point 4
+$# UNDO:
+$# UNDO: Transform Point Pivot Command Point 1
+$# UNDO: Transform Point Pivot Command Point 1
+$# UNDO: Transform Point Pivot Command Point 4
+$# UNDO: Transform Point Pivot Command Point 4
+$# UNDO:
+$# UNDO: Transform Point Mirror Command Point 2
+$# UNDO:
+ga_view_center_set( -0.107189, -0.072561 )
+ga_view_zoom_set( 0.153029 )
+ga_view_center_set( -0.112181, -0.068473 )
+ga_view_zoom_set( 0.172158 )
+ga_view_center_set( -0.117798, -0.063874 )
+ga_view_zoom_set( 0.193677 )
+ga_view_center_set( -0.124117, -0.058700 )
+ga_view_zoom_set( 0.217887 )
+ga_view_center_set( -0.120030, -0.054568 )
+ga_view_zoom_set( 0.245123 )
+ga_view_center_set( -0.112743, -0.050436 )
+ga_view_zoom_set( 0.217887 )
+ga_view_center_set( -0.100500, -0.043130 )
+ga_view_zoom_set( 0.193677 )
+ga_view_center_set( -0.085475, -0.034108 )
+ga_view_zoom_set( 0.172158 )
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_rotate( "7", "Coord 0.3", 90., 0., "Coord 0", 1, FALSE,  @
+"Point 2", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 7
+asm_transform_grid_rotate( "8", "Coord 0.3", 90., 0., "Coord 0", 1, FALSE,  @
+"Point 4", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 8
+asm_transform_grid_rotate( "9", "Coord 0.3", 45., 0., "Coord 0", 1, FALSE,  @
+"Point 5", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 9
+$# UNDO: Transform Curve Translate for Curve 1
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "8", "Point 1", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 8", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 7", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 8", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 9", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+ga_view_center_set( 0.010691, 0.007230 )
+ga_view_zoom_set( 0.155214 )
+ga_view_center_set( 0.023161, 0.016314 )
+ga_view_zoom_set( 0.174615 )
+ga_view_center_set( 0.037617, 0.027245 )
+ga_view_zoom_set( 0.196442 )
+ga_view_center_set( 0.053881, 0.039543 )
+ga_view_zoom_set( 0.220997 )
+ga_view_center_set( 0.021915, 0.031972 )
+ga_view_zoom_set( 0.196442 )
+ga_view_center_set( -0.006499, 0.025242 )
+ga_view_zoom_set( 0.174615 )
+ga_view_center_set( -0.031756, 0.019261 )
+ga_view_zoom_set( 0.155214 )
+STRING sgm_surface_2curve_created_ids[VIRTUAL]
+sgm_const_surface_2curve( "1", "Curve 1", "Curve 4",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 1
+$# UNDO:
+uil_toolbar.shaded_smooth(  )
+$# UNDO: Create Surface 2Curve for Curve 6Curve 7
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.shaded_smooth(  )
+STRING sgm_surface_2curve_created_ids[VIRTUAL]
+sgm_const_surface_2curve( "2", "Curve 6", "Curve 7",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 2
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_2curve( "3", "Curve 2", "Curve 5",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_2curve( "4", "Curve 4", "Curve 8",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 4
+sgm_const_surface_2curve( "5", "Curve 12", "Curve 11",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_2curve( "6", "Curve 5", "Curve 9",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 6
+ga_view_aa_set( 7.582847, -20.306967, 1.986434 )
+ga_view_aa_set( -165.392929, 4.308638, 106.123550 )
+ga_view_center_set( 0.001540, 0.006574 )
+ga_view_zoom_set( 0.134892 )
+ga_view_center_set( 0.003252, 0.012711 )
+ga_view_zoom_set( 0.119904 )
+ga_view_center_set( 0.005295, 0.018644 )
+ga_view_zoom_set( 0.106582 )
+ga_view_center_set( 0.007304, 0.024150 )
+ga_view_zoom_set( 0.094739 )
+ga_view_center_set( 0.009365, 0.030212 )
+ga_view_zoom_set( 0.084213 )
+ga_view_center_set( 0.011074, 0.035722 )
+ga_view_zoom_set( 0.074856 )
+ga_view_center_set( 0.011291, 0.041733 )
+ga_view_zoom_set( 0.066538 )
+ga_view_center_set( 0.011484, 0.047076 )
+ga_view_zoom_set( 0.059145 )
+ga_view_center_set( 0.011656, 0.051825 )
+ga_view_zoom_set( 0.052574 )
+ga_view_center_set( 0.011809, 0.056047 )
+ga_view_zoom_set( 0.046732 )
+ga_view_center_set( 0.012022, 0.062649 )
+ga_view_zoom_set( 0.037386 )
+ga_view_center_set( 0.012090, 0.065434 )
+ga_view_zoom_set( 0.033232 )
+ga_view_center_set( 0.012150, 0.067753 )
+ga_view_zoom_set( 0.029539 )
+ga_view_center_set( 0.012225, 0.069578 )
+ga_view_zoom_set( 0.026257 )
+ga_view_center_set( 0.012330, 0.070982 )
+ga_view_zoom_set( 0.023340 )
+ga_view_center_set( 0.012381, 0.072053 )
+ga_view_zoom_set( 0.020746 )
+ga_view_center_set( 0.012328, 0.072741 )
+ga_view_zoom_set( 0.018441 )
+ga_view_center_set( 0.012274, 0.073353 )
+ga_view_zoom_set( 0.016392 )
+ga_view_center_set( 0.012209, 0.073884 )
+ga_view_zoom_set( 0.014571 )
+ga_view_center_set( 0.012103, 0.074299 )
+ga_view_zoom_set( 0.012952 )
+ga_view_aa_set( -11.589099, -33.542492, -38.644711 )
+ga_view_center_set( 0.013651, 0.074814 )
+ga_view_zoom_set( 0.014571 )
+ga_view_center_set( 0.015392, 0.075393 )
+ga_view_zoom_set( 0.016392 )
+ga_view_center_set( 0.019310, 0.076697 )
+ga_view_zoom_set( 0.020490 )
+ga_view_center_set( 0.024207, 0.078327 )
+ga_view_zoom_set( 0.025613 )
+ga_view_center_set( 0.030328, 0.080363 )
+ga_view_zoom_set( 0.032016 )
+ga_view_center_set( 0.037979, 0.082910 )
+ga_view_zoom_set( 0.040020 )
+ga_view_center_set( 0.047544, 0.086092 )
+ga_view_zoom_set( 0.050025 )
+ga_view_center_set( 0.059499, 0.090071 )
+ga_view_zoom_set( 0.062531 )
+ga_view_center_set( 0.066971, 0.092557 )
+ga_view_zoom_set( 0.070348 )
+ga_view_center_set( 0.100596, 0.103746 )
+ga_view_zoom_set( 0.105522 )
+ga_view_center_set( 0.125814, 0.112138 )
+ga_view_zoom_set( 0.131902 )
+ga_view_center_set( 0.157337, 0.122628 )
+ga_view_zoom_set( 0.164877 )
+ga_view_center_set( 0.196741, 0.135740 )
+ga_view_zoom_set( 0.206097 )
+ga_view_aa_set( 6.020802, -23.986513, -22.399981 )
+ga_view_center_set( 0.220696, 0.149062 )
+ga_view_zoom_set( 0.231859 )
+ga_view_center_set( 0.247645, 0.164050 )
+ga_view_zoom_set( 0.260841 )
+ga_view_center_set( 0.308707, 0.197985 )
+ga_view_zoom_set( 0.326051 )
+ga_view_center_set( 0.385300, 0.240669 )
+ga_view_zoom_set( 0.407564 )
+ga_view_center_set( 0.433503, 0.267513 )
+ga_view_zoom_set( 0.458510 )
+ga_view_center_set( 0.374828, 0.227704 )
+ga_view_zoom_set( 0.407564 )
+ga_view_center_set( 0.280949, 0.164010 )
+ga_view_zoom_set( 0.326051 )
+ga_view_center_set( 0.239106, 0.135820 )
+ga_view_zoom_set( 0.289824 )
+ga_view_center_set( 0.201913, 0.110866 )
+ga_view_zoom_set( 0.257621 )
+ga_view_center_set( 0.168852, 0.088686 )
+ga_view_zoom_set( 0.228996 )
+ga_view_center_set( 0.141291, 0.071875 )
+ga_view_zoom_set( 0.203552 )
+ga_view_center_set( 0.097194, 0.044979 )
+ga_view_zoom_set( 0.162842 )
+ga_view_center_set( 0.061916, 0.023461 )
+ga_view_zoom_set( 0.130273 )
+ga_view_center_set( 0.046237, 0.013898 )
+ga_view_zoom_set( 0.115799 )
+ga_view_center_set( 0.021150, -0.001403 )
+ga_view_zoom_set( 0.092639 )
+ga_view_center_set( 0.033693, 0.006247 )
+ga_view_zoom_set( 0.104219 )
+ga_view_center_set( 0.047805, 0.014854 )
+ga_view_zoom_set( 0.117246 )
+ga_view_center_set( 0.063680, 0.024537 )
+ga_view_zoom_set( 0.131902 )
+ga_view_center_set( 0.081539, 0.035430 )
+ga_view_zoom_set( 0.148390 )
+ga_view_center_set( 0.101631, 0.047685 )
+ga_view_zoom_set( 0.166938 )
+ga_view_center_set( 0.124234, 0.061472 )
+ga_view_zoom_set( 0.187806 )
+ga_view_center_set( 0.160616, 0.071314 )
+ga_view_zoom_set( 0.211281 )
+ga_view_center_set( 0.201718, 0.083334 )
+ga_view_zoom_set( 0.237691 )
+ga_view_center_set( 0.248054, 0.097536 )
+ga_view_zoom_set( 0.267403 )
+ga_view_center_set( 0.300619, 0.114494 )
+ga_view_zoom_set( 0.300828 )
+ga_view_center_set( 0.354969, 0.148907 )
+ga_view_zoom_set( 0.338432 )
+ga_view_center_set( 0.302336, 0.112531 )
+ga_view_zoom_set( 0.300828 )
+ga_view_center_set( 0.255551, 0.080959 )
+ga_view_zoom_set( 0.267403 )
+ga_view_center_set( 0.180522, 0.032888 )
+ga_view_zoom_set( 0.213922 )
+ga_view_center_set( 0.147020, 0.012143 )
+ga_view_zoom_set( 0.190153 )
+ga_view_center_set( 0.117447, -0.005331 )
+ga_view_zoom_set( 0.169025 )
+ga_view_center_set( 0.100229, -0.019394 )
+ga_view_zoom_set( 0.150244 )
+ga_view_center_set( 0.084924, -0.031894 )
+ga_view_zoom_set( 0.133551 )
+ga_view_center_set( 0.100284, -0.019557 )
+ga_view_zoom_set( 0.150244 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 1", 1, ["0.0144933"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Smoothing took 6 cycle(s).
+$# 79 nodes and 64 elements created for Surface 1.
+$# === 79 nodes created.  IDs  = 1:79.
+$# === 64 elements created.  IDs  = 1:64.
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 2 3 6:4:-1", 1, [ @
+"0.0253649"], "Quad4", "#", "#", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# Smoothing took 6 cycle(s).
+$# 29 nodes and 20 elements created for Surface 2.
+$# 72 nodes and 56 elements created for Surface 3.
+$# 80 nodes and 63 elements created for Surface 6.
+$# Smoothing took 7 cycle(s).
+$# 40 nodes and 29 elements created for Surface 5.
+$# Smoothing took 6 cycle(s).
+$# 90 nodes and 74 elements created for Surface 4.
+$# === 311 nodes created.  IDs  = 80:390.
+$# === 242 elements created.  IDs  = 65:306.
+ga_view_aa_set( -34.882118, -11.695097, -22.209185 )
+ga_view_aa_set( -27.569115, 8.367063, 58.523197 )
+ga_view_aa_set( 16.153387, -8.345549, 60.279415 )
+ga_view_center_set( 0.088948, -0.012480 )
+ga_view_zoom_set( 0.169025 )
+ga_view_center_set( 0.076264, -0.004449 )
+ga_view_zoom_set( 0.190153 )
+ga_view_center_set( 0.068130, -0.011653 )
+ga_view_zoom_set( 0.169025 )
+ga_view_center_set( 0.058571, -0.017688 )
+ga_view_zoom_set( 0.150244 )
+ga_view_center_set( 0.046589, -0.021201 )
+ga_view_zoom_set( 0.133551 )
+ga_view_center_set( 0.020326, -0.027678 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( 0.012545, -0.029456 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( 0.005628, -0.030974 )
+ga_view_zoom_set( 0.076743 )
+ga_view_center_set( -0.005489, -0.032902 )
+ga_view_zoom_set( 0.061394 )
+ga_view_center_set( -0.014383, -0.034404 )
+ga_view_zoom_set( 0.049115 )
+ga_view_center_set( -0.024041, -0.035912 )
+ga_view_zoom_set( 0.035720 )
+ga_view_center_set( -0.026890, -0.036333 )
+ga_view_zoom_set( 0.031751 )
+ga_view_center_set( -0.031448, -0.036985 )
+ga_view_zoom_set( 0.025401 )
+ga_view_center_set( -0.033474, -0.037275 )
+ga_view_zoom_set( 0.022579 )
+ga_view_center_set( -0.031872, -0.036700 )
+ga_view_zoom_set( 0.025401 )
+ga_view_center_set( -0.028267, -0.035405 )
+ga_view_zoom_set( 0.031751 )
+ga_view_center_set( -0.026014, -0.034596 )
+ga_view_zoom_set( 0.035720 )
+ga_view_center_set( -0.020944, -0.032775 )
+ga_view_zoom_set( 0.044650 )
+ga_view_center_set( -0.014607, -0.030498 )
+ga_view_zoom_set( 0.055813 )
+ga_view_center_set( -0.006686, -0.027653 )
+ga_view_zoom_set( 0.069766 )
+ga_view_center_set( 0.003216, -0.024097 )
+ga_view_zoom_set( 0.087208 )
+ga_view_center_set( 0.015593, -0.019651 )
+ga_view_zoom_set( 0.109010 )
+ga_view_center_set( 0.023328, -0.016872 )
+ga_view_zoom_set( 0.122636 )
+ga_view_center_set( 0.040733, -0.010620 )
+ga_view_zoom_set( 0.153295 )
+ga_view_center_set( 0.073368, 0.001102 )
+ga_view_zoom_set( 0.210781 )
+ga_view_center_set( 0.133198, 0.022592 )
+ga_view_zoom_set( 0.316171 )
+ga_view_center_set( 0.155634, 0.030652 )
+ga_view_zoom_set( 0.355693 )
+ga_view_center_set( 0.232098, 0.032263 )
+ga_view_zoom_set( 0.316171 )
+ga_group_transform_rotate_1( 1, ["Bandeja_A"], "CoordinateFrame 0",  @
+"Coord 0.3", 90., 0., 24, 0, "", 1 )
+$# Question from application Group Applications
+$#     Point 1 already exists. Do you wish to create a duplicate one?
+$? YESFORALL 11012003 
+$# 9 Points are created in Group ["Bandeja_A"].
+$# 17 Curves are created in Group ["Bandeja_A"].
+$# 6 Surfaces are created in Group ["Bandeja_A"].
+$# 390 Nodes are created in Group ["Bandeja_A"].
+$# 306 Elements are created in Group ["Bandeja_A"].
+ga_view_aa_set( -179.155396, 9.260429, -124.055878 )
+ga_view_center_set( -0.050272, -0.081543 )
+ga_view_zoom_set( 0.352746 )
+ga_view_center_set( -0.043654, -0.067085 )
+ga_view_zoom_set( 0.396839 )
+ga_view_center_set( -0.036209, -0.050496 )
+ga_view_zoom_set( 0.446444 )
+ga_view_center_set( -0.027834, -0.031833 )
+ga_view_zoom_set( 0.502250 )
+ga_view_center_set( -0.018412, -0.010838 )
+ga_view_zoom_set( 0.565031 )
+ga_view_center_set( -0.028039, -0.032448 )
+ga_view_zoom_set( 0.502250 )
+ga_view_center_set( -0.036596, -0.051657 )
+ga_view_zoom_set( 0.446444 )
+ga_view_center_set( -0.044203, -0.068731 )
+ga_view_zoom_set( 0.396839 )
+ga_view_center_set( -0.050964, -0.083908 )
+ga_view_zoom_set( 0.352746 )
+ga_view_center_set( -0.057358, -0.096248 )
+ga_view_zoom_set( 0.313552 )
+ga_view_center_set( -0.063041, -0.107217 )
+ga_view_zoom_set( 0.278713 )
+ga_view_center_set( -0.068093, -0.116866 )
+ga_view_zoom_set( 0.247745 )
+ga_view_center_set( -0.072404, -0.125264 )
+ga_view_zoom_set( 0.220218 )
+ga_view_center_set( -0.068722, -0.116687 )
+ga_view_zoom_set( 0.247745 )
+ga_view_center_set( -0.064579, -0.107038 )
+ga_view_zoom_set( 0.278713 )
+ga_view_center_set( -0.059805, -0.095500 )
+ga_view_zoom_set( 0.313552 )
+ga_view_center_set( -0.054434, -0.081626 )
+ga_view_zoom_set( 0.352746 )
+ga_view_center_set( -0.048392, -0.066017 )
+ga_view_zoom_set( 0.396839 )
+ga_view_center_set( -0.041595, -0.048295 )
+ga_view_zoom_set( 0.446444 )
+$# UNDO: uil_group_rotate ROTATE Group "Bandeja_A..."
+ga_group_transform_rotate_1( 1, ["Bandeja_A"], "CoordinateFrame 0",  @
+"Coord 0.3", 180., 0., 24, 0, "", 1 )
+$# Question from application Group Applications
+$#     Point 1 already exists. Do you wish to create a duplicate one?
+$? YESFORALL 11012003 
+$# 18 Points are created in Group ["Bandeja_A"].
+$# 34 Curves are created in Group ["Bandeja_A"].
+$# 12 Surfaces are created in Group ["Bandeja_A"].
+$# 780 Nodes are created in Group ["Bandeja_A"].
+$# 612 Elements are created in Group ["Bandeja_A"].
+ga_view_aa_set( 5.930673, 3.020188, -106.873840 )
+ga_view_center_set( -0.098700, -0.051702 )
+ga_view_zoom_set( 0.357473 )
+ga_view_center_set( -0.102847, -0.040493 )
+ga_view_zoom_set( 0.317754 )
+ga_view_center_set( -0.106418, -0.030413 )
+ga_view_zoom_set( 0.282448 )
+ga_view_center_set( -0.109592, -0.021454 )
+ga_view_zoom_set( 0.251065 )
+ga_view_center_set( -0.112322, -0.013399 )
+ga_view_zoom_set( 0.223169 )
+ga_view_aa_set( -63.510147, -3.278354, -135.181076 )
+ga_view_center_set( -0.068271, -0.024822 )
+ga_view_zoom_set( 0.251065 )
+ga_view_center_set( -0.111776, -0.012853 )
+ga_view_zoom_set( 0.223169 )
+ga_view_aa_set( 2.130278, -5.727015, -162.082291 )
+ga_view_center_set( -0.086110, -0.018997 )
+ga_view_zoom_set( 0.251065 )
+ga_view_center_set( -0.056826, -0.025601 )
+ga_view_zoom_set( 0.282448 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.013514, -0.015291 )
+ga_view_zoom_set( 0.317754 )
+ga_view_center_set( 0.035211, -0.003693 )
+ga_view_zoom_set( 0.357473 )
+ga_view_center_set( 0.090174, 0.009501 )
+ga_view_zoom_set( 0.402157 )
+ga_view_center_set( 0.152826, 0.025984 )
+ga_view_zoom_set( 0.452427 )
+ga_view_center_set( 0.096078, -0.008049 )
+ga_view_zoom_set( 0.402157 )
+ga_view_center_set( 0.045635, -0.038300 )
+ga_view_zoom_set( 0.357473 )
+ga_view_center_set( 0.000797, -0.065189 )
+ga_view_zoom_set( 0.317754 )
+ga_view_center_set( -0.039059, -0.089207 )
+ga_view_zoom_set( 0.282448 )
+ga_view_center_set( -0.074691, -0.111170 )
+ga_view_zoom_set( 0.251065 )
+ga_view_center_set( -0.032199, -0.114907 )
+ga_view_zoom_set( 0.282448 )
+ga_view_center_set( 0.015606, -0.119112 )
+ga_view_zoom_set( 0.317754 )
+ga_view_center_set( -0.031853, -0.124238 )
+ga_view_zoom_set( 0.282448 )
+mesh_seed_create( "Curve 10", 1, 20, 0., 0., 0. )
+$# Error reported from application FEM
+$#     Curve 10 already has existing mesh. You cannot redefine it here.
+$? NO 2001040 
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 1:24", fem_delete_mesh__deleted_labels, @
+ fem_delete_mes_not_found_labels )
+$# Meshes deleted from 24 surfaces: Surface 1:24
+mesh_seed_create( "Curve 10", 1, 20, 0., 0., 0. )
+mesh_seed_create( "Curve 3", 1, 20, 0., 0., 0. )
+mesh_seed_create( "Curve 14", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 13", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 4", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 5", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 1", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 2", 1, 10, 0., 0., 0. )
+mesh_seed_create( "Curve 6", 1, 5, 0., 0., 0. )
+mesh_seed_create( "Curve 7", 1, 5, 0., 0., 0. )
+mesh_seed_create( "Curve 12", 1, 5, 0., 0., 0. )
+mesh_seed_create( "Curve 11", 1, 5, 0., 0., 0. )
+mesh_seed_create( "Surface 4.3", 1, 5, 0., 0., 0. )
+mesh_seed_create( "Surface 1.3", 1, 5, 0., 0., 0. )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 6", 1, ["0.0253649"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Warning reported from application FEM
+$#     Triangle elements were produced on 1 surface(s).  This can be avoided 
+$# by making the total number of elements around each surface perimeter an 
+$# even number.
+$# Smoothing took 16 cycle(s).
+$# 265 nodes and 242 elements created for Surface 6.
+$# === 265 nodes created.  IDs  = 1:265.
+$# === 242 elements created.  IDs  = 1:242.
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 4", 1, ["0.0144933"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Smoothing took 9 cycle(s).
+$# 54 nodes and 41 elements created for Surface 4.
+$# === 54 nodes created.  IDs  = 266:319.
+$# === 41 elements created.  IDs  = 243:283.
+ga_view_center_set( -0.024890, -0.106268 )
+ga_view_zoom_set( 0.251065 )
+ga_view_center_set( -0.017882, -0.090841 )
+ga_view_zoom_set( 0.223169 )
+ga_view_center_set( -0.005796, -0.066449 )
+ga_view_zoom_set( 0.178535 )
+ga_view_center_set( -0.000424, -0.055608 )
+ga_view_zoom_set( 0.158698 )
+ga_view_center_set( 0.004467, -0.045914 )
+ga_view_zoom_set( 0.141065 )
+ga_view_center_set( 0.008967, -0.037195 )
+ga_view_zoom_set( 0.125391 )
+ga_view_center_set( 0.012967, -0.029445 )
+ga_view_zoom_set( 0.111458 )
+ga_view_center_set( 0.016522, -0.022556 )
+ga_view_zoom_set( 0.099074 )
+ga_view_center_set( 0.022212, -0.011533 )
+ga_view_zoom_set( 0.079259 )
+ga_view_center_set( 0.027177, -0.002973 )
+ga_view_zoom_set( 0.063407 )
+ga_view_center_set( 0.031273, 0.003709 )
+ga_view_zoom_set( 0.050726 )
+ga_view_center_set( 0.029101, 0.002209 )
+ga_view_zoom_set( 0.057067 )
+ga_view_center_set( 0.026657, 0.000545 )
+ga_view_zoom_set( 0.064200 )
+ga_view_center_set( 0.023908, -0.001327 )
+ga_view_zoom_set( 0.072225 )
+ga_view_center_set( 0.020844, -0.003404 )
+ga_view_zoom_set( 0.081253 )
+ga_view_center_set( 0.017530, -0.005442 )
+ga_view_zoom_set( 0.091410 )
+ga_view_center_set( 0.013803, -0.007735 )
+ga_view_zoom_set( 0.102836 )
+ga_view_center_set( 0.009609, -0.010314 )
+ga_view_zoom_set( 0.115691 )
+ga_view_center_set( -0.002187, -0.003968 )
+ga_view_zoom_set( 0.130152 )
+ga_view_center_set( -0.015457, 0.003490 )
+ga_view_zoom_set( 0.146421 )
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 3", 1, ["0.0253649"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Warning reported from application FEM
+$#     Triangle elements were produced on 1 surface(s).  This can be avoided 
+$# by making the total number of elements around each surface perimeter an 
+$# even number.
+$# Smoothing took 15 cycle(s).
+$# 265 nodes and 242 elements created for Surface 3.
+$# === 265 nodes created.  IDs  = 320:584.
+$# === 242 elements created.  IDs  = 284:525.
+ga_view_center_set( -0.040000, 0.012417 )
+ga_view_zoom_set( 0.164724 )
+ga_view_center_set( -0.067610, 0.022460 )
+ga_view_zoom_set( 0.185314 )
+ga_view_center_set( -0.098672, 0.033759 )
+ga_view_zoom_set( 0.208478 )
+ga_view_center_set( -0.070634, 0.021856 )
+ga_view_zoom_set( 0.185314 )
+ga_view_center_set( -0.045844, 0.011275 )
+ga_view_zoom_set( 0.164724 )
+ga_view_center_set( -0.023810, 0.001870 )
+ga_view_zoom_set( 0.146421 )
+ga_view_center_set( -0.004436, -0.006437 )
+ga_view_zoom_set( 0.130152 )
+ga_view_center_set( -0.016113, 0.001021 )
+ga_view_zoom_set( 0.146421 )
+ga_view_center_set( -0.029131, 0.009411 )
+ga_view_zoom_set( 0.164724 )
+ga_view_center_set( -0.043642, 0.018849 )
+ga_view_zoom_set( 0.185314 )
+ga_view_center_set( -0.059890, 0.029468 )
+ga_view_zoom_set( 0.208478 )
+ga_view_center_set( -0.078086, 0.041499 )
+ga_view_zoom_set( 0.234538 )
+ga_view_center_set( -0.060231, 0.026917 )
+ga_view_zoom_set( 0.208478 )
+ga_view_center_set( -0.044359, 0.013956 )
+ga_view_zoom_set( 0.185314 )
+ga_view_center_set( -0.030252, 0.002435 )
+ga_view_zoom_set( 0.164724 )
+ga_view_center_set( -0.017712, -0.007807 )
+ga_view_zoom_set( 0.146421 )
+ga_view_center_set( -0.006565, -0.016910 )
+ga_view_zoom_set( 0.130152 )
+ga_view_center_set( 0.003390, -0.024954 )
+ga_view_zoom_set( 0.115691 )
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 1", 1, ["0.0144933"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# Warning reported from application FEM
+$#     Triangle elements were produced on 1 surface(s).  This can be avoided 
+$# by making the total number of elements around each surface perimeter an 
+$# even number.
+$# Smoothing took 10 cycle(s).
+$# 57 nodes and 44 elements created for Surface 1.
+$# === 57 nodes created.  IDs  = 585:641.
+$# === 44 elements created.  IDs  = 526:569.
+ga_view_center_set( -0.002271, -0.020260 )
+ga_view_zoom_set( 0.130152 )
+ga_view_center_set( -0.008641, -0.014978 )
+ga_view_zoom_set( 0.146421 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.043515, -0.017516 )
+ga_view_zoom_set( 0.164724 )
+ga_view_center_set( -0.082075, -0.019834 )
+ga_view_zoom_set( 0.185314 )
+ga_view_center_set( -0.168384, -0.024293 )
+ga_view_zoom_set( 0.231642 )
+ga_view_center_set( -0.222327, -0.027080 )
+ga_view_zoom_set( 0.260598 )
+ga_view_center_set( -0.283012, -0.030215 )
+ga_view_zoom_set( 0.293172 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 1:16 19 22:24",  @
+fem_delete_mesh__deleted_labels, fem_delete_mes_not_found_labels )
+$# Meshes deleted from 4 surfaces: Surface 1 3 4 6
+$# Mesh does not exist on 16 entities: Surface 2 5 7:16 19 22:24
+ga_view_center_set( -0.357262, -0.020590 )
+ga_view_zoom_set( 0.329819 )
+ga_view_center_set( -0.440793, -0.009762 )
+ga_view_zoom_set( 0.371046 )
+ga_view_center_set( -0.534765, 0.002420 )
+ga_view_zoom_set( 0.417427 )
+ga_view_center_set( -0.640484, 0.016124 )
+ga_view_zoom_set( 0.469606 )
+STRING asm_delete_surface_deleted_ids[VIRTUAL]
+asm_delete_surface( "Surface 1:24", asm_delete_surface_deleted_ids )
+$# 24 Surfaces Deleted: Surface 1:24
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( 0.020111, 0.003152 )
+ga_view_zoom_set( 0.245333 )
+ga_view_center_set( 0.038699, 0.007198 )
+ga_view_zoom_set( 0.218074 )
+ga_view_center_set( 0.056170, 0.012139 )
+ga_view_zoom_set( 0.193844 )
+ga_view_center_set( 0.072262, 0.017375 )
+ga_view_zoom_set( 0.172305 )
+ga_view_center_set( 0.060035, 0.017480 )
+ga_view_zoom_set( 0.193844 )
+ga_view_center_set( 0.046358, 0.017678 )
+ga_view_zoom_set( 0.218074 )
+ga_view_center_set( 0.030972, 0.017900 )
+ga_view_zoom_set( 0.245333 )
+ga_view_center_set( 0.044980, 0.023153 )
+ga_view_zoom_set( 0.276000 )
+ga_view_center_set( 0.062765, 0.030413 )
+ga_view_zoom_set( 0.310500 )
+ga_view_center_set( 0.085558, 0.040607 )
+ga_view_zoom_set( 0.349313 )
+ga_view_center_set( 0.043010, 0.018636 )
+ga_view_zoom_set( 0.310500 )
+ga_view_center_set( 0.004514, -0.001006 )
+ga_view_zoom_set( 0.276000 )
+STRING sgm_surface_2curve_created_ids[VIRTUAL]
+sgm_const_surface_2curve( "1", "Curve 6", "Curve 3",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 1
+sgm_const_surface_2curve( "2", "Curve 7", "Curve 5",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 2
+sgm_const_surface_2curve( "3", "Curve 1", "Curve 4",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_2curve( "4", "Curve 6", "Curve 7",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 4
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( -0.030574, 0.002827 )
+ga_view_zoom_set( 0.318263 )
+ga_view_center_set( -0.064971, 0.006007 )
+ga_view_zoom_set( 0.358045 )
+ga_view_center_set( -0.103666, 0.009584 )
+ga_view_zoom_set( 0.402801 )
+ga_view_center_set( -0.065409, 0.006591 )
+ga_view_zoom_set( 0.358045 )
+ga_view_center_set( -0.031921, 0.004579 )
+ga_view_zoom_set( 0.318263 )
+ga_view_center_set( -0.002847, 0.003598 )
+ga_view_zoom_set( 0.282900 )
+ga_view_center_set( 0.020536, 0.005496 )
+ga_view_zoom_set( 0.251467 )
+ga_view_center_set( 0.039042, 0.019853 )
+ga_view_zoom_set( 0.223526 )
+ga_view_center_set( 0.055491, 0.032616 )
+ga_view_zoom_set( 0.198690 )
+ga_view_center_set( 0.070113, 0.043960 )
+ga_view_zoom_set( 0.176613 )
+ga_view_center_set( 0.102015, 0.068712 )
+ga_view_zoom_set( 0.128446 )
+ga_view_center_set( 0.111467, 0.076046 )
+ga_view_zoom_set( 0.114174 )
+ga_view_center_set( 0.105786, 0.080213 )
+ga_view_zoom_set( 0.128446 )
+ga_view_center_set( 0.099396, 0.084901 )
+ga_view_zoom_set( 0.144502 )
+ga_view_center_set( 0.092206, 0.090176 )
+ga_view_zoom_set( 0.162564 )
+ga_view_center_set( 0.084117, 0.096110 )
+ga_view_zoom_set( 0.182885 )
+ga_view_center_set( 0.075018, 0.102860 )
+ga_view_zoom_set( 0.205745 )
+ga_view_center_set( 0.084267, 0.094394 )
+ga_view_zoom_set( 0.182885 )
+ga_view_center_set( 0.092488, 0.086869 )
+ga_view_zoom_set( 0.162564 )
+ga_view_center_set( 0.099795, 0.080180 )
+ga_view_zoom_set( 0.144502 )
+ga_view_center_set( 0.106291, 0.074235 )
+ga_view_zoom_set( 0.128446 )
+ga_view_center_set( 0.112065, 0.068996 )
+ga_view_zoom_set( 0.114174 )
+ga_view_center_set( 0.117197, 0.064381 )
+ga_view_zoom_set( 0.101488 )
+sgm_verify_surface_duplicates( FALSE, FALSE )
+$# No Duplicate Surfaces.
+sgm_verify_surface_duplicates( FALSE, FALSE )
+$# No Duplicate Surfaces.
+sgm_verify_surface_duplicates( TRUE, TRUE )
+$# No Duplicate Surfaces.
+repaint_graphics(  )
+sgm_verify_surface_duplicates( FALSE, FALSE )
+$# No Duplicate Surfaces.
+ga_view_center_set( 0.110699, 0.064112 )
+ga_view_zoom_set( 0.114174 )
+ga_view_center_set( 0.103388, 0.063810 )
+ga_view_zoom_set( 0.128446 )
+ga_view_center_set( 0.095164, 0.063574 )
+ga_view_zoom_set( 0.144502 )
+ga_view_center_set( 0.086147, 0.064193 )
+ga_view_zoom_set( 0.162564 )
+ga_view_center_set( 0.074943, 0.068668 )
+ga_view_zoom_set( 0.182885 )
+ga_view_center_set( 0.060921, 0.074896 )
+ga_view_zoom_set( 0.205745 )
+ga_view_center_set( -0.011577, 0.087734 )
+ga_view_zoom_set( 0.257182 )
+ga_view_center_set( -0.056888, 0.095758 )
+ga_view_zoom_set( 0.289330 )
+ga_view_center_set( -0.107745, 0.104903 )
+ga_view_zoom_set( 0.325496 )
+ga_view_center_set( -0.057124, 0.094932 )
+ga_view_zoom_set( 0.289330 )
+ga_view_center_set( -0.012127, 0.086069 )
+ga_view_zoom_set( 0.257182 )
+ga_view_center_set( 0.027869, 0.078191 )
+ga_view_zoom_set( 0.228606 )
+gm_hilight_clear(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 19-Apr-21 20:13:27
