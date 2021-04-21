@@ -784,3 +784,108 @@ ga_view_zoom_set( 0.228606 )
 gm_hilight_clear(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 19-Apr-21 20:13:27
+$# Appending to existing journal file 
+$# C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria_1\Modelo_Geometria_1.db
+$# .jou at 21-Apr-21 19:06:22
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_viewport_size_set( "default_viewport", 15.788017, 7.306041, 1 )
+ga_view_center_set( 0.062150, 0.075751 )
+ga_view_zoom_set( 0.203205 )
+ga_view_center_set( 0.092622, 0.073582 )
+ga_view_zoom_set( 0.180627 )
+ga_view_center_set( 0.119708, 0.071654 )
+ga_view_zoom_set( 0.160557 )
+ga_view_center_set( 0.092622, 0.073582 )
+ga_view_zoom_set( 0.180627 )
+ga_view_center_set( 0.062150, 0.075751 )
+ga_view_zoom_set( 0.203205 )
+ga_view_center_set( 0.027869, 0.078191 )
+ga_view_zoom_set( 0.228606 )
+ga_view_center_set( -0.010697, 0.080936 )
+ga_view_zoom_set( 0.257182 )
+ga_view_center_set( -0.054083, 0.084024 )
+ga_view_zoom_set( 0.289330 )
+ga_view_center_set( -0.102894, 0.087498 )
+ga_view_zoom_set( 0.325496 )
+ga_view_center_set( -0.157805, 0.091407 )
+ga_view_zoom_set( 0.366183 )
+ga_view_center_set( -0.110070, 0.092368 )
+ga_view_zoom_set( 0.325496 )
+ga_view_center_set( -0.068208, 0.093564 )
+ga_view_zoom_set( 0.289330 )
+ga_view_center_set( -0.031605, 0.094728 )
+ga_view_zoom_set( 0.257182 )
+ga_view_center_set( 0.000931, 0.095763 )
+ga_view_zoom_set( 0.228606 )
+ga_view_center_set( 0.029851, 0.096683 )
+ga_view_zoom_set( 0.203205 )
+ga_view_center_set( 0.055559, 0.097501 )
+ga_view_zoom_set( 0.180627 )
+ga_view_center_set( 0.078410, 0.098228 )
+ga_view_zoom_set( 0.160557 )
+ga_view_center_set( 0.104902, 0.096009 )
+ga_view_zoom_set( 0.142718 )
+ga_view_center_set( 0.128252, 0.093936 )
+ga_view_zoom_set( 0.126860 )
+ga_view_center_set( 0.148651, 0.091872 )
+ga_view_zoom_set( 0.112765 )
+ga_view_center_set( 0.165798, 0.088024 )
+ga_view_zoom_set( 0.100235 )
+ga_view_center_set( 0.181004, 0.084604 )
+ga_view_zoom_set( 0.089098 )
+ga_view_center_set( 0.194521, 0.081564 )
+ga_view_zoom_set( 0.079198 )
+ga_view_center_set( 0.206480, 0.078861 )
+ga_view_zoom_set( 0.070398 )
+ga_view_center_set( 0.194521, 0.081591 )
+ga_view_zoom_set( 0.079198 )
+ga_view_center_set( 0.181066, 0.084663 )
+ga_view_zoom_set( 0.089098 )
+ga_view_center_set( 0.135658, 0.095028 )
+ga_view_zoom_set( 0.122510 )
+ga_view_center_set( 0.114846, 0.099779 )
+ga_view_zoom_set( 0.137823 )
+ga_view_center_set( 0.091432, 0.105124 )
+ga_view_zoom_set( 0.155051 )
+ga_view_center_set( 0.065458, 0.110343 )
+ga_view_zoom_set( 0.174433 )
+ga_view_center_set( 0.036237, 0.116215 )
+ga_view_zoom_set( 0.196237 )
+ga_view_center_set( -0.029510, 0.129426 )
+ga_view_zoom_set( 0.245296 )
+ga_view_center_set( -0.070602, 0.137683 )
+ga_view_zoom_set( 0.275958 )
+gm_visibility_widget( " Point 1:36 Curve 1:48 Surface 1:4", FALSE )
+gm_visibility_widget( " Point 1:36 Curve 1:48 Surface 1:4", TRUE )
+gm_visibility_widget( " Point 1:36 Curve 1:48 Surface 1:4", FALSE )
+gm_visibility_widget( " Point 1:36 Curve 1:48 Surface 1:4", TRUE )
+node_size( 9 )
+node_size( 0 )
+ga_viewport_size_set( "default_viewport", 14.361651, 7.306041, 1 )
+uil_file_saveas.copy( "C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria" // @
+"_1\Me\Geoemtria_1.1.db", FALSE )
+ga_viewport_unpost( "default_viewport" )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 19:11:37
+$# Appending to existing journal file 
+$# C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria_1\Modelo_Geometria_1.db
+$# .jou at 21-Apr-21 19:34:06
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Warning reported from application Group Applications
+$#     The viewport name is invalid.
+uil_viewport_post_viewports.posted_viewports( 1, ["default_viewport"] )
+uil_viewport_post_viewports.posted_viewports( 1, ["default_viewport"] )
+uil_file_saveas.copy( "C:\EUEP2\Git\EUE\Practica_2\Modelo\Modelo_Geometria" // @
+"_1\Me\Geometria_1.2.db", FALSE )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 19:35:13

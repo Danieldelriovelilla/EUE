@@ -291,3 +291,17 @@ $# 1 Surface Created: Surface 14
 uil_primary_file.db_save(  )
 ga_view_aa_set( 0., 0., 0. )
 ga_view_aa_set( -1.783785, 2.182488, -3.239443 )
+$# Appending to existing journal file 
+$# C:\EUEP2\Git\EUE\Practica_2\Modelo\Geometria_CAD\Geometria_1.db.jou at 
+$# 21-Apr-21 20:40:14
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\EUEP2\Git\EUE\Practica_2\Modelo\Geometria_CAD" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_viewport_size_set( "default_viewport", 8.569082, 7.338706, 1 )
+ga_view_aa_set( -4.015171, -10.998661, -0.908291 )
+uil_file_saveas.copy( "C:\EUEP2\Git\EUE\Practica_2\Bandeja_A\G1.db", FALSE )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 20:55:23
