@@ -1,0 +1,246 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_G1\BA_G1.db.jou at 
+$# 23-Apr-21 11:09:34
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_G1\BA_G1.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_G1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+uil_primary_file.db_save(  )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+point_size( 9 )
+asm_const_grid_xyz( "2", "[0.153333 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[0.230 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+asm_const_grid_xyz( "4", "[0.153333 0.063513 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 4
+asm_const_grid_xyz( "5", "[0.230 0.063513 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 5
+ga_view_center_set( -0.003734, 0.001029 )
+ga_view_zoom_set( 0.058517 )
+ga_view_center_set( -0.008316, 0.002282 )
+ga_view_zoom_set( 0.065831 )
+ga_view_center_set( -0.019538, 0.005369 )
+ga_view_zoom_set( 0.082289 )
+ga_view_center_set( -0.026586, 0.007332 )
+ga_view_zoom_set( 0.092575 )
+ga_view_center_set( -0.034514, 0.009541 )
+ga_view_zoom_set( 0.104147 )
+ga_view_center_set( -0.043434, 0.012026 )
+ga_view_zoom_set( 0.117165 )
+asm_const_grid_xyz( "6", "[0.230 0.230 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 6
+ga_view_center_set( -0.009455, 0.007907 )
+ga_view_zoom_set( 0.155250 )
+$# UNDO: Transform Point Rotate Command Point 2
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_rotate( "7", "Coord 0.3", 45., 0., "Coord 0", 1, FALSE,  @
+"Point 2 4", sgm_transform_point_created_ids )
+$# 2 Points created: Grid 7,8
+$# UNDO: Transform Point Rotate Command Point 3 5
+$# UNDO: Transform Point Rotate Command Point 5
+asm_transform_grid_rotate( "9", "Coord 0.3", 90., 0., "Coord 0", 1, FALSE,  @
+"Point 2", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 9
+asm_transform_grid_rotate( "10", "Coord 0.3", 90., 0., "Coord 0", 1, FALSE,  @
+"Point 3", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 10
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "11", "[0.063513 0.230 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 11
+ga_view_center_set( -0.001688, 0.003912 )
+ga_view_zoom_set( 0.155250 )
+ga_view_center_set( -0.003588, 0.008312 )
+ga_view_zoom_set( 0.174656 )
+ga_view_center_set( -0.005725, 0.013262 )
+ga_view_zoom_set( 0.196488 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 3", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 5", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 6", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 11", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 10", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 9", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 2", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 4", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 7", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 8", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+asm_const_line_2point( "13", "Point 1", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 13
+asm_const_line_2point( "14", "Point 7", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 14
+asm_const_line_2point( "15", "Point 5", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 15
+asm_const_line_2point( "16", "Point 8", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 16
+uil_primary_file.db_save(  )
+STRING sgm_surface_2curve_created_ids[VIRTUAL]
+sgm_const_surface_2curve( "1", "Curve 9", "Curve 13",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 1
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_2curve( "2", "Curve 3", "Curve 9",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 2
+sgm_const_surface_2curve( "3", "Curve 15", "Curve 14",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_2curve( "4", "Curve 11", "Curve 5",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 4
+sgm_const_surface_2curve( "5", "Curve 12", "Curve 6",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_2curve( "6", "Curve 11", "Curve 8",  @
+sgm_surface_2curve_created_ids )
+$# 1 Surface Created: Surface 6
+$# Error reported from application APP
+$#     Unable to process list: ""
+$? NO 16000101 
+ga_view_aa_set( -116.337074, -14.998652, -119.322113 )
+ga_view_aa_set( -34.261185, -15.926012, -34.283466 )
+sgm_verify_surface_duplicates( FALSE, FALSE )
+$# No Duplicate Surfaces.
+ga_view_center_set( -0.011692, 0.008950 )
+ga_view_zoom_set( 0.117152 )
+ga_view_center_set( -0.021677, 0.010885 )
+ga_view_zoom_set( 0.131796 )
+ga_view_center_set( -0.032911, 0.013062 )
+ga_view_zoom_set( 0.148271 )
+ga_view_center_set( -0.045549, 0.015511 )
+ga_view_zoom_set( 0.166805 )
+ga_view_center_set( -0.065005, 0.023436 )
+ga_view_zoom_set( 0.187656 )
+gm_hilight_clear(  )
+sgm_verify_surface_boundary( " ", 4.9999999E-06, 1 )
+$# Error reported from application Geometry
+$#     Surface list is blank. Input required data.
+$? NO 1000057 
+sgm_verify_surface_boundary( "Surface 1:6", 4.9999999E-06, 1 )
+$# Warning reported from application SGM
+$#     Free edges and/or non-manifold edges exist. Free edges may be due to 
+$# edges not matching directly or a missing face.  Non-manifold edges are due 
+$# to more than two surfaces connecting at the same edges. Edges are 
+$# highlighted and marked with primary markers for free edges and secondary 
+$# markers for non-manifold edges.
+sgm_incongruent_geom_display(  )
+ga_view_aa_set( -17.906296, -18.323063, -17.030788 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -104.509140, -45.296795, -73.234680 )
+ga_view_aa_set( -138.184235, -25.187735, -110.417351 )
+ga_view_aa_set( 176.294815, 25.701401, -104.928520 )
+ga_view_center_set( 0.007116, 0.004521 )
+ga_view_zoom_set( 0.131195 )
+ga_view_aa_set( -169.563782, -22.537468, -142.190323 )
+ga_view_aa_set( -35.049278, -16.666485, -157.826782 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -35.994419, -50.720684, -35.683334 )
+STRING sgm_edit_surface_r_reversed_ids[VIRTUAL]
+sgm_edit_surface_reverse( TRUE, "Surface 5", sgm_edit_surface_r_reversed_ids )
+$# 1 Surface Reversed: Surface 5
+sgm_edit_surface_reverse( TRUE, "Surface 4", sgm_edit_surface_r_reversed_ids )
+$# 1 Surface Reversed: Surface 4
+sgm_edit_surface_reverse( TRUE, "Surface 3", sgm_edit_surface_r_reversed_ids )
+$# 1 Surface Reversed: Surface 3
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0.737086, 13.857339, -3.904474 )
+$# UNDO: Transform Surface Rotate for Surface 1:6
+STRING sgm_transform_surf__created_ids[VIRTUAL]
+sgm_transform_rotate( "7", "surface", "Coord 0.3", 90., 0., "Coord 0", 3,  @
+FALSE, "Surface 1:6", sgm_transform_surf__created_ids )
+$# 18 Surfaces Created: Surfaces 7:24
+ga_view_aa_set( 5.748300, -5.130999, -3.503084 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.075945, 0.003038 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( 14.464983, -27.657038, 0.197538 )
+ga_view_center_set( -0.000829, 0.000155 )
+ga_view_zoom_set( 0.254213 )
+ga_view_center_set( -0.001567, 0.000294 )
+ga_view_zoom_set( 0.225967 )
+ga_view_center_set( -0.002222, 0.000417 )
+ga_view_zoom_set( 0.200859 )
+ga_view_center_set( -0.002804, 0.000526 )
+ga_view_zoom_set( 0.178542 )
+ga_view_center_set( -0.002222, 0.000417 )
+ga_view_zoom_set( 0.200859 )
+ga_view_aa_set( 4.682115, -21.865616, -1.808332 )
+ga_view_aa_set( 0., 0., 0. )
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.044655, 0.003980 )
+ga_view_zoom_set( 0.225967 )
+ga_view_center_set( -0.092392, 0.007989 )
+ga_view_zoom_set( 0.254213 )
+ga_view_center_set( -0.146096, 0.012499 )
+ga_view_zoom_set( 0.285989 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 23-Apr-21 11:37:20
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_G1\BA_G1.db.jou at 
+$# 23-Apr-21 11:57:24
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_G1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+uil_file_saveas.copy( "C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_" // @
+"G1\BA_G1_Ti\BA_G1_Ti.db", FALSE )
+uil_file_saveas.copy( "C:\Users\danie\Desktop\EUE\Practica_2\Bandeja_A\BA_" // @
+"G1\BA_G1_Al\BA_G1_Al.db", FALSE )
+ga_view_center_set( -0.101308, 0.018972 )
+ga_view_zoom_set( 0.321738 )
+ga_view_center_set( -0.050921, 0.026254 )
+ga_view_zoom_set( 0.361955 )
+ga_view_center_set( -0.097633, 0.018447 )
+ga_view_zoom_set( 0.321738 )
+ga_view_center_set( -0.138922, 0.011507 )
+ga_view_zoom_set( 0.285989 )
+ga_view_center_set( -0.175520, 0.005339 )
+ga_view_zoom_set( 0.254213 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 23-Apr-21 11:59:09
