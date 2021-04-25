@@ -1,0 +1,34 @@
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+ECHO = NONE
+LINES = 50000
+SUBCASE 1
+   SUBTITLE = Aceleracion_Y_50g
+   SPC = 2
+   LOAD = 2
+   DISPLACEMENT(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+   STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   FORCE(SORT1,REAL,BILIN)=ALL
+$ Direct Text Input for this Subcase
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ Loads for Load Case : Aceleracion_X_50g
+SPCADD   2       1
+LOAD     2       1.      1.      1
+$ Displacement Constraints of Load Set : BC_123
+SPC1     1       123     1039    1051    1082    1113    1144    1145
+         1152
+SPC1     1       123     1156    THRU    1236
+$ Gravity Loading of Load Set : Aceleracion_X_50g
+GRAV*    1               0               490.50003       0.
+*        -1.             0.
+$
+INCLUDE '../BA_G1_Ti.bdf'
+$
+$ Referenced Coordinate Frames
+ENDDATA ebeeaabc
