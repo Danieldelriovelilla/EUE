@@ -1,0 +1,29 @@
+SOL 103
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = Cabecero_Modos
+ECHO = NONE
+LINES = 50000
+RESVEC = YES
+SUBCASE 1
+   SUBTITLE = Modos
+   METHOD = 1
+   SPC = 2
+   VECTOR(SORT1,REAL) = ALL
+$ Direct Text Input for this Subcase
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+EIGRL    1                       10      0                       MASS
+$ Loads for Load Case : Modos
+SPCADD   2       1
+$ Displacement Constraints of Load Set : BC_123
+SPC1     1       123     1039    1051    1082    1113    1144    1145
+         1152
+SPC1     1       123     1156    THRU    1236
+$
+INCLUDE '../BA_G1_Al.bdf'
+$
+$ Referenced Coordinate Frames
+ENDDATA 33030d0c
