@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/1391 (DESKTOP-NHC7R5K)'
+MODEL='Xeon/2781 (DESKTOP-NHC7R5K)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/cabecero_modos.T11588_5'
-DBS='c:/scratch/cabecero_modos.T11588_5'
+SDIR='c:/scratch/cabecero_modos.T7668_55'
+DBS='c:/scratch/cabecero_modos.T7668_55'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16268 MB
- Physical memory available:           9560 MB
+ Physical memory available:           9033 MB
  Paging file size:                   18700 MB
- Paging file size available:         10004 MB
+ Paging file size available:          9711 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,8 +56,8 @@ System configuration:
  Hostname:         DESKTOP-NHC7R5K
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/956
- Clock freq.:      956 MHz
+ Model:            Xeon/3042
+ Clock freq.:      3042 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Sun Apr 25 21:39:05 Hdvr 2021 
- 21:39:08  Beginning Analysis
+MSC Nastran started  Mon Apr 26 13:54:55 Hdvr 2021 
+ 13:54:56  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,39 +79,39 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 21:39:08  MSC Authorization Information - Checkout Successful (1016, 0)
- 21:39:08  -------------------------------------------------------------
- 21:39:08  Acquired 1 license for Student Edition Nastran
+ 13:54:56  MSC Authorization Information - Checkout Successful (1016, 0)
+ 13:54:56  -------------------------------------------------------------
+ 13:54:56  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 21:39:08  Reading INCLUDE file "../BA_G2_Al.bdf"
- 21:39:08  3250 records read from INCLUDE file "../BA_G2_Al.bdf"
- 21:39:08  30 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/modos/cabecero_modos.bdf"
- 21:39:08  A total of 3280 records were read from 2 files.
+ 13:54:56  Reading INCLUDE file "../BA_G2_Al.bdf"
+ 13:54:56  3250 records read from INCLUDE file "../BA_G2_Al.bdf"
+ 13:54:56  30 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/modos/cabecero_modos.bdf"
+ 13:54:56  A total of 3280 records were read from 2 files.
 
 Processing of bulk data entries is complete.
 
- 21:39:08  Analysis started.
- 21:39:08  Geometry access/verification to CAD part initiated (if needed).
- 21:39:08  Geometry access/verification to CAD part successfully completed (if needed).
- 21:39:08  Finite element model generation started.
- 21:39:08  Finite element model generated 4836 degrees of freedom.
- 21:39:08  Finite element model generation successfully completed.
- 21:39:08  Application of Loads and Boundary Conditions to the finite element model started.
- 21:39:08  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 21:39:09  Solution of the system equations for normal modes started.
- 21:39:09  Solution of the system equations for normal modes successfully completed.
- 21:39:09  Normal modes analysis completed.
- 21:39:09  14 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/modos/cabecero_modos.bdf"
- 21:39:09  NSEXIT: EXIT(0)
- 21:39:09  Analysis complete  0
-Real:        1.671 seconds ( 0:00:01.671)
-User:        1.125 seconds ( 0:00:01.125)
-Sys:         0.578 seconds ( 0:00:00.578)
+ 13:54:56  Analysis started.
+ 13:54:56  Geometry access/verification to CAD part initiated (if needed).
+ 13:54:56  Geometry access/verification to CAD part successfully completed (if needed).
+ 13:54:56  Finite element model generation started.
+ 13:54:56  Finite element model generated 4836 degrees of freedom.
+ 13:54:56  Finite element model generation successfully completed.
+ 13:54:56  Application of Loads and Boundary Conditions to the finite element model started.
+ 13:54:56  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 13:54:56  Solution of the system equations for normal modes started.
+ 13:54:57  Solution of the system equations for normal modes successfully completed.
+ 13:54:57  Normal modes analysis completed.
+ 13:54:57  14 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/modos/cabecero_modos.bdf"
+ 13:54:57  NSEXIT: EXIT(0)
+ 13:54:57  Analysis complete  0
+Real:        1.240 seconds ( 0:00:01.240)
+User:        0.921 seconds ( 0:00:00.921)
+Sys:         0.296 seconds ( 0:00:00.296)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -133,4 +133,4 @@ Sys:         0.578 seconds ( 0:00:00.578)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Sun Apr 25 21:39:10 Hdvr 2021 
+MSC Nastran finished Mon Apr 26 13:54:57 Hdvr 2021 

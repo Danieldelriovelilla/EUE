@@ -1635,7 +1635,7 @@ $ Description of Material : Date: 21-Apr-21           Time: 20:56:42
 MAT1*    1               7.0999998+10                    .33
 *        2800.           2.2-5           20.
 $ Multipoint Constraints of the Entire Model
-RBE2     2       1       123     1007    1054    1142    1213
+RBE2     2       1       123456  1007    1054    1142    1213
 $ Nodes of the Entire Model
 GRID*    1                               0.              0.
 *       .079999998211861

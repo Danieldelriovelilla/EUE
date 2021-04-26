@@ -1,13 +1,13 @@
 MSC Nastran V2020 (Intel Windows 10 Pro 6.2 9200) Control File: 
 ----------------------------------------------------------------- 
 Nastran BUFFSIZE=8193 $(c:/program files/msc.software/napa_se/2020/nastran/conf/nast20200.rcf[2])
-JID='c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/inercial_x/cabecero_inercial_x.bdf'
-OUT='./cabecero_inercial_x'
+JID='c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_ti/cabeceros/inercial_y/cabecero_inercial_y.bdf'
+OUT='./cabecero_inercial_y'
 MEM=527MB      $ 
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/1391 (DESKTOP-NHC7R5K)'
+MODEL='Xeon/1541 (DESKTOP-NHC7R5K)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/cabecero_inercial_x.T6868_8'
-DBS='c:/scratch/cabecero_inercial_x.T6868_8'
+SDIR='c:/scratch/cabecero_inercial_y.T7596_21'
+DBS='c:/scratch/cabecero_inercial_y.T7596_21'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -31,13 +31,13 @@ MSGCAT='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/anal
 MSGDEST='f06'
 NEWS='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/news.txt'
 ----------------------------------------------------------------- 
-MSC_ISHELLPATH=c:\users\danie\desktop\eue\practica_2\ba\ba_g2\ba_g2_al\cabeceros\inercial_x 
+MSC_ISHELLPATH=c:\users\danie\desktop\eue\practica_2\ba\ba_g2\ba_g2_ti\cabeceros\inercial_y 
 MSC_JIDPATH= 
 PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\Git\cmd;C:\Users\danie\AppData\Local\Microsoft\WindowsApps;C:\Users\danie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\danie\AppData\Local\GitHubDesktop\bin;C:\Users\danie\AppData\Local\atom\bin 
 SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res\SCAServiceCatalog.xml 
 SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res 
-Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Inercial_X\Cabecero_Inercial_X.bdf 
-Current Dir: C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Inercial_X 
+Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Ti\Cabeceros\Inercial_Y\Cabecero_Inercial_Y.bdf 
+Current Dir: C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Ti\Cabeceros\Inercial_Y 
 Time Cmd:    c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\msctime 
 Executable:  c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\analysis.exe 
 Arch= Kywd:  [Not specified]  
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16268 MB
- Physical memory available:           9451 MB
+ Physical memory available:           9407 MB
  Paging file size:                   18700 MB
- Paging file size available:          9901 MB
+ Paging file size available:          9451 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,8 +56,8 @@ System configuration:
  Hostname:         DESKTOP-NHC7R5K
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/867
- Clock freq.:      867 MHz
+ Model:            Xeon/2005
+ Clock freq.:      2043 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Sun Apr 25 21:42:09 Hdvr 2021 
- 21:42:11  Beginning Analysis
+MSC Nastran started  Mon Apr 26 13:25:22 Hdvr 2021 
+ 13:25:23  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,39 +79,39 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 21:42:11  MSC Authorization Information - Checkout Successful (1016, 0)
- 21:42:11  -------------------------------------------------------------
- 21:42:11  Acquired 1 license for Student Edition Nastran
+ 13:25:23  MSC Authorization Information - Checkout Successful (1016, 0)
+ 13:25:23  -------------------------------------------------------------
+ 13:25:23  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 21:42:12  Reading INCLUDE file "../BA_G2_Al.bdf"
- 21:42:12  3250 records read from INCLUDE file "../BA_G2_Al.bdf"
- 21:42:12  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/inercial_x/cabecero_inercial_x.bdf"
- 21:42:12  A total of 3285 records were read from 2 files.
+ 13:25:24  Reading INCLUDE file "../BA_G2_Ti.bdf"
+ 13:25:24  3250 records read from INCLUDE file "../BA_G2_Ti.bdf"
+ 13:25:24  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_ti/cabeceros/inercial_y/cabecero_inercial_y.bdf"
+ 13:25:24  A total of 3285 records were read from 2 files.
 
 Processing of bulk data entries is complete.
 
- 21:42:12  Analysis started.
- 21:42:12  Geometry access/verification to CAD part initiated (if needed).
- 21:42:12  Geometry access/verification to CAD part successfully completed (if needed).
- 21:42:12  Finite element model generation started.
- 21:42:12  Finite element model generated 4836 degrees of freedom.
- 21:42:12  Finite element model generation successfully completed.
- 21:42:12  Application of Loads and Boundary Conditions to the finite element model started.
- 21:42:12  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 21:42:12  Solution of the system equations for linear statics started.
- 21:42:12  Solution of the system equations for linear statics successfully completed.
- 21:42:12  Linear static analysis completed.
- 21:42:12  16 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_al/cabeceros/inercial_x/cabecero_inercial_x.bdf"
- 21:42:12  NSEXIT: EXIT(0)
- 21:42:12  Analysis complete  0
-Real:        1.365 seconds ( 0:00:01.365)
-User:        0.796 seconds ( 0:00:00.796)
-Sys:         0.578 seconds ( 0:00:00.578)
+ 13:25:24  Analysis started.
+ 13:25:24  Geometry access/verification to CAD part initiated (if needed).
+ 13:25:24  Geometry access/verification to CAD part successfully completed (if needed).
+ 13:25:24  Finite element model generation started.
+ 13:25:24  Finite element model generated 4836 degrees of freedom.
+ 13:25:24  Finite element model generation successfully completed.
+ 13:25:24  Application of Loads and Boundary Conditions to the finite element model started.
+ 13:25:24  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 13:25:24  Solution of the system equations for linear statics started.
+ 13:25:24  Solution of the system equations for linear statics successfully completed.
+ 13:25:25  Linear static analysis completed.
+ 13:25:25  16 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_g2/ba_g2_ti/cabeceros/inercial_y/cabecero_inercial_y.bdf"
+ 13:25:25  NSEXIT: EXIT(0)
+ 13:25:25  Analysis complete  0
+Real:        2.449 seconds ( 0:00:02.449)
+User:        1.093 seconds ( 0:00:01.093)
+Sys:         0.921 seconds ( 0:00:00.921)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -133,4 +133,4 @@ Sys:         0.578 seconds ( 0:00:00.578)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Sun Apr 25 21:42:13 Hdvr 2021 
+MSC Nastran finished Mon Apr 26 13:25:26 Hdvr 2021 
