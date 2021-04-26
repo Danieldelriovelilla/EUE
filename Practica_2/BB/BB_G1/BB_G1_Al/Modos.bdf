@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     26, 2021 at 23:36:47 by
+$ MSC.Nastran input file created on April     26, 2021 at 23:43:11 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -16,7 +16,6 @@ $ Direct Text Input for this Subcase
    METHOD = 1
    SPC = 2
    VECTOR(SORT1,REAL)=ALL
-   SPCFORCES(SORT1,REAL)=ALL
 BEGIN BULK
 $ Direct Text Input for Bulk Data
 PARAM    POST    0
@@ -1338,6 +1337,8 @@ CBUSH    10      4       1153    22      0.      1.      0.
 CBUSH    11      4       1102    17      0.      1.      0.
 CBUSH    12      4       1124    18      0.      1.      0.
 CBUSH    13      4       1149    21      0.      1.      0.
+$ Elements and Element Properties for region : 0D_Mass_43-32kg
+CONM2    2784    2               43.32
 $ Referenced Material Records
 $ Material Record : Al_7075
 $ Description of Material : Date: 23-Apr-21           Time: 12:02:47
@@ -1345,11 +1346,26 @@ MAT1*    1               7.0999998+10                    .33
 *        2800.           2.2-5           20.
 $ Multipoint Constraints of the Entire Model
 $ ID conflict : the PATRAN MPC ID was 1
-RBE2*    2784            1               123             1008
+RBE2*    2785            1               123             1008
 *        1009            1070            1101           2.200000017183-5
+$ ID conflict : the PATRAN MPC ID was 2
+RBE2     2786    2       123456  1039    1051    1082    1113    1144
+         1145    1152    1156    1157    1158    1159    1160    1161
+         1162    1163    1164    1165    1166    1167    1168    1169
+         1170    1171    1172    1173    1174    1175    1176    1177
+         1178    1179    1180    1181    1182    1183    1184    1185
+         1186    1187    1188    1189    1190    1191    1192    1193
+         1194    1195    1196    1197    1198    1199    1200    1201
+         1202    1203    1204    1205    1206    1207    1208    1209
+         1210    1211    1212    1213    1214    1215    1216    1217
+         1218    1219    1220    1221    1222    1223    1224    1225
+         1226    1227    1228    1229    1230    1231    1232    1233
+         1234    1235    1236
 $ Nodes of the Entire Model
 GRID*    1                               0.              0.
 *       .079999998211861
+GRID*    2                               0.              0.
+*       .379999995231628
 GRID*    11                             .153332993388176 .0635130032897
 *        -.02
 GRID*    12                             .063512325286865.153333276510239
@@ -3036,4 +3052,4 @@ SPCADD   2       1
 $ Displacement Constraints of Load Set : BC_123456
 SPC1     1       123456  11      THRU    22
 $ Referenced Coordinate Frames
-ENDDATA 3972d91e
+ENDDATA e759c7a3

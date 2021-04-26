@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/2867 (DESKTOP-NHC7R5K)'
+MODEL='Xeon/2521 (DESKTOP-NHC7R5K)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/modos.T4808_48'
-DBS='c:/scratch/modos.T4808_48'
+SDIR='c:/scratch/modos.T5752_12'
+DBS='c:/scratch/modos.T5752_12'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -47,9 +47,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16268 MB
- Physical memory available:          12210 MB
+ Physical memory available:          12178 MB
  Paging file size:                   18700 MB
- Paging file size available:         13158 MB
+ Paging file size available:         13121 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -57,8 +57,8 @@ System configuration:
  Hostname:         DESKTOP-NHC7R5K
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/1206
- Clock freq.:      1217 MHz
+ Model:            Xeon/2950
+ Clock freq.:      2694 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -71,8 +71,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Mon Apr 26 23:36:48 Hdvr 2021 
- 23:36:51  Beginning Analysis
+MSC Nastran started  Mon Apr 26 23:43:12 Hdvr 2021 
+ 23:43:13  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -80,36 +80,36 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 23:36:53  MSC Authorization Information - Checkout Successful (1016, 0)
- 23:36:53  -------------------------------------------------------------
- 23:36:53  Acquired 1 license for Student Edition Nastran
+ 23:43:13  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:43:13  -------------------------------------------------------------
+ 23:43:13  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 23:36:55  3039 records read from JID file "C:\Users\danie\Desktop\EUE\Practica_2\BB\BB_G1\BB_G1_Al\modos.bdf"
+ 23:43:13  3055 records read from JID file "C:\Users\danie\Desktop\EUE\Practica_2\BB\BB_G1\BB_G1_Al\modos.bdf"
 
 Processing of bulk data entries is complete.
 
- 23:36:55  Analysis started.
- 23:36:55  Geometry access/verification to CAD part initiated (if needed).
- 23:36:55  Geometry access/verification to CAD part successfully completed (if needed).
- 23:36:55  Finite element model generation started.
- 23:36:55  Finite element model generated 5052 degrees of freedom.
- 23:36:55  Finite element model generation successfully completed.
- 23:36:55  Application of Loads and Boundary Conditions to the finite element model started.
- 23:36:55  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 23:36:55  Solution of the system equations for normal modes started.
- 23:36:56  Solution of the system equations for normal modes successfully completed.
- 23:36:56  Normal modes analysis completed.
- 23:36:56  20 records read from JID file "C:\Users\danie\Desktop\EUE\Practica_2\BB\BB_G1\BB_G1_Al\modos.bdf"
- 23:36:56  NSEXIT: EXIT(0)
- 23:36:56  Analysis complete  0
-Real:        6.104 seconds ( 0:00:06.104)
-User:        0.906 seconds ( 0:00:00.906)
-Sys:         0.750 seconds ( 0:00:00.750)
+ 23:43:14  Analysis started.
+ 23:43:14  Geometry access/verification to CAD part initiated (if needed).
+ 23:43:14  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:43:14  Finite element model generation started.
+ 23:43:14  Finite element model generated 5058 degrees of freedom.
+ 23:43:14  Finite element model generation successfully completed.
+ 23:43:14  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:43:14  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:43:14  Solution of the system equations for normal modes started.
+ 23:43:14  Solution of the system equations for normal modes successfully completed.
+ 23:43:14  Normal modes analysis completed.
+ 23:43:14  19 records read from JID file "C:\Users\danie\Desktop\EUE\Practica_2\BB\BB_G1\BB_G1_Al\modos.bdf"
+ 23:43:14  NSEXIT: EXIT(0)
+ 23:43:14  Analysis complete  0
+Real:        1.176 seconds ( 0:00:01.176)
+User:        0.781 seconds ( 0:00:00.781)
+Sys:         0.468 seconds ( 0:00:00.468)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -131,4 +131,4 @@ Sys:         0.750 seconds ( 0:00:00.750)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Mon Apr 26 23:36:57 Hdvr 2021 
+MSC Nastran finished Mon Apr 26 23:43:15 Hdvr 2021 
