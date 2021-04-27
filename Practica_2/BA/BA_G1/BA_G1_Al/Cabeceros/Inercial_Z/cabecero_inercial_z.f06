@@ -26,7 +26,7 @@
                                               * *          AUG  4, 2020           * *
                                               * *                                 * *
                                               * *              Intel              * *
-                                              * *MODEL Xeon/1739 (DESKTOP-NHC7R5K * *
+                                              * *MODEL Xeon/1133 (DESKTOP-NHC7R5K * *
                                               * *     Windows 10 Pro 6.2 9200     * *
                                               * * Compiled for 8664 (SINGLE Mode) * *
                                               * *                                 * *
@@ -193,14 +193,14 @@
   
       http://www.mscsoftware.com/Contents/Services/Training/
   
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     1
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
                                                                                                                                     
                                                                                                                                     
      NASTRAN BUFFSIZE=8193 $(C:/PROGRAM FILES/MSC.SOFTWARE/NAPA_SE/2020/NASTRAN/CONF/
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     2
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -208,7 +208,7 @@
                                                                                                                                     
      SOL 101                                                                                 
      CEND                                                                                    
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     3
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     3
                                                                                                                                     
 0                                                                                                                                   
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -226,17 +226,24 @@
                  10         STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL                                         
                  11         STRESS(SORT1,REAL,VONMISES,BILIN)=ALL                                                
                  12         FORCE(SORT1,REAL,BILIN)=ALL                                                          
-                 13      $ DIRECT TEXT INPUT FOR THIS SUBCASE                                                    
-                 14      BEGIN BULK                                                                              
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     4
+                 13         WEIGHTCHECK(PRINT, SET=ALL) = YES                                                    
+                 14      $ DIRECT TEXT INPUT FOR THIS SUBCASE                                                    
+                 15      BEGIN BULK                                                                              
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     4
                                                                                                                                     
 0                                                                                                                                   
                                               I N P U T   B U L K   D A T A   E C H O                                               
                  ENTRY                                                                                                              
                  COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
-                              $INCLUDE "../BA_G1_Al.bdf"
-                              $END OF INCLUDE "../BA_G1_Al.bdf"
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     5
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Shell.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Shell.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Shell.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Rig_Ext.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Rig_Ext.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Rig_Int.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Rig_Int.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1_Al\Cabeceros\Rig_Int.bdf"
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     5
                                                                                                                                     
 0                                                                                                                                   
                                         M O D E L   S U M M A R Y          BULK = 0
@@ -259,7 +266,45 @@
  ^^^     
  ^^^ >>> IFP OPERATIONS COMPLETE <<< 
  ^^^     
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     6
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = J       
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.410902E+01  9.901811E-20  0.000000E+00  0.000000E+00  9.530695E-01  2.496764E-09 *
+                      *  9.901811E-20  1.410902E+01  0.000000E+00 -9.530695E-01  0.000000E+00  1.645530E-09 *
+                      *  0.000000E+00  0.000000E+00  1.410902E+01 -2.496764E-09 -1.645530E-09  0.000000E+00 *
+                      *  0.000000E+00 -9.530695E-01 -2.496764E-09  1.176026E-01  6.427530E-11  7.462581E-12 *
+                      *  9.530695E-01  0.000000E+00 -1.645530E-09  6.427530E-11  1.176026E-01 -1.213016E-11 *
+                      *  2.496764E-09  1.645530E-09  0.000000E+00  7.462581E-12 -1.213016E-11  8.150119E-02 *
+                                                                 S
+                                           *  1.000000E+00  0.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  1.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  0.000000E+00  1.000000E+00 *
+                               DIRECTION
+                          MASS AXIS SYSTEM (S)     MASS              X-C.G.        Y-C.G.        Z-C.G.
+                                  X            1.410902E+01      0.000000E+00 -1.769622E-10  6.755034E-02
+                                  Y            1.410902E+01      1.166296E-10  0.000000E+00  6.755034E-02
+                                  Z            1.410902E+01      1.166296E-10 -1.769622E-10  0.000000E+00
+                                                                I(S)
+                                           *  5.322240E-02 -6.427530E-11 -1.186187E-10 *
+                                           * -6.427530E-11  5.322240E-02  1.807875E-10 *
+                                           * -1.186187E-10  1.807875E-10  8.150119E-02 *
+                                                                I(Q)
+                                           *  5.322240E-02                             *
+                                           *                5.322240E-02               *
+                                           *                              8.150119E-02 *
+                                                                 Q
+                                           *  1.000000E+00  0.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  1.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  0.000000E+00  1.000000E+00 *
+
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     7
+                                                                                                                                    
+0                                                                                                                                   
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     8
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -276,7 +321,7 @@
                MY       ----          ----          ----          ----       0.000000E+00     ----                                  
                MZ       ----          ----          ----          ----          ----       0.000000E+00                             
              TOTALS  0.000000E+00  0.000000E+00 -1.107276E+04  1.959461E-06  1.291412E-06  0.000000E+00
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     7
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE     9
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
   
@@ -286,7 +331,7 @@
     FOR DATA BLOCK KLL     
     LOAD SEQ. NO.             EPSILON              EXTERNAL WORK      EPSILONS LARGER THAN 0.001 ARE FLAGGED WITH ASTERISKS
                 1          3.5134342E-13          2.0888790E+01
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     8
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    10
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -303,28 +348,28 @@
                MY       ----          ----          ----          ----       0.000000E+00     ----                                  
                MZ       ----          ----          ----          ----          ----       0.000000E+00                             
              TOTALS -1.341505E-11 -4.196465E-11  1.107276E+04 -1.959802E-06 -1.291340E-06 -7.510252E-12
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     9
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    11
                                                                                                                                     
 0                                                                                                                                   
 0                                                  MAXIMUM  SPCFORCES       
   SUBCASE/
   DAREA ID        T1             T2             T3             R1             R2             R3
 0        1   4.3848963E+03  4.3848964E+03  3.9135614E+03  0.0000000E+00  0.0000000E+00  0.0000000E+00
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    10
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    12
                                                                                                                                     
 0                                                                                                                                   
 0                                                  MAXIMUM  DISPLACEMENTS   
   SUBCASE/
   DAREA ID        T1             T2             T3             R1             R2             R3
 0        1   2.4127634E-05  2.4127635E-05  6.4174364E-03  5.8333949E-02  5.8333949E-02  4.5912644E-03
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    11
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    13
                                                                                                                                     
 0                                                                                                                                   
 0                                                  MAXIMUM  APPLIED LOADS   
   SUBCASE/
   DAREA ID        T1             T2             T3             R1             R2             R3
 0        1   0.0000000E+00  0.0000000E+00  9.4176006E+03  0.0000000E+00  0.0000000E+00  0.0000000E+00
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    12
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    14
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -1161,7 +1206,7 @@
           1826      G      1.246155E-06   2.735129E-06  -6.036088E-03  -5.944524E-03  -1.172190E-02  -1.820598E-04
           1827      G     -1.723772E-06   3.318382E-06  -6.299929E-03  -5.801183E-03  -5.262884E-03  -1.545872E-04
           1828      G     -6.689449E-08   3.055981E-06  -6.194839E-03  -6.010170E-03  -8.276033E-03  -1.717949E-04
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    13
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    15
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -1256,7 +1301,7 @@
           1234      G     -5.060183E+02   9.274679E+01   3.255796E+01   0.0            0.0            0.0
           1235      G     -3.969270E+02   9.106935E+01   2.887012E+01   0.0            0.0            0.0
           1236      G     -3.282309E+02   6.887351E+01   3.672348E+01   0.0            0.0            0.0
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    14
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    16
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -1515,7 +1560,7 @@
          1285     1.803903E-01 -8.376711E-02  -1.219405E-01 -1.219917E-01   1.452754E+01  1.836761E+00   1.556356E+01  -2.746455E+00
          1286     1.053598E-01 -1.160037E-01  -6.510795E-02 -2.106444E-01   8.191285E+00  4.547659E+00   1.071796E+01  -2.342893E+00
          1287     5.565636E-02 -2.053706E-01  -3.964456E-02 -2.012696E-01   4.579381E+00 -1.970583E-01   4.263498E+00  -1.731968E+00
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    15
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    17
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -5444,7 +5489,7 @@
                 1128 -2.394524E+04 -1.775149E+04  1.325170E+04  1.309141E+01  1.058826E+01  6.833605E+00 -2.757210E+02 -2.432319E+02
                 1008 -4.017692E+04 -1.772699E+04  1.376411E+04  2.241689E+01  1.044748E+01  6.543063E+00 -2.757210E+02 -2.432319E+02
                 1007 -4.138937E+04 -2.172600E+04  1.392401E+04  2.312498E+01  2.517243E+01  6.073059E+00 -2.757210E+02 -2.432319E+02
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    16
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    18
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -5955,7 +6000,7 @@
              6.128345E-05   4.826078E-05  -6.128345E-05  -4.826078E-05                  6.360587E-05  -5.896104E-05 
 0    1287    4.783470E-05   5.896690E-05  -4.783470E-05  -5.896690E-05   9.238349E-07   5.989073E-05  -5.804306E-05 
              5.629925E-05   4.836967E-05  -5.629925E-05  -4.836967E-05                  5.722308E-05  -5.537541E-05 
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    17
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    19
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -17723,7 +17768,7 @@
                 1007   0.0           -2.409844E-04 -5.681344E-05  2.608301E-04    62.6129   1.075011E-05 -3.085480E-04  2.093740E-04
                       -1.000000E+00   3.130581E-01  3.705885E-01  3.412888E-01    49.7841   5.148752E-01  1.687714E-01  3.030834E-01
 
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    18
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    20
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -18234,7 +18279,7 @@
              4.351125E+06   3.426515E+06  -4.351125E+06  -3.426515E+06                  4.516017E+06  -4.186234E+06 
 0    1287    3.396264E+06   4.186650E+06  -3.396263E+06  -4.186650E+06   6.559227E+04   4.252242E+06  -4.121057E+06 
              3.997246E+06   3.434247E+06  -3.997246E+06  -3.434247E+06                  4.062839E+06  -3.931654E+06 
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    19
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    21
       ACELERACION_Z_80G                                                                                                             
 0                                                                                                            SUBCASE 1              
  
@@ -30002,7 +30047,7 @@
                 1007  -1.000000E-03   1.399279E+07  2.689565E+07  1.607159E+07    55.9357   3.776234E+07  3.126108E+06  3.630038E+07
                        1.000000E-03  -5.538216E+07 -4.862165E+07 -2.147584E+06   -73.7854  -4.799713E+07 -5.600668E+07  5.246249E+07
 
-1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    20
+1                                                       **STUDENT EDITION*    APRIL  27, 2021  MSC Nastran  8/ 4/20   PAGE    22
                                                                                                                                     
 0                                                                                                                                   
  * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71

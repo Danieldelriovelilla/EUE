@@ -10,6 +10,7 @@ SUBCASE 1
    METHOD = 1
    SPC = 2
    VECTOR(SORT1,REAL) = ALL
+   WEIGHTCHECK(PRINT, SET=ALL) = YES
 $ Direct Text Input for this Subcase
 BEGIN BULK
 $ Direct Text Input for Bulk Data
