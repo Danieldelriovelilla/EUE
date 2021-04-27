@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     26, 2021 at 23:43:11 by
+$ MSC.Nastran input file created on April     27, 2021 at 12:07:31 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -1346,7 +1346,7 @@ MAT1*    1               7.0999998+10                    .33
 *        2800.           2.2-5           20.
 $ Multipoint Constraints of the Entire Model
 $ ID conflict : the PATRAN MPC ID was 1
-RBE2*    2785            1               123             1008
+RBE2*    2785            1               123456          1008
 *        1009            1070            1101           2.200000017183-5
 $ ID conflict : the PATRAN MPC ID was 2
 RBE2     2786    2       123456  1039    1051    1082    1113    1144
@@ -3052,4 +3052,4 @@ SPCADD   2       1
 $ Displacement Constraints of Load Set : BC_123456
 SPC1     1       123456  11      THRU    22
 $ Referenced Coordinate Frames
-ENDDATA e759c7a3
+ENDDATA 873c17ce

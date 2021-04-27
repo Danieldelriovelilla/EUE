@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     27, 2021 at 11:20:34 by
+$ MSC.Nastran input file created on April     27, 2021 at 12:03:59 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -1667,6 +1667,8 @@ CBUSH    10      4       1223    20      0.      1.      0.
 CBUSH    11      4       1235    21      0.      1.      0.
 CBUSH    12      4       1267    22      0.      1.      0.
 CBUSH    13      4       1008    11      0.      1.      0.
+$ Elements and Element Properties for region : 0D_Mass_43-32kg
+CONM2    3776    2               43.32
 $ Referenced Material Records
 $ Material Record : Al_7075
 $ Description of Material : Date: 21-Apr-21           Time: 20:56:42
@@ -1674,10 +1676,26 @@ MAT1*    1               7.0999998+10                    .33
 *        2800.           2.2-5           20.
 $ Multipoint Constraints of the Entire Model
 $ ID conflict : the PATRAN MPC ID was 2
-RBE2     3776    1       123     1007    1054    1142    1213
+RBE2     3777    1       123     1007    1054    1142    1213
+$ ID conflict : the PATRAN MPC ID was 3
+RBE2     3778    2       123456  1012    1021    1035    1047    1059
+         1102    1115    1140    1153    1173    1186    1211    1224
+         1244    1257    1278    1285    1286    1287    1288    1289
+         1290    1291    1292    1293    1294    1295    1296    1297
+         1298    1299    1300    1301    1302    1303    1304    1305
+         1306    1307    1308    1309    1310    1311    1312    1313
+         1314    1315    1316    1317    1318    1319    1320    1321
+         1322    1323    1324    1325    1326    1327    1328    1329
+         1330    1331    1332    1333    1334    1335    1336    1337
+         1338    1339    1340    1341    1342    1343    1344    1345
+         1346    1347    1348    1349    1350    1351    1352    1353
+         1354    1355    1356    1357    1358    1359    1360    1361
+         1362    1363    1364
 $ Nodes of the Entire Model
 GRID*    1                               0.              0.
 *       .079999998211861
+GRID*    2                               0.              0.
+*       .379999995231628
 GRID*    11                              .15333366394043 0.
 *        -.02
 GRID*    12                              .13416700065136.055573999881744
@@ -3316,4 +3334,4 @@ SPCADD   2       1
 $ Displacement Constraints of Load Set : BC_123456
 SPC1     1       123456  11      THRU    22
 $ Referenced Coordinate Frames
-ENDDATA 5db7e580
+ENDDATA 567be146
