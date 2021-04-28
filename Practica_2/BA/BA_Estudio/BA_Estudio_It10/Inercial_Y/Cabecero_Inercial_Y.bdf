@@ -1,0 +1,36 @@
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = MSC.Nastran job created on 24-Apr-21 at 16:53:12
+ECHO = NONE
+SUBCASE 1
+   SUBTITLE=Aceleracion_Y_50g
+   SPC = 2
+   LOAD = 2
+   DISPLACEMENT(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+   STRAIN(SORT1,REAL,VONMISES,STRCUR,BILIN)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   FORCE(SORT1,REAL,BILIN)=ALL
+   WEIGHTCHECK(PRINT, SET=ALL) = YES
+$ Direct Text Input for this Subcase
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ Loads for Load Case : Aceleracion_X_50g
+SPCADD   2       1
+LOAD     2       1.      1.      1
+$ Displacement Constraints of Load Set : BC_123
+SPC1     1       123     1012    1021    1035    1047    1059    1102
+         1115    1140    1153    1173    1186    1211    1224    1244
+         1257    1278
+SPC1     1       123     1285    THRU    1364
+$ Gravity Loading of Load Set : Aceleracion_X_50g
+GRAV*    1               0               490.50003       0.
+*        -1.             0.
+$
+INCLUDE '../BA_G2_Al.bdf'
+$
+$ Referenced Coordinate Frames
+ENDDATA 

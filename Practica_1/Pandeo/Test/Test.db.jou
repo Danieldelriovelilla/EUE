@@ -1,0 +1,413 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Test\Test.db.jou at 28-Apr-21 
+$# 16:36:20
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Test\Test.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Test" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[1 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+beam_section_create( "I_Shape", "I", ["0.013", "0.01", "0.005", "0.003",  @
+"0.002", "0.001"] )
+$# Beam Section "I_Shape" created.
+$# UNDO: Beam Section Create
+$# UNDO: Beam Section Create
+beam_section_create( "I_Shape", "I", ["0.013", "0.0099999998", "0.0049999999", @
+ "0.003", "0.0020000001", "0.001"] )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Beam Section "I_Shape" already exists. Do you wish to overwrite?
+$? YES 29002040 
+$# Beam Section "I_Shape" created.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "material", 0,  @
+"Date: 28-Apr-21           Time: 16:36:50", "Isotropic", 1, "Directionality",  @
+1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Density"], [2, 5, 16, 0], "Property Values", ["1e9", "0.33", @
+ "2800", ""] )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.   
+$# The data entered for Property "Offset @ Node 2" cannot be parsed.
+$? NO 20039 
+elementprops_create( "I_Rig", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["I_Shape", "m:material", "<1, 0, 0>", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "I_Rig" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_create( "Curve 1", 1, 100, 0., 0., 0. )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.1, "Bar2", "#", "#", "Coord 0",  @
+"Coord 0", fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 101 nodes and 100 elements created for Curve 1.
+$# === 101 nodes created.  IDs  = 1:101.
+$# === 100 elements created.  IDs  = 1:100.
+ga_view_aa_set( 38.116760, -32.496971, 6.587556 )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadcase_create2( "modos", "Static", "", 1., [""], [0], [0.], "", 0., TRUE )
+$# Load Case "modos" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_create2( "empotramiento", "Displacement", "Nodal", "", "Static", [ @
+"Node 1"], "FEM", "Coord 0", "1.", ["<  0,0,0   >", "<   0,0,0  >", "<     >", @
+ "<     >"], ["", "", "", ""] )
+$# Load/BC set "empotramiento" created.
+ga_view_aa_set( 23.452719, 17.305628, -14.773978 )
+ga_view_center_set( 0.005005, -0.001502 )
+ga_view_zoom_set( 0.508546 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.1, "Bar2", "1", "1", "Coord 0",  @
+"Coord 0", fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# Question from application FEM
+$#     Do you wish to delete the existing mesh on Curve 1?
+$? YESFORALL 2001103 
+$# 101 nodes and 100 elements created for Curve 1.
+$# === 101 nodes created.  IDs  = 1:101.
+$# === 100 elements created.  IDs  = 1:100.
+fem_associate_elems_to_ep( "I_Rig", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 100 Element(s) associated to the Element Property I_Rig.
+ga_view_aa_set( 18.974979, -35.898979, -0.111841 )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_modify2( "empotramiento", "empotramiento", "Displacement", "Nodal",  @
+"", "Static", ["Node 1"], "FEM", "Coord 0", "1.", ["<0., 0., 0.>",  @
+"<0., 0., 0.>", "", ""], ["", "", "", ""] )
+$# Load/BC set "empotramiento" modified.
+ga_view_aa_set( 22.354031, -59.905632, 15.127270 )
+uil_primary_file.db_save(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mscnastran_subcase.create( "103", "modos", "This is a default subcase." )
+mscnastran_subcase.create_char_param( "LOAD CASE", "modos" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE",  @
+"This is a default subcase." )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE", "modos" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL", "" )
+mscnastran_subcase.create_char_param( "SUBCASE TITLE FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "SUBCASE SUBTITLE FLAG", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE LABEL FLAG", "OFF" )
+mscnastran_subcase.create_char_param( "modos", "STRUCTURAL" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS", "1" )
+mscnastran_subcase.create_char_param( "EIGENVECTORS 1", "VECTOR(SORT1,REAL)=0" )
+mscnastran_subcase.create_char_param( "SUBCASE WRITE", "ON" )
+mscnastran_subcase.create_char_param( "SUBCASE DIRECT TEXT POS", "OFF" )
+mscnastran_subcase.create_int_param( "SUBCASE INPUT 0", 0 )
+mscnastran_subcase.create_char_param( "REAL EIGENVALUE EXTRACTION METHOD",  @
+"Lanczos" )
+mscnastran_subcase.create_char_param( "LOWER FREQUENCY RANGE", "" )
+mscnastran_subcase.create_char_param( "UPPER FREQUENCY RANGE", "" )
+mscnastran_subcase.create_char_param( "REAL EIGNVALUE NUMBER OF DESIRED ROOTS" @
+, "10" )
+mscnastran_subcase.create_char_param( "DIAGNOSTIC OUTPUT LEVEL", "0" )
+mscnastran_subcase.create_char_param( "REAL EIGENVALUE NORMALIZATION METHOD",  @
+"Mass" )
+mscnastran_subcase.create_char_param( "ALL EXPLICIT MPCS", "ON" )
+$#  Beginning analysis of  Test
+jobfile.open( "Test", "ANALYZE NO JOBFILE" )
+msc_delete_old_files( "Test", ".bdf", ".op2" )
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["28-Apr-21" @
+, "16:42:48"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\" // @
+"Test\Test.db" )
+jobfile.writec( "JOBNAME", "Test" )
+jobfile.writec( "ANALYSIS TITLE", "MSC.Nastran job created on 28-Apr-21 at" // @
+" 16:41:30" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Analysis Deck" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Users\danie" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "4.9999999E-06" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\danie" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "Test", 1, ["modos"] )
+analysis_submit_2( "MSC.Nastran", "Test" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-NHC7R5K(
+$# c821586ab454) (Windows 6.2 (Build 9200: Service Pack 0)) at 28-Apr-21 
+$# 16:42:49.
+$# 
+$# Reading model information from the specified database, 
+$# C:\Users\danie\Desktop\EUE\Practica_1\Pandeo\Test\Test.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on April     28, 2021 at 16:42:49.
+$# 
+$# The NASTRAN input file, Test.bdf, has been successfully opened.
+$# 
+$# Translating 100 elements from the element property region I_Rig.
+$# 
+$# 1 property regions translated.
+$# 
+$# Translating 1 referenced material records.
+$# 
+$# Translating 101 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : modos.
+$# 
+$# Translating nodal constraints in load set : empotramiento.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.186981
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 28-Apr-21 16:42:49.
+$# The translation has completed successfully.
+$# No Analysis Requested
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 28-Apr-21 16:44:15

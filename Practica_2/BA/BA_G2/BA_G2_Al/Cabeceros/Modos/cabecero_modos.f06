@@ -26,7 +26,7 @@
                                               * *          AUG  4, 2020           * *
                                               * *                                 * *
                                               * *              Intel              * *
-                                              * *MODEL Xeon/2781 (DESKTOP-NHC7R5K * *
+                                              * *MODEL Xeon/2173 (DESKTOP-NHC7R5K * *
                                               * *     Windows 10 Pro 6.2 9200     * *
                                               * * Compiled for 8664 (SINGLE Mode) * *
                                               * *                                 * *
@@ -193,14 +193,14 @@
   
       http://www.mscsoftware.com/Contents/Services/Training/
   
-1                                                       **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     1
+1                                                       **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
                                                                                                                                     
                                                                                                                                     
      NASTRAN BUFFSIZE=8193 $(C:/PROGRAM FILES/MSC.SOFTWARE/NAPA_SE/2020/NASTRAN/CONF/
-1                                                       **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     2
+1                                                       **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -208,7 +208,7 @@
                                                                                                                                     
      SOL 103                                                                                 
      CEND                                                                                    
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     3
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     3
                                                                                                                                     
 0                                                                                                                                   
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -226,15 +226,21 @@
                  10         SPCFORCES(SORT1,REAL)=ALL                                                            
                  11      $ DIRECT TEXT INPUT FOR THIS SUBCASE                                                    
                  12      BEGIN BULK                                                                              
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     4
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     4
                                                                                                                                     
 0                                                                                                                                   
                                               I N P U T   B U L K   D A T A   E C H O                                               
                  ENTRY                                                                                                              
                  COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
-                              $INCLUDE "../BA_G2_Al.bdf"
-                              $END OF INCLUDE "../BA_G2_Al.bdf"
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     5
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Shell.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Shell.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Shell.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Rig_Ext.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Rig_Ext.bdf"
+                              $INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Rig_Int.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Rig_Int.bdf"
+                              $END OF INCLUDE "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G2\BA_G2_Al\Cabeceros\Rig_Int.bdf"
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     5
                                                                                                                                     
 0                                                                                                                                   
                                         M O D E L   S U M M A R Y          BULK = 0
@@ -257,7 +263,7 @@
  ^^^     
  ^^^ >>> IFP OPERATIONS COMPLETE <<< 
  ^^^     
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     6
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     6
                                                                                                                                     
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -286,7 +292,7 @@
      1.        1.7962759E+05          6.7453835E+01                 0                       10
      2.        1.4972591E+08          1.9474603E+03                15                        5
 
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     7
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     7
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0
@@ -304,7 +310,7 @@
 
                                      NUMBER OF SOLVES REQUIRED ............    21
 
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     8
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     8
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  
@@ -321,7 +327,7 @@
         8         8        5.569289E+07        7.462767E+03        1.187736E+03        1.000000E+00        5.569289E+07
         9         9        1.079348E+08        1.038917E+04        1.653487E+03        1.000000E+00        1.079348E+08
        10        10        1.079348E+08        1.038917E+04        1.653487E+03        1.000000E+00        1.079348E+08
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE     9
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE     9
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -401,7 +407,7 @@
                MY       ----          ----          ----          ----       0.000000E+00     ----                                  
                MZ       ----          ----          ----          ----          ----       0.000000E+00                             
              TOTALS -4.281302E+07  1.110674E+07 -1.496751E+00 -1.352678E+06 -5.204874E+06  2.727764E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    10
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    10
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0                                                  MAXIMUM  SPCFORCES       
@@ -417,7 +423,7 @@
 0        8   2.8746951E+06  2.8746948E+06  3.0105970E+06  0.0000000E+00  0.0000000E+00  0.0000000E+00
 0        9   3.6952837E+06  3.8511527E+06  3.2141929E+06  0.0000000E+00  0.0000000E+00  0.0000000E+00
 0       10   3.8511525E+06  3.6952850E+06  3.2141954E+06  0.0000000E+00  0.0000000E+00  0.0000000E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    11
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    11
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
 0                                                  MAXIMUM  DISPLACEMENTS   
@@ -433,7 +439,7 @@
 0        8   4.3651371E-02  4.3651372E-02  1.4615476E+00  3.8928961E+01  3.8928970E+01  3.3187860E+00
 0        9   5.8686047E-02  1.2970541E-01  2.1943003E+00  7.5535806E+01  7.3966693E+01  7.5080181E+00
 0       10   1.2970541E-01  5.8686058E-02  2.1943010E+00  7.3966707E+01  7.5535836E+01  7.5080199E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    12
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    12
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -490,7 +496,7 @@
           1046      G     -8.830617E-04  -1.403087E-03  -5.150112E-02   2.441262E+00  -4.641049E-01   2.314931E-01
           1047      G      0.0            0.0            0.0            2.497904E+00  -9.979186E-03  -2.519077E-02
           1048      G      1.528791E-08  -4.510086E-04  -3.232930E-01   1.625803E-01   3.930691E-07  -1.246241E-06
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    13
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    13
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -547,7 +553,7 @@
           1096      G      5.183512E-04  -1.789707E-03  -1.385740E-01   3.071983E+00   2.704545E-01  -1.928755E-02
           1097      G      7.634719E-04  -8.914733E-04  -1.306303E-01   2.823415E+00   4.901710E-01   1.067285E-01
           1098      G      8.914272E-04  -1.169809E-03  -1.186779E-01   2.450739E+00   6.771500E-01   1.981043E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    14
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    14
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -604,7 +610,7 @@
           1146      G      2.130487E-03  -1.319090E-03  -2.672954E-01   5.193297E-01   5.152491E-01   1.657743E-01
           1147      G      1.167041E-03  -8.902713E-04  -1.186833E-01   6.771425E-01   2.452393E+00  -1.974995E-01
           1148      G      8.845472E-04  -7.646495E-04  -1.306202E-01   4.904102E-01   2.820727E+00  -1.065385E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    15
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    15
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -661,7 +667,7 @@
           1196      G      9.830914E-08   1.918560E-03  -3.013663E-01  -5.210193E-01   1.775006E-05  -1.519250E-06
           1197      G      2.567108E-04   5.799852E-04  -2.977352E-01  -6.734173E-01   2.873381E-01   2.030824E-02
           1198      G      1.556176E-05   1.276015E-03  -3.006954E-01  -5.918850E-01   1.238240E-01   1.045113E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    16
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    16
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -718,7 +724,7 @@
           1246      G     -1.595952E-03   1.597301E-03  -2.369636E-01  -1.007004E+00  -1.006630E+00   2.878368E-04
           1247      G     -1.253999E-03   1.251983E-03  -2.627055E-01  -8.612926E-01  -8.609988E-01  -4.091112E-05
           1248      G     -9.479353E-04   9.476523E-04  -2.843024E-01  -7.036694E-01  -7.035146E-01  -9.514619E-05
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    17
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    17
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -775,7 +781,7 @@
           1296      G      0.0            0.0            0.0            3.002604E+00  -1.403509E-03  -9.253922E-02
           1297      G      0.0            0.0            0.0            3.198521E+00  -4.542509E-04  -6.011040E-02
           1298      G      0.0            0.0            0.0            3.309967E+00  -9.578527E-05  -3.000768E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    18
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    18
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -832,7 +838,7 @@
           1346      G      0.0            0.0            0.0           -2.086011E-03   1.887746E+00   1.285212E-01
           1347      G      0.0            0.0            0.0           -2.998046E-03   1.559772E+00   1.278313E-01
           1348      G      0.0            0.0            0.0           -7.316778E-03   1.227762E+00   1.318163E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    19
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    19
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -889,7 +895,7 @@
           1396      G     -2.575832E-04  -2.486109E-04  -1.082098E-02   1.907441E-01  -9.436623E-01   9.834550E-03
           1397      G     -2.282708E-04  -2.261350E-04  -1.298352E-02   1.959141E-01  -1.141983E+00   1.019502E-02
           1398      G     -2.119044E-04  -2.246942E-04  -1.571556E-02   1.770810E-01  -1.386649E+00   1.003502E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    20
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    20
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -946,7 +952,7 @@
           1446      G     -4.870876E-04  -4.066716E-04  -3.866975E-02   1.598950E+00  -3.404684E-01  -9.857809E-03
           1447      G     -5.682978E-04  -5.116807E-04  -4.260762E-02   1.420278E+00  -4.070392E-01  -1.080895E-02
           1448      G     -6.245026E-04  -5.856911E-04  -4.354908E-02   1.275472E+00  -4.528022E-01  -1.091050E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    21
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    21
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1003,7 +1009,7 @@
           1496      G      9.670991E-04  -9.303279E-04  -2.622979E-01   9.250117E-01   8.029887E-01  -4.799224E-04
           1497      G      1.064932E-03  -1.034162E-03  -2.628736E-01   8.875533E-01   8.777663E-01   4.174901E-03
           1498      G      6.409983E-04  -7.668339E-04  -2.836658E-01   7.670909E-01   6.162989E-01   5.155281E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    22
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    22
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1060,7 +1066,7 @@
           1546      G      1.494875E-03  -1.342107E-03  -2.024237E-01   1.064729E+00   1.404948E+00   3.769758E-03
           1547      G      2.575634E-04  -2.486494E-04  -1.082100E-02   1.907466E-01   9.436612E-01  -9.836007E-03
           1548      G      2.282530E-04  -2.262125E-04  -1.298359E-02   1.959158E-01   1.141987E+00  -1.019747E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    23
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    23
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1117,7 +1123,7 @@
           1596      G      2.194799E-03   1.789393E-04  -1.990081E-01  -5.989060E-01   2.832758E+00  -6.175379E-02
           1597      G      1.306436E-03   4.271118E-04  -1.862044E-01  -8.558033E-01   2.463408E+00  -1.215684E-02
           1598      G      1.412595E-03   8.380143E-04  -1.696221E-01  -9.151688E-01   2.187990E+00   1.778847E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    24
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    24
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1174,7 +1180,7 @@
           1646      G      5.944046E-05   4.507098E-04  -3.213562E-01  -2.602110E-01   1.395424E-02   9.268086E-03
           1647      G      1.065983E-03   1.034617E-03  -2.628769E-01  -8.872176E-01   8.770361E-01  -4.208868E-03
           1648      G      9.670890E-04   9.280633E-04  -2.622938E-01  -9.255849E-01   8.034090E-01   3.872613E-04
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    25
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    25
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1231,7 +1237,7 @@
           1696      G     -1.683623E-04   7.856829E-04  -3.097365E-01  -4.693640E-01  -1.482831E-01  -1.229214E-02
           1697      G     -6.278985E-05   7.875314E-04  -3.167979E-01  -3.513129E-01  -1.179231E-02  -1.011808E-02
           1698      G     -1.247948E-04   6.880042E-04  -3.151974E-01  -3.836079E-01  -7.915437E-02  -1.083451E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    26
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    26
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1288,7 +1294,7 @@
           1746      G     -1.047567E-03   1.027158E-03  -8.528009E-02  -1.221908E+00  -7.744196E-01   9.696550E-03
           1747      G     -8.238661E-04   9.000595E-04  -8.984819E-02  -1.746838E+00  -6.318676E-01  -4.692115E-03
           1748      G     -9.096278E-04   1.026885E-03  -1.034047E-01  -1.535216E+00  -7.310593E-01   4.928149E-04
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    27
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    27
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1345,7 +1351,7 @@
           1796      G     -1.267265E-03   4.537358E-04  -1.847403E-01  -8.537191E-01  -2.439454E+00   9.745064E-03
           1797      G     -2.146756E-03   1.872278E-04  -1.984066E-01  -6.122640E-01  -2.784775E+00   5.962690E-02
           1798      G     -1.516337E-03   1.031855E-03  -2.145472E-01  -1.136491E+00  -1.782070E+00  -2.847006E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    28
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    28
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -1358,7 +1364,7 @@
           1802      G     -5.080299E-04   4.201438E-04  -6.447449E-02  -2.795563E-01  -3.390540E+00  -1.262361E-02
           1803      G     -5.509820E-04   5.043475E-04  -6.776108E-02  -1.939256E-01  -3.591681E+00  -2.942105E-03
           1804      G     -9.587357E-04   5.833098E-04  -7.036263E-02  -7.096049E-02  -3.727443E+00   2.816586E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    29
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    29
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1415,7 +1421,7 @@
           1046      G     -3.277990E-04  -1.226805E-03  -8.942548E-02   4.079177E+00  -7.575773E-01   4.477727E-01
           1047      G      0.0            0.0            0.0            4.376575E+00  -1.775619E-02  -1.622739E-02
           1048      G      9.878535E-03   1.687083E-02  -6.175408E-02  -3.113212E+00   1.905530E+00   2.801866E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    30
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    30
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1472,7 +1478,7 @@
           1096      G      3.574719E-03   2.178878E-03  -2.057524E-01   4.158849E+00   9.662070E-01   1.309256E-01
           1097      G      3.801981E-03   2.860695E-03  -1.811055E-01   3.417139E+00   1.366263E+00   3.406876E-01
           1098      G      3.899163E-03   1.773127E-03  -1.494782E-01   2.469432E+00   1.671306E+00   4.712535E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    31
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    31
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1529,7 +1535,7 @@
           1146      G      5.926407E-03   1.651885E-02   1.705744E-01  -2.509510E+00   1.090002E+00   1.478653E-01
           1147      G      9.627007E-04   4.976152E-03   6.674336E-02  -1.373450E+00  -8.909112E-01   3.381767E-01
           1148      G      1.428158E-03   5.094425E-03   9.369375E-02  -1.234710E+00  -1.666095E+00   2.849248E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    32
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    32
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1586,7 +1592,7 @@
           1196      G      8.376057E-03   1.454624E-02   2.271743E-01  -2.453000E+00   1.612446E+00  -3.566673E-02
           1197      G      7.183568E-03   1.419182E-02   2.705845E-01  -1.669983E+00   9.716892E-01   2.410701E-03
           1198      G      7.975294E-03   1.414055E-02   2.514267E-01  -2.040557E+00   1.334698E+00  -2.346347E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    33
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    33
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1643,7 +1649,7 @@
           1246      G      7.231063E-03   9.582514E-03   7.004777E-02  -1.793733E+00   1.907161E+00  -4.129575E-02
           1247      G      7.758319E-03   1.096786E-02   6.998160E-02  -2.107060E+00   1.966367E+00   5.114682E-02
           1248      G      8.491768E-03   1.250920E-02   6.642296E-02  -2.441162E+00   2.043054E+00   8.146646E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    34
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    34
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1700,7 +1706,7 @@
           1296      G      0.0            0.0            0.0            5.117204E+00  -1.891514E-03  -1.315732E-01
           1297      G      0.0            0.0            0.0            5.378319E+00   1.868665E-04  -7.218583E-02
           1298      G      0.0            0.0            0.0            5.490308E+00   1.774748E-03  -2.069978E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    35
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    35
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1757,7 +1763,7 @@
           1346      G      0.0            0.0            0.0            2.505212E-03  -2.838393E+00  -1.526312E-01
           1347      G      0.0            0.0            0.0            5.026708E-03  -2.432546E+00  -1.648523E-01
           1348      G      0.0            0.0            0.0            1.369313E-02  -1.985824E+00  -1.848919E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    36
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    36
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1814,7 +1820,7 @@
           1396      G     -1.841208E-04  -8.438940E-05  -2.003613E-02   2.788115E-01  -1.796634E+00   1.234259E-02
           1397      G     -1.761406E-05   1.286792E-04  -2.266246E-02   2.783058E-01  -2.057283E+00   2.181210E-03
           1398      G      1.060506E-04   2.849206E-04  -2.622236E-02   2.287885E-01  -2.383437E+00  -6.190536E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    37
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    37
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1871,7 +1877,7 @@
           1446      G      3.700691E-04   6.618603E-04  -6.955949E-02   2.827058E+00  -5.471808E-01  -3.476452E-03
           1447      G      2.905994E-04   5.742106E-04  -7.714976E-02   2.498863E+00  -6.559876E-01  -1.399878E-02
           1448      G      1.587664E-04   4.193818E-04  -7.924386E-02   2.230071E+00  -7.358226E-01  -1.866216E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    38
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    38
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1928,7 +1934,7 @@
           1496      G      8.187866E-03   1.079796E-02  -1.657637E-01  -1.799031E+00   2.409988E+00   3.449552E-02
           1497      G      7.920745E-03   1.085579E-02  -1.186416E-01  -2.039020E+00   2.300505E+00   3.229589E-02
           1498      G      8.515429E-03   1.272923E-02  -1.500616E-01  -2.266636E+00   2.315111E+00   6.040133E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    39
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    39
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -1985,7 +1991,7 @@
           1546      G      3.775696E-03   8.824959E-03   3.159385E-02  -2.058384E+00   8.877122E-01   3.777581E-02
           1547      G      1.014985E-04   3.934083E-05  -3.414772E-03  -3.116266E-02   4.062803E-01   1.866871E-03
           1548      G      1.108593E-04   1.532015E-04  -2.292480E-03  -4.406917E-02   3.251768E-01   7.294220E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    40
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    40
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2042,7 +2048,7 @@
           1596      G      3.663975E-03   7.052687E-03   2.028519E-01  -3.330775E-01  -2.694910E+00   1.571214E-01
           1597      G      4.003800E-03   6.892879E-03   2.045823E-01   7.363078E-02  -2.564922E+00   5.863993E-02
           1598      G      2.615378E-03   5.722551E-03   2.003775E-01   2.706748E-01  -2.411119E+00  -1.077055E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    41
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    41
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2099,7 +2105,7 @@
           1646      G      9.658115E-03   1.610217E-02   1.150575E-01  -2.968614E+00   1.949672E+00  -2.108403E-02
           1647      G      4.572493E-03   9.310583E-03   3.038490E-01  -8.036199E-01  -3.875652E-01   2.412683E-02
           1648      G      4.837443E-03   9.750305E-03   3.166250E-01  -7.572960E-01  -3.203897E-01   3.560228E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    42
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    42
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2156,7 +2162,7 @@
           1696      G      8.831409E-03   1.470114E-02   1.341163E-01  -2.870036E+00   1.986982E+00  -5.053687E-03
           1697      G      8.817119E-03   1.537497E-02   1.150493E-01  -2.983007E+00   1.925115E+00  -3.111512E-02
           1698      G      8.798732E-03   1.500334E-02   1.092408E-01  -3.023930E+00   1.981227E+00  -1.675285E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    43
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    43
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2213,7 +2219,7 @@
           1746      G      1.792255E-03   1.925901E-03   4.453312E-02   1.140329E-01   7.847023E-01  -3.501834E-02
           1747      G      2.464687E-03   1.981219E-03   6.927576E-02   8.138243E-01   9.729039E-01  -2.576342E-02
           1748      G      2.612106E-03   2.615955E-03   6.676802E-02   3.975107E-01   9.800299E-01  -3.290817E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    44
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    44
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2270,7 +2276,7 @@
           1796      G      2.272543E-03   6.746936E-03  -1.247248E-01  -2.112540E+00  -8.472061E-01  -7.209342E-02
           1797      G      2.355315E-03   6.733839E-03  -1.611296E-01  -1.824160E+00  -1.725110E+00  -4.014378E-02
           1798      G      3.189243E-03   9.361883E-03  -1.063542E-01  -2.509663E+00   1.397408E-01  -9.835411E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    45
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    45
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2283,7 +2289,7 @@
           1802      G      5.430843E-04   2.346219E-03  -4.408526E-02  -6.420254E-01  -2.213748E+00  -6.863139E-02
           1803      G      6.526173E-04   2.477630E-03  -5.239447E-02  -5.663344E-01  -2.677400E+00  -6.533232E-02
           1804      G      4.623578E-04   2.592149E-03  -6.187634E-02  -4.471737E-01  -3.164573E+00  -3.638497E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    46
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    46
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2340,7 +2346,7 @@
           1046      G      2.157426E-03   1.166848E-04   1.897228E-02  -6.541267E-01   7.138183E-01  -2.606395E-01
           1047      G      0.0            0.0            0.0           -8.757826E-01   1.404338E-02   4.578578E-02
           1048      G      1.614427E-02  -1.032309E-02   3.778830E-02   1.905039E+00   3.114046E+00   4.580956E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    47
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    47
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2397,7 +2403,7 @@
           1096      G      4.070677E-03  -1.888901E-03   1.450532E-01  -2.978549E+00   3.455754E-01   1.443594E-01
           1097      G      3.736118E-03  -2.479995E-03   1.483659E-01  -3.018605E+00   3.925700E-02  -4.078811E-02
           1098      G      3.305000E-03  -1.342554E-03   1.457523E-01  -2.872444E+00  -2.503855E-01  -1.781100E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    48
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    48
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2454,7 +2460,7 @@
           1146      G      9.753729E-03  -6.145671E-03   3.698856E-01  -8.557612E-03   1.252683E+00  -6.061986E-02
           1147      G      2.009312E-03  -1.174841E-03   1.978312E-01  -9.835061E-01  -3.683698E+00   3.721203E-01
           1148      G      3.527359E-03  -1.598044E-03   2.145180E-01  -5.872311E-01  -4.237923E+00   1.910499E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    49
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    49
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2511,7 +2517,7 @@
           1196      G      1.368982E-02  -8.901054E-03  -1.390147E-01   1.501169E+00   2.635233E+00  -5.815507E-02
           1197      G      1.389420E-02  -9.327023E-03  -5.037345E-02   1.860161E+00   2.844886E+00  -4.109469E-02
           1198      G      1.383343E-02  -8.969063E-03  -9.552448E-02   1.673767E+00   2.761231E+00  -7.970025E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    50
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    50
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2568,7 +2574,7 @@
           1246      G      6.913730E-03  -2.857840E-03  -2.909928E-01  -6.808120E-01   2.107294E-01  -9.437258E-03
           1247      G      8.915141E-03  -4.403389E-03  -2.907101E-01  -1.985774E-01   7.825585E-01   1.222876E-02
           1248      G      1.087309E-02  -5.811953E-03  -2.759218E-01   2.873360E-01   1.367104E+00   1.880369E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    51
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    51
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2625,7 +2631,7 @@
           1296      G      0.0            0.0            0.0           -1.946602E+00   2.575011E-03   2.263783E-01
           1297      G      0.0            0.0            0.0           -2.494212E+00   1.864760E-03   2.031434E-01
           1298      G      0.0            0.0            0.0           -2.981449E+00   2.871453E-03   1.827218E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    52
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    52
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2682,7 +2688,7 @@
           1346      G      0.0            0.0            0.0            2.903664E-03  -1.851195E+00  -1.765694E-01
           1347      G      0.0            0.0            0.0            2.220360E-03  -1.425126E+00  -1.565845E-01
           1348      G      0.0            0.0            0.0            3.761315E-03  -1.042593E+00  -1.425467E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    53
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    53
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2739,7 +2745,7 @@
           1396      G      1.984301E-05  -8.735019E-05  -6.402921E-03   1.774946E-01  -4.617154E-01   8.402941E-03
           1397      G      1.153957E-04  -1.063552E-04  -9.006160E-03   1.917545E-01  -6.860360E-01   9.306771E-03
           1398      G      2.059918E-04  -1.788560E-04  -1.210578E-02   2.038647E-01  -9.448466E-01   1.169040E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    54
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    54
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2796,7 +2802,7 @@
           1446      G      9.939002E-04  -4.303115E-04  -2.403999E-03   3.685439E-01   1.982602E-01   2.301088E-02
           1447      G      9.308786E-04  -5.151647E-04  -6.949686E-03   5.105908E-01   1.861301E-01   1.894924E-02
           1448      G      8.279418E-04  -5.430875E-04  -1.000073E-02   5.722968E-01   1.594423E-01   1.627380E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    55
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    55
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2853,7 +2859,7 @@
           1496      G      9.624637E-03  -5.411021E-03   2.708390E-01  -6.763391E-02   8.728439E-01  -2.199274E-02
           1497      G      9.192869E-03  -4.897442E-03   2.805545E-01  -1.401382E-01   7.388585E-01  -1.037722E-02
           1498      G      1.106696E-02  -6.668610E-03   2.568737E-01   3.000856E-01   1.455862E+00  -2.964799E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    56
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    56
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2910,7 +2916,7 @@
           1546      G      4.993631E-03  -2.812507E-03   2.973555E-01  -1.335296E+00  -9.368950E-01   2.748215E-03
           1547      G     -1.549351E-04   1.148437E-04   2.075582E-02  -3.290675E-01  -1.809983E+00   1.481282E-02
           1548      G      3.683000E-05  -6.628287E-05   2.427945E-02  -3.351015E-01  -2.144197E+00   6.174275E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    57
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    57
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -2967,7 +2973,7 @@
           1596      G      4.446266E-03  -3.882786E-03   2.861115E-01   1.865810E+00  -3.360199E+00   3.461991E-02
           1597      G      4.618757E-03  -4.085641E-03   2.486931E-01   2.394700E+00  -2.361205E+00  -4.740875E-02
           1598      G      3.451427E-03  -4.517368E-03   2.041784E-01   2.387630E+00  -1.616394E+00  -7.967810E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    58
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    58
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -3024,7 +3030,7 @@
           1646      G      1.521060E-02  -9.490683E-03  -1.821117E-02   1.976039E+00   3.233194E+00  -5.457783E-02
           1647      G      1.123944E-02  -7.435937E-03   2.190965E-02   1.879195E+00   2.384571E+00  -2.421076E-02
           1648      G      1.167195E-02  -7.152093E-03  -2.446356E-02   1.631325E+00   2.544237E+00  -2.070038E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    59
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    59
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -3081,7 +3087,7 @@
           1696      G      1.346680E-02  -8.688873E-03  -1.794299E-01   1.377958E+00   2.726541E+00  -1.324532E-02
           1697      G      1.442121E-02  -9.467029E-03  -1.166907E-01   1.671713E+00   3.066421E+00  -2.162482E-02
           1698      G      1.420983E-02  -9.205722E-03  -1.479117E-01   1.605787E+00   3.008283E+00  -3.069100E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    60
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    60
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -3138,7 +3144,7 @@
           1746      G      1.285846E-03  -3.083388E-04  -1.412797E-01  -1.906296E+00  -9.157278E-01   1.283324E-02
           1747      G      2.444131E-03  -8.702459E-04  -1.357874E-01  -2.574545E+00  -5.395556E-01  -3.342361E-02
           1748      G      2.675613E-03  -9.215154E-04  -1.597043E-01  -2.220208E+00  -6.419400E-01  -1.504454E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    61
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    61
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -3195,7 +3201,7 @@
           1796      G      5.628812E-03  -4.223782E-03  -2.930819E-01  -1.155499E+00  -3.300062E+00   2.394680E-02
           1797      G      5.337343E-03  -4.536521E-03  -3.100856E-01  -5.874264E-01  -3.853564E+00   1.489017E-01
           1798      G      6.042810E-03  -3.994736E-03  -3.262214E-01  -1.661782E+00  -1.691488E+00  -8.793707E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    62
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    62
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -3208,7 +3214,7 @@
           1802      G      1.369541E-03  -9.566433E-04  -1.093272E-01  -3.893846E-01  -5.664513E+00   3.856511E-03
           1803      G      1.653424E-03  -7.953791E-04  -1.136196E-01  -2.151826E-01  -5.949638E+00   2.399542E-02
           1804      G      1.152413E-03  -5.179136E-04  -1.157760E-01   3.703123E-02  -6.041119E+00   8.173918E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    63
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    63
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3265,7 +3271,7 @@
           1046      G     -1.701645E-03   3.023499E-03   9.355284E-02  -5.217999E+00  -1.374826E+00   4.908732E-01
           1047      G      0.0            0.0            0.0           -4.620180E+00  -3.815153E-02  -1.252025E-01
           1048      G      3.360523E-07   1.168884E-02   1.642883E+00  -4.781217E+00  -2.625517E-05  -1.154865E-06
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    64
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    64
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3322,7 +3328,7 @@
           1096      G      5.410035E-03   7.404057E-03   1.046412E-03  -5.082012E-01   1.665550E+00   5.666027E-01
           1097      G      7.453153E-03   6.859871E-03   5.012624E-02  -2.195149E+00   2.611917E+00   7.401997E-01
           1098      G      8.561051E-03   4.828940E-03   1.132128E-01  -3.974675E+00   3.103819E+00   7.692095E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    65
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    65
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3379,7 +3385,7 @@
           1146      G     -2.315330E-02  -2.156226E-02   2.550565E-02   6.357928E+00  -4.147491E+00  -9.376942E-01
           1147      G     -4.857232E-03  -8.553923E-03   1.132410E-01   3.103583E+00  -3.986508E+00  -7.678469E-01
           1148      G     -6.921331E-03  -7.435807E-03   5.034714E-02   2.611648E+00  -2.215498E+00  -7.378108E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    66
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    66
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3436,7 +3442,7 @@
           1196      G     -3.789420E-06  -5.470487E-02   9.375653E-01   1.775550E+01   1.436004E-05  -1.529610E-04
           1197      G      4.989009E-03  -3.172145E-02   9.804568E-01   9.795443E+00   1.772344E-02  -1.646516E-02
           1198      G      7.067311E-03  -3.623379E-02   9.607217E-01   1.339817E+01   8.660239E-01   1.606613E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    67
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    67
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3493,7 +3499,7 @@
           1246      G      2.558437E-03  -2.583127E-03   7.749318E-01   3.460223E+00   3.458196E+00  -3.684933E-03
           1247      G      6.381387E-03  -6.414435E-03   8.825265E-01   4.193882E+00   4.191317E+00   6.336936E-04
           1248      G      8.390935E-03  -8.394520E-03   1.001899E+00   4.695473E+00   4.695074E+00  -4.240173E-04
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    68
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    68
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3550,7 +3556,7 @@
           1296      G      0.0            0.0            0.0           -2.423912E+00  -5.454168E-03  -4.988727E-01
           1297      G      0.0            0.0            0.0           -1.173981E+00  -1.407515E-03  -4.839325E-01
           1298      G      0.0            0.0            0.0            4.023869E-02   9.218937E-04  -4.737711E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    69
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    69
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3607,7 +3613,7 @@
           1346      G      0.0            0.0            0.0            1.728472E-03  -6.424419E+00   1.445068E-01
           1347      G      0.0            0.0            0.0            1.360192E-02  -6.391133E+00  -1.600060E-01
           1348      G      0.0            0.0            0.0            4.001752E-02  -5.648097E+00  -4.050809E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    70
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    70
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3664,7 +3670,7 @@
           1396      G      9.445300E-04   7.620635E-04   6.230973E-02  -8.393408E-01   5.513308E+00  -6.909469E-02
           1397      G      2.311759E-04   1.239675E-04   7.152371E-02  -9.661840E-01   6.505574E+00  -3.158747E-02
           1398      G     -1.699321E-04  -1.387522E-04   8.479281E-02  -9.127337E-01   7.998747E+00  -6.642610E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    71
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    71
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3721,7 +3727,7 @@
           1446      G     -5.385123E-04  -5.330121E-04   2.130573E-01  -9.559753E+00   9.837925E-01  -1.574308E-02
           1447      G     -2.894098E-04  -5.050372E-04   2.424508E-01  -7.857165E+00   2.270258E+00   1.618319E-02
           1448      G      8.823608E-05  -2.128984E-04   2.452331E-01  -6.492490E+00   2.855501E+00   4.071561E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    72
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    72
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3778,7 +3784,7 @@
           1496      G     -1.365649E-04   1.839512E-02   7.455324E-01  -1.092151E+01   2.377584E+00   8.527671E-02
           1497      G     -2.080150E-03   1.185364E-02   8.522399E-01  -7.504345E+00  -2.083660E+00   2.553007E-02
           1498      G     -1.748755E-03   1.977733E-02   9.093132E-01  -8.907302E+00   2.409620E+00   3.561158E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    73
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    73
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3835,7 +3841,7 @@
           1546      G     -9.244520E-03  -9.956704E-03   5.026440E-01   6.913738E+00  -7.423538E+00  -1.192928E-01
           1547      G     -9.446976E-04   7.619487E-04   6.231003E-02  -8.393612E-01  -5.513309E+00   6.908021E-02
           1548      G     -2.315517E-04   1.236925E-04   7.152449E-02  -9.662107E-01  -6.505621E+00   3.156542E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    74
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    74
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3892,7 +3898,7 @@
           1596      G     -1.086103E-02   3.848157E-03  -6.660194E-03  -3.464520E+00   1.930036E-02  -6.030532E-02
           1597      G     -1.114307E-02   5.681624E-03   6.559563E-02  -4.677349E+00  -1.637555E+00   8.072658E-02
           1598      G     -8.170309E-03   6.644648E-03   1.587789E-01  -4.750446E+00  -3.968577E+00   1.325388E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    75
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    75
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -3949,7 +3955,7 @@
           1646      G     -6.252556E-03  -1.584265E-02   1.579503E+00   6.004575E+00  -2.175503E+00   6.521723E-02
           1647      G     -2.067251E-03  -1.186163E-02   8.520540E-01   7.524549E+00  -2.088624E+00  -2.709175E-02
           1648      G     -1.657569E-04  -1.842781E-02   7.451514E-01   1.090811E+01   2.412338E+00  -8.524163E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    76
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    76
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -4006,7 +4012,7 @@
           1696      G      1.797062E-03  -2.535290E-02   1.246081E+00   1.474726E+01   3.034388E+00  -7.164371E-02
           1697      G      3.075075E-03  -2.280659E-02   1.461012E+00   9.730337E+00  -4.449130E-01   5.945048E-02
           1698      G      5.255041E-03  -2.211847E-02   1.414061E+00   1.101630E+01   2.898640E+00  -1.276061E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    77
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    77
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -4063,7 +4069,7 @@
           1746      G     -1.181667E-03   8.525578E-04   4.107372E-01   2.219181E+00   3.816484E+00   4.648522E-03
           1747      G     -4.178242E-03  -1.874742E-03   3.528790E-01   5.647709E+00  -3.200969E+00   1.667644E-01
           1748      G     -4.057650E-03  -1.026530E-03   4.358197E-01   3.188664E+00  -1.947508E+00   1.361939E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    78
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    78
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -4120,7 +4126,7 @@
           1796      G      1.118898E-02   5.901468E-03   7.688313E-02  -4.645473E+00   2.112702E+00  -7.701753E-02
           1797      G      1.076071E-02   3.810456E-03  -4.379323E-03  -3.525335E+00  -1.808946E-02   5.573111E-02
           1798      G      1.388525E-02   1.105074E-02   1.976107E-01  -7.112696E+00   4.478123E+00  -4.504451E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    79
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    79
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -4133,7 +4139,7 @@
           1802      G      2.939938E-03   2.926398E-03   3.586987E-02  -1.485795E+00   1.905780E+00  -1.152459E-01
           1803      G      3.728911E-03   2.404456E-03   1.715292E-02  -1.231985E+00   8.040072E-01  -1.125904E-01
           1804      G      3.987437E-03   1.416987E-03  -2.674065E-03  -7.439701E-01  -1.982826E-01  -7.728732E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    80
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    80
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4190,7 +4196,7 @@
           1046      G     -1.232399E-03   1.031259E-02   3.060222E-01  -1.491436E+01  -2.401278E+00   7.480046E-01
           1047      G      0.0            0.0            0.0           -1.422390E+01  -9.740336E-02  -4.761222E-01
           1048      G     -1.172162E-02  -1.970368E-06   3.364758E-06   1.258042E-04  -3.078530E+00  -8.579793E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    81
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    81
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4247,7 +4253,7 @@
           1096      G     -1.709381E-02   3.108079E-04  -1.501942E-01   2.891196E+00  -7.339536E+00  -1.405557E+00
           1097      G     -1.644444E-02   2.052740E-03  -2.966777E-01   6.375463E+00  -7.062542E+00  -1.338068E+00
           1098      G     -1.607039E-02   2.591316E-03  -4.346601E-01   9.410716E+00  -6.679612E+00  -9.297273E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    82
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    82
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4304,7 +4310,7 @@
           1146      G     -4.185025E-03   4.169655E-02  -1.295415E-01  -9.174851E+00   3.867783E-01   5.313768E-01
           1147      G     -2.559867E-03   1.605422E-02  -4.346634E-01  -6.680352E+00   9.430652E+00   9.304388E-01
           1148      G     -2.015865E-03   1.643442E-02  -2.968293E-01  -7.064327E+00   6.390101E+00   1.336580E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    83
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    83
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4361,7 +4367,7 @@
           1196      G      4.002944E-02   4.198084E-06  -2.410207E-07   7.373587E-04   1.088491E+01   2.867204E-01
           1197      G      3.653037E-02   1.347777E-02   3.514787E-01  -3.077199E+00   9.567329E+00  -1.440667E-01
           1198      G      3.944903E-02   6.625670E-03   1.812637E-01  -1.633187E+00   1.061331E+01   3.918451E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    84
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    84
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4418,7 +4424,7 @@
           1246      G      2.998668E-02  -2.999133E-02  -1.020439E+00   6.024250E+00   6.028295E+00   5.907687E-03
           1247      G      2.966834E-02  -2.964878E-02  -8.411695E-01   6.713732E+00   6.719428E+00  -1.435387E-03
           1248      G      3.004561E-02  -3.005806E-02  -6.416792E-01   7.118886E+00   7.120887E+00  -3.804371E-05
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    85
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    85
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4475,7 +4481,7 @@
           1296      G      0.0            0.0            0.0           -9.743218E+00  -2.277829E-02  -1.143580E+00
           1297      G      0.0            0.0            0.0           -6.596363E+00  -2.087526E-02  -1.321118E+00
           1298      G      0.0            0.0            0.0           -3.051847E+00  -3.540348E-02  -1.464600E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    86
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    86
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4532,7 +4538,7 @@
           1346      G      0.0            0.0            0.0            5.044435E-03  -2.031093E+01   5.477073E-01
           1347      G      0.0            0.0            0.0            4.204582E-02  -2.042534E+01  -4.312792E-01
           1348      G      0.0            0.0            0.0            1.259616E-01  -1.822059E+01  -1.247090E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    87
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    87
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4589,7 +4595,7 @@
           1396      G      4.171494E-03   3.333734E-03   2.074980E-01  -2.463826E+00   1.835856E+01  -3.119096E-01
           1397      G      9.820248E-04   3.336095E-04   2.340801E-01  -2.930212E+00   2.128989E+01  -1.393551E-01
           1398      G     -9.989463E-04  -1.075433E-03   2.739329E-01  -2.729149E+00   2.577836E+01  -2.934537E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    88
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    88
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4646,7 +4652,7 @@
           1446      G     -3.029911E-03  -4.192649E-03   6.706396E-01  -2.930667E+01   2.411013E+00  -4.012612E-03
           1447      G     -1.854599E-03  -3.294851E-03   7.673512E-01  -2.391135E+01   6.353464E+00   1.357225E-01
           1448      G     -4.534876E-05  -1.426790E-03   7.793897E-01  -1.955691E+01   8.180446E+00   2.241459E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    89
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    89
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4703,7 +4709,7 @@
           1496      G     -3.301369E-02   1.607754E-02  -7.294337E-01  -3.867510E-01  -1.204617E+01   1.140089E-01
           1497      G     -3.048517E-02   2.119597E-02  -8.196029E-01  -4.080083E+00  -8.117331E+00  -2.711530E-02
           1498      G     -3.179217E-02   1.859191E-02  -5.761437E-01  -3.875640E+00  -1.203331E+01  -7.790128E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    90
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    90
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4760,7 +4766,7 @@
           1546      G     -1.278654E-02   3.413761E-02  -9.529904E-01  -1.709412E+01   2.594653E+00   1.374456E-01
           1547      G      4.171341E-03  -3.334227E-03  -2.074973E-01   2.463774E+00   1.835852E+01  -3.119203E-01
           1548      G      9.820982E-04  -3.345380E-04  -2.340788E-01   2.930167E+00   2.128983E+01  -1.393751E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    91
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    91
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4817,7 +4823,7 @@
           1596      G     -3.070386E-04   2.379184E-02   1.635013E-01  -1.063082E+01  -4.978083E-01   1.283077E-01
           1597      G      1.310448E-03   2.168176E-02   3.455119E-01  -1.045520E+01  -2.667091E+00   2.632055E-01
           1598      G      5.456623E-03   2.164172E-02   5.259335E-01  -8.678519E+00  -5.477042E+00   2.889820E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    92
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    92
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4874,7 +4880,7 @@
           1646      G      1.541187E-02   6.992314E-03   6.330352E-02  -1.700799E+00   5.484513E+00  -1.052626E-01
           1647      G      3.053007E-02   2.115948E-02   8.195019E-01  -4.055237E+00   8.098080E+00  -2.886961E-02
           1648      G      3.302512E-02   1.600307E-02   7.292282E-01  -4.129355E-01   1.208591E+01   1.133404E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    93
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    93
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4931,7 +4937,7 @@
           1696      G      2.803968E-02  -1.058468E-02  -2.284239E-01   2.667714E+00   8.765596E+00  -8.705324E-03
           1697      G      2.103345E-02  -5.543979E-03  -8.300669E-02   1.699035E+00   7.610897E+00  -4.646010E-02
           1698      G      2.260046E-02  -9.491399E-03  -1.559909E-01   2.750457E+00   7.812344E+00  -4.461433E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    94
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    94
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -4988,7 +4994,7 @@
           1746      G      5.306664E-03  -6.488817E-03  -1.209784E+00  -2.738116E+00  -9.042694E+00   1.152611E-01
           1747      G      1.371695E-02  -5.425677E-03  -1.012173E+00  -1.248675E+01   1.129467E+01  -3.956739E-01
           1748      G      1.532414E-02  -8.631779E-03  -1.217990E+00  -3.753142E+00   8.811562E+00  -2.826442E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    95
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    95
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -5045,7 +5051,7 @@
           1796      G      1.442037E-03  -2.168801E-02  -3.658364E-01   1.021328E+01  -3.285291E+00   2.600563E-01
           1797      G     -6.647535E-05  -2.344353E-02  -1.700930E-01   1.073070E+01  -5.175817E-01   1.395490E-01
           1798      G      6.587821E-03  -3.243363E-02  -5.127154E-01   1.207588E+01  -5.015512E-01   6.299954E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    96
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    96
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -5058,7 +5064,7 @@
           1802      G      1.403565E-03  -8.304081E-03  -1.904255E-01   3.385424E+00  -9.790455E+00   1.791120E-01
           1803      G      8.521568E-04  -8.125953E-03  -1.435277E-01   3.608851E+00  -7.698767E+00   2.309246E-01
           1804      G      3.474263E-04  -8.049544E-03  -7.446910E-02   3.992621E+00  -4.256107E+00   2.349734E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    97
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    97
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5115,7 +5121,7 @@
           1046      G     -6.873464E-04  -1.631472E-02  -3.912736E-01   1.942150E+01   3.468809E+00  -1.247171E+00
           1047      G      0.0            0.0            0.0            1.800170E+01   1.426635E-01   6.115063E-01
           1048      G      1.212612E-02   1.118427E-02  -1.011905E-01  -4.586155E+00   7.489530E+00   5.604539E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    98
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    98
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5172,7 +5178,7 @@
           1096      G      3.672452E-03  -6.378211E-03   6.151855E-02  -9.323390E-01   3.958520E+00   2.705483E-01
           1097      G      7.396760E-04  -4.373866E-03   1.214537E-01  -1.858368E+00   2.482318E+00   1.962478E-01
           1098      G     -1.443643E-03  -2.519685E-03   1.545964E-01  -2.415207E+00   1.327736E+00   3.011758E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE    99
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE    99
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5229,7 +5235,7 @@
           1146      G     -1.903541E-02  -1.376851E-02  -5.933914E-03   4.187843E-01  -3.771280E-01  -9.973961E-01
           1147      G     -3.514151E-03  -6.159154E-03  -1.533568E-02   1.048357E+00  -8.919430E-01  -3.396827E-01
           1148      G     -5.928210E-03  -3.573471E-03  -3.032853E-02  -2.377997E-01  -3.271290E-01  -3.001458E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   100
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   100
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5286,7 +5292,7 @@
           1196      G      2.066322E-02  -1.353741E-02   2.295860E-01   1.604731E+00   9.673143E+00   2.695830E-01
           1197      G      3.090370E-02   5.048030E-03   6.082117E-01  -2.465924E+00   1.081557E+01  -2.037716E-01
           1198      G      3.042433E-02  -3.113783E-03   4.151357E-01  -6.014291E-01   1.122350E+01   5.084023E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   101
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   101
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5343,7 +5349,7 @@
           1246      G     -3.647852E-03  -1.041818E-02  -1.879803E-01   1.786520E+00   8.830293E-02   5.947583E-02
           1247      G     -2.627898E-03  -8.972442E-03  -1.602144E-01   1.180145E+00   9.141462E-01   4.547301E-01
           1248      G     -2.450415E-03  -8.867553E-03  -1.288058E-01   2.567789E-01   1.999250E+00   6.483449E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   102
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   102
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5400,7 +5406,7 @@
           1296      G      0.0            0.0            0.0            1.213808E+01   2.828899E-02   1.470046E+00
           1297      G      0.0            0.0            0.0            8.165378E+00   2.003448E-02   1.644223E+00
           1298      G      0.0            0.0            0.0            3.798413E+00   2.789422E-02   1.791194E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   103
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   103
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5457,7 +5463,7 @@
           1346      G      0.0            0.0            0.0            5.848555E-03  -2.658571E+01   8.883957E-01
           1347      G      0.0            0.0            0.0            5.586319E-02  -2.705228E+01  -4.862526E-01
           1348      G      0.0            0.0            0.0            1.676015E-01  -2.426750E+01  -1.626536E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   104
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   104
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5514,7 +5520,7 @@
           1396      G     -6.454163E-03  -5.389617E-03  -2.782222E-01   3.300355E+00  -2.462641E+01   4.457682E-01
           1397      G     -2.259332E-03  -1.502852E-03  -3.141837E-01   3.955951E+00  -2.861318E+01   2.233880E-01
           1398      G      2.677328E-04   2.264978E-04  -3.680936E-01   3.699818E+00  -3.475318E+01   8.263285E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   105
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   105
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5571,7 +5577,7 @@
           1446      G      1.319755E-03   3.245679E-03  -9.104754E-01   3.991922E+01  -3.253958E+00  -3.307373E-02
           1447      G     -5.024851E-04   1.826114E-03  -1.041082E+00   3.238874E+01  -8.831838E+00  -2.104488E-01
           1448      G     -2.966993E-03  -7.309887E-04  -1.055036E+00   2.633055E+01  -1.139354E+01  -3.259540E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   106
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   106
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5628,7 +5634,7 @@
           1496      G     -4.468652E-04  -9.376980E-03   1.607117E-01   9.233265E-01   2.487858E+00  -3.857202E-02
           1497      G     -1.448389E-03  -8.951792E-03   1.664693E-01   1.674527E+00   1.304843E+00  -2.001626E-02
           1498      G      4.593380E-04  -9.760053E-03   1.089342E-01   1.685498E+00   3.625004E+00  -6.094452E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   107
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   107
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5685,7 +5691,7 @@
           1546      G     -4.958061E-03  -7.799525E-03   9.753752E-02   3.328359E+00  -1.718721E+00  -8.184363E-02
           1547      G     -8.799448E-04   6.952908E-04   3.397976E-02  -2.630163E-01  -3.171662E+00   5.514726E-02
           1548      G     -3.926501E-04   1.734359E-04   3.564430E-02  -3.200585E-01  -3.425564E+00   2.405268E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   108
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   108
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5742,7 +5748,7 @@
           1596      G     -1.537323E-02   1.143718E-02   1.872872E-01  -1.187524E+01  -5.641924E-01  -6.305116E-02
           1597      G     -1.111954E-02   1.306179E-02   4.079995E-01  -1.329177E+01  -4.264774E+00   2.076059E-01
           1598      G     -3.809362E-03   1.670575E-02   6.486816E-01  -1.189235E+01  -8.302572E+00   2.572549E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   109
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   109
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5799,7 +5805,7 @@
           1646      G      1.228678E-02   9.469954E-03   2.444255E-01  -5.019466E+00   8.163271E+00  -3.408331E-02
           1647      G      2.371891E-02   1.511954E-02   1.188638E+00  -3.913280E+00   1.030605E+01  -2.728808E-02
           1648      G      2.516327E-02   8.846514E-03   1.050649E+00   1.275546E+00   1.628652E+01   1.392482E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   110
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   110
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5856,7 +5862,7 @@
           1696      G      5.389157E-03  -4.576765E-03   4.238662E-02  -6.638999E-01   6.582653E+00  -5.685091E-02
           1697      G      8.595258E-03   2.402932E-03   1.093651E-01  -2.584779E+00   7.510542E+00  -1.267460E-01
           1698      G      6.645210E-03  -4.251937E-04   5.784108E-02  -2.136415E+00   6.885721E+00  -1.213607E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   111
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   111
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5913,7 +5919,7 @@
           1746      G     -1.294296E-03  -2.299882E-03  -2.328507E-01   3.864967E-01  -2.662537E+00   6.542935E-02
           1747      G     -3.873579E-04  -2.622149E-03  -2.323044E-01  -2.226017E+00   1.591024E+00  -2.978459E-02
           1748      G     -4.270933E-04  -3.650087E-03  -2.586009E-01   2.076493E-02   9.513803E-01   2.220001E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   112
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   112
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5970,7 +5976,7 @@
           1796      G     -8.040829E-03  -5.365014E-04   2.148150E-02   6.258099E-01  -9.491040E-01   1.180829E-01
           1797      G     -1.224280E-02   3.809334E-03   1.908458E-02  -1.410291E+00   3.158961E-01   7.267151E-02
           1798      G     -7.460684E-03  -5.071995E-03  -1.029567E-02   1.459819E+00  -1.286841E+00   2.419251E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   113
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   113
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -5983,7 +5989,7 @@
           1802      G     -2.610712E-03  -8.738286E-04   1.692870E-02   3.207694E-01   1.139149E+00   9.061529E-02
           1803      G     -3.791195E-03   4.957282E-04   1.764656E-02  -2.748504E-01   1.452736E+00   8.398804E-02
           1804      G     -5.106451E-03   2.407304E-03   7.263117E-03  -1.144688E+00   9.020779E-01   7.684892E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   114
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   114
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6040,7 +6046,7 @@
           1046      G      2.081010E-03  -7.195434E-04  -9.411468E-03   9.131347E-01   8.276412E-01  -2.454626E-01
           1047      G      0.0            0.0            0.0            5.986222E-01   2.306285E-02   7.470690E-02
           1048      G     -9.315686E-03   1.455708E-02  -1.316941E-01  -5.968768E+00  -5.754383E+00  -4.305409E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   115
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   115
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6097,7 +6103,7 @@
           1096      G     -1.410175E-02  -1.028960E-02  -1.716575E-01   3.572617E+00  -7.056652E+00  -1.918320E+00
           1097      G     -1.662123E-02  -6.481020E-03  -3.371438E-01   8.213853E+00  -8.390135E+00  -1.900774E+00
           1098      G     -1.849294E-02  -4.249401E-03  -5.199364E-01   1.248639E+01  -9.058620E+00  -1.430381E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   116
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   116
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6154,7 +6160,7 @@
           1146      G      1.130304E-02   2.815718E-02  -1.633259E-01  -1.259584E+01   9.236338E-01   1.372343E+00
           1147      G      3.498215E-03   1.746946E-02  -5.422438E-01  -9.095337E+00   1.271530E+01   1.390501E+00
           1148      G      5.211054E-03   1.622318E-02  -3.573176E-01  -8.747808E+00   8.439875E+00   1.885405E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   117
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   117
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6211,7 +6217,7 @@
           1196      G     -1.587637E-02  -1.761869E-02   2.988103E-01   2.087850E+00  -7.431540E+00  -2.068753E-01
           1197      G      5.050317E-03  -9.284722E-03   1.505160E-01   6.312306E-01  -3.531504E+00   1.653251E-01
           1198      G     -1.547471E-03  -1.179266E-02   2.095528E-01   1.363034E+00  -4.864153E+00   1.209884E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   118
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   118
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6268,7 +6274,7 @@
           1246      G     -2.674896E-02   2.490470E-02   1.435125E+00  -7.041974E+00  -7.270860E+00  -1.502437E-03
           1247      G     -2.496438E-02   2.342252E-02   1.223140E+00  -7.972247E+00  -8.015657E+00   6.146780E-02
           1248      G     -2.521273E-02   2.375518E-02   9.833285E-01  -8.725368E+00  -8.500141E+00   8.506065E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   119
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   119
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6325,7 +6331,7 @@
           1296      G      0.0            0.0            0.0           -4.360913E-02  -7.114681E-04   8.476252E-02
           1297      G      0.0            0.0            0.0           -1.339577E-01  -8.426036E-03  -9.259975E-03
           1298      G      0.0            0.0            0.0           -1.685341E-02  -2.256025E-02  -7.638023E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   120
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   120
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6382,7 +6388,7 @@
           1346      G      0.0            0.0            0.0            1.338511E-03  -4.882913E+00   1.199008E-02
           1347      G      0.0            0.0            0.0            8.023587E-03  -4.648916E+00  -1.856131E-01
           1348      G      0.0            0.0            0.0            2.253761E-02  -3.965212E+00  -3.367669E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   121
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   121
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6439,7 +6445,7 @@
           1396      G     -8.095734E-04  -7.169443E-04  -3.900748E-02   6.077216E-01  -3.282859E+00   6.175803E-02
           1397      G     -1.955760E-04  -2.207674E-04  -4.687391E-02   7.235353E-01  -4.083044E+00   3.464469E-02
           1398      G      2.261403E-04  -4.005901E-05  -5.771215E-02   7.474392E-01  -5.231046E+00   1.902784E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   122
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   122
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6496,7 +6502,7 @@
           1446      G      6.453505E-04  -2.944458E-04  -9.283515E-02   4.440446E+00   1.466832E-01   1.895488E-02
           1447      G      3.852372E-04  -4.525241E-04  -1.141706E-01   3.946422E+00  -4.705149E-01  -3.921450E-03
           1448      G      3.313141E-05  -7.069296E-04  -1.208940E-01   3.435343E+00  -7.910871E-01  -2.100506E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   123
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   123
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6553,7 +6559,7 @@
           1496      G     -2.615759E-02   6.766619E-03  -1.044837E+00   1.603918E+00  -1.613296E+01   1.346811E-01
           1497      G     -2.487559E-02   1.332038E-02  -1.185929E+00  -3.639506E+00  -1.034367E+01  -3.063522E-02
           1498      G     -2.472856E-02   1.001880E-02  -8.789902E-01  -3.161457E+00  -1.555200E+01  -1.893715E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   124
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   124
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6610,7 +6616,7 @@
           1546      G     -5.971289E-03   3.049954E-02  -1.299074E+00  -2.357692E+01   4.886189E+00   1.612046E-01
           1547      G      6.444718E-03  -5.393183E-03  -2.788802E-01   3.345502E+00   2.464089E+01  -4.466477E-01
           1548      G      2.233678E-03  -1.510437E-03  -3.156546E-01   4.008822E+00   2.869928E+01  -2.248022E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   125
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   125
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6667,7 +6673,7 @@
           1596      G      8.580232E-03   7.344578E-03   6.891867E-02  -4.689457E+00  -4.374468E-01  -9.537774E-02
           1597      G      5.627760E-03   3.185162E-03   1.334311E-01  -3.073347E+00  -3.600635E-01  -5.971398E-02
           1598      G      4.484869E-03   1.191507E-03   1.772178E-01  -1.797530E+00  -8.613147E-01  -1.557825E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   126
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   126
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6724,7 +6730,7 @@
           1646      G     -6.093800E-03   8.446690E-03   1.215793E-01  -5.315937E+00  -5.286569E+00   1.837457E-01
           1647      G      7.816995E-03  -5.225742E-03   1.445308E-01   6.858674E-01   1.399926E+00  -2.791052E-02
           1648      G      7.164243E-03  -7.326333E-03   1.137376E-01   1.300259E+00   1.758832E+00  -2.435145E-03
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   127
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   127
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6781,7 +6787,7 @@
           1696      G     -1.944606E-02   4.193033E-03   5.148916E-01  -2.829799E+00  -8.539168E+00  -7.869064E-02
           1697      G     -1.144921E-02   7.267347E-03   3.441952E-01  -4.879114E+00  -7.997051E+00  -7.844268E-02
           1698      G     -1.395916E-02   7.016013E-03   4.285444E-01  -5.040477E+00  -7.833221E+00  -1.166893E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   128
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   128
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6838,7 +6844,7 @@
           1746      G     -2.050592E-03   3.237651E-03   1.628227E+00   3.363413E+00   1.238243E+01  -1.467010E-01
           1747      G     -1.345297E-02   6.887676E-04   1.346015E+00   1.677600E+01  -1.619846E+01   5.265196E-01
           1748      G     -1.458325E-02   4.097451E-03   1.631701E+00   4.896992E+00  -1.263537E+01   3.881268E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   129
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   129
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6895,7 +6901,7 @@
           1796      G      9.054931E-03   1.368988E-02   4.558997E-01  -1.341523E+01   5.101785E+00  -1.882843E-01
           1797      G      1.234393E-02   1.261885E-02   2.067778E-01  -1.285066E+01   7.021918E-01   6.577817E-02
           1798      G      3.027678E-03   2.485176E-02   6.722088E-01  -1.653022E+01   1.802698E+00  -7.960634E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   130
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   130
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -6908,7 +6914,7 @@
           1802      G      2.042814E-03   7.851304E-03   2.294044E-01  -4.476082E+00   1.168731E+01  -1.871979E-01
           1803      G      3.249738E-03   6.760072E-03   1.699635E-01  -4.348195E+00   8.814308E+00  -2.460060E-01
           1804      G      4.314412E-03   5.439166E-03   9.003203E-02  -4.214209E+00   4.840515E+00  -2.445027E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   131
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   131
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -6965,7 +6971,7 @@
           1046      G     -1.867868E-03   1.085508E-02   2.831581E-01  -1.365964E+01  -2.898997E+00   8.673881E-01
           1047      G      0.0            0.0            0.0           -1.302472E+01  -1.366440E-01  -7.401949E-01
           1048      G      1.009090E-06  -1.641948E-02  -1.108030E+00   4.719823E+00  -8.145541E-05  -1.387065E-04
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   132
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   132
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7022,7 +7028,7 @@
           1096      G      1.015234E-02  -4.487321E-03   1.387662E-01  -2.538108E+00   3.275605E+00   1.108150E+00
           1097      G      1.474501E-02  -5.572692E-03   2.352389E-01  -5.369451E+00   5.314642E+00   1.102448E+00
           1098      G      1.791530E-02  -5.043547E-03   3.626692E-01  -8.025763E+00   6.657010E+00   7.390126E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   133
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   133
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7079,7 +7085,7 @@
           1146      G      2.091395E-02  -1.856928E-02   5.469192E-02   4.921945E+00   2.809545E+00   2.294393E-01
           1147      G      5.029418E-03  -1.790717E-02   3.627688E-01   6.656499E+00  -8.042009E+00  -7.401920E-01
           1148      G      5.529750E-03  -1.475229E-02   2.354232E-01   5.316747E+00  -5.381604E+00  -1.101757E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   134
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   134
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7136,7 +7142,7 @@
           1196      G     -4.187162E-06   4.365137E-02  -5.036541E-01  -1.156568E+01   6.074659E-04   1.658161E-04
           1197      G      1.924692E-02   3.603116E-02  -4.048202E-01  -1.054009E+01   5.133392E+00   1.676462E-01
           1198      G      1.142095E-02   3.458330E-02  -4.760382E-01  -1.066599E+01   2.913230E+00  -3.554382E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   135
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   135
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7193,7 +7199,7 @@
           1246      G     -3.381571E-02   3.382910E-02   5.340579E-01  -1.180545E+01  -1.180720E+01  -3.244871E-03
           1247      G     -3.294083E-02   3.291089E-02   1.925110E-01  -1.218566E+01  -1.218965E+01   1.062605E-03
           1248      G     -3.173127E-02   3.173601E-02  -1.517782E-01  -1.188935E+01  -1.189071E+01  -3.634989E-04
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   136
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   136
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7250,7 +7256,7 @@
           1296      G      0.0            0.0            0.0           -9.183947E+00  -2.210382E-02  -9.050001E-01
           1297      G      0.0            0.0            0.0           -6.801535E+00  -8.008842E-03  -9.568041E-01
           1298      G      0.0            0.0            0.0           -4.330999E+00   4.622815E-05  -9.929543E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   137
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   137
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7307,7 +7313,7 @@
           1346      G      0.0            0.0            0.0            6.116256E-03  -2.395564E+01   1.237761E+00
           1347      G      0.0            0.0            0.0            5.193520E-02  -2.517200E+01  -2.509989E-01
           1348      G      0.0            0.0            0.0            1.532379E-01  -2.286906E+01  -1.474470E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   138
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   138
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7364,7 +7370,7 @@
           1396      G      6.304856E-03   5.230820E-03   2.616755E-01  -3.027189E+00   2.293091E+01  -4.620162E-01
           1397      G      1.835830E-03   1.124029E-03   2.980017E-01  -3.922186E+00   2.683909E+01  -2.177802E-01
           1398      G     -8.142150E-04  -6.886881E-04   3.531986E-01  -3.810254E+00   3.321900E+01  -6.822918E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   139
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   139
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7421,7 +7427,7 @@
           1446      G     -2.441133E-03  -4.305666E-03   8.633765E-01  -3.715367E+01   2.534084E+00   1.858823E-02
           1447      G     -6.610501E-04  -3.045723E-03   9.827085E-01  -2.900394E+01   8.716187E+00   1.967880E-01
           1448      G      1.794586E-03  -5.558131E-04   9.854159E-01  -2.262347E+01   1.144999E+01   3.172218E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   140
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   140
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7478,7 +7484,7 @@
           1496      G      2.602802E-02  -2.846441E-02   1.642375E-01   1.031961E+01   1.283402E+01  -3.431462E-01
           1497      G      2.680997E-02  -2.727236E-02   1.858311E-01   1.175779E+01   1.263995E+01  -1.647290E-03
           1498      G      2.281968E-02  -3.143220E-02  -1.545111E-01   1.149707E+01   1.030649E+01  -2.656751E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   141
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   141
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7535,7 +7541,7 @@
           1546      G      1.888756E-02  -2.643834E-02   7.017467E-01   1.899677E+01   3.872010E+00   5.940419E-02
           1547      G     -6.304895E-03   5.230935E-03   2.616773E-01  -3.027335E+00  -2.293090E+01   4.620119E-01
           1548      G     -1.836083E-03   1.124202E-03   2.980067E-01  -3.922377E+00  -2.683935E+01   2.177750E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   142
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   142
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7592,7 +7598,7 @@
           1596      G      8.018575E-03   5.667952E-03   1.430358E-01  -6.617330E+00   5.691666E-01  -1.117700E-01
           1597      G      9.361308E-03   1.055361E-02   2.765098E-01  -8.303174E+00  -2.061383E+00   5.056561E-02
           1598      G      1.135003E-02   1.565788E-02   4.273629E-01  -7.533190E+00  -3.608326E+00   7.886609E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   143
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   143
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7649,7 +7655,7 @@
           1646      G      6.752510E-03   1.888456E-02  -1.046582E+00  -6.534627E+00   1.755170E+00   9.847673E-02
           1647      G      2.683579E-02   2.726402E-02   1.858275E-01  -1.174092E+01   1.261502E+01   2.563768E-04
           1648      G      2.603032E-02   2.843188E-02   1.642868E-01  -1.034639E+01   1.286125E+01   3.424678E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   144
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   144
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7706,7 +7712,7 @@
           1696      G     -1.235814E-02   2.853151E-02  -6.981376E-01  -1.401283E+01  -5.741850E+00  -1.257524E-01
           1697      G     -5.493140E-03   2.722831E-02  -9.247807E-01  -9.405694E+00  -6.246761E-02  -2.377208E-01
           1698      G     -1.010852E-02   2.563858E-02  -8.714732E-01  -1.107468E+01  -3.968009E+00  -1.247508E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   145
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   145
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7763,7 +7769,7 @@
           1746      G     -4.028453E-03   6.332728E-03   1.413869E+00  -3.230734E+00   1.088328E+01  -1.301442E-01
           1747      G     -1.418642E-02   4.773476E-03   1.131196E+00   9.801929E+00  -1.938075E+01   4.344688E-01
           1748      G     -1.531476E-02   8.340804E-03   1.357537E+00  -2.752512E+00  -1.604426E+01   3.264367E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   146
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   146
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7820,7 +7826,7 @@
           1796      G     -9.461517E-03   1.095526E-02   2.920105E-01  -8.272507E+00   2.484755E+00  -6.016035E-02
           1797      G     -8.050060E-03   5.834118E-03   1.478056E-01  -6.784303E+00  -4.744957E-01   1.029960E-01
           1798      G     -1.794481E-02   1.940993E-02   3.730503E-01  -9.168772E+00  -3.161400E+00  -3.678985E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   147
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   147
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -7833,7 +7839,7 @@
           1802      G     -2.314634E-03   7.952954E-03   1.582338E-01  -3.060276E+00   7.271170E+00  -1.651630E-01
           1803      G     -1.960671E-03   5.801656E-03   1.209933E-01  -2.491754E+00   5.378151E+00  -2.036417E-01
           1804      G     -1.392005E-03   2.779266E-03   7.869848E-02  -1.810825E+00   3.265828E+00  -1.854226E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   148
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   148
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -7890,7 +7896,7 @@
           1046      G     -7.542103E-03  -1.751554E-03   1.302928E-01  -5.349026E+00  -3.423896E+00   9.473448E-01
           1047      G      0.0            0.0            0.0           -6.570201E+00  -2.539710E-01  -2.298396E+00
           1048      G      3.783615E-03   3.411065E-02  -5.292105E-01  -2.291025E+01   7.145263E+00   6.580942E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   149
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   149
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -7947,7 +7953,7 @@
           1096      G      1.504115E-03  -2.595214E-02  -2.509355E-02   6.738035E-01   6.888935E-01  -2.625656E-01
           1097      G      4.703299E-03  -2.178392E-02  -3.981998E-03   5.085620E-01   1.720696E+00  -1.794853E-02
           1098      G      8.522510E-03  -1.930521E-02   3.974722E-02  -1.937560E-02   2.972531E+00   1.022789E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   150
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   150
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8004,7 +8010,7 @@
           1146      G     -1.219002E-02  -3.341515E-02  -4.726723E-02  -4.486573E+00   2.016059E+00   6.413374E-01
           1147      G      6.494976E-03  -6.417141E-03   2.335677E-02   1.974715E+00  -4.109605E-02  -2.980379E-01
           1148      G      1.981318E-03  -2.038209E-03   2.615326E-03   7.321477E-01   1.478971E-01  -2.451125E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   151
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   151
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8061,7 +8067,7 @@
           1196      G     -1.118143E-03  -8.849994E-02   1.100421E+00   8.319108E+00   5.605923E+00   4.194251E-03
           1197      G      1.163995E-02  -6.048411E-02   1.340789E+00   7.318443E+00   3.103068E+00  -3.498711E-01
           1198      G      1.620628E-02  -6.671373E-02   1.236715E+00   7.160383E+00   6.412806E+00  -8.301177E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   152
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   152
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8118,7 +8124,7 @@
           1246      G      1.583911E-02  -4.485171E-02   5.421849E-01   7.766680E+00   9.085598E+00   3.265394E-01
           1247      G      3.222826E-03  -4.259489E-02   7.441632E-01   2.788169E+00   7.753928E+00   1.794102E+00
           1248      G     -1.016296E-02  -3.770329E-02   8.407134E-01  -3.402634E+00   6.572961E+00   1.574515E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   153
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   153
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8175,7 +8181,7 @@
           1296      G      0.0            0.0            0.0           -3.238995E+00  -3.844575E-02  -4.350971E-01
           1297      G      0.0            0.0            0.0           -2.253584E+00  -1.591714E-02  -3.240863E-01
           1298      G      0.0            0.0            0.0           -1.596985E+00  -7.456734E-03  -2.057956E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   154
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   154
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8232,7 +8238,7 @@
           1346      G      0.0            0.0            0.0           -2.050481E-02   3.743254E+01  -4.107454E+00
           1347      G      0.0            0.0            0.0           -8.766097E-02   4.299642E+01  -3.179984E-01
           1348      G      0.0            0.0            0.0           -2.245118E-01   3.970071E+01   2.638972E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   155
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   155
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8289,7 +8295,7 @@
           1396      G      8.536412E-03   7.106368E-03   4.007641E-01  -5.344397E+00   3.302701E+01  -7.770852E-01
           1397      G      4.488418E-04   2.933297E-04   4.976370E-01  -9.082056E+00   4.171888E+01  -3.003629E-01
           1398      G     -3.702624E-03  -2.051823E-03   6.429995E-01  -1.016931E+01   5.854662E+01  -4.398042E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   156
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   156
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8346,7 +8352,7 @@
           1446      G     -5.653655E-03  -1.121182E-02   1.627494E+00  -6.368546E+01   5.425681E+00  -5.130496E-02
           1447      G     -4.242568E-03  -1.127511E-02   1.754618E+00  -3.983166E+01   2.355474E+01   1.872588E-01
           1448      G     -1.553663E-03  -8.668667E-03   1.640735E+00  -2.334088E+01   3.071989E+01   3.887923E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   157
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   157
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8403,7 +8409,7 @@
           1496      G      2.436369E-04  -5.055545E-02  -7.232082E-01   1.358834E+01   1.597514E+00  -4.237471E-01
           1497      G      3.732378E-04  -4.375308E-02  -7.897202E-01   8.505820E+00   9.257175E+00  -2.154909E-01
           1498      G     -8.665793E-03  -4.964458E-02  -8.999508E-01   5.634566E+00  -2.185807E+00  -5.856775E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   158
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   158
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8460,7 +8466,7 @@
           1546      G      1.149974E-02  -2.502583E-02  -2.277715E-01   2.678854E+00   9.036513E+00   9.167936E-02
           1547      G     -5.007933E-03   4.221857E-03   2.335968E-01  -3.012634E+00  -1.935889E+01   4.567355E-01
           1548      G     -2.967494E-04   2.635565E-04   2.881415E-01  -5.176961E+00  -2.424351E+01   1.767319E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   159
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   159
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8517,7 +8523,7 @@
           1596      G     -1.751801E-02  -1.209323E-02   3.997505E-02  -1.566812E+00  -2.172842E+00  -5.074598E-01
           1597      G     -2.248645E-02  -1.657721E-02   5.662315E-02  -1.726707E-01  -4.089747E+00  -4.227781E-01
           1598      G     -2.718844E-02  -2.203402E-02   5.086808E-02   1.423479E+00  -6.712739E+00  -4.708939E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   160
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   160
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8574,7 +8580,7 @@
           1646      G      8.854468E-03   6.474283E-03   8.744315E-01  -2.168388E+01   9.271845E+00   4.695637E-02
           1647      G     -2.102158E-02  -4.998922E-02   1.289313E+00   1.447336E+01  -1.176835E+01  -8.365139E-02
           1648      G     -1.974468E-02  -5.820872E-02   1.139464E+00   2.181764E+01   1.463469E+00  -3.867998E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   161
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   161
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8631,7 +8637,7 @@
           1696      G     -1.800653E-02  -4.172461E-02   1.078287E+00  -1.688187E+00   6.888564E+00   2.962931E-02
           1697      G     -1.173891E-02  -1.813116E-02   9.791806E-01  -1.580280E+01   1.640047E+00  -5.023364E-01
           1698      G     -1.558555E-02  -2.742271E-02   1.007859E+00  -1.406136E+01   5.072164E+00  -2.566605E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   162
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   162
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8688,7 +8694,7 @@
           1746      G      9.038811E-03  -1.583354E-02  -1.049934E+00   2.425600E+01  -1.355959E+01  -4.222062E-02
           1747      G      1.140551E-02  -1.191433E-02  -8.275092E-01   7.395407E+00   3.179468E+01  -2.138398E-01
           1748      G      1.299311E-02  -1.660746E-02  -9.168670E-01   2.443653E+01   2.578461E+01  -2.350133E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   163
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   163
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8745,7 +8751,7 @@
           1796      G      3.165410E-03  -1.286233E-02   2.746440E-02  -4.278149E-01   2.242514E+00   4.619372E-01
           1797      G     -3.892898E-03  -1.065376E-02   9.876351E-03  -1.184891E+00   1.065922E+00   5.385012E-01
           1798      G      8.552807E-03  -2.236454E-02   1.074249E-01  -2.173813E+00   3.674091E+00   4.614766E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   164
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   164
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8758,7 +8764,7 @@
           1802      G      1.740254E-03  -1.670629E-03  -1.004955E-02   5.511688E-01   1.108122E-01   7.982231E-02
           1803      G      5.924219E-05  -1.021787E-05  -4.320567E-03   3.240718E-01   1.633096E-01   7.931237E-02
           1804      G     -1.702866E-03   1.085800E-03  -1.143969E-03   2.269800E-01   9.802677E-02   6.469340E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   165
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   165
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8815,7 +8821,7 @@
           1046      G      3.669728E-03  -5.157697E-04  -6.007221E-02   2.509649E+00   1.805764E+00  -4.848582E-01
           1047      G      0.0            0.0            0.0            3.000675E+00   1.442011E-01   1.309663E+00
           1048      G     -1.455677E-02   8.862357E-03  -1.374444E-01  -5.950169E+00  -2.751160E+01  -2.533943E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   166
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   166
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8872,7 +8878,7 @@
           1096      G      7.189762E-04  -1.141067E-02  -1.276255E-02   3.864127E-01   4.700185E-01   3.760530E-02
           1097      G      4.917534E-03  -1.441987E-02   1.041509E-03   4.344138E-01   1.794815E+00   2.729348E-01
           1098      G      1.209530E-02  -1.822857E-02   4.907128E-02  -5.803224E-02   3.918416E+00   3.932991E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   167
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   167
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8929,7 +8935,7 @@
           1146      G      7.109904E-02   6.370212E-03  -1.784348E-01  -6.422152E+00   5.634845E+00   2.894033E+00
           1147      G      2.566935E-02  -1.333066E-02   5.818657E-02   4.502370E+00  -2.547912E-02  -2.857534E-01
           1148      G      2.607753E-02  -6.538729E-03  -3.582977E-03   2.375839E+00   6.910847E-01  -1.123598E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   168
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   168
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -8986,7 +8992,7 @@
           1196      G      4.347988E-03  -2.298552E-02   2.857957E-01   2.160757E+00  -2.158299E+01  -1.550105E-02
           1197      G      1.948834E-02  -9.019357E-03  -3.870977E-01  -4.919627E+00  -1.789066E+01   9.134205E-01
           1198      G      1.169653E-02  -1.644400E-02  -6.583636E-02  -1.081594E+00  -2.026107E+01   1.534830E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   169
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   169
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9043,7 +9049,7 @@
           1246      G      6.006068E-02  -4.318170E-02   9.225053E-01   1.474185E+01   1.393466E+01  -2.219355E-01
           1247      G      5.056357E-02  -2.736740E-02   1.266209E+00   1.044203E+01   7.497263E+00  -1.050404E+00
           1248      G      3.749864E-02  -9.345706E-03   1.430530E+00   5.636108E+00  -2.391791E-01  -9.202026E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   170
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   170
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9100,7 +9106,7 @@
           1296      G      0.0            0.0            0.0            1.140002E+00   2.224795E-02   2.401832E-01
           1297      G      0.0            0.0            0.0            5.750527E-01   1.006937E-02   2.046441E-01
           1298      G      0.0            0.0            0.0            8.627504E-02   7.457458E-03   1.864984E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   171
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   171
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9157,7 +9163,7 @@
           1346      G      0.0            0.0            0.0            1.246812E-02  -2.331805E+01   2.432283E+00
           1347      G      0.0            0.0            0.0            5.258913E-02  -2.650923E+01   1.137505E-01
           1348      G      0.0            0.0            0.0            1.330370E-01  -2.430442E+01  -1.677570E+00
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   172
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   172
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9214,7 +9220,7 @@
           1396      G     -5.032075E-03  -4.078426E-03  -2.393511E-01   3.399197E+00  -1.950601E+01   4.563357E-01
           1397      G     -1.947022E-04   1.939383E-05  -3.010948E-01   5.660545E+00  -2.506449E+01   1.758621E-01
           1398      G      2.394667E-03   1.478488E-03  -3.923262E-01   6.382843E+00  -3.556173E+01   2.467206E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   173
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   173
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9271,7 +9277,7 @@
           1446      G      2.931702E-03   5.657151E-03  -9.155047E-01   3.603694E+01  -2.607246E+00   4.970138E-02
           1447      G      2.201885E-03   5.864744E-03  -9.939094E-01   2.285473E+01  -1.280967E+01  -8.504295E-02
           1448      G      6.863408E-04   4.528992E-03  -9.347054E-01   1.367613E+01  -1.686744E+01  -2.027563E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   174
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   174
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9328,7 +9334,7 @@
           1496      G      4.010645E-02  -2.878196E-02  -1.044388E+00   2.047577E+01  -5.774565E+00  -3.760168E-02
           1497      G      4.250251E-02  -2.407776E-02  -1.231772E+00   1.441328E+01   7.582811E+00   2.171319E-01
           1498      G      3.234536E-02  -1.852354E-02  -1.215418E+00   9.673536E+00  -1.707193E+01  -3.850900E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   175
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   175
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9385,7 +9391,7 @@
           1546      G      4.861123E-02  -1.980802E-02  -3.858988E-01   6.039116E+00   1.791868E+01   5.884315E-01
           1547      G     -8.551266E-03   7.020875E-03   4.040763E-01  -5.566926E+00  -3.311166E+01   7.767961E-01
           1548      G     -3.898114E-04   1.247746E-04   5.050944E-01  -9.360471E+00  -4.219119E+01   2.997550E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   176
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   176
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9442,7 +9448,7 @@
           1596      G      3.974194E-02   4.318366E-04  -5.438208E-02   3.281000E-01   1.982789E+00  -2.178948E-01
           1597      G      3.500693E-02   3.742157E-03  -5.043095E-02  -8.355424E-01   3.031304E+00  -1.962680E-01
           1598      G      3.132640E-02   8.264161E-03  -2.775885E-02  -2.095287E+00   4.350229E+00  -9.092089E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   177
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   177
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9499,7 +9505,7 @@
           1646      G      5.713695E-03  -8.130780E-03  -1.558119E-01  -6.120026E+00  -2.899532E+01   1.225684E+00
           1647      G      3.697575E-02  -2.200343E-04  -6.918160E-01  -8.459987E+00   2.109767E+00  -2.940355E-01
           1648      G      3.494782E-02   5.619056E-04  -5.602005E-01  -1.126475E+01  -5.846822E+00  -1.746873E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   178
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   178
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9556,7 +9562,7 @@
           1696      G      1.775630E-02  -7.473734E-03   9.838288E-01   5.492638E+00  -2.216311E+01   1.198663E-02
           1697      G      1.603465E-02   2.404181E-04   6.108072E-01  -4.439018E+00  -3.153938E+01   4.279024E-01
           1698      G      1.680906E-02   2.507195E-04   8.749218E-01  -2.575219E+00  -2.725547E+01   3.524027E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   179
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   179
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9613,7 +9619,7 @@
           1746      G      1.724539E-02  -2.340896E-02  -1.741419E+00   3.867064E+01  -2.090227E+01  -2.073692E-01
           1747      G      2.051208E-02  -1.384641E-02  -1.325812E+00   1.163029E+01   5.266096E+01  -4.965961E-01
           1748      G      2.513602E-02  -2.110889E-02  -1.489993E+00   3.910654E+01   4.323557E+01  -5.802849E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   180
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   180
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9670,7 +9676,7 @@
           1796      G      4.158706E-02  -1.180092E-02   7.626315E-02   8.684238E-01   5.160868E+00   3.807895E-02
           1797      G      4.312449E-02  -6.543601E-03   6.835810E-02  -9.461997E-01   2.866583E+00   5.466312E-02
           1798      G      5.572190E-02  -1.441495E-02   2.132790E-01  -1.218773E+00   8.235777E+00  -1.434752E-01
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   181
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   181
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -9683,7 +9689,7 @@
           1802      G      1.198491E-02  -7.164074E-03  -2.634329E-02   1.480531E+00   2.340832E-01   6.688667E-02
           1803      G      1.256575E-02  -4.632986E-03  -1.051773E-02   9.640295E-01   6.622285E-01   5.836875E-02
           1804      G      1.350061E-02  -2.725169E-03   2.028324E-03   5.930818E-01   1.106901E+00  -6.259918E-02
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   182
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   182
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -9740,7 +9746,7 @@
           1316      G      1.031526E+05  -1.387670E+04   4.823927E+03   0.0            0.0            0.0
           1317      G      1.056023E+05  -3.639290E+04   4.246895E+03   0.0            0.0            0.0
           1318      G      2.082330E+05  -7.104220E+04   2.850548E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   183
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   183
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.061278E+05
@@ -9793,7 +9799,7 @@
           1362      G     -5.724602E+04   1.622018E+04   2.652230E+03   0.0            0.0            0.0
           1363      G     -6.193311E+04   2.525731E+04  -2.642325E+02   0.0            0.0            0.0
           1364      G     -8.516112E+04   3.954076E+04  -4.879340E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   184
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   184
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -9850,7 +9856,7 @@
           1316      G     -6.973816E+04  -1.113561E+05   5.118602E+03   0.0            0.0            0.0
           1317      G     -8.184597E+04  -1.273812E+05   2.863332E+03   0.0            0.0            0.0
           1318      G     -1.692685E+04  -1.629644E+05   2.698629E+01   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   185
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   185
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -9903,7 +9909,7 @@
           1362      G     -3.168956E+04  -3.900019E+04   2.694830E+03   0.0            0.0            0.0
           1363      G     -3.720596E+04  -5.645402E+04   3.199448E+03   0.0            0.0            0.0
           1364      G     -3.551159E+04  -7.612666E+04   7.815943E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   186
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   186
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -9960,7 +9966,7 @@
           1316      G     -1.613298E+05   7.987803E+04   1.011838E+04   0.0            0.0            0.0
           1317      G     -2.129479E+05   3.720565E+04   8.743780E+03   0.0            0.0            0.0
           1318      G     -7.222870E+04  -3.941469E+04   7.315948E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   187
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   187
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.621875E+06
@@ -10013,7 +10019,7 @@
           1362      G     -7.708508E+04   3.491317E+04  -5.758270E+03   0.0            0.0            0.0
           1363      G     -9.930063E+04   2.362276E+04  -2.014184E+02   0.0            0.0            0.0
           1364      G     -7.779065E+04  -1.885897E+03   8.846661E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   188
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   188
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -10070,7 +10076,7 @@
           1316      G     -5.049594E+05  -1.302716E+05   1.135019E+04   0.0            0.0            0.0
           1317      G     -5.952619E+05  -7.627763E+04   2.176239E+03   0.0            0.0            0.0
           1318      G     -7.227637E+05  -3.783128E+04   4.053563E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   189
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   189
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  3.735067E+07
@@ -10123,7 +10129,7 @@
           1362      G     -7.221095E+04   4.803996E+04  -4.272831E+04   0.0            0.0            0.0
           1363      G     -4.017864E+04   2.376853E+04  -4.104825E+04   0.0            0.0            0.0
           1364      G      1.148714E+05  -3.328786E+04  -4.614193E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   190
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   190
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -10180,7 +10186,7 @@
           1316      G      3.088634E+04   5.278185E+05   9.247817E+03   0.0            0.0            0.0
           1317      G     -1.484669E+05   3.752169E+05   2.478561E+04   0.0            0.0            0.0
           1318      G     -1.028879E+04   3.390154E+05   4.214979E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   191
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   191
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.132778E+07
@@ -10233,7 +10239,7 @@
           1362      G      5.070102E+05  -2.553225E+05   1.414834E+05   0.0            0.0            0.0
           1363      G      5.910046E+05  -1.500950E+05   1.311166E+05   0.0            0.0            0.0
           1364      G      1.433807E+05   1.490423E+05   1.239701E+05   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   192
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   192
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -10290,7 +10296,7 @@
           1316      G      4.634896E+05   3.997496E+03  -2.003154E+04   0.0            0.0            0.0
           1317      G      6.761614E+05  -9.812128E+04  -1.541934E+04   0.0            0.0            0.0
           1318      G      1.024301E+06  -2.128306E+05  -2.878291E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   193
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   193
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -10343,7 +10349,7 @@
           1362      G      2.193942E+04   3.735337E+04  -2.329004E+04   0.0            0.0            0.0
           1363      G      4.327419E+04   3.879239E+04  -2.064280E+04   0.0            0.0            0.0
           1364      G      1.070251E+05   3.516712E+04  -2.377511E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   194
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   194
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -10400,7 +10406,7 @@
           1316      G     -6.815881E+05  -5.077334E+05   2.391457E+03   0.0            0.0            0.0
           1317      G     -5.443497E+05  -2.613512E+05  -2.196066E+04   0.0            0.0            0.0
           1318      G     -8.918135E+05  -1.409830E+05  -3.316261E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   195
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   195
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  4.323584E+07
@@ -10453,7 +10459,7 @@
           1362      G      3.650554E+05  -2.089233E+05   1.951743E+05   0.0            0.0            0.0
           1363      G      4.259641E+05  -5.516135E+04   1.840544E+05   0.0            0.0            0.0
           1364      G     -2.318165E+05   3.559043E+05   1.780913E+05   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   196
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   196
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -10510,7 +10516,7 @@
           1316      G     -1.911706E+04  -5.313460E+05   1.482365E+04   0.0            0.0            0.0
           1317      G      1.716006E+05  -2.546418E+05  -2.151225E+03   0.0            0.0            0.0
           1318      G     -1.031862E+05  -4.070703E+04   1.088339E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   197
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   197
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  5.569289E+07
@@ -10563,7 +10569,7 @@
           1362      G     -5.220281E+05   2.566284E+05  -2.048867E+05   0.0            0.0            0.0
           1363      G     -6.254671E+05   1.434722E+05  -1.980493E+05   0.0            0.0            0.0
           1364      G     -1.000180E+05  -1.972951E+05  -1.842874E+05   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   198
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   198
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -10620,7 +10626,7 @@
           1316      G     -8.066438E+04   1.107432E+05  -1.828090E+04   0.0            0.0            0.0
           1317      G      4.096174E+04  -8.098662E+04  -1.181163E+04   0.0            0.0            0.0
           1318      G      3.514321E+05  -1.435617E+05  -1.155091E+03   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   199
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   199
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -10673,7 +10679,7 @@
           1362      G     -7.560187E+05   2.225323E+05  -2.818371E+05   0.0            0.0            0.0
           1363      G     -7.510350E+05   1.463489E+05  -2.942594E+05   0.0            0.0            0.0
           1364      G     -3.546111E+05  -6.985857E+04  -2.401350E+05   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   200
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   200
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -10730,7 +10736,7 @@
           1316      G     -1.486494E+06   5.443598E+05  -3.513254E+04   0.0            0.0            0.0
           1317      G     -1.865976E+06   3.130180E+05  -2.597946E+04   0.0            0.0            0.0
           1318      G     -2.175476E+06   2.596797E+05  -1.389971E+04   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   201
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   201
      MODOS                                                                                                                          
 0                                                                                                            SUBCASE 1              
       EIGENVALUE =  1.079348E+08
@@ -10783,7 +10789,7 @@
           1362      G     -1.473373E+06   4.460662E+05  -4.961138E+05   0.0            0.0            0.0
           1363      G     -1.590176E+06   3.306231E+05  -5.238578E+05   0.0            0.0            0.0
           1364      G     -1.027012E+06  -4.272384E+04  -4.306665E+05   0.0            0.0            0.0
-1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  26, 2021  MSC Nastran  8/ 4/20   PAGE   202
+1    MSC.NASTRAN JOB CREATED ON 24-APR-21 AT 16:53:12   **STUDENT EDITION*    APRIL  28, 2021  MSC Nastran  8/ 4/20   PAGE   202
                                                                                                                                     
 0                                                                                                            SUBCASE 1              
  * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71
