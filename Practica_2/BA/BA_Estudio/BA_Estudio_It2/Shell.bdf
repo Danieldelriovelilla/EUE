@@ -1,5 +1,5 @@
 $ Elements and Element Properties for region : 2D_Shell
-PSHELL   1       1       .002    1               1
+PSHELL   1       1       .003    1               1
 $ Pset: "2D_Shell" will be imported as: "pshell.1"
 CQUAD4   2000    1       1008    1125    1237    1007
 CQUAD4   2001    1       1125    1126    1238    1237

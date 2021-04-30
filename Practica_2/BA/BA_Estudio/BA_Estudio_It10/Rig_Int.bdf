@@ -1,6 +1,6 @@
 $ Elements and Element Properties for region : 1D_Beam_Int
-PBARL    3       1               BAR
-         .005    .013
+PBARL    3       1               I
+         .0195   .01     .01     .002    .002    .002
 $ Pset: "1D_Beam_Int" will be imported as: "pbarl.3"
 CBAR     1000    3       1000    1001    0.      0.      1.
                          0.      0.      -.0075  0.      0.      -.0075
