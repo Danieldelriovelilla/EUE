@@ -3,7 +3,7 @@ clear all
 close all
 
 filename = '../BA.xlsx';
-resultados = xlsread(filename,'N3:T12');
+resultados = xlsread(filename,'N3:T13');
 
 
 col = [1, 2, 6, 7];
