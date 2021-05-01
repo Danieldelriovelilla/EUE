@@ -1,0 +1,142 @@
+MSC Nastran V2020 (Intel Windows 10 Home 6.2 9200) Control File: 
+----------------------------------------------------------------- 
+Nastran BUFFSIZE=8193 $(c:/program files/msc.software/napa_se/2020/nastran/conf/nast20200.rcf[2])
+JID='c:/euep2/git/eue/practica_2/bb/iteraciones/it.1/bb_g1_ti/cabeceros_i/modos/bb_g1_ti_modos.bdf'
+OUT='./bb_g1_ti_modos'
+MEM=527MB      $ 
+MACH='Intel'
+OPER='Windows 10 Home'
+OSV='6.2 9200'
+MODEL='Xeon/3216 (DESKTOP-94LPFGG)'
+NPROC='8'
+CONFIG=6
+NPROC=8
+symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
+SDIR='c:/scratch/bb_g1_ti_modos.T16236_7'
+DBS='c:/scratch/bb_g1_ti_modos.T16236_7'
+SCR='yes'
+SMEM=100
+BPOOL=150
+DMPMEM=0
+NEWDEL='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='EDU'
+AUTHQUE=20
+MSGCAT='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=c:\euep2\git\eue\practica_2\bb\iteraciones\it.1\bb_g1_ti\cabeceros_i\modos 
+MSC_JIDPATH= 
+PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;c:\CDF_Distribution\cdf38_0-dist;c:\CDF_Distribution\cdf38_0-dist\lib;c:\CDF_Distribution\cdf38_0-dist\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\PuTTY\;C:\Users\Mar¡a Elena\AppData\Local\Microsoft\WindowsApps;C:\Users\Mar¡a Elena\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mar¡a Elena\AppData\Local\GitHubDesktop\bin;C:\Users\Mar¡a Elena\AppData\Local\atom\bin 
+SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res 
+Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Modos\BB_G1_Ti_Modos.bdf 
+Current Dir: C:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Modos 
+Time Cmd:    c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\msctime 
+Executable:  c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                     8066 MB
+ Physical memory available:           1654 MB
+ Paging file size:                   16528 MB
+ Paging file size available:          5640 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213511 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         DESKTOP-94LPFGG.home
+ Architecture:     win64i8
+ Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
+ Model:            Xeon/1133
+ Clock freq.:      1133 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     6
+ Config number:    6
+ Physical memory:  8066 MB
+ Virtual memory:   16528 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Sat May  1 20:49:07 Hdvr 2021 
+ 20:49:08  Beginning Analysis
+SCA Kernel 24.7.714370 successfully initialized
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
+
+ 20:49:09  MSC Authorization Information - Checkout Successful (1016, 0)
+ 20:49:09  -------------------------------------------------------------
+ 20:49:09  Acquired 1 license for Student Edition Nastran
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 20:49:09  Reading INCLUDE file "../BB_G1_Ti.bdf"
+ 20:49:09  Reading INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Shell.bdf"
+ 20:49:09  787 records read from INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Shell.bdf"
+ 20:49:09  Reading INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Rig_Ext.bdf"
+ 20:49:09  180 records read from INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Rig_Ext.bdf"
+ 20:49:09  Reading INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Rig_Int.bdf"
+ 20:49:09  332 records read from INCLUDE file "c:\EUEP2\Git\EUE\Practica_2\BB\Iteraciones\It.1\BB_G1_Ti\Cabeceros_I\Rig_Int.bdf"
+ 20:49:09  1729 records read from INCLUDE file "../BB_G1_Ti.bdf"
+ 20:49:09  32 records read from JID file "c:/euep2/git/eue/practica_2/bb/iteraciones/it.1/bb_g1_ti/cabeceros_i/modos/bb_g1_ti_modos.bdf"
+ 20:49:09  A total of 3060 records were read from 5 files.
+
+Processing of bulk data entries is complete.
+
+ 20:49:09  Analysis started.
+ 20:49:09  Geometry access/verification to CAD part initiated (if needed).
+ 20:49:09  Geometry access/verification to CAD part successfully completed (if needed).
+ 20:49:09  Finite element model generation started.
+ 20:49:09  Finite element model generated 5058 degrees of freedom.
+ 20:49:09  Finite element model generation successfully completed.
+ 20:49:09  Application of Loads and Boundary Conditions to the finite element model started.
+ 20:49:09  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 20:49:09  Solution of the system equations for normal modes started.
+ 20:49:09  Solution of the system equations for normal modes successfully completed.
+ 20:49:10  Normal modes analysis completed.
+ 20:49:10  19 records read from JID file "c:/euep2/git/eue/practica_2/bb/iteraciones/it.1/bb_g1_ti/cabeceros_i/modos/bb_g1_ti_modos.bdf"
+ 20:49:10  NSEXIT: EXIT(0)
+ 20:49:10  Analysis complete  0
+Real:        1.316 seconds ( 0:00:01.316)
+User:        0.750 seconds ( 0:00:00.750)
+Sys:         0.484 seconds ( 0:00:00.484)
+ ==================================================
+ OS:                           6.2
+ OEM ID:                       9
+ Model:                        Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz  
+ Number of processors:         8
+ Page size:                    4096
+ Processor type:               8664
+ Minimum application address:  10000
+ Maximum application address:  fffeffff
+ Active processor mask:        255
+ Nsocket:                      1
+ Ncore:                        4  ( 1 X 4 )
+ HyperThreading:               On
+ Ram:                          8066 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Consider using SOLVE=AUTO if you have not.
+ =====================================================
+ Detailed performance information can be found in the 
+ "MSC Nastran High Performance Computing User's Guide"
+ =====================================================
+MSC Nastran finished Sat May  1 20:49:10 Hdvr 2021 
