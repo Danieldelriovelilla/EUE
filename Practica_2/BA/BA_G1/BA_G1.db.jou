@@ -291,3 +291,14 @@ $#
 $#                                   
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 28-Apr-21 16:54:25
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1\BA_G1.db.jou at 16-May-21 
+$# 12:54:56
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_G1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 16-May-21 12:55:08

@@ -1,10 +1,10 @@
 SOL 101
 CEND
 $ Direct Text Input for Global Case Control Data
+TITLE = MSC.Nastran job created on 24-Apr-21 at 16:53:12
 ECHO = NONE
-LINES = 50000
 SUBCASE 1
-   SUBTITLE = Aceleracion_Z_80g
+   SUBTITLE=Aceleracion_Z_80g
    SPC = 2
    LOAD = 2
    DISPLACEMENT(SORT1,REAL)=ALL
@@ -22,14 +22,15 @@ $ Loads for Load Case : Aceleracion_X_50g
 SPCADD   2       1
 LOAD     2       1.      1.      1
 $ Displacement Constraints of Load Set : BC_123
-SPC1     1       123     1039    1051    1082    1113    1144    1145
-         1152
-SPC1     1       123     1156    THRU    1236
+SPC1     1       123     1012    1021    1035    1047    1059    1102
+         1115    1140    1153    1173    1186    1211    1224    1244
+         1257    1278
+SPC1     1       123     1285    THRU    1364
 $ Gravity Loading of Load Set : Aceleracion_X_50g
 GRAV*    1               0               784.80005       0.
 *        0.              -1.
 $
-INCLUDE '../BA_G1_Al.bdf'
+INCLUDE '../BA_G2_Al.bdf'
 $
 $ Referenced Coordinate Frames
-ENDDATA ebeeaabc
+ENDDATA 

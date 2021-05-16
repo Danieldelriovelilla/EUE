@@ -5,9 +5,13 @@ close all
 load('Data/Data.mat')
 
 
-figure()
+h = figure();
     bar(it)
-    legend('Masa [kg]','Frec [Hz]','MoS$_Y$','MoS$_U$',...
-           'Location', 'Best','Interpreter', 'Latex')
+    legend('Masa','Frec','MoS$_Y$','MoS$_U$',...
+           'Location', 'NorthEast','Interpreter', 'Latex')
+    xlabel("N\'umero de iteraci\'on", 'Interpreter', 'Latex')
+    ylabel("Variaci\'on porcentual", 'Interpreter', 'Latex')
+    grid on; box on
     ylim([-10, 260])
+    Save_as_PDF(h, 'Estudio_Parametrico','vertical')
        

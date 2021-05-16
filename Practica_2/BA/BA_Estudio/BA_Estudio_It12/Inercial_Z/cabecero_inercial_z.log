@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/1644 (DESKTOP-NHC7R5K)'
+MODEL='Xeon/2079 (DESKTOP-NHC7R5K)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/cabecero_inercial_z.T16132_20'
-DBS='c:/scratch/cabecero_inercial_z.T16132_20'
+SDIR='c:/scratch/cabecero_inercial_z.T11360_43'
+DBS='c:/scratch/cabecero_inercial_z.T11360_43'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -46,18 +46,18 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16268 MB
- Physical memory available:           8237 MB
+ Physical memory available:           9184 MB
  Paging file size:                   18700 MB
- Paging file size available:          6941 MB
+ Paging file size available:          9908 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
 System configuration:
- Hostname:         DESKTOP-NHC7R5K
+ Hostname:         DESKTOP-NHC7R5K.upm.es
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/1190
- Clock freq.:      955 MHz
+ Model:            Xeon/2167
+ Clock freq.:      2167 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Fri Apr 30 18:56:20 Hdvr 2021 
- 18:56:23  Beginning Analysis
+MSC Nastran started  Tue May  4 12:26:43 Hdvr 2021 
+ 12:26:45  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,45 +79,45 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 18:56:23  MSC Authorization Information - Checkout Successful (1016, 0)
- 18:56:23  -------------------------------------------------------------
- 18:56:23  Acquired 1 license for Student Edition Nastran
+ 12:26:45  MSC Authorization Information - Checkout Successful (1016, 0)
+ 12:26:45  -------------------------------------------------------------
+ 12:26:45  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 18:56:23  Reading INCLUDE file "../BA_G1_Al.bdf"
- 18:56:23  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Shell.bdf"
- 18:56:23  787 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Shell.bdf"
- 18:56:23  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Ext.bdf"
- 18:56:23  180 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Ext.bdf"
- 18:56:23  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Int.bdf"
- 18:56:23  331 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Int.bdf"
- 18:56:23  1674 records read from INCLUDE file "../BA_G1_Al.bdf"
- 18:56:23  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it12/inercial_z/cabecero_inercial_z.bdf"
- 18:56:23  A total of 3007 records were read from 5 files.
+ 12:26:46  Reading INCLUDE file "../BA_G1_Al.bdf"
+ 12:26:46  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Shell.bdf"
+ 12:26:46  787 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Shell.bdf"
+ 12:26:46  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Ext.bdf"
+ 12:26:46  180 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Ext.bdf"
+ 12:26:46  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Int.bdf"
+ 12:26:46  331 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It12\Rig_Int.bdf"
+ 12:26:46  1674 records read from INCLUDE file "../BA_G1_Al.bdf"
+ 12:26:46  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it12/inercial_z/cabecero_inercial_z.bdf"
+ 12:26:46  A total of 3007 records were read from 5 files.
 
 Processing of bulk data entries is complete.
 
- 18:56:24  Analysis started.
- 18:56:24  Geometry access/verification to CAD part initiated (if needed).
- 18:56:24  Geometry access/verification to CAD part successfully completed (if needed).
- 18:56:24  Finite element model generation started.
- 18:56:24  Finite element model generated 4980 degrees of freedom.
- 18:56:24  Finite element model generation successfully completed.
- 18:56:24  Application of Loads and Boundary Conditions to the finite element model started.
- 18:56:24  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 18:56:24  Solution of the system equations for linear statics started.
- 18:56:24  Solution of the system equations for linear statics successfully completed.
- 18:56:25  Linear static analysis completed.
- 18:56:25  17 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it12/inercial_z/cabecero_inercial_z.bdf"
- 18:56:25  NSEXIT: EXIT(0)
- 18:56:25  Analysis complete  0
-Real:        2.397 seconds ( 0:00:02.397)
-User:        1.484 seconds ( 0:00:01.484)
-Sys:         0.843 seconds ( 0:00:00.843)
+ 12:26:46  Analysis started.
+ 12:26:46  Geometry access/verification to CAD part initiated (if needed).
+ 12:26:46  Geometry access/verification to CAD part successfully completed (if needed).
+ 12:26:46  Finite element model generation started.
+ 12:26:46  Finite element model generated 4980 degrees of freedom.
+ 12:26:46  Finite element model generation successfully completed.
+ 12:26:46  Application of Loads and Boundary Conditions to the finite element model started.
+ 12:26:46  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 12:26:46  Solution of the system equations for linear statics started.
+ 12:26:47  Solution of the system equations for linear statics successfully completed.
+ 12:26:47  Linear static analysis completed.
+ 12:26:47  17 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it12/inercial_z/cabecero_inercial_z.bdf"
+ 12:26:47  NSEXIT: EXIT(0)
+ 12:26:47  Analysis complete  0
+Real:        1.988 seconds ( 0:00:01.988)
+User:        1.234 seconds ( 0:00:01.234)
+Sys:         0.656 seconds ( 0:00:00.656)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -139,4 +139,4 @@ Sys:         0.843 seconds ( 0:00:00.843)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Fri Apr 30 18:56:26 Hdvr 2021 
+MSC Nastran finished Tue May  4 12:26:48 Hdvr 2021 
