@@ -1,0 +1,33 @@
+$ MSC.Nastran input file created on May       01, 2021 at 13:33:57 by
+$ Patran 2020  (Student Edition)
+$ Direct Text Input for Nastran System Cell Section
+$ Direct Text Input for File Management Section
+$ Direct Text Input for Executive Control
+$ Normal Modes Analysis, Database
+SOL 103
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = MSC.Nastran job created on 24-Apr-21 at 16:53:12
+ECHO = NONE
+$ Using Nastran default values for RESVEC
+SUBCASE 1
+   SUBTITLE=Modos
+   METHOD = 1
+   SPC = 2
+   VECTOR(SORT1,REAL)=ALL
+   WEIGHTCHECK(PRINT, SET=ALL) = YES
+$ Direct Text Input for this Subcase
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+EIGRL    1                       10      0                       MASS
+$ Loads for Load Case : Modos
+SPCADD   2       1
+$ Displacement Constraints of Load Set : BC_123456
+SPC1     1       123456  11      THRU    22
+$
+INCLUDE '../BB_G2_Ti.bdf'
+$
+$ Referenced Coordinate Frames
+ENDDATA 
