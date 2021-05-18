@@ -2,8 +2,8 @@ clc
 clear all
 close all
 
-filename = '../BA.xlsx';
-resultados = xlsread(filename,'N3:T11');
+filename = '../BA_Optimizacion.xlsx';
+resultados = xlsread(filename,'N3:T6');
 
 
 col = [1, 2, 6, 7];

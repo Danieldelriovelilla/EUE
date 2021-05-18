@@ -1,13 +1,13 @@
 MSC Nastran V2020 (Intel Windows 10 Pro 6.2 9200) Control File: 
 ----------------------------------------------------------------- 
 Nastran BUFFSIZE=8193 $(c:/program files/msc.software/napa_se/2020/nastran/conf/nast20200.rcf[2])
-JID='c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it8/inercial_z/cabecero_inercial_z.bdf'
+JID='c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/optimizacion/ba_optimizacion_it1/inercial_z/cabecero_inercial_z.bdf'
 OUT='./cabecero_inercial_z'
 MEM=527MB      $ 
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/2080 (DESKTOP-NHC7R5K)'
+MODEL='Xeon/2900 (DESKTOP-NHC7R5K)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/cabecero_inercial_z.T8604_34'
-DBS='c:/scratch/cabecero_inercial_z.T8604_34'
+SDIR='c:/scratch/cabecero_inercial_z.T13640_2'
+DBS='c:/scratch/cabecero_inercial_z.T13640_2'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -31,13 +31,13 @@ MSGCAT='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/anal
 MSGDEST='f06'
 NEWS='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/news.txt'
 ----------------------------------------------------------------- 
-MSC_ISHELLPATH=c:\users\danie\desktop\eue\practica_2\ba\ba_estudio\ba_estudio_it8\inercial_z 
+MSC_ISHELLPATH=c:\users\danie\desktop\eue\practica_2\ba\ba_estudio\optimizacion\ba_optimizacion_it1\inercial_z 
 MSC_JIDPATH= 
 PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\Git\cmd;C:\Users\danie\AppData\Local\Microsoft\WindowsApps;C:\Users\danie\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\danie\AppData\Local\GitHubDesktop\bin;C:\Users\danie\AppData\Local\atom\bin 
 SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res\SCAServiceCatalog.xml 
 SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res 
-Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Inercial_Z\Cabecero_Inercial_Z.bdf 
-Current Dir: C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Inercial_Z 
+Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Inercial_Z\Cabecero_Inercial_Z.bdf 
+Current Dir: C:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Inercial_Z 
 Time Cmd:    c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\msctime 
 Executable:  c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\analysis.exe 
 Arch= Kywd:  [Not specified]  
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    16268 MB
- Physical memory available:           9114 MB
+ Physical memory available:           8510 MB
  Paging file size:                   18700 MB
- Paging file size available:          9673 MB
+ Paging file size available:          7919 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,8 +56,8 @@ System configuration:
  Hostname:         DESKTOP-NHC7R5K
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/1133
- Clock freq.:      1133 MHz
+ Model:            Xeon/1319
+ Clock freq.:      1650 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Wed Apr 28 17:07:34 Hdvr 2021 
- 17:07:36  Beginning Analysis
+MSC Nastran started  Mon May 17 19:47:02 Hdvr 2021 
+ 19:47:03  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,45 +79,45 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 17:07:36  MSC Authorization Information - Checkout Successful (1016, 0)
- 17:07:36  -------------------------------------------------------------
- 17:07:36  Acquired 1 license for Student Edition Nastran
+ 19:47:03  MSC Authorization Information - Checkout Successful (1016, 0)
+ 19:47:03  -------------------------------------------------------------
+ 19:47:03  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 17:07:37  Reading INCLUDE file "../BA_G1_Al.bdf"
- 17:07:37  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Shell.bdf"
- 17:07:37  787 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Shell.bdf"
- 17:07:37  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Rig_Ext.bdf"
- 17:07:37  180 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Rig_Ext.bdf"
- 17:07:37  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Rig_Int.bdf"
- 17:07:37  331 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\BA_Estudio_It8\Rig_Int.bdf"
- 17:07:37  1674 records read from INCLUDE file "../BA_G1_Al.bdf"
- 17:07:37  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it8/inercial_z/cabecero_inercial_z.bdf"
- 17:07:37  A total of 3007 records were read from 5 files.
+ 19:47:03  Reading INCLUDE file "../main.bdf"
+ 19:47:03  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Shell.bdf"
+ 19:47:03  787 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Shell.bdf"
+ 19:47:03  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Rig_Ext.bdf"
+ 19:47:03  180 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Rig_Ext.bdf"
+ 19:47:03  Reading INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Rig_Int.bdf"
+ 19:47:03  331 records read from INCLUDE file "c:\Users\danie\Desktop\EUE\Practica_2\BA\BA_Estudio\Optimizacion\BA_Optimizacion_It1\Rig_Int.bdf"
+ 19:47:03  1674 records read from INCLUDE file "../main.bdf"
+ 19:47:03  35 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/optimizacion/ba_optimizacion_it1/inercial_z/cabecero_inercial_z.bdf"
+ 19:47:03  A total of 3007 records were read from 5 files.
 
 Processing of bulk data entries is complete.
 
- 17:07:37  Analysis started.
- 17:07:37  Geometry access/verification to CAD part initiated (if needed).
- 17:07:37  Geometry access/verification to CAD part successfully completed (if needed).
- 17:07:37  Finite element model generation started.
- 17:07:37  Finite element model generated 4980 degrees of freedom.
- 17:07:37  Finite element model generation successfully completed.
- 17:07:37  Application of Loads and Boundary Conditions to the finite element model started.
- 17:07:37  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 17:07:38  Solution of the system equations for linear statics started.
- 17:07:38  Solution of the system equations for linear statics successfully completed.
- 17:07:38  Linear static analysis completed.
- 17:07:38  17 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/ba_estudio_it8/inercial_z/cabecero_inercial_z.bdf"
- 17:07:38  NSEXIT: EXIT(0)
- 17:07:38  Analysis complete  0
-Real:        1.776 seconds ( 0:00:01.776)
-User:        1.109 seconds ( 0:00:01.109)
-Sys:         0.687 seconds ( 0:00:00.687)
+ 19:47:03  Analysis started.
+ 19:47:03  Geometry access/verification to CAD part initiated (if needed).
+ 19:47:03  Geometry access/verification to CAD part successfully completed (if needed).
+ 19:47:03  Finite element model generation started.
+ 19:47:03  Finite element model generated 4980 degrees of freedom.
+ 19:47:03  Finite element model generation successfully completed.
+ 19:47:03  Application of Loads and Boundary Conditions to the finite element model started.
+ 19:47:03  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 19:47:03  Solution of the system equations for linear statics started.
+ 19:47:03  Solution of the system equations for linear statics successfully completed.
+ 19:47:03  Linear static analysis completed.
+ 19:47:03  17 records read from JID file "c:/users/danie/desktop/eue/practica_2/ba/ba_estudio/optimizacion/ba_optimizacion_it1/inercial_z/cabecero_inercial_z.bdf"
+ 19:47:03  NSEXIT: EXIT(0)
+ 19:47:03  Analysis complete  0
+Real:        0.946 seconds ( 0:00:00.946)
+User:        0.546 seconds ( 0:00:00.546)
+Sys:         0.390 seconds ( 0:00:00.390)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -139,4 +139,4 @@ Sys:         0.687 seconds ( 0:00:00.687)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Wed Apr 28 17:07:38 Hdvr 2021 
+MSC Nastran finished Mon May 17 19:47:04 Hdvr 2021 

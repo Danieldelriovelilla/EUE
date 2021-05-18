@@ -1,15 +1,15 @@
 SOL 103
 CEND
 $ Direct Text Input for Global Case Control Data
-TITLE = Cabecero_Modos
+TITLE = MSC.Nastran job created on 24-Apr-21 at 16:53:12
 ECHO = NONE
-LINES = 50000
-RESVEC = YES
+$ Using Nastran default values for RESVEC
 SUBCASE 1
-   SUBTITLE = Modos
+   SUBTITLE=Modos
    METHOD = 1
    SPC = 2
-   VECTOR(SORT1,REAL) = ALL
+   VECTOR(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
    WEIGHTCHECK(PRINT, SET=ALL) = YES
 $ Direct Text Input for this Subcase
 BEGIN BULK
@@ -20,11 +20,12 @@ EIGRL    1                       10      0                       MASS
 $ Loads for Load Case : Modos
 SPCADD   2       1
 $ Displacement Constraints of Load Set : BC_123
-SPC1     1       123     1039    1051    1082    1113    1144    1145
-         1152
-SPC1     1       123     1156    THRU    1236
+SPC1     1       123     1012    1021    1035    1047    1059    1102
+         1115    1140    1153    1173    1186    1211    1224    1244
+         1257    1278
+SPC1     1       123     1285    THRU    1364
 $
-INCLUDE '../BA_G1_Al.bdf'
+INCLUDE '../main.bdf'
 $
 $ Referenced Coordinate Frames
-ENDDATA 33030d0c
+ENDDATA 
