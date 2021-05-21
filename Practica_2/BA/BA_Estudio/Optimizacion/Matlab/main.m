@@ -10,7 +10,7 @@ col = [1, 2, 6];
 optim = resultados(:, col);
 
 h = figure();
-    plot(optim(:,1), 'k-o', 'MarkerSize', 10, 'LineWidth', 2)
+    plot(optim(:,1), 'k-*', 'MarkerSize', 6, 'LineWidth', 2)
     xlabel("I", 'Interpreter', 'Latex')
     ylabel({'Masa [kg]'}, 'Interpreter', 'Latex')
     grid on; box on
@@ -18,7 +18,7 @@ h = figure();
     Save_as_PDF(h, 'Optimizacion_Masa', 'v')
     
 h = figure();
-    plot(optim(:,2), 'k-o', 'MarkerSize', 10, 'LineWidth', 2)
+    plot(optim(:,2), 'k-*', 'MarkerSize', 6, 'LineWidth', 2)
     xlabel("Iteraci\'on", 'Interpreter', 'Latex')
     ylabel({'Frecuencia [Hz]'}, 'Interpreter', 'Latex')
     grid on; box on
@@ -26,7 +26,7 @@ h = figure();
     Save_as_PDF(h, 'Optimizacion_Frec','v')
     
 h = figure();
-    plot(optim(:,3), 'k-o', 'MarkerSize', 10, 'LineWidth', 2)
+    plot(optim(:,3), 'k-*', 'MarkerSize', 6, 'LineWidth', 2)
     xlabel("Iteraci\'on", 'Interpreter', 'Latex')
     ylabel('MOS$_y$', 'Interpreter', 'Latex')
     grid on; box on

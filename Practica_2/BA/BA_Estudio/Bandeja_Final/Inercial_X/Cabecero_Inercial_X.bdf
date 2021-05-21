@@ -29,7 +29,7 @@ $ Gravity Loading of Load Set : Aceleracion_X_50g
 GRAV*    1               0               490.50003       -1.
 *        0.              0.
 $
-INCLUDE '../BA_G1_Al.bdf'
+INCLUDE '../main.bdf'
 $
 $ Referenced Coordinate Frames
 ENDDATA ebeeaabc
