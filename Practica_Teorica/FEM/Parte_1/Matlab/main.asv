@@ -51,15 +51,11 @@ gdl_2 = gdl_1(end)-5:vigas.gdl(end);
 
 vigas.mass = zeros(length(vigas.gdl));
 vigas.mass(gdl_1, gdl_1) = vigas.mass(gdl_1, gdl_1) + viga_1.mass;
-mesh(vigas.mass)
 vigas.mass(gdl_2, gdl_2) = vigas.mass(gdl_2, gdl_2) + viga_2.mass;
-mesh(vigas.mass)
 
 vigas.stiff = zeros(length(vigas.gdl));
 vigas.stiff(gdl_1, gdl_1) = vigas.stiff(gdl_1, gdl_1) + viga_1.stiff;
-mesh(vigas.stiff)
 vigas.stiff(gdl_2, gdl_2) = vigas.stiff(gdl_2, gdl_2) + viga_2.stiff;
-mesh(vigas.stiff)
 
 
 %% SOLUCION SIN REDUCCION
@@ -73,23 +69,5 @@ K(1:6,:) = []; K(:,1:6) = [];
 K(end-5:end,:) = []; K(:,end-5:end) = [];
 
 F = zeros(size(K,1),1);
-F(25*6+5) = -1;
+F(25*6) = 1;
 
-% Resolver sistema
-f = 1;
-w = 2*pi*f;
-
-% Respuesta permanente
-H = inv(K - w^2*M);
-Q = (H*F);
-
-theta = Q(2:6:end);
-z = Q(6:6:end);
-
-figure()
-    plot([0;z;0])
-    title('Z')
-    
-figure()
-    plot([0;theta;0])
-    title('\theta')
