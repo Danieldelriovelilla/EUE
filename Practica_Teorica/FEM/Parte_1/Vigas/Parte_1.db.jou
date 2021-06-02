@@ -1,0 +1,273 @@
+$# Creating journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Parte_1.db.jou at 
+$# 02-Jun-21 10:36:42
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Par" // @
+"te_1.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[0 0 0]", "Coord 0", asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+asm_const_grid_xyz( "2", "[0.5 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 2
+asm_const_grid_xyz( "3", "[1.1 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 3
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "Viga_1", 0,  @
+"Date: 02-Jun-21           Time: 10:47:42", "Isotropic", 1, "Directionality",  @
+1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Density"], [2, 5, 16, 0], "Property Values", ["2.4e8", "0.4" @
+, "1.4e3", ""] )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "Viga_2", 0,  @
+"Date: 02-Jun-21           Time: 10:47:42", "Isotropic", 1, "Directionality",  @
+1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Density"], [2, 5, 16, 0], "Property Values", ["7e10", "0.3", @
+ "1.1333e4", ""] )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+beam_section_create( "Viga_1", "ROD", ["1E-3"] )
+$# Beam Section "Viga_1" created.
+elementprops_create( "Viga_1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Viga_1", "m:Viga_1", "<0, 0, 1>", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "Viga_1" created.
+beam_section_create( "Viga_2", "ROD", ["5e-4"] )
+$# Beam Section "Viga_2" created.
+elementprops_create( "Viga_2", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Viga_2", "m:Viga_2", "<0, 0, 1>", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "Viga_2" created.
+uil_primary_file.db_save(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+elementprops_modify( "Viga_1", "Viga_1", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Viga_1", "m:Viga_1",  @
+"<0. 0. 1.>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1" )
+$# Property Set "Viga_1" modified.
+$# Critical Decision requested from application Regions
+$#     The Select Members databox contains some data.  Do you wish to add it 
+$# to the Application Region List before continuing?
+$? NO 67001017 
+elementprops_modify( "Viga_2", "Viga_2", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Viga_2", "m:Viga_2",  @
+"<0. 0. 1.>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "Viga_2" modified.
+$# Warning reported from application ELEM_PROPS
+$#     The selected entity does not have an assigned property set.
+$# Warning reported from application ELEM_PROPS
+$#     The selected entity does not have an assigned property set.
+elementprops_modify( "Viga_2", "Viga_2", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], ["Viga_2", "m:Viga_2",  @
+"<0. 0. 1.>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 2" )
+$# Property Set "Viga_2" modified.
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_create( "Curve 1", 2, 0, 0., 0.0099999998, 0. )
+mesh_seed_create( "Curve 2", 2, 0, 0., 0.0099999998, 0. )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.050000001, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 51 nodes and 50 elements created for Curve 1.
+$# === 51 nodes created.  IDs  = 1:51.
+$# === 50 elements created.  IDs  = 1:50.
+fem_associate_elems_to_ep( "Viga_1", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 50 Element(s) associated to the Element Property Viga_1.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 2", 16384, 0.059999999, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 61 nodes and 60 elements created for Curve 2.
+$# === 61 nodes created.  IDs  = 52:112.
+$# === 60 elements created.  IDs  = 51:110.
+fem_associate_elems_to_ep( "Viga_2", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 60 Element(s) associated to the Element Property Viga_2.
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadcase_create2( "Parte_1", "Static", "", 1., [""], [0], [0.], "", 0., TRUE )
+$# Load Case "Parte_1" created.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+verify_boundaries_display_mgr.initialize(  )
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 1 node deleted.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_create2( "BC_123456", "Velocity", "Nodal", "", "Static", [ @
+"Node 1 112"], "FEM", "Coord 0", "1.", ["<  0,0,0   >", "<  0,0,0   >",  @
+"<     >", "<     >"], ["", "", "", ""] )
+$# Load/BC set "BC_123456" created.
+ga_view_aa_set( -2.155454, -59.980492, -1.571530 )
+ga_view_aa_set( 2.966461, -46.985336, -1.447673 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -8.000789, -10.277860, 2.348319 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.059743, -0.000390 )
+ga_view_zoom_set( 0.251262 )
+ga_view_center_set( -0.112674, -0.000824 )
+ga_view_zoom_set( 0.223344 )
+ga_view_center_set( -0.159647, -0.001209 )
+ga_view_zoom_set( 0.198528 )
+ga_view_center_set( -0.201401, -0.001552 )
+ga_view_zoom_set( 0.176469 )
+ga_view_center_set( -0.170129, 0.003655 )
+ga_view_zoom_set( 0.198528 )
+ga_view_center_set( -0.140111, 0.014059 )
+ga_view_zoom_set( 0.223344 )
+ga_view_center_set( -0.106340, 0.025764 )
+ga_view_zoom_set( 0.251262 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+$# Error reported from application LOADS_BCS
+$#     Load/BC Name is "blank". Input a Load/BC Name.
+$? NO 26002010 
+loadsbcs_create2( "Load", "Force", "Nodal", "", "Static", ["Node 25"], "FEM",  @
+"Coord 0", "1.", ["<  0,0,-1   >", "<     >", "<     >", "<     >"], ["", "",  @
+"", ""] )
+$# Load/BC set "Load" created.
+ga_view_aa_set( -31.946527, 4.234305, -0.515138 )
+ga_view_aa_set( -80.680016, 8.629925, -170.909256 )
+ga_view_center_set( -0.107755, 0.030251 )
+ga_view_zoom_set( 0.282669 )
+ga_view_center_set( -0.109346, 0.035298 )
+ga_view_zoom_set( 0.318003 )
+ga_view_center_set( -0.111136, 0.040977 )
+ga_view_zoom_set( 0.357753 )
+ga_view_aa_set( -90.231781, -4.881080, 0.298668 )
+ga_view_aa_set( -85.561188, -1.219938, -11.522534 )
+loadsbcs_plot_markers_v2( ["BC_123456", "Load"], ["default_group"], TRUE, 0. )
+gm_visibility_widget( " Point 1:3 Curve 1:2", FALSE )
+gm_visibility_widget( " Point 1:3 Curve 1:2", TRUE )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( -90., 0., 0. )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 02-Jun-21 12:13:06

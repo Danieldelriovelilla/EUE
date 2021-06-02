@@ -1,0 +1,185 @@
+$ MSC.Nastran input file created on June      02, 2021 at 12:36:08 by
+$ Patran 2020  (Student Edition)
+$ Direct Text Input for Nastran System Cell Section
+$ Direct Text Input for File Management Section
+$ Direct Text Input for Executive Control
+$ Normal Modes Analysis, Database
+SOL 103
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = MSC.Nastran job created on 02-Jun-21 at 12:34:17
+ECHO = NONE
+$ Using Nastran default values for RESVEC
+SUBCASE 1
+$ Subcase name : Default
+   SUBTITLE=Default
+   METHOD = 1
+   VECTOR(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+   EXTSEOUT(STIF,DAMP,MASS,EXTID=1,DMIGPCH)
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+EIGRL    1                       10      0
+$ Elements and Element Properties for region : Beam
+PBARL    1       1               ROD
+         .001
+$ Pset: "Beam" will be imported as: "pbarl.1"
+CBAR     1000    1       1000    1001    0.      0.      1.
+CBAR     1001    1       1001    1002    0.      0.      1.
+CBAR     1002    1       1002    1003    0.      0.      1.
+CBAR     1003    1       1003    1004    0.      0.      1.
+CBAR     1004    1       1004    1005    0.      0.      1.
+CBAR     1005    1       1005    1006    0.      0.      1.
+CBAR     1006    1       1006    1007    0.      0.      1.
+CBAR     1007    1       1007    1008    0.      0.      1.
+CBAR     1008    1       1008    1009    0.      0.      1.
+CBAR     1009    1       1009    1010    0.      0.      1.
+CBAR     1010    1       1010    1011    0.      0.      1.
+CBAR     1011    1       1011    1012    0.      0.      1.
+CBAR     1012    1       1012    1013    0.      0.      1.
+CBAR     1013    1       1013    1014    0.      0.      1.
+CBAR     1014    1       1014    1015    0.      0.      1.
+CBAR     1015    1       1015    1016    0.      0.      1.
+CBAR     1016    1       1016    1017    0.      0.      1.
+CBAR     1017    1       1017    1018    0.      0.      1.
+CBAR     1018    1       1018    1019    0.      0.      1.
+CBAR     1019    1       1019    1020    0.      0.      1.
+CBAR     1020    1       1020    1021    0.      0.      1.
+CBAR     1021    1       1021    1022    0.      0.      1.
+CBAR     1022    1       1022    1023    0.      0.      1.
+CBAR     1023    1       1023    1024    0.      0.      1.
+CBAR     1024    1       1024    1025    0.      0.      1.
+CBAR     1025    1       1025    1026    0.      0.      1.
+CBAR     1026    1       1026    1027    0.      0.      1.
+CBAR     1027    1       1027    1028    0.      0.      1.
+CBAR     1028    1       1028    1029    0.      0.      1.
+CBAR     1029    1       1029    1030    0.      0.      1.
+CBAR     1030    1       1030    1031    0.      0.      1.
+CBAR     1031    1       1031    1032    0.      0.      1.
+CBAR     1032    1       1032    1033    0.      0.      1.
+CBAR     1033    1       1033    1034    0.      0.      1.
+CBAR     1034    1       1034    1035    0.      0.      1.
+CBAR     1035    1       1035    1036    0.      0.      1.
+CBAR     1036    1       1036    1037    0.      0.      1.
+CBAR     1037    1       1037    1038    0.      0.      1.
+CBAR     1038    1       1038    1039    0.      0.      1.
+CBAR     1039    1       1039    1040    0.      0.      1.
+CBAR     1040    1       1040    1041    0.      0.      1.
+CBAR     1041    1       1041    1042    0.      0.      1.
+CBAR     1042    1       1042    1043    0.      0.      1.
+CBAR     1043    1       1043    1044    0.      0.      1.
+CBAR     1044    1       1044    1045    0.      0.      1.
+CBAR     1045    1       1045    1046    0.      0.      1.
+CBAR     1046    1       1046    1047    0.      0.      1.
+CBAR     1047    1       1047    1048    0.      0.      1.
+CBAR     1048    1       1048    1049    0.      0.      1.
+CBAR     1049    1       1049    1050    0.      0.      1.
+$ Referenced Material Records
+$ Material Record : Material
+$ Description of Material : Date: 02-Jun-21           Time: 12:16:58
+MAT1     1       2.4+8           .4      1400.
+$ Nodes of the Entire Model
+GRID     1000            0.      0.      0.
+GRID*    1001                           .009999999776483 0.
+*        0.
+GRID*    1002                           .019999999552965 0.
+*        0.
+GRID*    1003                           .029999999329448 0.
+*        0.
+GRID*    1004                            .03999999910593 0.
+*        0.
+GRID*    1005                           .050000000745058 0.
+*        0.
+GRID*    1006                           .059999998658895 0.
+*        0.
+GRID*    1007                           .070000000298023 0.
+*        0.
+GRID*    1008                           .079999998211861 0.
+*        0.
+GRID*    1009                           .090000003576279 0.
+*        0.
+GRID*    1010                           .100000001490116 0.
+*        0.
+GRID*    1011                           .109999999403954 0.
+*        0.
+GRID*    1012                           .119999997317791 0.
+*        0.
+GRID*    1013                           .129999995231628 0.
+*        0.
+GRID*    1014                           .140000000596046 0.
+*        0.
+GRID*    1015                           .150000005960464 0.
+*        0.
+GRID*    1016                           .159999996423721 0.
+*        0.
+GRID*    1017                           .170000001788139 0.
+*        0.
+GRID*    1018                           .180000007152557 0.
+*        0.
+GRID*    1019                           .189999997615814 0.
+*        0.
+GRID*    1020                           .200000002980232 0.
+*        0.
+GRID*    1021                           .209999993443489 0.
+*        0.
+GRID*    1022                           .219999998807907 0.
+*        0.
+GRID*    1023                           .230000004172325 0.
+*        0.
+GRID*    1024                           .239999994635582 0.
+*        0.
+GRID     1025            .25     0.      0.
+GRID*    1026                           .259999990463257 0.
+*        0.
+GRID*    1027                           .270000010728836 0.
+*        0.
+GRID*    1028                           .280000001192093 0.
+*        0.
+GRID*    1029                            .28999999165535 0.
+*        0.
+GRID*    1030                           .300000011920929 0.
+*        0.
+GRID*    1031                           .310000002384186 0.
+*        0.
+GRID*    1032                           .319999992847443 0.
+*        0.
+GRID*    1033                           .330000013113022 0.
+*        0.
+GRID*    1034                           .340000003576279 0.
+*        0.
+GRID*    1035                           .349999994039536 0.
+*        0.
+GRID*    1036                           .360000014305115 0.
+*        0.
+GRID*    1037                           .370000004768372 0.
+*        0.
+GRID*    1038                           .379999995231628 0.
+*        0.
+GRID*    1039                           .389999985694885 0.
+*        0.
+GRID*    1040                           .400000005960464 0.
+*        0.
+GRID*    1041                           .409999996423721 0.
+*        0.
+GRID*    1042                           .419999986886978 0.
+*        0.
+GRID*    1043                           .430000007152557 0.
+*        0.
+GRID*    1044                           .439999997615814 0.
+*        0.
+GRID*    1045                           .449999988079071 0.
+*        0.
+GRID*    1046                            .46000000834465 0.
+*        0.
+GRID*    1047                           .469999998807907 0.
+*        0.
+GRID*    1048                           .479999989271164 0.
+*        0.
+GRID*    1049                           .490000009536743 0.
+*        0.
+GRID     1050            .5      0.      0.
+$ Loads for Load Case : Default
+$ Referenced Coordinate Frames
+ENDDATA 3f8846ae
