@@ -1,0 +1,33 @@
+OL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+AUTOSPC (NOPRINT) = YES
+ECHO = NONE
+SUBCASE 1
+$ Subcase name : QStatic_315deg
+   SUBTITLE=QStatic_315deg
+   SPC = 2
+   LOAD = 2   
+   DISPLACEMENT(SORT1,REAL)=ALL 
+   SPCFORCES(SORT1,REAL)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ Loads for Load Case : QStatic_315deg
+SPCADD   2       1       3       4
+LOAD     2      1.      1.       1      1.       3
+$ Displacement Constraints of Load Set : Displ_1
+SPC1     1       12356   1       2
+$ Displacement Constraints of Load Set : Displ_2
+SPC1     3       12356   3       5
+$ Displacement Constraints of Load Set : Displ_3
+SPC1     4       12356   4
+$ Gravity Loading of Load Set : QStatic_OutOfPlane
+GRAV     3       0      229.      1.       0.      0.
+$ Gravity Loading of Load Set : QStatic_InPlane_315deg
+GRAV     1       0      103.5     0.     .707107 -.707107
+$ Referenced Coordinate Frames
+INCLUDE 'MODEL_NAME.bdf'
+ENDDATA

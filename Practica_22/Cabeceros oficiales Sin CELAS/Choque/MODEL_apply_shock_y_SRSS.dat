@@ -1,0 +1,58 @@
+$ Response Spectra Application_Shock
+$
+sol 103
+$c
+cend
+echo=none
+line=999999
+autospc (NOPRINT) = YES
+subcase 1
+   subtitle = Shock Spectrum Analysis_Y
+   spc = 2
+   method = 10
+   dload = 20
+   sdamp = 30
+   param,option,srss
+$   param,close,0.01
+   PARAM, LFREQ, 0.1
+   PARAM, HFREQ, 10000.0
+   accel(sort2) = all
+$   stress(sort2, VONMISES)      = all
+   SET 102 = 2002,2003,2004,2005,2012,2013,2014,2015,2022,2023,2024,
+             2025,2032,2033,2034,2035,2042,2043,2044,2045,2052,2053,
+             2054,2055
+   force(sort2) = 102
+$
+begin bulk
+$
+param,grdpnt,0
+param,post,-1
+param, scrspec, 0
+$
+eigrl,10,5.0,10000.0,
+$
+spc1,2,13456,859999
+suport, 859999, 2
+conm2,  859999, 859999, , 1.e8
+$
+$ If the input load are expresed in gs, it's necesary 
+$ indicate a 9.81 scale factor in DLOAD
+Dload, 20, 1.0, 9.81, 71
+$
+Dti, Specsel, 71, , A, 2, 0.05
+$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+TABLED1        2 LOG     LOG
+         100.0   70.0    1500.0  1500.0  10000.0 1500.0  ENDT
+$
+tabdmp1, 30, crit
++, 0.0, 0.05, 10000., 0.05, endt
+$
+$ Large mass node
+GRID     859999          -.0775  -.0855   -.100
+$ Multipoint Constraints to join I/Fs to the Shaker
+RBE2     860000  859999  123456  190004  190010  190016  190022  190028  
+         190035
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE 'MODEL_NAME.bdf'
+ENDDATA

@@ -1,0 +1,179 @@
+$ Direct Text Input for Nastran System Cell Section
+NASTRAN SYSTEM(151)=1
+NASTRAN BUFFSIZE=65537
+NASTRAN DBCFACT=4
+$ Random  analysis template						       $
+$ with recovering of I/F LOADS for notching				       $
+$ using LARGE MASS method                                                      $	
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$
+TIME 2000	$ sets the maximum CPU and I/O time
+SOL 111		$ Modal Frequency Response solution routine
+$
+CEND
+$
+echo=none	$ Controls echo (i.e., printout) of the Bulk Data
+LINES=50000	$ same as NLINES. specifies number of lines printed per page
+AUTOSPC(NOPRINT) = YES
+$
+$ in the 2 following lines, substitute the sentence behind the "="
+TITLE = RANDOM VIBRATION MODEL		$ Output title
+SUBTITLE =RANDOM VIBRATION MODEL subcase X	$ Output subtitle 		
+$
+SPC=1		$ SPC of LARGE MASS 
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+METHOD=10       $ for real eigenvalue analysis -> EIGRL
+FREQUENCY=30    $ frequencies for the calculations -> FREQx
+$     Annotation: FREQUENCY = n, Set identification number of FREQ, FREQ1,
+$                 FREQ2,FREQ3, FREQ4, and FREQ5 Bulk Data entries.
+SDAMPING=40	$ structural damping -> TABDMP1. Set identification number of
+$		  a TABDMP1 or TABLEDi Bulk Data entry.
+DLOAD=50        $ dynamic excitation -> RLOAD2. Set identification of a DLOAD,
+$                 RLOAD1, RLOAD2, TLOAD1,TLOAD2, or ACSRCE Bulk Data entry.
+RANDOM=60       $ random excitation -> RANDPS. Set id. number of RANDPS and
+$		  RANDT1 Bulk Data entries to be used in random anal.
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$--------------Set of interface points for gathering the results---------------$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Annotation: 859999 = LARGE MASS node, for MPC forces output request
+set 100 = 859999
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ Annotation:	Original interface nodes, for Acceleration output request
+$		859998: LARGE MASS duplicated node. PSD input can be checked
+$		with PSD input in 859999 and see what happens in 859998
+set 101 = 93954,93955,93956,93957,94973,94974,94975,94976,92410,92411,
+92412,92413,859998,859999
+$
+set 666 = 5011194,5014899,5012788,4022545,4025292,4027626,8004013,
+8004001,80040,8004014,8004002,8004007,8004012,859999
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ Annotation:	CELAS2, between the duplicated nodes of the original I/Fs and
+$		the nodes corresponding to the original I/Fs, in order to
+$		recover the FORCES in the CELAS2.
+set 102 = 2201,2202,2203,2204,2010,2011,2012,2013,2020,2021,2022,2023,
+2030,2031,2032,2033,2040,2041,2042,2043,2050,2051,2052,2053,2060,2061,
+2062,2063,2070,2071,2072,2073,2080,2081,2082,2083,2090,2091,2092,2093,
+2100,2101,2102,2103,2012,2013,2110,2111,2112,2113,2120,2121,2122,2123
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$
+set 105 = 4000000, THRU 4019651
+set 106 =  859999,8004001, THRU 8004015
+set 107 =  1000000, THRU 1060182
+set 111 = 4000000, THRU 4019651, 5000000, THRU 5016257, 6000000, 
+THRU 6000735,6500000, THRU 6500133, 7000000, THRU 7008013, 7500000, 
+THRU 7500198, 10000000, THRU 10006635
+$---------------------- Request of outputs ------------------------------------$
+$ MPC Forces in the LARGE MASS
+$MPCFORCES(sort2,print,punch)=100		
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ PSD of the acceleration, in g^2/Hz, in the original I/F nodes. nevertheless,
+$ could be interesting to know the PSD of the acceleration in other points
+$ Annotation: psdf = power spectral density function
+ACCELERATION(sort2,punch,phase,psdf) = 666
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ PSD of the FORCES in the CELAS2, which join the original I/F nodes with their
+$ duplicates. In this way, the PSD forces on the interfaces are recovered 	
+FORCES(sort2,plot,phase,psdf)=102
+$STRESS(SORT2,PUNCH,PHASE,VONMISES,CRMS)= 111
+$FORCES(SORT2,PLOT,PHASE,CRMS)= 102
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$
+BEGIN BULK
+$
+$------------------------------ Parameters ------------------------------------$
+PARAM,MODACC,0  $ seems to be mandatory
+PARAM,DDRMM,-1	$ seems to be necessary for MODACC
+PARAM,GRDPNT,0	$ ¿?
+PARAM,POST,0   $ replacing -2 by 0 the .xdb file is obtained
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$-------------------------- Boundary Conditions -------------------------------$ 
+$ annotation: random X means free X direction
+$ SPC all DOFs except for the direction of the load in the LARGE MASS node
+$ SUPORT for the constrained DOF in the LARGE MASS node
+SPC1           1   23456  859999 
+SUPORT    859999       1
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$----------------------------- Set Frecuency range ----------------------------$ 
+$ EIGRL -> extraction of real eigenvalues, in the desired frequency range
+EIGRL         10     0.   2000.
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$-------------- definition of the frequency range for the analysis ------------$
+$ In the example, calculations between 20 and 2000 Hz, for each 4Hz
+$ 20+(495 x 4) = 2000  
+FREQ1         30     20.      4.     495
+$---------------adaptative calculation for refining the analysis---------------$
+$ in the example: calulating 3 points for each eigenfrequency value.
+$ 3 points +/-0.5 Hz for each eigenfrequency
+FREQ4         30     20.   2000.     0.3       5
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$---------------------------- structural damping ------------------------------$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ defining a table which assigns some points for a structural damping vs freq.
+$ dependance. NASTRAN interpolates the data with the provided points
+$ in the example: damping = 0.02 for f = 0 - 2000 Hz
+TABDMP1 40      CRIT                                                    
+          0.      0.015   2000.   0.015    ENDT
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$---------------------- dinamic excitation (on large mass) --------------------$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ RLOAD2: Frequency Response Dynamic Excitation: identifies the inputs (500,501)
+RLOAD2  50     	500                     501
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ DAREA: Load Scale Factor. This is basically for scale the input. In this way,
+$ we can put the load as an input in g^2/Hz (acceleration PSD)
+$ in the example: a load factor of 9.81E+6 is applied, in the LARGE MASS node,
+$ for the DOF 1 (the same that appears in the SUPORT card).
+$ Must be "g" (9.81 m/s^2) x LARGE MASS value (kg) 
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+DAREA    500     859999  1      9.81E+7
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ TABLED1: we specify the variation of the load scale factor with frequency
+TABLED1 501                                                     
+        0.      1.      2000.      1.    ENDT
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$--------------- Random excitation (load from specification) ------------------$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ RANDPS: 	PSD Specification (do not change!). Auto spectral density
+RANDPS  60      1       1       1.      0.      61                 
+$ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -$
+$ TABRND1:	PSD Table. in order to define the input load, variation of the
+$	        PSD with the frequency (in g^2/Hz). We define pairs of values
+TABRND1 61      LOG     LOG
+        5.      .01575  20.     .01575  30.     .02704  40.     .03969
+        50.     .05344  60.     .06814  70.     .08369  80.     .1
+        82.     .1      92.     .1      102.    .1      112.    .1
+        122.    .1      132.    .1      133.    .1      135.    .08741
+        140.    .06297  145.    .04589  150.    .03381  155.    .02515
+        160.    .01889  165.    .01432  170.    .01094  176.    .008
+        180.    .008    185.    .008    190.    .008    195.    .008
+        200.    .008    205.    .008    210.    .008    215.    .008
+        220.    .008    224.    .008    225.    .00833  230.    .01015
+        235.    .01232  240.    .01489  245.    .01793  250.    .02151
+        255.    .02571  260.    .03063  265.    .03636  270.    .04303
+        275.    .05076  280.    .05971  285.    .07002  290.    .0819
+        295.    .09553  296.5   .1      300.    .1      305.    .1
+        350.    .1      450.    .1      550.    .1      650.    .1
+        750.    .1      850.    .1      950.    .1      1000.   .1
+        1005.   .0995   1050.   .09524  1100.   .09091  1200.   .08333
+        1300.   .07692  1400.   .07143  1500.   .06667  1600.   .0625
+        1700.   .05882  1800.   .05556  1900.   .05263  2000.   .05
+        2198.   .05      ENDT
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$--------- Define the Bulk Data neccesary for the LARGE MASS and so on --------$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ RBE2:	Joint from duplicated LARGE MASS node to duplicated I/F nodes,
+$	constraining the DOFs originally constrained in the I/Fs.
+$ Annotation:	this could be a problem. Increasing the DOFs constrained 
+$		up to six could solve the problems
+RBE2    860000  859999  123456     1101    1102    1103    1104                           
+RBE2    860001  859999  123456     1205    1206    1207    1208                           	
+RBE2    860002  859999  123456     1309    1310    1311    1312
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$         
+$ LARGE MASS CONM2 definition (remember the load scale factor!)
+CONM2    859997  859999	        1.0+7   
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Definition of the nodes for LARGE MASS and its duplicated.
+GRID     859999         .0367   .2196   -.02
+INCLUDE 'MODEL_NAME.bdf'
+$
+ENDDATA

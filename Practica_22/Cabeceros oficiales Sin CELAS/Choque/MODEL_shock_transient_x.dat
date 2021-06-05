@@ -1,0 +1,125 @@
+$
+$ Shock Spectrum Generating
+$
+sol 112
+cend
+echo=none
+line=99999
+Subcase 11
+   subtitle = Transient Analysis_x
+   spc = 2
+   method = 10
+   dload = 20
+   sdamp = 30
+   tstep = 123
+   set 55 = 190004,190010,190016,160229,160230
+$   set 103 = 2002,2003,2004,2005,2012,2013,2014,2015,2022,2023,2024,
+$             2025,2032,2033,2034,2035,2042,2043,2044,2045,2052,2053,
+$             2054,2055
+   acce(plot,sort2,real) = 55
+   disp(plot,sort2,real) = 55
+   velo(plot,sort2,real) = 55
+$   force(plot,sort2,real) = 103
+$   stress(plot,sort2,real,vonmises,bilin) = all
+output(xyout)
+xaxis = yes
+xgrid = yes
+yaxis = yes
+ygrid = yes
+xmax = 0.1
+$ Print input acceleration vs time
+xtitle = Acceleration T.H. at base
+xyplot,xyprint,acce,resp/190004(t1)
+xtitle = Acceleration T.H. at base
+xyplot,xyprint,acce,resp/190010(t1)
+xtitle = Acceleration T.H. at base
+xyplot,xyprint,acce,resp/190016(t1)
+$ Print output acceleration vs time
+xtitle = Acceleration T.H. at tip
+xyplot,xyprint,acce,resp/160229(t1)
+xtitle = Acceleration T.H. at tip
+xyplot,xyprint,acce,resp/160230(t1)
+xtitle = Acceleration T.H. at tip
+xyplot,xyprint,acce,resp/160231(t1)
+xlog = yes
+xmax = 10000.
+xmin = 1.
+ylog = yes
+$ ymin = 250.
+$ response spectra generation
+$ note: rm -- real, magnitude -- is absolute
+$ Print input acceleration SRS
+xtitle = Shock Spectrum at Base - Damping = 0.05
+xyplot,xyprint,xypunch acce,spectral/190004(t1rm)
+xtitle = Shock Spectrum at Tip - Damping = 0.05
+xyplot,xyprint,acce,spectral/190010(t1rm)
+xtitle = Shock Spectrum at Tip - Damping = 0.05
+xyplot,xyprint,acce,spectral/190016(t1rm)
+$
+$ Print output acceleration SRS
+xtitle = Shock Spectrum at Base - Damping = 0.05
+xyplot,xyprint,acce,spectral/160229(t1rm)
+xtitle = Shock Spectrum at Tip - Damping = 0.05
+xyplot,xyprint,acce,spectral/160230(t1rm)
+$xtitle = Shock Spectrum at Tip - Damping = 0.05
+$xyplot,xyprint,acce,spectral/5(t1rm)
+$
+begin bulk
+$
+$param,grdpnt,0
+param,rspectra,0
+param,rsprint,1
+param,post,0
+$
+dti,spsel,0
+dti,spsel,1,91, 92,190004,190010,190016,160229,
+160230,
+$
+$  set 91 selects damping of oscilator and set 92 selects the 
+$  frequencies at which spectra will be calcuated.
+$
+freq,  91, 0.05
+freq2, 92, 100.0, 10000.0, 990
+freq4, 92, 100.0, 10000.0, 0.1, 5
+$
+eigrl, 10,0.0,10000.0,
+tstep, 123, 1000, 0.00002, 1
+$
+spc1,2,23456,859999
+suport, 859999, 1
+$ Large mass
+conm2,  859999, 859999, , 1.e8
+$
+$ Dinamic load
+Tload1, 20, 44, , acce, 99
+darea, 44, 859999, 1, 9.81e8
+$
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+Tabled1 99
+        0.00E+000.00E+001.00E-057.53E+012.00E-051.50E+023.00E-052.25E+02
+        4.00E-052.98E+025.00E-053.71E+026.00E-054.42E+027.00E-055.11E+02
+        8.00E-055.78E+029.00E-056.43E+021.00E-047.05E+021.10E-047.65E+02
+        1.20E-048.21E+021.30E-048.75E+021.40E-049.25E+021.50E-049.71E+02
+        1.60E-041.01E+031.70E-041.05E+031.80E-041.09E+031.90E-041.12E+03
+        2.00E-041.14E+032.10E-041.16E+032.20E-041.18E+032.30E-041.19E+03
+        2.40E-041.20E+032.50E-041.20E+032.60E-041.20E+032.70E-041.19E+03
+        2.80E-041.18E+032.90E-041.16E+033.00E-041.14E+033.10E-041.12E+03
+        3.20E-041.09E+033.30E-041.05E+033.40E-041.01E+033.50E-049.71E+02
+        3.60E-049.25E+023.70E-048.75E+023.80E-048.21E+023.90E-047.65E+02
+        4.00E-047.05E+024.10E-046.43E+024.20E-045.78E+024.30E-045.11E+02
+        4.40E-044.42E+024.50E-043.71E+024.60E-042.98E+024.70E-042.25E+02
+        4.80E-041.50E+024.90E-047.53E+015.00E-040.00E+005.10E-040.00E+00 
+        endt
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$
+tabdmp1, 30, crit
++, 0.0, 0.05, 10000., 0.05, endt
+$
+$ Large mass node
+GRID     859999          -.0775  -.0855   -.100
+$ Multipoint Constraints to join I/Fs to the Shaker
+RBE2     860000  859999  123456  190004  190010  190016  190022  190028  
+         190035
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE 'MODEL_NAME.bdf'
+Enddata

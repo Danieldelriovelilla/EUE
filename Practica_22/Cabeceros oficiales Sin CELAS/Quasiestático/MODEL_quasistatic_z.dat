@@ -1,0 +1,53 @@
+$ Direct Text Input for Nastran System Cell Section
+NASTRAN SYSTEM(151)=1
+NASTRAN BUFFSIZE=65537
+NASTRAN DBCFACT=4
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = Quasi_Static_Z
+ECHO = NONE
+LINES=50000
+SUBCASE 1
+ $Subcase name : QStatic_Z
+   SUBTITLE=QStatic_Z
+   SPC = 2
+   LOAD = 11
+$   DISPLACEMENT(SORT1,REAL)=ALL
+   SET 102 = 2001,2002,2003,2004,2011,2012,2013,2014,
+             2021,2022,2023,2024,2031,2032,2033,2034,
+             2041,2042,2043,2044,2051,2052,2053,2054
+   SPCFORCES(SORT1,PHASE)=ALL
+   FORCES(SORT1,PHASE)=102
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+SPCADD   2       9       11      12      13      14      15
+$ Loads for Load Case : QStatic_Z
+LOAD     11      9.81      1.       2      0.       3      0.       4
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Displacement Constraints of Load Set : Foot1
+SPC1     9       123456  190004
+$ Displacement Constraints of Load Set : Foot2
+SPC1     11      123456  190010
+$ Displacement Constraints of Load Set : Foot3
+SPC1     12      123456  190016
+$ Displacement Constraints of Load Set : Foot4
+SPC1     13      123456  190022
+$ Displacement Constraints of Load Set : Foot5
+SPC1     14      123456  190028
+$ Displacement Constraints of Load Set : Foot6
+SPC1     15      123456  190035
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Gravity Loading of Load Set : QStatic_69.3gOoP
+GRAV     2              68.4      0.      0.     1.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_0deg
+GRAV     3              68.4      1.      0.     0.
+$ Gravity Loading of Load Set : QStatic_69.3gIP_90deg
+GRAV     4              68.4      0.      1.     0.
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE 'MODEL_NAME.bdf'
+$
+ENDDATA 

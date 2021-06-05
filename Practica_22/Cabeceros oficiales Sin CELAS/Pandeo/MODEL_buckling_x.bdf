@@ -1,0 +1,43 @@
+$ ASSIGN DBC='Buckling_X.xdb', RECL=65536  $Por si necesitáis un xdb más grande
+$ Direct Text Input for Nastran System Cell Section
+$ Buckling Analysis, Database
+SOL 105
+TIME 1000
+CEND
+AUTOSPC(NOPRINT)=YES
+LINES=50000
+ECHO = NONE
+SUBCASE 1
+$ Subcase name : Buckling_Static
+   SUBTITLE=Buckling_Static
+   SPC = 2
+   LOAD = 2
+   DISPLACEMENT(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+SUBCASE 2
+$ Subcase name : Buckling_Eigenfrequencies
+   SUBTITLE=Buckling_Eigenfrequencies
+   SPC = 2
+   METHOD = 1
+   VECTOR(SORT1,REAL)=ALL
+   SPCFORCES(SORT1,REAL)=ALL
+   STATSUB = 1
+BEGIN BULK
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+MDLPRM  OFFDEF  LROFF   $Éste es el parámetro para beams con offset
+EIGRL    1                       3       0
+$ Loads for Load Case : Buckling
+SPCADD   2       1       3       4
+LOAD     2      1.      1.       1
+$ Displacement Constraints of Load Set : Foot_1
+SPC1     1       12345   101     102     103     104
+$ Displacement Constraints of Load Set : Foot_2
+SPC1     3       12345   205     206     207     208
+$ Displacement Constraints of Load Set : Foot_3
+SPC1     4       12345   309     310     311     312
+$ Gravity Loading of Load Set : Inertial_1g_X
+GRAV     1       0      9.81    1.       0.      0.
+$ Referenced Coordinate Frames
+INCLUDE 'MODEL_NAME.bdf'
+ENDDATA

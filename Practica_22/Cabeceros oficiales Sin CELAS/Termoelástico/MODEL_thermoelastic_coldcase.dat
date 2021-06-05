@@ -1,0 +1,50 @@
+SOL 101
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = THERMOELASTIC
+ECHO = NONE
+AUTOSPC(NOPRINT) = YES
+RIGID = LAGR
+SUBCASE 1
+$ Subcase name : Homog_Temp
+   SUBTITLE=MODEL_Thermoelastic_coldcase
+   SPC = 2
+   TEMPERATURE(INIT) = 2
+   TEMPERATURE(LOAD) = 1
+   SET 102 = 2001,2002,2003,2004,2011,2012,2013,2014,
+             2021,2022,2023,2024
+   SET 103 = 3005589,3005578,3005600,3005456,
+             3005434,3005445,3005301,3005313,3005289,3005013,3005025,
+             3005001,5013049,5013026,5013090,5019517,5019505,5019528,
+             6011048,6011061,6011038,6014156,6014169,6014145,6015012,
+             6015025,6015001,6015120,6015133,6015109,7011485,7011501,
+             7011475,7006822,7006878,7006843,7000805,7000829,7000816
+   SET 104 = 6016035,6016037,THRU 6016058,6016060,THRU 6016062
+   DISPLACEMENT(SORT1,REAL)=103
+   SPCFORCES(SORT1,PHASE)=ALL
+   FORCES(SORT1,PHASE)=102
+   GPFORCES(SORT1,PHASE)=104
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ Temperatura inicial 20ºC
+TEMPD     2       20.
+$Para los nodos sin temperatura utilizar TEMPD, el los encontrará
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$TEMPD     1       50.
+$ Loads for Load Case :Thermoelastic_coldcase
+$ Bar Element Temperatures of Load Set : tempRef1D50C
+SPCADD   2       1        2        3   
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Displacement Constraints of Load Set : Foot1
+SPC1     1       123     201
+$ Displacement Constraints of Load Set : Foot2
+SPC1     2       123     202
+$ Displacement Constraints of Load Set : Foot3
+SPC1     3       123     203
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+INCLUDE 'MODEL_NAME.bdf'
+INCLUDE 'MODEL_thermaldata_coldcase.dat'
+ENDDATA 
