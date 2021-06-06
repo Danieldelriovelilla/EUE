@@ -1,4 +1,4 @@
-function [vigas] = f_Ensamblar_CB(M1, K1, F1, psi1, M2, K2, F2, psi2, Ni)
+function [M, K, F, psi] = f_Ensamblar_CB(M1, K1, F1, psi1, M2, K2, F2, psi2)
 
     gdl_1 = length(M1);
     gdl_2 = length(M2);
@@ -25,9 +25,6 @@ function [vigas] = f_Ensamblar_CB(M1, K1, F1, psi1, M2, K2, F2, psi2, Ni)
     
     psi(pos_1,pos_1) = psi(gdl_1,gdl_1) + psi1;
     psi(pos_2,pos_2) = psi(pos_2,pos_2) + psi2;
-    
-    % Crear Struct del sistema ensamblado
-    vigas = struct('M', M, 'K', K, 'F', F, 'psi', psi, 'gdl', 1:length(M));
     
 end
 

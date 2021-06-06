@@ -1,26 +1,24 @@
-function [viga] = f_CB(viga, Nb, NI)
+function [M_CB, K_CB, F_CB, psi] = f_CB(M, K, F, Nb, NI)
 
     % Orden de los gdl
-    Ni = viga.gdl;
+    Ni = 1:length(M);
     Ni([Nb, NI]) = [];
     gdl_CB = [Nb, NI, Ni];
 
     % Matrices de masa y rigidez ordenadas
-    M = viga.M(gdl_CB,gdl_CB);
-    Mff = M(1:3,1:3);
-    Mif = M(4:end,1:3);
-    Mii = M(4:end,4:end);
+    M = M(gdl_CB,gdl_CB);
+    Mff = M(1:2,1:2);
+    Mii = M(3:end,3:end);
     
-    K = viga.K(gdl_CB,gdl_CB);
-    Kff = M(1:3,1:3);
-    Kif = M(4:end,1:3);
-    Kii = M(4:end,4:end);
+    K = K(gdl_CB,gdl_CB);
+    Kif = K(3:end,1:2);
+    Kii = K(3:end,3:end);
     
-    F = viga.F(gdl_CB);
+    F = F(gdl_CB);
     
     % Matriz de transformacion CB
     phi_s = [eye(size(Mff));...
-             -Kii\Kif];
+             -inv(Kii)*Kif];
 
     cc = [];
     [mod_prop, ~] = f_Modos(Mii, Kii, cc);
@@ -31,11 +29,5 @@ function [viga] = f_CB(viga, Nb, NI)
     M_CB = psi'*M*psi;
     K_CB = psi'*K*psi;
     F_CB = psi'*F;
-    
-    viga.psi = psi;
-    viga.M_CB = M_CB;
-    viga.K_CB = K_CB;
-    viga.F_CB = F_CB;
-
 end
 

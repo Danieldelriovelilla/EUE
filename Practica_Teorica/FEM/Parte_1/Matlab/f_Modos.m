@@ -14,12 +14,6 @@ function [mod_prop, frec_prop] = f_Modos(M, K, cc)
     [frec_prop,idx] = sort(frec_matrix);
     frec_prop = frec_prop/(2*pi);
     mod_prop = mod_prop(:,idx);
-    
-    % Normalizacion y ordenar de menor a mayor
-%     for i = 1:size(mod_prop,1)
-%         % Normaizar matriz modal: unidad
-%         mod_prop(:,i) = mod_prop(:,i)/norm(mod_prop(:,i));
-%     end
 
 end
 

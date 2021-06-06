@@ -56,10 +56,11 @@ end
 
 % Ensamblaje de matrices
 Ni = [viga_1.gdl(end), viga_2.gdl(1)];
-vigas = f_Ensamblar(viga_1.M, viga_1.K, viga_1.F, viga_2.M, viga_2.K, viga_2.F, Ni);
+[vigas.M, vigas.K, vigas.F] = ...
+    f_Ensamblar(viga_1.M, viga_1.K, viga_1.F, viga_2.M, viga_2.K, viga_2.F, Ni);
 
 % Solucion
-cc = [1, vigas.gdl(end)];
+cc = [1, length(vigas.M)];
 [mod_prop, frec_prop] = f_Modos(vigas.M, vigas.K, cc);
 
 f = 1:2000;
@@ -91,19 +92,22 @@ cc = [61];
 Nb_1 = 1;
 NI_1 = viga_1.gdl(end);
 
-[viga_1] = f_CB(viga_1, Nb_1, NI_1);
+[viga_1.M_CB, viga_1.K_CB, viga_1.F_CB, viga_1.psi] = ...
+    f_CB(viga_1.M, viga_1.K, viga_1.F, Nb_1, NI_1);
 
 % Viga 2
 Nb_2 = viga_2.gdl(end);
 NI_2 = 1;
 
-[viga_2] = f_CB(viga_2, Nb_2, NI_2);
+[viga_2.M_CB, viga_2.K_CB, viga_2.F_CB, viga_2.psi] = ...
+    f_CB(viga_2.M, viga_2.K, viga_2.F, Nb_2, NI_2);
 
 
 % Ensamblar matrices en el espacio CB
 Ni = [2, 2];
-vigas_CB = f_Ensamblar_CB(viga_1.M_CB, viga_1.K_CB, viga_1.F_CB, viga_1.psi,...
-    viga_2.M_CB, viga_2.K_CB, viga_2.F_CB, viga_2.psi, Ni);
+[vigas_CB.M, vigas_CB.K, vigas_CB.F, vigas_CB.psi] = ...
+    f_Ensamblar_CB(viga_1.M_CB, viga_1.K_CB, viga_1.F_CB, viga_1.psi,...
+    viga_2.M_CB, viga_2.K_CB, viga_2.F_CB, viga_2.psi);
 
 
 %% TODOS GDL
@@ -117,7 +121,7 @@ red_2 = 0;
 
 tic
 for i = 1:length(f)
-    [z, z1, z2] = f_Solucion_CB(vigas_CB.M, vigas_CB.K, vigas_CB.F, cc, f(i), red_1, red_2);
+    [z, z1, z2] = f_Solucion_CB(vigas_CB.M, vigas_CB.K, vigas_CB.F, vigas_CB.psi, cc, f(i), red_1, red_2);
     [rms_z_f(i,:)] = f_RMS(z, f(i));
     [rms_z1_f(i,:)] = f_RMS(z1, f(i));
     [rms_z2_f(i,:)] = f_RMS(z2, f(i));
@@ -130,12 +134,12 @@ cc = [1,2];
 rms_z_r = zeros(length(f), 3);
 rms_z1_r = zeros(length(f), 3);
 rms_z2_r = zeros(length(f), 3);
-red_1 = 0;
-red_2 = 5;
+red_1 = 30;
+red_2 = 30;
 
 tic
 for i = 1:length(f)
-    [z, z1, z2] = f_Solucion_CB(vigas_CB.M, vigas_CB.K, vigas_CB.F, cc, f(i), red_1, red_2);
+    [z, z1, z2] = f_Solucion_CB(vigas_CB.M, vigas_CB.K, vigas_CB.F, vigas_CB.psi, cc, f(i), red_1, red_2);
     [rms_z_r(i,:)] = f_RMS(z, f(i));
     [rms_z1_r(i,:)] = f_RMS(z1, f(i));
     [rms_z2_r(i,:)] = f_RMS(z2, f(i));
@@ -143,29 +147,15 @@ end
 toc
 
 figure(1)
-    loglog(f,rms_z1_f(:,1))
+    loglog(f,rms_z1_f(:,2))
     hold on
-    loglog(f, rms_z1_r(:,1))
+    loglog(f, rms_z1_r(:,2))
     title('z1')
     legend({'Normal','CB'})
     
 figure(2)
-    loglog(f,rms_z2_f(:,1))
+    loglog(f,rms_z2_f(:,2))
     hold on
-    loglog(f, rms_z2_r(:,1))
+    loglog(f, rms_z2_r(:,2))
     title('z2')
     legend({'Normal','CB'})
-
-% figure(2)
-%     loglog(f,rms_z(:,2))
-%     hold on
-%     loglog(f, rms_z_CB(:,2))
-%     title('RMS(wz)')
-%     legend({'Normal','CB'})
-% 
-% figure(3)
-%     loglog(f,rms_z(:,3))
-%     hold on
-%     loglog(f, rms_z_CB(:,3))
-%     title('RMS(w^2z)')
-%     legend({'Normal','CB'})

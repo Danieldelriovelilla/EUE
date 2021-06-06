@@ -1,4 +1,4 @@
-function [vigas] = f_Ensamblar(M1, K1, F1, M2, K2, F2, Ni)
+function [M, K, F] = f_Ensamblar(M1, K1, F1, M2, K2, F2, Ni)
 
     gdl_1 = length(M1);
     gdl_2 = length(M2);
@@ -21,9 +21,6 @@ function [vigas] = f_Ensamblar(M1, K1, F1, M2, K2, F2, Ni)
     
     F(pos_1) = F(pos_1) + F1;
     F(pos_2) = F(pos_2) + F2;
-    
-    % Crear Struct del sistema ensamblado
-    vigas = struct('M', M, 'K', K, 'F', F, 'gdl', 1:length(M));
     
 end
 
