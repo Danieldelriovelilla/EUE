@@ -3335,3 +3335,3128 @@ $# The translation has completed successfully.
 $# No Analysis Requested
 uil_primary_file.db_save(  )
 $# Reclaimed 1.53 MB of 5.14 MB.
+$# UNDO:
+ga_view_aa_set( -79.198341, -14.429376, -122.642067 )
+ga_view_center_set( -0.022937, 0.040711 )
+ga_view_zoom_set( 0.162343 )
+ga_view_center_set( -0.008556, 0.033052 )
+ga_view_zoom_set( 0.144305 )
+ga_view_center_set( 0.004226, 0.026244 )
+ga_view_zoom_set( 0.128271 )
+ga_view_center_set( 0.015589, 0.020192 )
+ga_view_zoom_set( 0.114019 )
+ga_view_center_set( 0.025118, 0.014813 )
+ga_view_zoom_set( 0.101350 )
+ga_view_center_set( 0.033588, 0.010031 )
+ga_view_zoom_set( 0.090089 )
+ga_view_center_set( 0.041395, 0.008557 )
+ga_view_zoom_set( 0.080079 )
+ga_view_center_set( 0.048149, 0.007246 )
+ga_view_zoom_set( 0.071181 )
+ga_view_center_set( 0.058018, 0.005050 )
+ga_view_zoom_set( 0.056945 )
+ga_view_center_set( 0.062031, 0.004008 )
+ga_view_zoom_set( 0.050618 )
+ga_view_center_set( 0.068067, 0.002306 )
+ga_view_zoom_set( 0.040494 )
+ga_view_center_set( 0.070702, 0.001519 )
+ga_view_zoom_set( 0.035995 )
+ga_view_center_set( 0.074770, 0.000034 )
+ga_view_zoom_set( 0.028796 )
+ga_view_center_set( 0.076400, -0.001558 )
+ga_view_zoom_set( 0.025596 )
+ga_view_center_set( 0.077889, -0.003120 )
+ga_view_zoom_set( 0.022752 )
+ga_view_center_set( 0.079256, -0.004640 )
+ga_view_zoom_set( 0.020224 )
+ga_view_center_set( 0.080486, -0.006038 )
+ga_view_zoom_set( 0.017977 )
+ga_view_center_set( 0.081732, -0.007233 )
+ga_view_zoom_set( 0.015980 )
+ga_view_center_set( 0.082859, -0.008276 )
+ga_view_zoom_set( 0.014204 )
+ga_view_center_set( 0.084749, -0.009797 )
+ga_view_zoom_set( 0.011363 )
+ga_view_center_set( 0.085625, -0.010014 )
+ga_view_zoom_set( 0.010101 )
+ga_view_center_set( 0.086403, -0.010195 )
+ga_view_zoom_set( 0.008978 )
+ga_view_center_set( 0.087647, -0.010391 )
+ga_view_zoom_set( 0.007183 )
+ga_view_center_set( 0.088203, -0.010448 )
+ga_view_zoom_set( 0.006385 )
+ga_view_center_set( 0.088712, -0.010449 )
+ga_view_zoom_set( 0.005675 )
+ga_view_center_set( 0.089165, -0.010450 )
+ga_view_zoom_set( 0.005045 )
+ga_view_center_set( 0.089889, -0.010452 )
+ga_view_zoom_set( 0.004036 )
+ga_view_center_set( 0.090210, -0.010452 )
+ga_view_zoom_set( 0.003587 )
+ga_view_center_set( 0.090455, -0.010464 )
+ga_view_zoom_set( 0.003189 )
+ga_view_center_set( 0.090831, -0.010498 )
+ga_view_zoom_set( 0.002551 )
+ga_view_center_set( 0.091126, -0.010533 )
+ga_view_zoom_set( 0.002041 )
+ga_view_center_set( 0.091266, -0.010549 )
+ga_view_zoom_set( 0.001814 )
+ga_view_center_set( 0.091390, -0.010563 )
+ga_view_zoom_set( 0.001612 )
+ga_view_center_set( 0.091665, -0.010595 )
+ga_view_zoom_set( 0.001173 )
+ga_view_center_set( 0.091748, -0.010602 )
+ga_view_zoom_set( 0.001042 )
+ga_view_center_set( 0.091822, -0.010608 )
+ga_view_zoom_set( 0.000927 )
+ga_view_center_set( 0.091941, -0.010618 )
+ga_view_zoom_set( 0.000741 )
+ga_view_center_set( 0.091994, -0.010621 )
+ga_view_zoom_set( 0.000659 )
+ga_view_center_set( 0.092041, -0.010619 )
+ga_view_zoom_set( 0.000586 )
+ga_view_center_set( 0.092083, -0.010617 )
+ga_view_zoom_set( 0.000521 )
+ga_view_center_set( 0.092150, -0.010613 )
+ga_view_zoom_set( 0.000416 )
+ga_view_center_set( 0.092180, -0.010612 )
+ga_view_zoom_set( 0.000370 )
+ga_view_center_set( 0.092207, -0.010609 )
+ga_view_zoom_set( 0.000329 )
+ga_view_center_set( 0.092230, -0.010606 )
+ga_view_zoom_set( 0.000293 )
+ga_view_center_set( 0.092281, -0.010600 )
+ga_view_zoom_set( 0.000213 )
+ga_view_center_set( 0.092297, -0.010598 )
+ga_view_zoom_set( 0.000189 )
+ga_view_center_set( 0.092310, -0.010596 )
+ga_view_zoom_set( 0.000168 )
+ga_view_center_set( 0.092322, -0.010595 )
+ga_view_zoom_set( 0.000149 )
+ga_view_center_set( 0.092348, -0.010591 )
+ga_view_zoom_set( 0.000109 )
+ga_view_center_set( 0.092356, -0.010591 )
+ga_view_zoom_set( 0.000097 )
+ga_view_center_set( 0.092362, -0.010590 )
+ga_view_zoom_set( 0.000086 )
+ga_view_center_set( 0.092368, -0.010589 )
+ga_view_zoom_set( 0.000076 )
+ga_view_center_set( 0.092380, -0.010588 )
+ga_view_zoom_set( 0.000056 )
+ga_view_center_set( 0.092384, -0.010588 )
+ga_view_zoom_set( 0.000049 )
+ga_view_center_set( 0.092389, -0.010588 )
+ga_view_zoom_set( 0.000039 )
+ga_view_center_set( 0.092395, -0.010587 )
+ga_view_zoom_set( 0.000029 )
+ga_view_center_set( 0.092396, -0.010587 )
+ga_view_zoom_set( 0.000026 )
+ga_view_center_set( 0.092398, -0.010587 )
+ga_view_zoom_set( 0.000023 )
+ga_view_center_set( 0.092400, -0.010587 )
+ga_view_zoom_set( 0.000018 )
+ga_view_center_set( 0.092401, -0.010587 )
+ga_view_zoom_set( 0.000016 )
+ga_view_center_set( 0.092402, -0.010587 )
+ga_view_zoom_set( 0.000014 )
+ga_view_center_set( 0.092403, -0.010587 )
+ga_view_zoom_set( 0.000013 )
+ga_view_center_set( 0.092405, -0.010587 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( 0.092405, -0.010587 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.092405, -0.010587 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( 0.092405, -0.010587 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( 0.092404, -0.010586 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.092404, -0.010586 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092404, -0.010586 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010586 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092400, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092400, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092400, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092399, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092399, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092398, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092397, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092397, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092396, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092395, -0.010584 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.092394, -0.010583 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( 0.092391, -0.010583 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( 0.092390, -0.010583 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.092387, -0.010582 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( 0.092385, -0.010581 )
+ga_view_zoom_set( 0.000011 )
+ga_view_center_set( 0.092382, -0.010581 )
+ga_view_zoom_set( 0.000012 )
+ga_view_center_set( 0.092380, -0.010580 )
+ga_view_zoom_set( 0.000014 )
+ga_view_center_set( 0.092383, -0.010581 )
+ga_view_zoom_set( 0.000012 )
+ga_view_center_set( 0.092385, -0.010581 )
+ga_view_zoom_set( 0.000011 )
+ga_view_center_set( 0.092387, -0.010582 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( 0.092389, -0.010582 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( 0.092391, -0.010582 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.092392, -0.010583 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( 0.092393, -0.010583 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( 0.092396, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092397, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092398, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092399, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092400, -0.010584 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092400, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092400, -0.010584 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_aa_set( -107.673767, 44.200199, 101.890831 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000000 )
+ga_view_center_set( 0.092403, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.092402, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092401, -0.010585 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092401, -0.010584 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.092400, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092400, -0.010584 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.092399, -0.010584 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.092399, -0.010584 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.092398, -0.010583 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.092397, -0.010583 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( 0.092396, -0.010582 )
+ga_view_zoom_set( 0.000007 )
+ga_view_center_set( 0.092396, -0.010582 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.092396, -0.010581 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( 0.092396, -0.010581 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( 0.092396, -0.010579 )
+ga_view_zoom_set( 0.000014 )
+ga_view_center_set( 0.092396, -0.010578 )
+ga_view_zoom_set( 0.000016 )
+ga_view_center_set( 0.092396, -0.010576 )
+ga_view_zoom_set( 0.000018 )
+ga_view_center_set( 0.092396, -0.010571 )
+ga_view_zoom_set( 0.000027 )
+ga_view_center_set( 0.092396, -0.010568 )
+ga_view_zoom_set( 0.000033 )
+ga_view_center_set( 0.092396, -0.010565 )
+ga_view_zoom_set( 0.000037 )
+ga_view_center_set( 0.092396, -0.010563 )
+ga_view_zoom_set( 0.000042 )
+ga_view_center_set( 0.092395, -0.010554 )
+ga_view_zoom_set( 0.000058 )
+ga_view_center_set( 0.092395, -0.010550 )
+ga_view_zoom_set( 0.000065 )
+ga_view_center_set( 0.092395, -0.010545 )
+ga_view_zoom_set( 0.000073 )
+ga_view_center_set( 0.092395, -0.010540 )
+ga_view_zoom_set( 0.000082 )
+ga_view_center_set( 0.092394, -0.010517 )
+ga_view_zoom_set( 0.000123 )
+ga_view_center_set( 0.092394, -0.010508 )
+ga_view_zoom_set( 0.000139 )
+ga_view_center_set( 0.092393, -0.010499 )
+ga_view_zoom_set( 0.000156 )
+ga_view_center_set( 0.092393, -0.010488 )
+ga_view_zoom_set( 0.000176 )
+ga_view_center_set( 0.092391, -0.010450 )
+ga_view_zoom_set( 0.000241 )
+ga_view_center_set( 0.092391, -0.010433 )
+ga_view_zoom_set( 0.000271 )
+ga_view_center_set( 0.092390, -0.010414 )
+ga_view_zoom_set( 0.000305 )
+ga_view_center_set( 0.092389, -0.010393 )
+ga_view_zoom_set( 0.000344 )
+ga_view_center_set( 0.092387, -0.010320 )
+ga_view_zoom_set( 0.000472 )
+ga_view_center_set( 0.092385, -0.010287 )
+ga_view_zoom_set( 0.000531 )
+ga_view_center_set( 0.092384, -0.010250 )
+ga_view_zoom_set( 0.000598 )
+ga_view_center_set( 0.092382, -0.010207 )
+ga_view_zoom_set( 0.000673 )
+ga_view_center_set( 0.092381, -0.010160 )
+ga_view_zoom_set( 0.000757 )
+ga_view_center_set( 0.092373, -0.009947 )
+ga_view_zoom_set( 0.001135 )
+ga_view_center_set( 0.092370, -0.009867 )
+ga_view_zoom_set( 0.001277 )
+ga_view_center_set( 0.092363, -0.009687 )
+ga_view_zoom_set( 0.001596 )
+ga_view_center_set( 0.092359, -0.009575 )
+ga_view_zoom_set( 0.001796 )
+ga_view_center_set( 0.092354, -0.009448 )
+ga_view_zoom_set( 0.002020 )
+ga_view_center_set( 0.092339, -0.009022 )
+ga_view_zoom_set( 0.002778 )
+ga_view_center_set( 0.092324, -0.008631 )
+ga_view_zoom_set( 0.003472 )
+ga_view_center_set( 0.092306, -0.008142 )
+ga_view_zoom_set( 0.004340 )
+ga_view_center_set( 0.092272, -0.007225 )
+ga_view_zoom_set( 0.005968 )
+ga_view_center_set( 0.092239, -0.006805 )
+ga_view_zoom_set( 0.006714 )
+ga_view_center_set( 0.092163, -0.005859 )
+ga_view_zoom_set( 0.008393 )
+ga_view_center_set( 0.092021, -0.004086 )
+ga_view_zoom_set( 0.011540 )
+ga_view_center_set( 0.091956, -0.003274 )
+ga_view_zoom_set( 0.012982 )
+ga_view_center_set( 0.091883, -0.002360 )
+ga_view_zoom_set( 0.014605 )
+ga_view_center_set( 0.091801, -0.001332 )
+ga_view_zoom_set( 0.016431 )
+ga_view_center_set( 0.091708, -0.000175 )
+ga_view_zoom_set( 0.018485 )
+ga_view_center_set( 0.091292, 0.005031 )
+ga_view_zoom_set( 0.027727 )
+ga_view_center_set( 0.091136, 0.006983 )
+ga_view_zoom_set( 0.031193 )
+ga_view_center_set( 0.090784, 0.011376 )
+ga_view_zoom_set( 0.038991 )
+ga_view_center_set( 0.090345, 0.016866 )
+ga_view_zoom_set( 0.048739 )
+ga_view_center_set( 0.089796, 0.023729 )
+ga_view_zoom_set( 0.060924 )
+ga_view_center_set( 0.089453, 0.028019 )
+ga_view_zoom_set( 0.068539 )
+ga_view_center_set( 0.089067, 0.032845 )
+ga_view_zoom_set( 0.077107 )
+ga_view_center_set( 0.088198, 0.043702 )
+ga_view_zoom_set( 0.096383 )
+ga_view_center_set( 0.087112, 0.057274 )
+ga_view_zoom_set( 0.120479 )
+ga_view_center_set( 0.086434, 0.065757 )
+ga_view_zoom_set( 0.135539 )
+ga_view_center_set( 0.085670, 0.075300 )
+ga_view_zoom_set( 0.152481 )
+ga_view_center_set( 0.084812, 0.086036 )
+ga_view_zoom_set( 0.171541 )
+ga_view_center_set( 0.083688, 0.074970 )
+ga_view_zoom_set( 0.152481 )
+ga_view_center_set( 0.082690, 0.065133 )
+ga_view_zoom_set( 0.135539 )
+ga_view_center_set( 0.081907, 0.056389 )
+ga_view_zoom_set( 0.120479 )
+ga_view_center_set( 0.081211, 0.048617 )
+ga_view_zoom_set( 0.107093 )
+ga_view_center_set( 0.080592, 0.041709 )
+ga_view_zoom_set( 0.095193 )
+ga_view_center_set( 0.080042, 0.035568 )
+ga_view_zoom_set( 0.084616 )
+ga_view_center_set( 0.081142, 0.049903 )
+ga_view_zoom_set( 0.105770 )
+ga_view_center_set( 0.081830, 0.058862 )
+ga_view_zoom_set( 0.118992 )
+ga_view_center_set( 0.083376, 0.079021 )
+ga_view_zoom_set( 0.148740 )
+ga_view_center_set( 0.086341, 0.082597 )
+ga_view_zoom_set( 0.167332 )
+ga_view_center_set( 0.089748, 0.086331 )
+ga_view_zoom_set( 0.188249 )
+ga_view_center_set( 0.098068, 0.092448 )
+ga_view_zoom_set( 0.235311 )
+ga_view_center_set( 0.103777, 0.094233 )
+ga_view_zoom_set( 0.264725 )
+ga_view_aa_set( 93.825233, 7.962836, -77.706787 )
+ga_view_aa_set( 93.094505, -0.536397, 135.963058 )
+ga_view_aa_set( 88.132347, -0.386834, 140.959885 )
+ga_view_aa_set( -83.511200, -4.244056, 80.819260 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_aa_set( -70.197090, -1.083438, 138.725494 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje x\model_quasistatic_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje x\model_qu" // @
+"asistatic_x.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# x\model_quasistatic_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1467 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:QSTATIC_X
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+uil_viewport_post_groups.posted_groups( "default_viewport", 10, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "CBUSH", "Eles", "Panel_xn", "Panel_xp" @
+, "Panel_yn", "Panel_yp"] )
+ga_view_aa_set( -81.145561, -10.169828, 164.598160 )
+ga_view_center_set( -0.060083, 0.006051 )
+ga_view_zoom_set( 0.616020 )
+$# Warning reported from application Results
+$#     No result selected
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje x\model_quasistatic_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje x\model_qu" // @
+"asistatic_x.xdb", TRUE )
+$# Error reported from application Results
+$#     Direct Results Access file is already attached. To re-attach with 
+$# different Translation Parameters, please detach the file using the 
+$# Analysis form option Delete "Attachment" then re-attach. File: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# x\model_quasistatic_x.xdb"
+$? NO 4012005 
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje x\model_quasistatic_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje x\model_qu" // @
+"asistatic_x.xdb", TRUE )
+$# Error reported from application Results
+$#     Direct Results Access file is already attached. To re-attach with 
+$# different Translation Parameters, please detach the file using the 
+$# Analysis form option Delete "Attachment" then re-attach. File: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# x\model_quasistatic_x.xdb"
+$? NO 4012005 
+$# Question from application Results
+$#     A result case is associated with the external Results file. Detach 
+$# from Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_sinquitar_SM\Modos_2000Hz\model_eige
+$# nfreqs_0_2000.xdb". This operation cannot be undone. Do you want to continue?
+$? NO 4012010 
+$# Question from application Results
+$#     A result case is associated with the external Results file. Detach 
+$# from Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# x\model_quasistatic_x.xdb". This operation cannot be undone. Do you want 
+$# to continue?
+$? NO 4012010 
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_sinquitar_S
+$# M\Modos_2000Hz\model_eigenfreqs_0_2000.xdb
+res_dra_detach_file( 1, 130, 93 )
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Estatico\Eje x\model_quasistatic_x.xdb
+res_dra_detach_file( 2, 130, 96 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje x\model_quasistatic_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje x\model_qu" // @
+"asistatic_x.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# x\model_quasistatic_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1467 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_X"], [ @
+"A1:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+gm_visibility_widget( " Point 1:33 100:133 200:269 Curve 1:92 Surface 1:108",  @
+FALSE )
+ga_view_aa_set( -73.176498, -0.774508, -130.737061 )
+ga_viewport_size_set( "default_viewport", 15.036725, 6.739850, 1 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Bar Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje y\model_quasistatic_y.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje y\model_qu" // @
+"asistatic_y.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# y\model_quasistatic_y.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2757 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:QSTATIC_Y
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_Y"], [ @
+"A2:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static Subcase", "Bar Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Estatico\Eje z\model_quasistatic_z.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje z\model_qu" // @
+"asistatic_z.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Estatico\Eje 
+$# z\model_quasistatic_z.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1489 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:QSTATIC_Z
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1:QSTATIC_Z"], [ @
+"A3:Static Subcase"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Bar Stresses", "Minimum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["CBUSH"] )
+$# Warning reported from application Results
+$#     There are no results available for the targeted entities.
+ga_view_center_set( 0.001487, -0.020547 )
+ga_view_zoom_set( 0.414772 )
+ga_view_center_set( 0.002285, -0.040115 )
+ga_view_zoom_set( 0.368687 )
+ga_view_center_set( 0.002853, -0.057651 )
+ga_view_zoom_set( 0.327721 )
+ga_view_center_set( 0.003358, -0.073492 )
+ga_view_zoom_set( 0.291308 )
+ga_view_center_set( 0.006499, -0.093630 )
+ga_view_zoom_set( 0.258940 )
+ga_view_center_set( 0.009292, -0.111531 )
+ga_view_zoom_set( 0.230169 )
+ga_view_center_set( 0.011774, -0.127443 )
+ga_view_zoom_set( 0.204595 )
+ga_view_center_set( 0.013980, -0.141587 )
+ga_view_zoom_set( 0.181862 )
+ga_view_center_set( 0.015941, -0.154160 )
+ga_view_zoom_set( 0.161655 )
+ga_view_center_set( 0.014050, -0.142848 )
+ga_view_zoom_set( 0.181862 )
+ga_view_center_set( 0.009795, -0.117554 )
+ga_view_zoom_set( 0.227328 )
+ga_view_center_set( 0.007136, -0.101746 )
+ga_view_zoom_set( 0.255744 )
+ga_view_center_set( 0.004144, -0.083961 )
+ga_view_zoom_set( 0.287711 )
+ga_view_center_set( 0.001027, -0.066197 )
+ga_view_zoom_set( 0.323675 )
+ga_view_center_set( -0.002479, -0.046213 )
+ga_view_zoom_set( 0.364135 )
+ga_view_center_set( -0.010367, -0.001249 )
+ga_view_zoom_set( 0.455169 )
+ga_view_center_set( -0.015297, 0.026854 )
+ga_view_zoom_set( 0.512065 )
+ga_view_center_set( -0.020622, 0.057361 )
+ga_view_zoom_set( 0.576073 )
+ga_view_center_set( -0.024116, 0.083943 )
+ga_view_zoom_set( 0.648082 )
+ga_view_center_set( -0.027486, 0.113286 )
+ga_view_zoom_set( 0.729092 )
+ga_view_center_set( -0.031277, 0.145666 )
+ga_view_zoom_set( 0.820228 )
+ga_view_center_set( -0.035541, 0.181382 )
+ga_view_zoom_set( 0.922757 )
+ga_view_center_set( -0.040739, 0.215166 )
+ga_view_zoom_set( 1.038102 )
+ga_view_center_set( -0.035541, 0.182981 )
+ga_view_zoom_set( 0.922757 )
+ga_view_center_set( -0.030921, 0.154373 )
+ga_view_zoom_set( 0.820228 )
+ga_view_center_set( -0.026815, 0.128943 )
+ga_view_zoom_set( 0.729092 )
+ga_view_center_set( -0.023164, 0.106339 )
+ga_view_zoom_set( 0.648082 )
+ga_view_center_set( -0.015200, 0.057020 )
+ga_view_zoom_set( 0.471332 )
+ga_view_center_set( -0.010117, 0.037506 )
+ga_view_zoom_set( 0.418962 )
+ga_view_center_set( -0.005277, 0.019031 )
+ga_view_zoom_set( 0.372411 )
+ga_view_center_set( 0.006693, -0.026208 )
+ga_view_zoom_set( 0.270844 )
+ga_view_aa_set( -25.219736, -0.044413, -132.893829 )
+ga_view_aa_set( -83.726051, -4.102759, -129.626587 )
+ga_view_center_set( 0.010448, -0.035126 )
+ga_view_zoom_set( 0.240750 )
+ga_view_center_set( 0.013786, -0.043054 )
+ga_view_zoom_set( 0.214000 )
+ga_view_center_set( 0.018979, -0.055738 )
+ga_view_zoom_set( 0.171200 )
+ga_view_center_set( 0.019572, -0.051807 )
+ga_view_zoom_set( 0.214000 )
+ga_view_center_set( 0.020314, -0.046892 )
+ga_view_zoom_set( 0.267500 )
+ga_view_center_set( 0.021241, -0.040750 )
+ga_view_zoom_set( 0.334375 )
+ga_view_center_set( 0.021386, -0.037925 )
+ga_view_zoom_set( 0.376172 )
+ga_view_center_set( 0.021712, -0.031242 )
+ga_view_zoom_set( 0.470215 )
+ga_view_center_set( 0.021916, -0.027066 )
+ga_view_zoom_set( 0.528992 )
+ga_view_center_set( 0.022145, -0.024659 )
+ga_view_zoom_set( 0.595116 )
+ga_view_center_set( 0.022403, -0.021952 )
+ga_view_zoom_set( 0.669506 )
+ga_view_center_set( 0.022983, -0.015860 )
+ga_view_zoom_set( 0.836882 )
+ga_view_center_set( 0.025239, -0.067591 )
+ga_view_zoom_set( 0.743895 )
+ga_view_center_set( 0.027818, -0.114720 )
+ga_view_zoom_set( 0.661240 )
+ga_view_center_set( 0.032402, -0.190585 )
+ga_view_zoom_set( 0.528992 )
+ga_view_center_set( 0.036069, -0.251277 )
+ga_view_zoom_set( 0.423194 )
+ga_view_center_set( 0.036395, -0.278088 )
+ga_view_zoom_set( 0.376172 )
+ga_view_center_set( 0.036685, -0.301920 )
+ga_view_zoom_set( 0.334375 )
+ga_view_center_set( 0.037001, -0.352970 )
+ga_view_zoom_set( 0.243182 )
+ga_view_center_set( 0.032955, -0.357437 )
+ga_view_zoom_set( 0.194546 )
+ga_view_center_set( 0.031081, -0.359273 )
+ga_view_zoom_set( 0.172929 )
+ga_view_center_set( 0.028084, -0.361371 )
+ga_view_zoom_set( 0.138344 )
+ga_view_center_set( 0.027552, -0.359053 )
+ga_view_zoom_set( 0.122972 )
+ga_view_center_set( 0.027078, -0.356803 )
+ga_view_zoom_set( 0.109309 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.025752, -0.361753 )
+ga_view_zoom_set( 0.122972 )
+ga_view_center_set( 0.024260, -0.367054 )
+ga_view_zoom_set( 0.138344 )
+ga_view_center_set( 0.020903, -0.378623 )
+ga_view_zoom_set( 0.172929 )
+ga_view_center_set( 0.022702, -0.372329 )
+ga_view_zoom_set( 0.153715 )
+ga_view_center_set( 0.025579, -0.362259 )
+ga_view_zoom_set( 0.122972 )
+ga_view_center_set( 0.027880, -0.354203 )
+ga_view_zoom_set( 0.098378 )
+ga_view_center_set( 0.028903, -0.350622 )
+ga_view_zoom_set( 0.087447 )
+ga_view_center_set( 0.029813, -0.347440 )
+ga_view_zoom_set( 0.077730 )
+ga_view_center_set( 0.030621, -0.344611 )
+ga_view_zoom_set( 0.069094 )
+ga_view_center_set( 0.032385, -0.338438 )
+ga_view_zoom_set( 0.050250 )
+ga_view_center_set( 0.032907, -0.336609 )
+ga_view_zoom_set( 0.044667 )
+ga_view_center_set( 0.033743, -0.333683 )
+ga_view_zoom_set( 0.035733 )
+ga_view_center_set( 0.034412, -0.331342 )
+ga_view_zoom_set( 0.028587 )
+ga_view_center_set( 0.034896, -0.330489 )
+ga_view_zoom_set( 0.025410 )
+ga_view_center_set( 0.035327, -0.329731 )
+ga_view_zoom_set( 0.022587 )
+ga_view_center_set( 0.036267, -0.328076 )
+ga_view_zoom_set( 0.016427 )
+ga_view_center_set( 0.035839, -0.328841 )
+ga_view_zoom_set( 0.018480 )
+ga_view_center_set( 0.034879, -0.330563 )
+ga_view_zoom_set( 0.023100 )
+ga_view_center_set( 0.033678, -0.332714 )
+ga_view_zoom_set( 0.028875 )
+ga_view_center_set( 0.032927, -0.334059 )
+ga_view_zoom_set( 0.032485 )
+ga_view_center_set( 0.032265, -0.335361 )
+ga_view_zoom_set( 0.036545 )
+ga_view_center_set( 0.031521, -0.336826 )
+ga_view_zoom_set( 0.041114 )
+ga_view_center_set( 0.029847, -0.340086 )
+ga_view_zoom_set( 0.051392 )
+ga_view_center_set( 0.028800, -0.342123 )
+ga_view_zoom_set( 0.057816 )
+ga_view_center_set( 0.027548, -0.344165 )
+ga_view_zoom_set( 0.065043 )
+ga_view_center_set( 0.026139, -0.346462 )
+ga_view_zoom_set( 0.073173 )
+ga_view_center_set( 0.022968, -0.351629 )
+ga_view_zoom_set( 0.091467 )
+ga_view_center_set( 0.020987, -0.354859 )
+ga_view_zoom_set( 0.102900 )
+ga_view_center_set( 0.018757, -0.358003 )
+ga_view_zoom_set( 0.115763 )
+ga_view_center_set( 0.016250, -0.361539 )
+ga_view_zoom_set( 0.130233 )
+ga_view_center_set( 0.013428, -0.365517 )
+ga_view_zoom_set( 0.146512 )
+ga_view_center_set( 0.010254, -0.369992 )
+ga_view_zoom_set( 0.164826 )
+ga_view_center_set( 0.006541, -0.374670 )
+ga_view_zoom_set( 0.185429 )
+ga_view_center_set( -0.001815, -0.385195 )
+ga_view_zoom_set( 0.231787 )
+ga_view_center_set( -0.012259, -0.398351 )
+ga_view_zoom_set( 0.289733 )
+ga_view_center_set( -0.016653, -0.424399 )
+ga_view_zoom_set( 0.325950 )
+ga_view_center_set( -0.021596, -0.453704 )
+ga_view_zoom_set( 0.366694 )
+ga_view_center_set( -0.027157, -0.486671 )
+ga_view_zoom_set( 0.412531 )
+ga_view_center_set( -0.033413, -0.523759 )
+ga_view_zoom_set( 0.464097 )
+ga_view_center_set( -0.040451, -0.565484 )
+ga_view_zoom_set( 0.522109 )
+ga_view_center_set( -0.047011, -0.607447 )
+ga_view_zoom_set( 0.587373 )
+ga_view_center_set( -0.054391, -0.654656 )
+ga_view_zoom_set( 0.660794 )
+ga_view_center_set( -0.062694, -0.707766 )
+ga_view_zoom_set( 0.743394 )
+ga_view_center_set( -0.082020, -0.827262 )
+ga_view_zoom_set( 0.929242 )
+ga_view_center_set( -0.115840, -0.975828 )
+ga_view_zoom_set( 1.161553 )
+ga_view_center_set( -0.136977, -1.068682 )
+ga_view_zoom_set( 1.306747 )
+ga_view_center_set( -0.160757, -1.173142 )
+ga_view_zoom_set( 1.470090 )
+ga_view_center_set( -0.188146, -1.290661 )
+ga_view_zoom_set( 1.653851 )
+ga_view_center_set( -0.165216, -1.127282 )
+ga_view_zoom_set( 1.470090 )
+ga_view_center_set( -0.129546, -0.870971 )
+ga_view_zoom_set( 1.176072 )
+ga_view_center_set( -0.113693, -0.757056 )
+ga_view_zoom_set( 1.045397 )
+ga_view_center_set( -0.099602, -0.655797 )
+ga_view_zoom_set( 0.929242 )
+ga_view_center_set( -0.085287, -0.565074 )
+ga_view_zoom_set( 0.825993 )
+ga_view_center_set( -0.072562, -0.484431 )
+ga_view_zoom_set( 0.734216 )
+ga_view_center_set( -0.052202, -0.355403 )
+ga_view_zoom_set( 0.587373 )
+ga_view_center_set( -0.043153, -0.298057 )
+ga_view_zoom_set( 0.522109 )
+ga_view_center_set( -0.033099, -0.246278 )
+ga_view_zoom_set( 0.464097 )
+ga_view_center_set( -0.024162, -0.200253 )
+ga_view_zoom_set( 0.412531 )
+ga_view_center_set( -0.016218, -0.159341 )
+ga_view_zoom_set( 0.366694 )
+ga_view_center_set( -0.009157, -0.122975 )
+ga_view_zoom_set( 0.325950 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( -0.010287, -0.152562 )
+ga_view_zoom_set( 0.366694 )
+ga_view_center_set( -0.011558, -0.185212 )
+ga_view_zoom_set( 0.412531 )
+ga_view_center_set( -0.011915, -0.220513 )
+ga_view_zoom_set( 0.464097 )
+ga_view_center_set( -0.011736, -0.186284 )
+ga_view_zoom_set( 0.412531 )
+ga_view_center_set( -0.011577, -0.155859 )
+ga_view_zoom_set( 0.366694 )
+ga_view_center_set( -0.011577, -0.107178 )
+ga_view_zoom_set( 0.293355 )
+ga_view_center_set( -0.011577, -0.085542 )
+ga_view_zoom_set( 0.260760 )
+ga_view_center_set( -0.011577, -0.050925 )
+ga_view_zoom_set( 0.208608 )
+ga_view_center_set( -0.011577, -0.035540 )
+ga_view_zoom_set( 0.185429 )
+ga_view_center_set( -0.011577, -0.021864 )
+ga_view_zoom_set( 0.164826 )
+ga_view_center_set( -0.011387, -0.006724 )
+ga_view_zoom_set( 0.146512 )
+ga_view_center_set( -0.011218, 0.006734 )
+ga_view_zoom_set( 0.130233 )
+ga_view_center_set( -0.011067, 0.018697 )
+ga_view_zoom_set( 0.115763 )
+ga_view_center_set( -0.010933, 0.029330 )
+ga_view_zoom_set( 0.102900 )
+ga_view_center_set( -0.011379, 0.020079 )
+ga_view_zoom_set( 0.115763 )
+ga_view_center_set( -0.012382, -0.000135 )
+ga_view_zoom_set( 0.144703 )
+ga_view_center_set( -0.013009, -0.012705 )
+ga_view_zoom_set( 0.162791 )
+ga_view_center_set( -0.013715, -0.026777 )
+ga_view_zoom_set( 0.183140 )
+ga_view_center_set( -0.015302, -0.057961 )
+ga_view_zoom_set( 0.228925 )
+ga_view_center_set( -0.017087, -0.074873 )
+ga_view_zoom_set( 0.257541 )
+ga_view_center_set( -0.019095, -0.093340 )
+ga_view_zoom_set( 0.289733 )
+ga_view_center_set( -0.023615, -0.134139 )
+ga_view_zoom_set( 0.362167 )
+ga_view_center_set( -0.026439, -0.159638 )
+ga_view_zoom_set( 0.407438 )
+ga_view_center_set( -0.030499, -0.187442 )
+ga_view_zoom_set( 0.458367 )
+ga_view_center_set( -0.039635, -0.249206 )
+ga_view_zoom_set( 0.572959 )
+ga_view_center_set( -0.045345, -0.287809 )
+ga_view_zoom_set( 0.644579 )
+ga_view_center_set( -0.053165, -0.333192 )
+ga_view_zoom_set( 0.725152 )
+ga_view_center_set( -0.070759, -0.434047 )
+ga_view_zoom_set( 0.906439 )
+ga_view_center_set( -0.081363, -0.497082 )
+ga_view_zoom_set( 1.019744 )
+ga_view_center_set( -0.093292, -0.567996 )
+ga_view_zoom_set( 1.147213 )
+ga_view_center_set( -0.087990, -0.460852 )
+ga_view_zoom_set( 1.019744 )
+ga_view_center_set( -0.083277, -0.365613 )
+ga_view_zoom_set( 0.906439 )
+ga_view_center_set( -0.079088, -0.280956 )
+ga_view_zoom_set( 0.805724 )
+ga_view_center_set( -0.072385, -0.146064 )
+ga_view_zoom_set( 0.644579 )
+ga_view_center_set( -0.067023, -0.038150 )
+ga_view_zoom_set( 0.515663 )
+ga_view_center_set( -0.064639, 0.009812 )
+ga_view_zoom_set( 0.458367 )
+ga_view_center_set( -0.060826, 0.086551 )
+ga_view_zoom_set( 0.366694 )
+ga_view_center_set( -0.059132, 0.120657 )
+ga_view_zoom_set( 0.325950 )
+ga_view_center_set( -0.056872, 0.171386 )
+ga_view_zoom_set( 0.260760 )
+ga_view_center_set( -0.055868, 0.193630 )
+ga_view_zoom_set( 0.231787 )
+ga_view_center_set( -0.054422, 0.229061 )
+ga_view_zoom_set( 0.185429 )
+ga_view_center_set( -0.053208, 0.242380 )
+ga_view_zoom_set( 0.164826 )
+ga_view_center_set( -0.052128, 0.254219 )
+ga_view_zoom_set( 0.146512 )
+ga_view_center_set( -0.050503, 0.273060 )
+ga_view_zoom_set( 0.117210 )
+ga_view_center_set( -0.049239, 0.281072 )
+ga_view_zoom_set( 0.104186 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.053708, 0.282449 )
+ga_view_zoom_set( 0.117210 )
+ga_view_center_set( -0.058736, 0.283998 )
+ga_view_zoom_set( 0.131861 )
+ga_view_center_set( -0.064392, 0.285741 )
+ga_view_zoom_set( 0.148344 )
+ga_view_center_set( -0.070755, 0.287701 )
+ga_view_zoom_set( 0.166886 )
+ga_view_center_set( -0.077914, 0.289906 )
+ga_view_zoom_set( 0.187747 )
+ga_view_center_set( -0.085641, 0.292388 )
+ga_view_zoom_set( 0.211216 )
+ga_view_center_set( -0.094335, 0.295179 )
+ga_view_zoom_set( 0.237618 )
+ga_view_center_set( -0.113897, 0.301459 )
+ga_view_zoom_set( 0.297022 )
+ga_view_center_set( -0.126122, 0.305384 )
+ga_view_zoom_set( 0.334150 )
+ga_view_center_set( -0.139876, 0.309800 )
+ga_view_zoom_set( 0.375919 )
+ga_view_center_set( -0.155350, 0.314768 )
+ga_view_zoom_set( 0.422908 )
+ga_view_center_set( -0.190164, 0.325945 )
+ga_view_zoom_set( 0.528636 )
+ga_view_center_set( -0.211924, 0.332931 )
+ga_view_zoom_set( 0.594715 )
+ga_view_center_set( -0.285361, 0.348005 )
+ga_view_zoom_set( 0.817733 )
+ga_view_center_set( -0.319020, 0.354914 )
+ga_view_zoom_set( 0.919950 )
+ga_view_center_set( -0.356886, 0.362686 )
+ga_view_zoom_set( 1.034943 )
+ga_view_center_set( -0.399486, 0.352149 )
+ga_view_zoom_set( 1.164311 )
+ga_view_center_set( -0.447410, 0.340294 )
+ga_view_zoom_set( 1.309850 )
+ga_view_center_set( -0.501325, 0.326957 )
+ga_view_zoom_set( 1.473582 )
+ga_view_center_set( -0.561980, 0.311953 )
+ga_view_zoom_set( 1.657779 )
+ga_view_center_set( -0.630216, 0.295073 )
+ga_view_zoom_set( 1.865002 )
+ga_view_center_set( -0.706981, 0.276084 )
+ga_view_zoom_set( 2.098127 )
+ga_view_center_set( -0.786070, 0.232903 )
+ga_view_zoom_set( 2.360393 )
+ga_view_center_set( -0.875045, 0.184325 )
+ga_view_zoom_set( 2.655442 )
+ga_view_center_set( -1.075238, 0.075024 )
+ga_view_zoom_set( 3.319303 )
+ga_view_center_set( -1.200360, 0.005272 )
+ga_view_zoom_set( 3.734215 )
+ga_view_center_set( -1.046476, -0.060165 )
+ga_view_zoom_set( 3.319303 )
+ga_view_center_set( -0.910968, -0.124723 )
+ga_view_zoom_set( 2.950491 )
+ga_view_center_set( -0.792790, -0.185516 )
+ga_view_zoom_set( 2.622659 )
+ga_view_center_set( -0.694812, -0.248646 )
+ga_view_zoom_set( 2.331252 )
+ga_view_center_set( -0.613107, -0.311046 )
+ga_view_zoom_set( 2.072224 )
+ga_view_center_set( -0.541279, -0.366513 )
+ga_view_zoom_set( 1.841977 )
+ga_view_center_set( -0.477433, -0.415817 )
+ga_view_zoom_set( 1.637313 )
+ga_view_center_set( -0.375278, -0.494703 )
+ga_view_zoom_set( 1.309850 )
+ga_view_center_set( -0.329876, -0.529763 )
+ga_view_zoom_set( 1.164311 )
+ga_view_center_set( -0.270685, -0.491872 )
+ga_view_zoom_set( 1.034943 )
+ga_view_center_set( -0.160306, -0.420816 )
+ga_view_zoom_set( 0.636888 )
+ga_view_center_set( -0.140683, -0.408183 )
+ga_view_zoom_set( 0.566123 )
+ga_view_center_set( -0.123240, -0.396955 )
+ga_view_zoom_set( 0.503220 )
+ga_view_center_set( -0.107736, -0.386974 )
+ga_view_zoom_set( 0.447307 )
+ga_view_center_set( -0.093954, -0.378101 )
+ga_view_zoom_set( 0.397606 )
+ga_view_center_set( -0.071903, -0.363906 )
+ga_view_zoom_set( 0.318085 )
+ga_view_center_set( -0.062102, -0.357597 )
+ga_view_zoom_set( 0.282742 )
+ga_view_center_set( -0.053391, -0.351989 )
+ga_view_zoom_set( 0.251326 )
+ga_view_center_set( -0.045647, -0.347004 )
+ga_view_zoom_set( 0.223401 )
+ga_view_center_set( -0.033413, -0.339028 )
+ga_view_zoom_set( 0.178721 )
+ga_view_center_set( -0.028181, -0.335552 )
+ga_view_zoom_set( 0.158863 )
+ga_view_center_set( -0.023531, -0.332463 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.019453, -0.329716 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( -0.015827, -0.327275 )
+ga_view_zoom_set( 0.111575 )
+ga_view_center_set( -0.029508, -0.324495 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( -0.044899, -0.321368 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.062214, -0.317850 )
+ga_view_zoom_set( 0.158863 )
+ga_view_center_set( -0.081693, -0.313892 )
+ga_view_zoom_set( 0.178721 )
+ga_view_center_set( -0.103607, -0.309440 )
+ga_view_zoom_set( 0.201061 )
+ga_view_center_set( -0.081693, -0.313892 )
+ga_view_zoom_set( 0.178721 )
+ga_view_center_set( -0.062214, -0.317850 )
+ga_view_zoom_set( 0.158863 )
+ga_view_center_set( -0.044899, -0.321368 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.029508, -0.324495 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( -0.044899, -0.321368 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.062214, -0.317850 )
+ga_view_zoom_set( 0.158863 )
+ga_view_center_set( -0.081693, -0.313892 )
+ga_view_zoom_set( 0.178721 )
+ga_view_center_set( -0.103607, -0.309440 )
+ga_view_zoom_set( 0.201061 )
+ga_view_center_set( -0.128261, -0.304431 )
+ga_view_zoom_set( 0.226194 )
+ga_view_center_set( -0.155996, -0.298795 )
+ga_view_zoom_set( 0.254468 )
+ga_view_center_set( -0.187198, -0.292456 )
+ga_view_zoom_set( 0.286276 )
+ga_view_aa_set( -50.011780, -0.886380, -2.751271 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.136040, -0.295157 )
+ga_view_zoom_set( 0.254468 )
+ga_view_center_set( -0.089978, -0.297852 )
+ga_view_zoom_set( 0.226194 )
+ga_view_center_set( -0.049034, -0.300248 )
+ga_view_zoom_set( 0.201061 )
+ga_view_center_set( -0.032850, -0.300906 )
+ga_view_zoom_set( 0.178721 )
+ga_view_center_set( -0.018464, -0.301491 )
+ga_view_zoom_set( 0.158863 )
+ga_view_center_set( -0.005677, -0.302011 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( 0.005690, -0.302473 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( 0.015793, -0.302884 )
+ga_view_zoom_set( 0.111575 )
+ga_view_center_set( 0.024774, -0.303249 )
+ga_view_zoom_set( 0.099177 )
+ga_view_center_set( 0.015793, -0.302884 )
+ga_view_zoom_set( 0.111575 )
+ga_view_center_set( 0.005690, -0.302473 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( -0.005840, -0.302011 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.003066, -0.301929 )
+ga_view_zoom_set( 0.125521 )
+ga_view_center_set( -0.005840, -0.301195 )
+ga_view_zoom_set( 0.141212 )
+ga_view_center_set( -0.012081, -0.299543 )
+ga_view_zoom_set( 0.176515 )
+ga_view_center_set( -0.015981, -0.298511 )
+ga_view_zoom_set( 0.198579 )
+ga_view_center_set( -0.024757, -0.296188 )
+ga_view_zoom_set( 0.248224 )
+ga_view_center_set( -0.030242, -0.294736 )
+ga_view_zoom_set( 0.279252 )
+ga_view_center_set( -0.036413, -0.293102 )
+ga_view_zoom_set( 0.314158 )
+ga_view_center_set( -0.050297, -0.289427 )
+ga_view_zoom_set( 0.392697 )
+ga_view_aa_set( -46.221897, -3.048626, -12.512282 )
+ga_view_aa_set( -83.553505, -4.635480, -17.005671 )
+ga_view_center_set( -0.058615, -0.296309 )
+ga_view_zoom_set( 0.349064 )
+ga_view_center_set( -0.066009, -0.302425 )
+ga_view_zoom_set( 0.310279 )
+ga_view_center_set( -0.071745, -0.307504 )
+ga_view_zoom_set( 0.275804 )
+ga_view_center_set( -0.075356, -0.311381 )
+ga_view_zoom_set( 0.245159 )
+ga_view_center_set( -0.078567, -0.314827 )
+ga_view_zoom_set( 0.217919 )
+ga_view_center_set( -0.081420, -0.317891 )
+ga_view_zoom_set( 0.193706 )
+ga_view_center_set( -0.083957, -0.320614 )
+ga_view_zoom_set( 0.172183 )
+ga_view_center_set( -0.085747, -0.322769 )
+ga_view_zoom_set( 0.153052 )
+ga_view_center_set( -0.087339, -0.324685 )
+ga_view_zoom_set( 0.136046 )
+ga_view_center_set( -0.089885, -0.327750 )
+ga_view_zoom_set( 0.108837 )
+ga_view_center_set( -0.091017, -0.329112 )
+ga_view_zoom_set( 0.096744 )
+ga_view_center_set( -0.107155, -0.325989 )
+ga_view_zoom_set( 0.108837 )
+ga_view_center_set( -0.125310, -0.322476 )
+ga_view_zoom_set( 0.122441 )
+ga_view_center_set( -0.146371, -0.318895 )
+ga_view_zoom_set( 0.137746 )
+ga_view_center_set( -0.170363, -0.315285 )
+ga_view_zoom_set( 0.154965 )
+ga_view_center_set( -0.204673, -0.313304 )
+ga_view_zoom_set( 0.174335 )
+ga_view_center_set( -0.243347, -0.311227 )
+ga_view_zoom_set( 0.196127 )
+ga_view_center_set( -0.193116, -0.312926 )
+ga_view_zoom_set( 0.174335 )
+ga_view_center_set( -0.148466, -0.314437 )
+ga_view_zoom_set( 0.154965 )
+ga_view_center_set( -0.108778, -0.315780 )
+ga_view_zoom_set( 0.137746 )
+ga_view_center_set( -0.073552, -0.316973 )
+ga_view_zoom_set( 0.122441 )
+ga_view_center_set( -0.042429, -0.317563 )
+ga_view_zoom_set( 0.108837 )
+ga_view_center_set( -0.014764, -0.318087 )
+ga_view_zoom_set( 0.096744 )
+ga_view_center_set( 0.009865, -0.317248 )
+ga_view_zoom_set( 0.085994 )
+ga_view_center_set( 0.031757, -0.316503 )
+ga_view_zoom_set( 0.076439 )
+ga_view_center_set( 0.051246, -0.315664 )
+ga_view_zoom_set( 0.067946 )
+ga_view_center_set( 0.068569, -0.314918 )
+ga_view_zoom_set( 0.060397 )
+ga_view_center_set( 0.053418, -0.317077 )
+ga_view_zoom_set( 0.067946 )
+ga_view_center_set( 0.036372, -0.319506 )
+ga_view_zoom_set( 0.076439 )
+ga_view_center_set( 0.017196, -0.322238 )
+ga_view_zoom_set( 0.085994 )
+ga_view_center_set( -0.003893, -0.325201 )
+ga_view_zoom_set( 0.096744 )
+ga_view_center_set( -0.027617, -0.328533 )
+ga_view_zoom_set( 0.108837 )
+ga_view_center_set( -0.054308, -0.332329 )
+ga_view_zoom_set( 0.122441 )
+ga_view_center_set( -0.024505, -0.325091 )
+ga_view_zoom_set( 0.108837 )
+ga_view_center_set( 0.023179, -0.313509 )
+ga_view_zoom_set( 0.087069 )
+ga_view_center_set( 0.044406, -0.308429 )
+ga_view_zoom_set( 0.077395 )
+ga_view_center_set( 0.063274, -0.303943 )
+ga_view_zoom_set( 0.068796 )
+ga_view_center_set( 0.093368, -0.296813 )
+ga_view_zoom_set( 0.055036 )
+ga_view_center_set( 0.106107, -0.294153 )
+ga_view_zoom_set( 0.048921 )
+ga_view_center_set( 0.117393, -0.291807 )
+ga_view_zoom_set( 0.043486 )
+ga_view_center_set( 0.127374, -0.289772 )
+ga_view_zoom_set( 0.038654 )
+ga_view_center_set( 0.136024, -0.288097 )
+ga_view_zoom_set( 0.034359 )
+ga_view_center_set( 0.143712, -0.286609 )
+ga_view_zoom_set( 0.030541 )
+ga_view_center_set( 0.150546, -0.285285 )
+ga_view_zoom_set( 0.027148 )
+ga_view_center_set( 0.156589, -0.284130 )
+ga_view_zoom_set( 0.024131 )
+ga_view_center_set( 0.161961, -0.283103 )
+ga_view_zoom_set( 0.021450 )
+ga_view_center_set( 0.165233, -0.282339 )
+ga_view_zoom_set( 0.019067 )
+ga_view_center_set( 0.168140, -0.281660 )
+ga_view_zoom_set( 0.016948 )
+ga_view_center_set( 0.170725, -0.281056 )
+ga_view_zoom_set( 0.015065 )
+ga_view_center_set( 0.173023, -0.280519 )
+ga_view_zoom_set( 0.013391 )
+ga_view_center_set( 0.175220, -0.280063 )
+ga_view_zoom_set( 0.011903 )
+ga_view_center_set( 0.178735, -0.279341 )
+ga_view_zoom_set( 0.009523 )
+ga_view_center_set( 0.180301, -0.279031 )
+ga_view_zoom_set( 0.008465 )
+ga_view_center_set( 0.181693, -0.278755 )
+ga_view_zoom_set( 0.007524 )
+ga_view_center_set( 0.182365, -0.279024 )
+ga_view_zoom_set( 0.008465 )
+ga_view_center_set( 0.183091, -0.279356 )
+ga_view_zoom_set( 0.009523 )
+ga_view_center_set( 0.183900, -0.279746 )
+ga_view_zoom_set( 0.010713 )
+ga_view_center_set( 0.184299, -0.280101 )
+ga_view_zoom_set( 0.012052 )
+ga_view_center_set( 0.184722, -0.280501 )
+ga_view_zoom_set( 0.013559 )
+ga_view_center_set( 0.185110, -0.280950 )
+ga_view_zoom_set( 0.015253 )
+ga_view_center_set( 0.185566, -0.281502 )
+ga_view_zoom_set( 0.017160 )
+ga_view_center_set( 0.186109, -0.282346 )
+ga_view_zoom_set( 0.019305 )
+ga_view_center_set( 0.186719, -0.283303 )
+ga_view_zoom_set( 0.021718 )
+ga_view_center_set( 0.187980, -0.285722 )
+ga_view_zoom_set( 0.027148 )
+ga_view_center_set( 0.188568, -0.288021 )
+ga_view_zoom_set( 0.030541 )
+ga_view_center_set( 0.189918, -0.292772 )
+ga_view_zoom_set( 0.038177 )
+ga_view_center_set( 0.191804, -0.297652 )
+ga_view_zoom_set( 0.047721 )
+ga_view_center_set( 0.193293, -0.299936 )
+ga_view_zoom_set( 0.053686 )
+ga_view_center_set( 0.196642, -0.304937 )
+ga_view_zoom_set( 0.067107 )
+ga_view_center_set( 0.198794, -0.308063 )
+ga_view_zoom_set( 0.075496 )
+ga_view_center_set( 0.205925, -0.310009 )
+ga_view_zoom_set( 0.084933 )
+ga_view_center_set( 0.213689, -0.312420 )
+ga_view_zoom_set( 0.095549 )
+ga_view_center_set( 0.222342, -0.315131 )
+ga_view_zoom_set( 0.107493 )
+ga_view_center_set( 0.209508, -0.310598 )
+ga_view_zoom_set( 0.095549 )
+ga_view_center_set( 0.197732, -0.306679 )
+ga_view_zoom_set( 0.084933 )
+ga_view_center_set( 0.187199, -0.303195 )
+ga_view_zoom_set( 0.075496 )
+ga_view_center_set( 0.177779, -0.300128 )
+ga_view_zoom_set( 0.067107 )
+ga_view_center_set( 0.169793, -0.297220 )
+ga_view_zoom_set( 0.059651 )
+ga_view_center_set( 0.162740, -0.294613 )
+ga_view_zoom_set( 0.053023 )
+ga_view_center_set( 0.156573, -0.292254 )
+ga_view_zoom_set( 0.047132 )
+ga_view_center_set( 0.152833, -0.289976 )
+ga_view_zoom_set( 0.041895 )
+ga_view_center_set( 0.149509, -0.287951 )
+ga_view_zoom_set( 0.037240 )
+ga_view_center_set( 0.146555, -0.286151 )
+ga_view_zoom_set( 0.033102 )
+ga_view_center_set( 0.145267, -0.284194 )
+ga_view_zoom_set( 0.029424 )
+ga_view_center_set( 0.144123, -0.282432 )
+ga_view_zoom_set( 0.026155 )
+ga_view_center_set( 0.143105, -0.280795 )
+ga_view_zoom_set( 0.023249 )
+ga_view_center_set( 0.141995, -0.279134 )
+ga_view_zoom_set( 0.020665 )
+ga_view_center_set( 0.140968, -0.277658 )
+ga_view_zoom_set( 0.018369 )
+ga_view_center_set( 0.140020, -0.276345 )
+ga_view_zoom_set( 0.016328 )
+ga_view_center_set( 0.141846, -0.277049 )
+ga_view_zoom_set( 0.018369 )
+ga_view_center_set( 0.143843, -0.277889 )
+ga_view_zoom_set( 0.020665 )
+ga_view_center_set( 0.146010, -0.278878 )
+ga_view_zoom_set( 0.023249 )
+ga_view_center_set( 0.148257, -0.280032 )
+ga_view_zoom_set( 0.026155 )
+ga_view_center_set( 0.150716, -0.281363 )
+ga_view_zoom_set( 0.029424 )
+ga_view_center_set( 0.153380, -0.282899 )
+ga_view_zoom_set( 0.033102 )
+ga_view_center_set( 0.156148, -0.284298 )
+ga_view_zoom_set( 0.037240 )
+ga_view_center_set( 0.159262, -0.285887 )
+ga_view_zoom_set( 0.041895 )
+ga_view_center_set( 0.162693, -0.287711 )
+ga_view_zoom_set( 0.047132 )
+ga_view_center_set( 0.170657, -0.288967 )
+ga_view_zoom_set( 0.053023 )
+ga_view_center_set( 0.179617, -0.290380 )
+ga_view_zoom_set( 0.059651 )
+ga_view_center_set( 0.199776, -0.293507 )
+ga_view_zoom_set( 0.074564 )
+ga_view_center_set( 0.212376, -0.295462 )
+ga_view_zoom_set( 0.083884 )
+ga_view_center_set( 0.226550, -0.297661 )
+ga_view_zoom_set( 0.094370 )
+ga_view_center_set( 0.241843, -0.299603 )
+ga_view_zoom_set( 0.106166 )
+ga_view_center_set( 0.259046, -0.301788 )
+ga_view_zoom_set( 0.119437 )
+ga_view_center_set( 0.278400, -0.304246 )
+ga_view_zoom_set( 0.134366 )
+ga_view_center_set( 0.300174, -0.307011 )
+ga_view_zoom_set( 0.151162 )
+ga_view_center_set( 0.273976, -0.303023 )
+ga_view_zoom_set( 0.134366 )
+ga_view_center_set( 0.250223, -0.299375 )
+ga_view_zoom_set( 0.119437 )
+ga_view_center_set( 0.211970, -0.293538 )
+ga_view_zoom_set( 0.095549 )
+ga_view_center_set( 0.194601, -0.290576 )
+ga_view_zoom_set( 0.084933 )
+ga_view_center_set( 0.166810, -0.285836 )
+ga_view_zoom_set( 0.067946 )
+ga_view_center_set( 0.144577, -0.282044 )
+ga_view_zoom_set( 0.054357 )
+ga_view_center_set( 0.134696, -0.280359 )
+ga_view_zoom_set( 0.048317 )
+ga_view_center_set( 0.125913, -0.278861 )
+ga_view_zoom_set( 0.042949 )
+ga_view_center_set( 0.106749, -0.275592 )
+ga_view_zoom_set( 0.031235 )
+ga_view_center_set( 0.110539, -0.275491 )
+ga_view_zoom_set( 0.035140 )
+ga_view_center_set( 0.119065, -0.275263 )
+ga_view_zoom_set( 0.043925 )
+ga_view_center_set( 0.129723, -0.274977 )
+ga_view_zoom_set( 0.054906 )
+ga_view_center_set( 0.136384, -0.274799 )
+ga_view_zoom_set( 0.061769 )
+ga_view_center_set( 0.143877, -0.274732 )
+ga_view_zoom_set( 0.069490 )
+ga_view_center_set( 0.160738, -0.274581 )
+ga_view_zoom_set( 0.086863 )
+ga_view_center_set( 0.181814, -0.274393 )
+ga_view_zoom_set( 0.108579 )
+ga_view_center_set( 0.195316, -0.274652 )
+ga_view_zoom_set( 0.122151 )
+ga_view_center_set( 0.210505, -0.274943 )
+ga_view_zoom_set( 0.137420 )
+ga_view_center_set( 0.244682, -0.275598 )
+ga_view_zoom_set( 0.171775 )
+ga_view_center_set( 0.215110, -0.274903 )
+ga_view_zoom_set( 0.152689 )
+ga_view_center_set( 0.188824, -0.274286 )
+ga_view_zoom_set( 0.135724 )
+ga_view_center_set( 0.165458, -0.273737 )
+ga_view_zoom_set( 0.120643 )
+ga_view_center_set( 0.128074, -0.272859 )
+ga_view_zoom_set( 0.096515 )
+ga_view_center_set( 0.098166, -0.272156 )
+ga_view_zoom_set( 0.077212 )
+ga_view_center_set( 0.084873, -0.271844 )
+ga_view_zoom_set( 0.068633 )
+ga_view_center_set( 0.063606, -0.271344 )
+ga_view_zoom_set( 0.054906 )
+ga_view_center_set( 0.054788, -0.271080 )
+ga_view_zoom_set( 0.048805 )
+ga_view_center_set( 0.040679, -0.270657 )
+ga_view_zoom_set( 0.039044 )
+ga_view_center_set( 0.034408, -0.270469 )
+ga_view_zoom_set( 0.034706 )
+ga_view_center_set( 0.038393, -0.269184 )
+ga_view_zoom_set( 0.039044 )
+ga_view_center_set( 0.042876, -0.267737 )
+ga_view_zoom_set( 0.043925 )
+ga_view_center_set( 0.053001, -0.264483 )
+ga_view_zoom_set( 0.054906 )
+ga_view_center_set( 0.059329, -0.262449 )
+ga_view_zoom_set( 0.061769 )
+ga_view_center_set( 0.066528, -0.260723 )
+ga_view_zoom_set( 0.069490 )
+ga_view_center_set( 0.082727, -0.256839 )
+ga_view_zoom_set( 0.086863 )
+ga_view_center_set( 0.092888, -0.254411 )
+ga_view_zoom_set( 0.097721 )
+ga_view_center_set( 0.104320, -0.251680 )
+ga_view_zoom_set( 0.109936 )
+ga_view_center_set( 0.117181, -0.248703 )
+ga_view_zoom_set( 0.123678 )
+ga_view_center_set( 0.131649, -0.245354 )
+ga_view_zoom_set( 0.139138 )
+ga_view_center_set( 0.164203, -0.237818 )
+ga_view_zoom_set( 0.173922 )
+ga_view_center_set( 0.184549, -0.233184 )
+ga_view_zoom_set( 0.195663 )
+ga_view_center_set( 0.207439, -0.227970 )
+ga_view_zoom_set( 0.220120 )
+ga_view_center_set( 0.258940, -0.216239 )
+ga_view_zoom_set( 0.275150 )
+ga_view_center_set( 0.291129, -0.208907 )
+ga_view_zoom_set( 0.309544 )
+ga_view_center_set( 0.241416, -0.213020 )
+ga_view_zoom_set( 0.275150 )
+ga_view_center_set( 0.161493, -0.220364 )
+ga_view_zoom_set( 0.220120 )
+ga_view_center_set( 0.126142, -0.223628 )
+ga_view_zoom_set( 0.195663 )
+ga_view_center_set( 0.094718, -0.226529 )
+ga_view_zoom_set( 0.173922 )
+ga_view_center_set( 0.068996, -0.230716 )
+ga_view_zoom_set( 0.154598 )
+ga_view_center_set( 0.046550, -0.235151 )
+ga_view_zoom_set( 0.137420 )
+ga_view_center_set( 0.026914, -0.239677 )
+ga_view_zoom_set( 0.122151 )
+ga_view_center_set( 0.009790, -0.244028 )
+ga_view_zoom_set( 0.108579 )
+ga_view_center_set( -0.002086, -0.251576 )
+ga_view_zoom_set( 0.096515 )
+ga_view_center_set( -0.012717, -0.258286 )
+ga_view_zoom_set( 0.085791 )
+ga_view_center_set( -0.029964, -0.268783 )
+ga_view_zoom_set( 0.068633 )
+ga_view_center_set( -0.037630, -0.273395 )
+ga_view_zoom_set( 0.061007 )
+ga_view_center_set( -0.044491, -0.276461 )
+ga_view_zoom_set( 0.054228 )
+ga_view_center_set( -0.050589, -0.279166 )
+ga_view_zoom_set( 0.048203 )
+ga_view_center_set( -0.060347, -0.283360 )
+ga_view_zoom_set( 0.038562 )
+ga_view_center_set( -0.049353, -0.279366 )
+ga_view_zoom_set( 0.048203 )
+ga_view_center_set( -0.042440, -0.276871 )
+ga_view_zoom_set( 0.054228 )
+ga_view_center_set( -0.026885, -0.271208 )
+ga_view_zoom_set( 0.067785 )
+ga_view_center_set( -0.006562, -0.264306 )
+ga_view_zoom_set( 0.084732 )
+ga_view_center_set( 0.006141, -0.259993 )
+ga_view_zoom_set( 0.095323 )
+ga_view_center_set( 0.020307, -0.255181 )
+ga_view_zoom_set( 0.107238 )
+ga_view_center_set( 0.036198, -0.250047 )
+ga_view_zoom_set( 0.120643 )
+ga_view_center_set( 0.054074, -0.244271 )
+ga_view_zoom_set( 0.135724 )
+ga_view_center_set( 0.094298, -0.231275 )
+ga_view_zoom_set( 0.169654 )
+ga_view_center_set( 0.063588, -0.238233 )
+ga_view_zoom_set( 0.150804 )
+ga_view_center_set( 0.036291, -0.244419 )
+ga_view_zoom_set( 0.134048 )
+ga_view_center_set( -0.007478, -0.254409 )
+ga_view_zoom_set( 0.107238 )
+ga_view_center_set( -0.042493, -0.262400 )
+ga_view_zoom_set( 0.085791 )
+ga_view_center_set( -0.057494, -0.265919 )
+ga_view_zoom_set( 0.076258 )
+ga_view_center_set( -0.081125, -0.271708 )
+ga_view_zoom_set( 0.061007 )
+ga_view_center_set( -0.099860, -0.276466 )
+ga_view_zoom_set( 0.048805 )
+ga_view_center_set( -0.107172, -0.278731 )
+ga_view_zoom_set( 0.043383 )
+ga_view_center_set( -0.113655, -0.280778 )
+ga_view_zoom_set( 0.038562 )
+ga_view_center_set( -0.124001, -0.284052 )
+ga_view_zoom_set( 0.030850 )
+ga_view_center_set( -0.128230, -0.285650 )
+ga_view_zoom_set( 0.027422 )
+ga_view_center_set( -0.131990, -0.287071 )
+ga_view_zoom_set( 0.024375 )
+ga_view_center_set( -0.135332, -0.288334 )
+ga_view_zoom_set( 0.021667 )
+ga_view_center_set( -0.135023, -0.289907 )
+ga_view_zoom_set( 0.019259 )
+ga_view_center_set( -0.134749, -0.291305 )
+ga_view_zoom_set( 0.017119 )
+ga_view_center_set( -0.134505, -0.292548 )
+ga_view_zoom_set( 0.015217 )
+ga_view_center_set( -0.134288, -0.293652 )
+ga_view_zoom_set( 0.013526 )
+ga_view_center_set( -0.134158, -0.294613 )
+ga_view_zoom_set( 0.012024 )
+ga_view_center_set( -0.134042, -0.295468 )
+ga_view_zoom_set( 0.010688 )
+ga_view_center_set( -0.133939, -0.296227 )
+ga_view_zoom_set( 0.009500 )
+ga_view_center_set( -0.133873, -0.296869 )
+ga_view_zoom_set( 0.008445 )
+ga_view_center_set( -0.133815, -0.297440 )
+ga_view_zoom_set( 0.007506 )
+ga_view_center_set( -0.133769, -0.297947 )
+ga_view_zoom_set( 0.006672 )
+ga_view_center_set( -0.133817, -0.298311 )
+ga_view_zoom_set( 0.005931 )
+ga_view_center_set( -0.132795, -0.297589 )
+ga_view_zoom_set( 0.007414 )
+ga_view_center_set( -0.131516, -0.296686 )
+ga_view_zoom_set( 0.009267 )
+ga_view_center_set( -0.130717, -0.296134 )
+ga_view_zoom_set( 0.010425 )
+ga_view_center_set( -0.129782, -0.295586 )
+ga_view_zoom_set( 0.011728 )
+ga_view_center_set( -0.128720, -0.295019 )
+ga_view_zoom_set( 0.013195 )
+ga_view_center_set( -0.127525, -0.294381 )
+ga_view_zoom_set( 0.014844 )
+ga_view_center_set( -0.124837, -0.292947 )
+ga_view_zoom_set( 0.018555 )
+ga_view_center_set( -0.123157, -0.292083 )
+ga_view_zoom_set( 0.020874 )
+ga_view_center_set( -0.119412, -0.290175 )
+ga_view_zoom_set( 0.026093 )
+ga_view_center_set( -0.117072, -0.288982 )
+ga_view_zoom_set( 0.029354 )
+ga_view_center_set( -0.114439, -0.287640 )
+ga_view_zoom_set( 0.033024 )
+ga_view_center_set( -0.111478, -0.286202 )
+ga_view_zoom_set( 0.037152 )
+ga_view_center_set( -0.108081, -0.284665 )
+ga_view_zoom_set( 0.041796 )
+ga_view_center_set( -0.104260, -0.282936 )
+ga_view_zoom_set( 0.047020 )
+ga_view_center_set( -0.095663, -0.279044 )
+ga_view_zoom_set( 0.058775 )
+ga_view_center_set( -0.090366, -0.276867 )
+ga_view_zoom_set( 0.066122 )
+ga_view_center_set( -0.097471, -0.281387 )
+ga_view_zoom_set( 0.058775 )
+ga_view_center_set( -0.108839, -0.288620 )
+ga_view_zoom_set( 0.047020 )
+ga_view_center_set( -0.113891, -0.291834 )
+ga_view_zoom_set( 0.041796 )
+ga_view_center_set( -0.118382, -0.294691 )
+ga_view_zoom_set( 0.037152 )
+ga_view_center_set( -0.121602, -0.291431 )
+ga_view_zoom_set( 0.041796 )
+ga_view_center_set( -0.125205, -0.287782 )
+ga_view_zoom_set( 0.047020 )
+ga_view_center_set( -0.133314, -0.279572 )
+ga_view_zoom_set( 0.058775 )
+ga_view_center_set( -0.138356, -0.274466 )
+ga_view_zoom_set( 0.066122 )
+ga_view_center_set( -0.143771, -0.269267 )
+ga_view_zoom_set( 0.074387 )
+ga_view_center_set( -0.149830, -0.263417 )
+ga_view_zoom_set( 0.083685 )
+ga_view_center_set( -0.156647, -0.256836 )
+ga_view_zoom_set( 0.094146 )
+ga_view_center_set( -0.164315, -0.249432 )
+ga_view_zoom_set( 0.105914 )
+ga_view_center_set( -0.172943, -0.241103 )
+ga_view_zoom_set( 0.119154 )
+ga_view_center_set( -0.149732, -0.259895 )
+ga_view_zoom_set( 0.095323 )
+ga_view_center_set( -0.139415, -0.268247 )
+ga_view_zoom_set( 0.084732 )
+ga_view_center_set( -0.130246, -0.275671 )
+ga_view_zoom_set( 0.075317 )
+ga_view_center_set( -0.122095, -0.282270 )
+ga_view_zoom_set( 0.066948 )
+ga_view_center_set( -0.115545, -0.286667 )
+ga_view_zoom_set( 0.059510 )
+ga_view_center_set( -0.109747, -0.290574 )
+ga_view_zoom_set( 0.052897 )
+ga_view_center_set( -0.104593, -0.294048 )
+ga_view_zoom_set( 0.047020 )
+ga_view_center_set( -0.100084, -0.297135 )
+ga_view_zoom_set( 0.041796 )
+ga_view_center_set( -0.104303, -0.293921 )
+ga_view_zoom_set( 0.047020 )
+ga_view_center_set( -0.109050, -0.290305 )
+ga_view_zoom_set( 0.052897 )
+ga_view_center_set( -0.119730, -0.282169 )
+ga_view_zoom_set( 0.066122 )
+ga_view_center_set( -0.126405, -0.277083 )
+ga_view_zoom_set( 0.074387 )
+ga_view_center_set( -0.133915, -0.271524 )
+ga_view_zoom_set( 0.083685 )
+ga_view_center_set( -0.158498, -0.254718 )
+ga_view_zoom_set( 0.115067 )
+ga_view_center_set( -0.169766, -0.247015 )
+ga_view_zoom_set( 0.129451 )
+ga_view_center_set( -0.182442, -0.238349 )
+ga_view_zoom_set( 0.145632 )
+ga_viewport_location_set( "default_viewport", 0.000000, 0.000000, 1 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.200759, -0.239537 )
+ga_view_zoom_set( 0.163836 )
+ga_view_center_set( -0.221366, -0.240872 )
+ga_view_zoom_set( 0.184316 )
+ga_view_center_set( -0.244548, -0.242375 )
+ga_view_zoom_set( 0.207355 )
+ga_view_center_set( -0.270629, -0.244065 )
+ga_view_zoom_set( 0.233275 )
+gu_fit_view(  )
+ga_view_aa_set( -53.155903, -4.524688, -3.944563 )
+ga_view_center_set( 0.004500, 0.012455 )
+ga_view_zoom_set( 0.232875 )
+ga_view_center_set( 0.014625, 0.041384 )
+ga_view_zoom_set( 0.291093 )
+ga_view_center_set( 0.023100, 0.064662 )
+ga_view_zoom_set( 0.327480 )
+ga_view_center_set( 0.042296, 0.095173 )
+ga_view_zoom_set( 0.368415 )
+ga_view_center_set( 0.064464, 0.130927 )
+ga_view_zoom_set( 0.414467 )
+ga_view_center_set( 0.089725, 0.172277 )
+ga_view_zoom_set( 0.466275 )
+ga_view_aa_set( -49.293159, -5.830958, -5.465285 )
+ga_view_center_set( -0.101750, -0.284029 )
+ga_view_zoom_set( 0.414467 )
+ga_view_center_set( -0.080727, -0.281168 )
+ga_view_zoom_set( 0.368415 )
+ga_view_center_set( -0.062039, -0.278626 )
+ga_view_zoom_set( 0.327480 )
+ga_view_center_set( -0.046445, -0.274784 )
+ga_view_zoom_set( 0.291093 )
+ga_view_center_set( -0.032583, -0.271369 )
+ga_view_zoom_set( 0.258750 )
+ga_view_center_set( -0.020262, -0.268154 )
+ga_view_zoom_set( 0.230000 )
+ga_view_center_set( -0.000548, -0.263012 )
+ga_view_zoom_set( 0.184000 )
+ga_view_center_set( 0.008405, -0.260535 )
+ga_view_zoom_set( 0.163555 )
+ga_view_center_set( 0.022932, -0.256370 )
+ga_view_zoom_set( 0.130844 )
+ga_view_center_set( 0.029388, -0.254519 )
+ga_view_zoom_set( 0.116306 )
+ga_view_center_set( 0.022932, -0.256370 )
+ga_view_zoom_set( 0.130844 )
+ga_view_center_set( 0.015668, -0.258453 )
+ga_view_zoom_set( 0.147200 )
+ga_view_aa_set( -63.293159, -5.830957, -5.465284 )
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Geometric equivalencing completed. 0 nodes deleted.
+ga_view_center_set( 0.017192, -0.262770 )
+ga_view_zoom_set( 0.130844 )
+node_size( 9 )
+ga_view_center_set( 0.011187, -0.269046 )
+ga_view_zoom_set( 0.116306 )
+ga_view_center_set( 0.005849, -0.274625 )
+ga_view_zoom_set( 0.103383 )
+ga_view_center_set( 0.000962, -0.279583 )
+ga_view_zoom_set( 0.091896 )
+ga_view_center_set( -0.003636, -0.283991 )
+ga_view_zoom_set( 0.081685 )
+ga_view_center_set( -0.007723, -0.287909 )
+ga_view_zoom_set( 0.072609 )
+ga_view_center_set( -0.011606, -0.292043 )
+ga_view_zoom_set( 0.064542 )
+ga_view_center_set( -0.015058, -0.295718 )
+ga_view_zoom_set( 0.057370 )
+ga_view_center_set( -0.018127, -0.298984 )
+ga_view_zoom_set( 0.050996 )
+ga_view_center_set( -0.020854, -0.301888 )
+ga_view_zoom_set( 0.045330 )
+node_size( 0 )
+node_size( 9 )
+gm_visibility_widget( " Point 1:33 100:133 200:269 Curve 1:92 Surface 1:108",  @
+TRUE )
+node_size( 0 )
+point_size( 9 )
+uil_toolbar.wireframe(  )
+ga_view_center_set( -0.024321, -0.301501 )
+ga_view_zoom_set( 0.050996 )
+ga_view_center_set( -0.032121, -0.300630 )
+ga_view_zoom_set( 0.063745 )
+ga_view_center_set( -0.036996, -0.300085 )
+ga_view_zoom_set( 0.071713 )
+ga_view_center_set( -0.042480, -0.299473 )
+ga_view_zoom_set( 0.080677 )
+ga_view_center_set( -0.057701, -0.291706 )
+ga_view_zoom_set( 0.100846 )
+ga_view_center_set( -0.067214, -0.286851 )
+ga_view_zoom_set( 0.113452 )
+ga_view_center_set( -0.077916, -0.281390 )
+ga_view_zoom_set( 0.127633 )
+ga_view_center_set( -0.089956, -0.275246 )
+ga_view_zoom_set( 0.143588 )
+ga_view_center_set( -0.103055, -0.267554 )
+ga_view_zoom_set( 0.161536 )
+ga_view_center_set( -0.117792, -0.258900 )
+ga_view_zoom_set( 0.181728 )
+ga_view_center_set( -0.150948, -0.239429 )
+ga_view_zoom_set( 0.227160 )
+ga_view_center_set( -0.105485, -0.247581 )
+ga_view_zoom_set( 0.201920 )
+ga_view_center_set( -0.065073, -0.254828 )
+ga_view_zoom_set( 0.179485 )
+ga_view_center_set( -0.029152, -0.261269 )
+ga_view_zoom_set( 0.159542 )
+ga_view_center_set( 0.002779, -0.266994 )
+ga_view_zoom_set( 0.141815 )
+ga_view_center_set( 0.030672, -0.271545 )
+ga_view_zoom_set( 0.126058 )
+ga_view_center_set( 0.055466, -0.275591 )
+ga_view_zoom_set( 0.112051 )
+ga_view_center_set( 0.054857, -0.275591 )
+ga_view_zoom_set( 0.126058 )
+ga_view_center_set( 0.054172, -0.275591 )
+ga_view_zoom_set( 0.141815 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_zoom_set( 0.426627 )
+ga_view_aa_set( 1.000000, 0.000000, 0.000000 )
+ga_view_center_set( 0.049659, -0.256148 )
+ga_view_zoom_set( 0.894336 )
+ga_view_center_set( 0.045647, -0.238867 )
+ga_view_zoom_set( 0.794965 )
+ga_view_center_set( 0.042081, -0.223505 )
+ga_view_zoom_set( 0.706636 )
+ga_view_center_set( 0.038911, -0.209850 )
+ga_view_zoom_set( 0.628121 )
+ga_view_center_set( 0.036093, -0.197713 )
+ga_view_zoom_set( 0.558330 )
+ga_view_center_set( 0.033589, -0.186924 )
+ga_view_zoom_set( 0.496293 )
+ga_view_center_set( 0.031362, -0.177333 )
+ga_view_zoom_set( 0.441149 )
+ga_view_center_set( 0.029383, -0.168809 )
+ga_view_zoom_set( 0.392133 )
+ga_view_center_set( 0.027624, -0.161231 )
+ga_view_zoom_set( 0.348562 )
+ga_view_center_set( 0.023786, -0.144699 )
+ga_view_zoom_set( 0.253500 )
+ga_view_center_set( 0.021739, -0.135881 )
+ga_view_zoom_set( 0.202800 )
+ga_view_center_set( 0.020102, -0.128827 )
+ga_view_zoom_set( 0.162240 )
+ga_view_center_set( 0.018316, -0.121132 )
+ga_view_zoom_set( 0.117993 )
+ga_view_center_set( 0.017363, -0.117028 )
+ga_view_zoom_set( 0.094394 )
+ga_view_center_set( 0.016601, -0.113745 )
+ga_view_zoom_set( 0.075515 )
+ga_view_center_set( 0.016262, -0.112285 )
+ga_view_zoom_set( 0.067125 )
+ga_view_center_set( 0.015961, -0.110988 )
+ga_view_zoom_set( 0.059666 )
+ga_view_center_set( 0.016262, -0.112285 )
+ga_view_zoom_set( 0.067125 )
+ga_view_center_set( 0.016601, -0.113745 )
+ga_view_zoom_set( 0.075515 )
+ga_view_center_set( 0.016982, -0.115386 )
+ga_view_zoom_set( 0.084955 )
+ga_view_center_set( 0.017410, -0.117233 )
+ga_view_zoom_set( 0.095574 )
+ga_view_center_set( 0.017893, -0.119311 )
+ga_view_zoom_set( 0.107521 )
+ga_view_center_set( 0.018435, -0.121648 )
+ga_view_zoom_set( 0.120961 )
+ga_view_center_set( 0.019046, -0.124278 )
+ga_view_zoom_set( 0.136081 )
+ga_view_center_set( 0.020419, -0.130194 )
+ga_view_zoom_set( 0.170101 )
+ga_view_center_set( 0.021278, -0.133892 )
+ga_view_zoom_set( 0.191364 )
+ga_view_center_set( 0.022243, -0.138052 )
+ga_view_zoom_set( 0.215284 )
+ga_view_center_set( 0.023330, -0.142733 )
+ga_view_zoom_set( 0.242195 )
+ga_view_center_set( 0.024552, -0.147998 )
+ga_view_zoom_set( 0.272469 )
+ga_view_center_set( 0.025927, -0.153921 )
+ga_view_zoom_set( 0.306528 )
+ga_view_center_set( 0.027474, -0.160585 )
+ga_view_zoom_set( 0.344844 )
+ga_view_aa_set( -74.680550, -10.572059, 44.763977 )
+ga_view_aa_set( 151.194763, 16.780460, 2.719131 )
+ga_view_center_set( 0.029482, -0.164065 )
+ga_view_zoom_set( 0.387950 )
+ga_view_center_set( 0.031741, -0.167981 )
+ga_view_zoom_set( 0.436443 )
+ga_view_center_set( 0.034283, -0.172386 )
+ga_view_zoom_set( 0.490999 )
+ga_view_center_set( 0.037142, -0.176389 )
+ga_view_zoom_set( 0.552374 )
+ga_view_center_set( 0.030494, -0.171671 )
+ga_view_zoom_set( 0.621420 )
+ga_view_center_set( 0.023016, -0.166123 )
+ga_view_zoom_set( 0.699098 )
+ga_view_center_set( 0.014603, -0.159610 )
+ga_view_zoom_set( 0.786485 )
+ga_view_center_set( 0.005139, -0.152283 )
+ga_view_zoom_set( 0.884796 )
+ga_view_aa_set( 104.801277, 19.672443, -1.555093 )
+ga_view_center_set( 0.007581, -0.123583 )
+ga_view_zoom_set( 0.786485 )
+ga_view_center_set( 0.009752, -0.098073 )
+ga_view_zoom_set( 0.699098 )
+ga_view_center_set( 0.011682, -0.075397 )
+ga_view_zoom_set( 0.621420 )
+ga_view_center_set( 0.013397, -0.055240 )
+ga_view_zoom_set( 0.552374 )
+ga_view_center_set( 0.014922, -0.037323 )
+ga_view_zoom_set( 0.490999 )
+ga_view_center_set( 0.016638, -0.070870 )
+ga_view_zoom_set( 0.552374 )
+ga_view_center_set( 0.018782, -0.108609 )
+ga_view_zoom_set( 0.621420 )
+ga_view_center_set( 0.021194, -0.151067 )
+ga_view_zoom_set( 0.699098 )
+ga_view_center_set( 0.023908, -0.198831 )
+ga_view_zoom_set( 0.786485 )
+ga_view_center_set( 0.026961, -0.252566 )
+ga_view_zoom_set( 0.884796 )
+ga_view_center_set( 0.013528, -0.191809 )
+ga_view_zoom_set( 0.786485 )
+ga_view_center_set( 0.001586, -0.137803 )
+ga_view_zoom_set( 0.699098 )
+ga_view_center_set( -0.009028, -0.089797 )
+ga_view_zoom_set( 0.621420 )
+ga_view_center_set( -0.019749, -0.037476 )
+ga_view_zoom_set( 0.552374 )
+ga_view_center_set( -0.029280, 0.009032 )
+ga_view_zoom_set( 0.490999 )
+ga_view_center_set( -0.044528, 0.083444 )
+ga_view_zoom_set( 0.392799 )
+ga_view_center_set( -0.050763, 0.116787 )
+ga_view_zoom_set( 0.349155 )
+ga_view_center_set( -0.056305, 0.146426 )
+ga_view_zoom_set( 0.310360 )
+ga_view_center_set( -0.065172, 0.193847 )
+ga_view_zoom_set( 0.248288 )
+ga_view_aa_set( -69.321609, 15.704817, 31.278229 )
+ga_view_center_set( -0.077221, 0.202811 )
+ga_view_zoom_set( 0.279324 )
+ga_view_center_set( -0.090558, 0.213221 )
+ga_view_zoom_set( 0.314239 )
+ga_view_center_set( -0.120323, 0.237130 )
+ga_view_zoom_set( 0.392799 )
+ga_view_center_set( -0.138926, 0.252073 )
+ga_view_zoom_set( 0.441899 )
+ga_view_center_set( -0.105989, 0.233409 )
+ga_view_zoom_set( 0.353519 )
+ga_view_center_set( -0.070657, 0.213049 )
+ga_view_zoom_set( 0.257105 )
+ga_view_center_set( -0.045615, 0.199983 )
+ga_view_zoom_set( 0.186985 )
+ga_view_center_set( -0.032259, 0.193015 )
+ga_view_zoom_set( 0.149588 )
+ga_view_center_set( -0.017688, 0.186553 )
+ga_view_zoom_set( 0.108791 )
+ga_view_center_set( -0.013371, 0.184638 )
+ga_view_zoom_set( 0.096704 )
+ga_view_center_set( -0.012370, 0.174628 )
+ga_view_zoom_set( 0.085959 )
+ga_view_center_set( -0.011480, 0.165729 )
+ga_view_zoom_set( 0.076408 )
+ga_view_center_set( -0.010742, 0.157820 )
+ga_view_zoom_set( 0.067918 )
+ga_view_center_set( -0.010109, 0.150789 )
+ga_view_zoom_set( 0.060372 )
+ga_view_center_set( -0.010625, 0.157843 )
+ga_view_zoom_set( 0.067918 )
+ga_view_center_set( -0.011679, 0.173715 )
+ga_view_zoom_set( 0.084897 )
+ga_view_center_set( -0.012998, 0.193621 )
+ga_view_zoom_set( 0.106122 )
+ga_view_center_set( -0.013822, 0.206063 )
+ga_view_zoom_set( 0.119387 )
+ga_view_center_set( -0.014517, 0.219364 )
+ga_view_zoom_set( 0.134310 )
+ga_view_center_set( -0.016081, 0.249292 )
+ga_view_zoom_set( 0.167888 )
+ga_view_center_set( -0.018036, 0.286702 )
+ga_view_zoom_set( 0.209860 )
+ga_view_center_set( -0.019340, 0.307720 )
+ga_view_zoom_set( 0.236093 )
+ga_view_center_set( -0.020806, 0.331183 )
+ga_view_zoom_set( 0.265604 )
+ga_view_center_set( -0.022456, 0.357578 )
+ga_view_zoom_set( 0.298805 )
+ga_view_center_set( -0.030808, 0.469398 )
+ga_view_zoom_set( 0.448207 )
+ga_view_center_set( -0.033070, 0.508199 )
+ga_view_zoom_set( 0.504233 )
+ga_view_center_set( -0.037767, 0.595500 )
+ga_view_zoom_set( 0.630291 )
+ga_view_center_set( -0.040703, 0.650063 )
+ga_view_zoom_set( 0.709077 )
+ga_view_center_set( -0.044007, 0.711447 )
+ga_view_zoom_set( 0.797712 )
+ga_view_center_set( -0.040703, 0.650889 )
+ga_view_zoom_set( 0.709077 )
+ga_view_center_set( -0.037767, 0.597060 )
+ga_view_zoom_set( 0.630291 )
+ga_view_center_set( -0.029938, 0.453515 )
+ga_view_zoom_set( 0.420194 )
+ga_view_center_set( -0.028198, 0.421616 )
+ga_view_zoom_set( 0.373506 )
+ga_view_center_set( -0.026393, 0.393133 )
+ga_view_zoom_set( 0.332005 )
+ga_view_center_set( -0.023506, 0.347560 )
+ga_view_zoom_set( 0.265604 )
+ga_view_center_set( -0.020357, 0.297843 )
+ga_view_zoom_set( 0.193167 )
+ga_view_center_set( -0.018957, 0.282979 )
+ga_view_zoom_set( 0.171704 )
+ga_view_center_set( -0.017713, 0.269767 )
+ga_view_zoom_set( 0.152625 )
+ga_view_center_set( -0.014998, 0.240939 )
+ga_view_zoom_set( 0.111000 )
+ga_view_center_set( -0.014194, 0.232398 )
+ga_view_zoom_set( 0.098667 )
+ga_view_center_set( -0.012900, 0.224976 )
+ga_view_zoom_set( 0.087704 )
+ga_view_center_set( -0.010830, 0.213100 )
+ga_view_zoom_set( 0.070163 )
+ga_view_center_set( -0.009174, 0.203600 )
+ga_view_zoom_set( 0.056131 )
+ga_view_center_set( -0.008399, 0.199416 )
+ga_view_zoom_set( 0.049894 )
+ga_view_center_set( -0.006292, 0.196193 )
+ga_view_zoom_set( 0.039915 )
+ga_view_center_set( -0.005424, 0.194761 )
+ga_view_zoom_set( 0.035480 )
+ga_view_center_set( -0.004677, 0.193487 )
+ga_view_zoom_set( 0.031538 )
+ga_view_center_set( -0.003561, 0.191372 )
+ga_view_zoom_set( 0.025230 )
+ga_view_center_set( -0.002856, 0.187658 )
+ga_view_zoom_set( 0.020184 )
+ga_view_center_set( -0.002317, 0.184662 )
+ga_view_zoom_set( 0.016147 )
+ga_view_center_set( -0.002077, 0.183330 )
+ga_view_zoom_set( 0.014353 )
+ga_view_center_set( -0.001869, 0.182146 )
+ga_view_zoom_set( 0.012758 )
+ga_view_center_set( -0.001772, 0.181107 )
+ga_view_zoom_set( 0.011341 )
+ga_view_center_set( -0.001617, 0.179445 )
+ga_view_zoom_set( 0.009073 )
+ga_view_center_set( -0.001456, 0.177631 )
+ga_view_zoom_set( 0.006598 )
+ga_view_center_set( -0.001422, 0.177048 )
+ga_view_zoom_set( 0.005865 )
+ga_view_center_set( -0.001395, 0.176528 )
+ga_view_zoom_set( 0.005213 )
+ga_view_center_set( -0.001360, 0.175354 )
+ga_view_zoom_set( 0.003792 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 23., 56., 0. )
+gu_fit_view(  )
+ga_view_aa_set( -33.537033, 36.420059, 1.623363 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( -0.238584, 0.038283 )
+ga_view_zoom_set( 0.264729 )
+ga_view_center_set( -0.240948, 0.034583 )
+ga_view_zoom_set( 0.297820 )
+ga_view_center_set( -0.243607, 0.030421 )
+ga_view_zoom_set( 0.335048 )
+ga_view_center_set( -0.246598, 0.025739 )
+ga_view_zoom_set( 0.376929 )
+ga_view_center_set( -0.249964, 0.020471 )
+ga_view_zoom_set( 0.424045 )
+ga_view_center_set( -0.206359, 0.041249 )
+ga_view_zoom_set( 0.376929 )
+ga_view_center_set( -0.167600, 0.059718 )
+ga_view_zoom_set( 0.335048 )
+ga_view_center_set( -0.133147, 0.076135 )
+ga_view_zoom_set( 0.297820 )
+ga_view_center_set( -0.102522, 0.090728 )
+ga_view_zoom_set( 0.264729 )
+ga_view_center_set( -0.075300, 0.104248 )
+ga_view_zoom_set( 0.235315 )
+ga_view_center_set( -0.051103, 0.116265 )
+ga_view_zoom_set( 0.209169 )
+ga_view_center_set( -0.029594, 0.126948 )
+ga_view_zoom_set( 0.185928 )
+ga_view_center_set( -0.050598, 0.115905 )
+ga_view_zoom_set( 0.209169 )
+ga_view_center_set( -0.029594, 0.129907 )
+ga_view_zoom_set( 0.185928 )
+ga_view_center_set( -0.010924, 0.142546 )
+ga_view_zoom_set( 0.165269 )
+ga_view_center_set( -0.025681, 0.129458 )
+ga_view_zoom_set( 0.185928 )
+ga_view_center_set( -0.042281, 0.114734 )
+ga_view_zoom_set( 0.209169 )
+ga_view_center_set( -0.060795, 0.098169 )
+ga_view_zoom_set( 0.235315 )
+ga_view_center_set( -0.081622, 0.079625 )
+ga_view_zoom_set( 0.264729 )
+ga_view_center_set( -0.104745, 0.058969 )
+ga_view_zoom_set( 0.297820 )
+ga_view_center_set( -0.130758, 0.035731 )
+ga_view_zoom_set( 0.335048 )
+ga_view_center_set( -0.160023, 0.009587 )
+ga_view_zoom_set( 0.376929 )
+ga_view_center_set( -0.192945, -0.019824 )
+ga_view_zoom_set( 0.424045 )
+ga_view_center_set( -0.229983, -0.052911 )
+ga_view_zoom_set( 0.477050 )
+ga_view_center_set( -0.197390, -0.006984 )
+ga_view_zoom_set( 0.424045 )
+ga_view_center_set( -0.168418, 0.033841 )
+ga_view_zoom_set( 0.376929 )
+ga_view_center_set( -0.122063, 0.099159 )
+ga_view_zoom_set( 0.301543 )
+ga_view_center_set( -0.101460, 0.128190 )
+ga_view_zoom_set( 0.268038 )
+ga_view_center_set( -0.083147, 0.153995 )
+ga_view_zoom_set( 0.238256 )
+ga_view_center_set( -0.066869, 0.176932 )
+ga_view_zoom_set( 0.211783 )
+ga_view_center_set( -0.052765, 0.193814 )
+ga_view_zoom_set( 0.188252 )
+ga_view_center_set( -0.040227, 0.208819 )
+ga_view_zoom_set( 0.167335 )
+ga_view_center_set( -0.029083, 0.222158 )
+ga_view_zoom_set( 0.148742 )
+ga_view_center_set( -0.019177, 0.234322 )
+ga_view_zoom_set( 0.132215 )
+ga_view_center_set( -0.010372, 0.245134 )
+ga_view_zoom_set( 0.117525 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.009962, 0.245408 )
+ga_view_zoom_set( 0.132215 )
+ga_view_center_set( -0.009500, 0.245716 )
+ga_view_zoom_set( 0.148742 )
+ga_view_center_set( -0.008980, 0.246063 )
+ga_view_zoom_set( 0.167335 )
+ga_view_center_set( -0.008395, 0.246452 )
+ga_view_zoom_set( 0.188252 )
+ga_view_center_set( -0.007738, 0.246891 )
+ga_view_zoom_set( 0.211783 )
+ga_view_center_set( -0.006998, 0.247384 )
+ga_view_zoom_set( 0.238256 )
+ga_view_center_set( -0.006165, 0.247939 )
+ga_view_zoom_set( 0.268038 )
+ga_view_center_set( -0.004292, 0.249188 )
+ga_view_zoom_set( 0.335048 )
+ga_view_center_set( -0.003122, 0.249968 )
+ga_view_zoom_set( 0.376929 )
+ga_view_center_set( -0.001805, 0.250846 )
+ga_view_zoom_set( 0.424045 )
+ga_view_center_set( -0.000323, 0.250681 )
+ga_view_zoom_set( 0.477050 )
+ga_view_center_set( 0.001343, 0.250496 )
+ga_view_zoom_set( 0.536682 )
+ga_view_center_set( 0.003219, 0.250288 )
+ga_view_zoom_set( 0.603767 )
+ga_view_center_set( 0.007437, 0.249819 )
+ga_view_zoom_set( 0.754709 )
+ga_view_center_set( 0.012418, 0.217006 )
+ga_view_zoom_set( 0.849047 )
+ga_view_center_set( 0.017691, 0.179431 )
+ga_view_zoom_set( 0.955178 )
+ga_view_center_set( 0.027332, 0.088956 )
+ga_view_zoom_set( 1.193973 )
+ga_view_center_set( 0.031452, -0.020635 )
+ga_view_zoom_set( 1.061309 )
+ga_view_center_set( 0.035115, -0.118050 )
+ga_view_zoom_set( 0.943386 )
+ga_view_center_set( 0.031918, -0.298630 )
+ga_view_zoom_set( 0.686099 )
+ga_view_center_set( 0.029787, -0.347401 )
+ga_view_zoom_set( 0.609866 )
+ga_view_center_set( 0.026631, -0.379809 )
+ga_view_zoom_set( 0.542103 )
+ga_view_center_set( 0.023825, -0.408242 )
+ga_view_zoom_set( 0.481869 )
+ga_view_center_set( 0.021330, -0.432851 )
+ga_view_zoom_set( 0.428328 )
+ga_view_center_set( 0.016010, -0.466904 )
+ga_view_zoom_set( 0.342662 )
+ga_view_center_set( 0.001348, -0.449641 )
+ga_view_zoom_set( 0.304589 )
+ga_view_center_set( -0.011685, -0.434401 )
+ga_view_zoom_set( 0.270746 )
+ga_view_center_set( -0.023457, -0.421042 )
+ga_view_zoom_set( 0.240663 )
+ga_view_center_set( -0.033920, -0.409914 )
+ga_view_zoom_set( 0.213923 )
+ga_view_center_set( -0.045657, -0.400022 )
+ga_view_zoom_set( 0.190153 )
+ga_view_center_set( -0.056090, -0.391230 )
+ga_view_zoom_set( 0.169025 )
+ga_view_center_set( -0.078853, -0.372046 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.085597, -0.366362 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.091592, -0.361310 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( -0.096921, -0.356819 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( -0.091022, -0.362717 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( -0.096921, -0.356886 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( -0.102165, -0.351881 )
+ga_view_zoom_set( 0.076743 )
+ga_view_center_set( -0.106825, -0.347485 )
+ga_view_zoom_set( 0.068216 )
+ga_view_center_set( -0.102165, -0.351881 )
+ga_view_zoom_set( 0.076743 )
+ga_view_center_set( -0.096921, -0.356767 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( -0.079017, -0.355247 )
+ga_view_zoom_set( 0.076743 )
+ga_view_center_set( -0.096742, -0.356707 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( -0.116684, -0.358349 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( -0.139081, -0.360197 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.164235, -0.362148 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.192247, -0.363484 )
+ga_view_zoom_set( 0.138293 )
+ga_view_center_set( -0.162803, -0.361385 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.135953, -0.358924 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.111671, -0.355682 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( -0.130146, -0.359792 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.150931, -0.364415 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.174314, -0.369617 )
+ga_view_zoom_set( 0.138293 )
+ga_view_center_set( -0.200620, -0.375468 )
+ga_view_zoom_set( 0.155580 )
+ga_view_center_set( -0.230093, -0.380300 )
+ga_view_zoom_set( 0.175028 )
+ga_view_center_set( -0.263250, -0.385736 )
+ga_view_zoom_set( 0.196906 )
+ga_view_center_set( -0.300552, -0.391851 )
+ga_view_zoom_set( 0.221519 )
+ga_view_center_set( -0.342517, -0.398730 )
+ga_view_zoom_set( 0.249209 )
+ga_view_center_set( -0.282064, -0.391335 )
+ga_view_zoom_set( 0.221519 )
+ga_view_center_set( -0.228327, -0.384685 )
+ga_view_zoom_set( 0.196906 )
+ga_view_center_set( -0.180494, -0.378773 )
+ga_view_zoom_set( 0.175028 )
+ga_view_center_set( -0.137975, -0.372553 )
+ga_view_zoom_set( 0.155580 )
+ga_view_center_set( -0.100180, -0.367023 )
+ga_view_zoom_set( 0.138293 )
+ga_view_center_set( -0.066728, -0.362108 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.037206, -0.357824 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.020790, -0.363932 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.002322, -0.370804 )
+ga_view_zoom_set( 0.138293 )
+ga_view_center_set( -0.020790, -0.363932 )
+ga_view_zoom_set( 0.122927 )
+ga_view_center_set( -0.037206, -0.357824 )
+ga_view_zoom_set( 0.109269 )
+ga_view_center_set( -0.051797, -0.352394 )
+ga_view_zoom_set( 0.097128 )
+ga_view_center_set( -0.064768, -0.347568 )
+ga_view_zoom_set( 0.086336 )
+ga_view_center_set( -0.076297, -0.343278 )
+ga_view_zoom_set( 0.076743 )
+ga_view_center_set( -0.086519, -0.339359 )
+ga_view_zoom_set( 0.068216 )
+ga_view_center_set( -0.095558, -0.335781 )
+ga_view_zoom_set( 0.060636 )
+ga_view_center_set( -0.103258, -0.331533 )
+ga_view_zoom_set( 0.053899 )
+ga_view_center_set( -0.110102, -0.327758 )
+ga_view_zoom_set( 0.047910 )
+ga_view_center_set( -0.116186, -0.324402 )
+ga_view_zoom_set( 0.042587 )
+ga_view_center_set( -0.121594, -0.321419 )
+ga_view_zoom_set( 0.037855 )
+ga_view_center_set( -0.126401, -0.318767 )
+ga_view_zoom_set( 0.033649 )
+ga_view_center_set( -0.130674, -0.316410 )
+ga_view_zoom_set( 0.029910 )
+ga_view_center_set( -0.134534, -0.314315 )
+ga_view_zoom_set( 0.026587 )
+ga_view_center_set( -0.135370, -0.312983 )
+ga_view_zoom_set( 0.029910 )
+ga_view_center_set( -0.136287, -0.311486 )
+ga_view_zoom_set( 0.033649 )
+ga_view_center_set( -0.137319, -0.309800 )
+ga_view_zoom_set( 0.037855 )
+ga_view_center_set( -0.140802, -0.304113 )
+ga_view_zoom_set( 0.052051 )
+ga_view_center_set( -0.143994, -0.298900 )
+ga_view_zoom_set( 0.065063 )
+ga_view_center_set( -0.147985, -0.292384 )
+ga_view_zoom_set( 0.081329 )
+ga_view_center_set( -0.150479, -0.288311 )
+ga_view_zoom_set( 0.091495 )
+ga_view_center_set( -0.153321, -0.283907 )
+ga_view_zoom_set( 0.102932 )
+ga_view_center_set( -0.156517, -0.278992 )
+ga_view_zoom_set( 0.115799 )
+ga_view_center_set( -0.163710, -0.268023 )
+ga_view_zoom_set( 0.144748 )
+ga_view_center_set( -0.168599, -0.262067 )
+ga_view_zoom_set( 0.162842 )
+ga_view_center_set( -0.248755, -0.256251 )
+ga_view_zoom_set( 0.203552 )
+ga_view_center_set( -0.348951, -0.248982 )
+ga_view_zoom_set( 0.254441 )
+ga_view_center_set( -0.411574, -0.244438 )
+ga_view_zoom_set( 0.286246 )
+ga_view_center_set( -0.482024, -0.239327 )
+ga_view_zoom_set( 0.322026 )
+ga_view_center_set( -0.565030, -0.232951 )
+ga_view_zoom_set( 0.362280 )
+ga_view_center_set( -0.658413, -0.225779 )
+ga_view_zoom_set( 0.407565 )
+ga_view_center_set( -0.763468, -0.217710 )
+ga_view_zoom_set( 0.458510 )
+ga_view_center_set( -0.881656, -0.208632 )
+ga_view_zoom_set( 0.515824 )
+ga_view_center_set( -1.014617, -0.198420 )
+ga_view_zoom_set( 0.580302 )
+ga_view_center_set( -0.864235, -0.212637 )
+ga_view_zoom_set( 0.515824 )
+ga_view_center_set( -0.629070, -0.234423 )
+ga_view_zoom_set( 0.412659 )
+ga_view_center_set( -0.440938, -0.251852 )
+ga_view_zoom_set( 0.330127 )
+ga_view_center_set( -0.357324, -0.259598 )
+ga_view_zoom_set( 0.293447 )
+ga_view_center_set( -0.284013, -0.265978 )
+ga_view_zoom_set( 0.260841 )
+ga_view_center_set( -0.219028, -0.271648 )
+ga_view_zoom_set( 0.231859 )
+ga_view_center_set( -0.077831, -0.284020 )
+ga_view_zoom_set( 0.168625 )
+ga_view_center_set( -0.039370, -0.286755 )
+ga_view_zoom_set( 0.149889 )
+ga_view_center_set( -0.005389, -0.289186 )
+ga_view_zoom_set( 0.133234 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 10, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "CBUSH", "Eles", "Panel_xn", "Panel_xp" @
+, "Panel_yn", "Panel_yp"] )
+gm_visibility_widget( " Point 1:33 100:133 200:269 Curve 1:92 Surface 1:108",  @
+FALSE )
+ga_view_aa_set( -64.904358, 7.403626, 13.828881 )
+gm_visibility_widget( " Point 1:33 100:133 200:269 Curve 1:92 Surface 1:108",  @
+TRUE )
+gm_visibility_widget( " Point 1:33 100:133 200:269 Curve 1:92 Surface 1:108",  @
+FALSE )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -65.835701, -1.142094, -5.400225 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Sine\Eje X\model_sine_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje X\model_sine_x" // @
+".xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje 
+$# X\model_sine_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1567 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1: MODEL SINE VIBRATION X
+$# Processing result sub-case: Freq.= 2.
+$# Processing result sub-case: Freq.= 3.
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 66.2067
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 67.05415
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 69.0345
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 80.39384
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 81.42289
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 83.82761
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 94.58099
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 95.79163
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 96.76656
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 97.42276
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 98.62071
+$# Processing result sub-case: Freq.= 98.94774
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        4.000
+$# Total execution time in CPU  seconds:        3.937
+$# *** End:   Attach Result File ***
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Estatico\Eje x\model_quasistatic_x.xdb
+res_dra_detach_file( 1, 130, 97 )
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Estatico\Eje y\model_quasistatic_y.xdb
+res_dra_detach_file( 2, 130, 98 )
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Estatico\Eje z\model_quasistatic_z.xdb
+res_dra_detach_file( 3, 130, 99 )
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Sine\Eje X\model_sine_x.xdb
+res_dra_detach_file( 4, 130, 100 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Sine\Eje X\model_sine_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje X\model_sine_x" // @
+".xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje 
+$# X\model_sine_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1567 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Freq.= 2.
+$# Processing result sub-case: Freq.= 3.
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 66.2067
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 67.05415
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 69.0345
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 80.39384
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 81.42289
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 83.82761
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 94.58099
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 95.79163
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 96.76656
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 97.42276
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 98.62071
+$# Processing result sub-case: Freq.= 98.94774
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        3.000
+$# Total execution time in CPU  seconds:        3.297
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 2.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage", @
+ "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+$# Error reported from application Results
+$#     Result processing of multiple result cases and layers is not 
+$# supported.  Select either 1 result case and multiple layers OR multiple 
+$# result cases and 1 layer.
+$? NO 4000918 
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 2.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage", @
+ "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A1:Freq.= 2."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_aa_set( -84.864738, -7.975196, -119.830444 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 44.", "Stress Tensor", "", "At Z1", "VONM", "AsIs", "DeriveAverage" @
+, "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A1:Freq.= 44."], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 94.58099", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION X"] @
+, ["A1:Freq.= 94.58099"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 94.58099", "Bar Stresses", "Bending", "At Point C", "VONM", "AsIs", @
+ "DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION X", @
+ "SC1: MODEL SINE VIBRATION X", "SC1: MODEL SINE VIBRATION X"], [ @
+"A1:Freq.= 94.58099", "A1:Freq.= 94.58099", "A1:Freq.= 94.58099"], [ @
+"Bar Stresses", "Bar Stresses", "Bar Stresses"], ["Bending", "Bending",  @
+"Bending"], ["At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 94.58099", "Bar Stresses", "Bending", "At Point C", "VONM", "AsIs", @
+ "DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION X", @
+ "SC1: MODEL SINE VIBRATION X", "SC1: MODEL SINE VIBRATION X"], [ @
+"A1:Freq.= 94.58099", "A1:Freq.= 94.58099", "A1:Freq.= 94.58099"], [ @
+"Bar Stresses", "Bar Stresses", "Bar Stresses"], ["Bending", "Bending",  @
+"Bending"], ["At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION X",  @
+"A1:Freq.= 94.58099", "Beam Stresses", "Combined", "At Point C", "VONM",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION X", @
+ "SC1: MODEL SINE VIBRATION X", "SC1: MODEL SINE VIBRATION X"], [ @
+"A1:Freq.= 94.58099", "A1:Freq.= 94.58099", "A1:Freq.= 94.58099"], [ @
+"Beam Stresses", "Beam Stresses", "Beam Stresses"], ["Combined", "Combined",  @
+"Combined"], ["At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM
+$# \Sine\Eje X\model_sine_x.xdb
+res_dra_detach_file( 1, 130, 101 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\EUEP2\Git\EUE\Practica_22\Satelite_P22.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "C:\EUEP2\Git\EUE\Practica_22\Analisis_" // @
+"quitando_SM\Sine\Eje Y\model_sine_y.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje Y\model_sine_y" // @
+".xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\EUEP2\Git\EUE\Practica_22\Analisis_quitando_SM\Sine\Eje 
+$# Y\model_sine_y.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/1567 (DESKTOP-9 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1: MODEL SINE VIBRATION Y
+$# Processing result sub-case: Freq.= 2.
+$# Processing result sub-case: Freq.= 3.
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 66.2067
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 67.05415
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 69.0345
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 80.39384
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 81.42289
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 83.82761
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 94.58099
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 95.79163
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 96.76656
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 97.42276
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 98.62071
+$# Processing result sub-case: Freq.= 98.94774
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        4.000
+$# Total execution time in CPU  seconds:        4.390
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Y",  @
+"A1:Freq.= 94.58099", "Stress Tensor", "", "At Z1", "VONM", "AsIs",  @
+"DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,2 o" // @
+"f 2 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 1, ["SC1: MODEL SINE VIBRATION Y"] @
+, ["A1:Freq.= 94.58099"], ["Stress Tensor"], [""], ["At Z2"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Y",  @
+"A1:Freq.= 94.58099", "Bar Stresses", "Bending", "At Point C", "VONM", "AsIs", @
+ "DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION Y", @
+ "SC1: MODEL SINE VIBRATION Y", "SC1: MODEL SINE VIBRATION Y"], [ @
+"A1:Freq.= 94.58099", "A1:Freq.= 94.58099", "A1:Freq.= 94.58099"], [ @
+"Bar Stresses", "Bar Stresses", "Bar Stresses"], ["Bending", "Bending",  @
+"Bending"], ["At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1: MODEL SINE VIBRATION Y",  @
+"A1:Freq.= 94.58099", "Beam Stresses", "Combined", "At Point C", "VONM",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "Real", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@Maximum,4 o" // @
+"f 4 layers"] )
+res_data_dbres_list( 0, "ENodal", "Scalar", 3, ["SC1: MODEL SINE VIBRATION Y", @
+ "SC1: MODEL SINE VIBRATION Y", "SC1: MODEL SINE VIBRATION Y"], [ @
+"A1:Freq.= 94.58099", "A1:Freq.= 94.58099", "A1:Freq.= 94.58099"], [ @
+"Beam Stresses", "Beam Stresses", "Beam Stresses"], ["Combined", "Combined",  @
+"Combined"], ["At Point D", "At Point E", "At Point F"] )
+res_data_list_max( 0, "ENodal", "Scalar", "Algebraic", "VONM" )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:ElemEdge,Black,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 05-Jun-21 17:11:23

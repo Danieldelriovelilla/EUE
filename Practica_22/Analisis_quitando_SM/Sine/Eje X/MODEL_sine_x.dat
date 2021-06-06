@@ -1,0 +1,55 @@
+NASTRAN DBCFACT=4
+ASSIGN DBC='model_sine_x.xdb',RECL=32768,UNIT=40,DELETE
+ID SINE,TEST
+SOL 111
+TIME 1000
+CEND
+AUTOSPC(NOPRINT)=YES
+LINES=50000
+     TITLE = SINE VIBRATION X
+     SUBTITLE = MODEL SINE VIBRATION X
+     LABEL = X-DIRECTION SINE INPUT
+     ECHO = NONE
+     SPC      = 1
+     METHOD   = 1
+     DLOAD    = 10
+     SDAMPING = 20
+     FREQ     = 40
+     SET 99 = 859999
+     SET 102 = 2785 THRU 2796
+     ACCELERATION(sort1,print,phase) = 99
+     FORCES(plot,sort1,PRINT,phase)=102
+     STRESS(plot,vonmises)=all
+BEGIN BULK
+$
+PARAM,POST,0
+PARAM,RESVEC,YES
+PARAM,PRTMAXIM,YES
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+SPC1           1  123456  859999
+RLOAD2,10,11,,,12,,ACCE
+SPCD,11,859999,1,9.81
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+TABLED1  12      
+          2.0    0.322      3.0   0.724   4.0    1.288     5.0      2.012
+          6.0     2.5      100.0   2.5   ENDT
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+TABDMP1 20      CRIT                                                    
+        0.      0.02    2000.   0.02    ENDT
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+FREQ1,40,2.0,1.0,98
+FREQ4,40,2.0,100.0,0.3,5
+$
+EIGRL          1      0.    150.               0                    
+$ Definition of the node for the SHAKER
+GRID     859999           0.0     0.0      0.0
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Multipoint Constraints to join I/Fs to the Shaker
+RBE2     860000  859999  123456  1839    1840    1841    1842    1843
+          1844     1845    1846   1847    1848   1849    1850
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$ Referenced Coordinate Frames
+$
+INCLUDE '../../Satelite_P22.bdf'
+$
+ENDDATA 
