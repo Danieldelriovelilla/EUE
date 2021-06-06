@@ -278,3 +278,17 @@ $# The translation has completed successfully.
 $# No Analysis Requested
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 02-Jun-21 12:54:47
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Viga_1\Viga_1.db.jo
+$# u at 03-Jun-21 13:27:57
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\" // @
+"Viga_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )

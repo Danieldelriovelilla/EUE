@@ -271,3 +271,762 @@ uil_primary_file.db_save(  )
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 02-Jun-21 12:13:06
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Vigas\Parte_1.db.jo
+$# u at 03-Jun-21 10:40:41
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\" // @
+"Vigas" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_delete( ["Load"] )
+$# 1 Load/BC set(s) deleted.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+$# UNDO: Load Case Delete
+$# UNDO: Load Case Delete
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_delete( ["BC_123456"] )
+$# 1 Load/BC set(s) deleted.
+uil_primary_file.db_save(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.117316, 0.049865 )
+ga_view_zoom_set( 0.402473 )
+ga_view_center_set( -0.124268, 0.059864 )
+ga_view_zoom_set( 0.452782 )
+ga_view_center_set( -0.154852, 0.104861 )
+ga_view_zoom_set( 0.679172 )
+ga_view_center_set( -0.136502, 0.077863 )
+ga_view_zoom_set( 0.543338 )
+ga_view_center_set( -0.121822, 0.056265 )
+ga_view_zoom_set( 0.434670 )
+ga_view_center_set( -0.110077, 0.038986 )
+ga_view_zoom_set( 0.347736 )
+ga_view_center_set( -0.097266, 0.020136 )
+ga_view_zoom_set( 0.252899 )
+ga_view_center_set( -0.084125, 0.000803 )
+ga_view_zoom_set( 0.155630 )
+ga_view_center_set( -0.078391, -0.007633 )
+ga_view_zoom_set( 0.113186 )
+ga_view_center_set( -0.073294, -0.015132 )
+ga_view_zoom_set( 0.075457 )
+ga_view_center_set( -0.072162, -0.016798 )
+ga_view_zoom_set( 0.067073 )
+ga_view_center_set( -0.071178, -0.018279 )
+ga_view_zoom_set( 0.059620 )
+ga_view_center_set( -0.046390, -0.018650 )
+ga_view_zoom_set( 0.074526 )
+ga_view_center_set( -0.030898, -0.018881 )
+ga_view_zoom_set( 0.083841 )
+ga_view_center_set( -0.013469, -0.019141 )
+ga_view_zoom_set( 0.094321 )
+ga_view_center_set( 0.006139, -0.019434 )
+ga_view_zoom_set( 0.106112 )
+ga_view_center_set( 0.028197, -0.019764 )
+ga_view_zoom_set( 0.119375 )
+ga_view_center_set( 0.087561, -0.018652 )
+ga_view_zoom_set( 0.149219 )
+ga_view_center_set( 0.124663, -0.017957 )
+ga_view_zoom_set( 0.167872 )
+ga_view_center_set( 0.208142, -0.016393 )
+ga_view_zoom_set( 0.209840 )
+ga_view_center_set( 0.212582, -0.013949 )
+ga_view_zoom_set( 0.236070 )
+ga_view_center_set( 0.221655, -0.008817 )
+ga_view_zoom_set( 0.295087 )
+ga_view_center_set( 0.227325, -0.005609 )
+ga_view_zoom_set( 0.331973 )
+ga_view_center_set( 0.249040, 0.000190 )
+ga_view_zoom_set( 0.373470 )
+ga_view_center_set( 0.177709, 0.000190 )
+ga_view_zoom_set( 0.331973 )
+ga_view_center_set( 0.114190, 0.000190 )
+ga_view_zoom_set( 0.295087 )
+ga_view_center_set( 0.057728, 0.000190 )
+ga_view_zoom_set( 0.262300 )
+STRING fem_renum_node_new_ids[VIRTUAL]
+fem_renum_node_1( "Node 1:51", "1000", 2, fem_renum_node_new_ids )
+$# 51 FEM entities renumbered.  New IDs are:  Node 1000:1050
+repaint_graphics(  )
+STRING fem_renum_elem_new_ids[VIRTUAL]
+fem_renum_elem_1( "Elm 1:51", "1000", 2, fem_renum_elem_new_ids )
+$# 51 FEM entities renumbered.  New IDs are:  Element 1000:1050
+repaint_graphics(  )
+ga_view_center_set( 0.039762, 0.000190 )
+ga_view_zoom_set( 0.233155 )
+ga_view_center_set( 0.023792, 0.000190 )
+ga_view_zoom_set( 0.207249 )
+ga_view_center_set( 0.009596, 0.000190 )
+ga_view_zoom_set( 0.184221 )
+ga_view_center_set( -0.003022, 0.000190 )
+ga_view_zoom_set( 0.163752 )
+ga_view_center_set( -0.014238, 0.000190 )
+ga_view_zoom_set( 0.145558 )
+ga_view_center_set( 0.002318, 0.001998 )
+ga_view_zoom_set( 0.181947 )
+ga_view_center_set( 0.023013, 0.004258 )
+ga_view_zoom_set( 0.227434 )
+ga_view_center_set( 0.035947, 0.005671 )
+ga_view_zoom_set( 0.255863 )
+ga_view_center_set( 0.095741, 0.013617 )
+ga_view_zoom_set( 0.383795 )
+ga_view_center_set( 0.119058, 0.017490 )
+ga_view_zoom_set( 0.431769 )
+ga_view_center_set( 0.146462, 0.023357 )
+ga_view_zoom_set( 0.485740 )
+ga_view_center_set( 0.178235, 0.031277 )
+ga_view_zoom_set( 0.546458 )
+ga_view_center_set( 0.214616, 0.040823 )
+ga_view_zoom_set( 0.614765 )
+ga_view_center_set( 0.296474, 0.065642 )
+ga_view_zoom_set( 0.768456 )
+ga_view_center_set( 0.398795, 0.098457 )
+ga_view_zoom_set( 0.960570 )
+ga_view_center_set( 0.341950, 0.079895 )
+ga_view_zoom_set( 0.853840 )
+ga_view_center_set( 0.250997, 0.050196 )
+ga_view_zoom_set( 0.683072 )
+mesh_seed_create( "Curve 1", 2, 0, 0., 0.0099999998, 0. )
+ga_view_center_set( 0.179225, 0.036525 )
+ga_view_zoom_set( 0.607175 )
+ga_view_center_set( 0.114171, 0.024793 )
+ga_view_zoom_set( 0.539711 )
+ga_view_center_set( 0.006061, 0.007361 )
+ga_view_zoom_set( 0.431769 )
+ga_view_center_set( -0.042733, -0.000238 )
+ga_view_zoom_set( 0.383795 )
+ga_view_center_set( -0.121756, -0.011918 )
+ga_view_zoom_set( 0.307036 )
+ga_view_center_set( -0.156878, -0.017110 )
+ga_view_zoom_set( 0.272921 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.113916, -0.030565 )
+ga_view_zoom_set( 0.307036 )
+ga_view_center_set( -0.065584, -0.045702 )
+ga_view_zoom_set( 0.345415 )
+ga_view_center_set( 0.043162, -0.079761 )
+ga_view_zoom_set( 0.431769 )
+ga_view_center_set( 0.111129, -0.101048 )
+ga_view_zoom_set( 0.485740 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_seeds_from_edge( "Curve 1 2", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 2 edges: Curve 1 2
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_curve( "Curve 1 2", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Meshes deleted from 2 curves: Curve 1 2
+mesh_seed_create( "Curve 1", 2, 0, 0., 0.0099999998, 0. )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.050000001, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 51 nodes and 50 elements created for Curve 1.
+$# === 51 nodes created.  IDs  = 1:51.
+$# === 50 elements created.  IDs  = 1:50.
+fem_associate_elems_to_ep( "Viga_1", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 50 Element(s) associated to the Element Property Viga_1.
+mesh_seed_create( "Curve 2", 2, 0, 0., 0.0099999998, 0. )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 2", 16384, 0.059999999, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 61 nodes and 60 elements created for Curve 2.
+$# === 61 nodes created.  IDs  = 52:112.
+$# === 60 elements created.  IDs  = 51:110.
+fem_associate_elems_to_ep( "Viga_2", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 60 Element(s) associated to the Element Property Viga_2.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1", 16384, 0.050000001, "Bar2", "1000", "1000", @
+ "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# Question from application FEM
+$#     Do you wish to delete the existing mesh on Curve 1?
+$? YESFORALL 2001103 
+$# 51 nodes and 50 elements created for Curve 1.
+$# === 51 nodes created.  IDs  = 1000:1050.
+$# === 50 elements created.  IDs  = 1000:1049.
+fem_associate_elems_to_ep( "Viga_1", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 50 Element(s) associated to the Element Property Viga_1.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 2", 16384, 0.059999999, "Bar2", "2051", "2050", @
+ "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# Question from application FEM
+$#     Do you wish to delete the existing mesh on Curve 2?
+$? YESFORALL 2001103 
+$# 61 nodes and 60 elements created for Curve 2.
+$# === 61 nodes created.  IDs  = 2051:2111.
+$# === 60 elements created.  IDs  = 2050:2109.
+fem_associate_elems_to_ep( "Viga_2", fem_create_mesh_c_elems_created,  @
+fem_create_mesh_curve_num_elems )
+$# 60 Element(s) associated to the Element Property Viga_2.
+mesh_seed_display_mgr.erase(  )
+$#  Beginning analysis of  Parte_1
+jobfile.open( "Parte_1", "ANALYZE NO JOBFILE" )
+msc_delete_old_files( "Parte_1", ".bdf", ".op2" )
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["03-Jun-21" @
+, "10:51:09"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_Teorica\F" // @
+"EM\Parte_1\Vigas\Parte_1.db" )
+jobfile.writec( "JOBNAME", "Parte_1" )
+jobfile.writec( "ANALYSIS TITLE", "MSC.Nastran job created on 03-Jun-21 at" // @
+" 10:40:45" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Analysis Deck" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Users\danie" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "4.9999999E-06" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\danie" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "Parte_1", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "Parte_1" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-NHC7R5K(
+$# c821586ab454) (Windows 6.2 (Build 9200: Service Pack 0)) at 03-Jun-21 
+$# 10:51:10.
+$# 
+$# Reading model information from the specified database, 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Vigas\Parte_1.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      03, 2021 at 10:51:10.
+$# 
+$# The NASTRAN input file, Parte_1.bdf, has been successfully opened.
+$# 
+$# Translating 50 elements from the element property region Viga_1.
+$# 
+$# Translating 60 elements from the element property region Viga_2.
+$# 
+$# 2 property regions translated.
+$# 
+$# Translating 2 referenced material records.
+$# 
+$# Translating 112 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.110016
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 03-Jun-21 10:51:10.
+$# The translation has completed successfully.
+$# No Analysis Requested
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 1 node deleted.
+$#  Beginning analysis of  Parte_1
+jobfile.open( "Parte_1", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (Parte_1) is already defined in the database. Do you wish 
+$# to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "Parte_1", ".bdf", ".op2" )
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["03-Jun-21" @
+, "10:52:41"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\Users\danie\Desktop\EUE\Practica_Teorica\F" // @
+"EM\Parte_1\Vigas\Parte_1.db" )
+jobfile.writec( "JOBNAME", "Parte_1" )
+jobfile.writec( "ANALYSIS TITLE", "MSC.Nastran job created on 03-Jun-21 at" // @
+" 10:40:45" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Analysis Deck" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Users\danie" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "4.9999999E-06" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\danie" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "Parte_1", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "Parte_1" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-NHC7R5K(
+$# c821586ab454) (Windows 6.2 (Build 9200: Service Pack 0)) at 03-Jun-21 
+$# 10:52:41.
+$# 
+$# Reading model information from the specified database, 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Vigas\Parte_1.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      03, 2021 at 10:52:41.
+$# 
+$# The NASTRAN input file, Parte_1.bdf, has been successfully opened.
+$# 
+$# Translating 50 elements from the element property region Viga_1.
+$# 
+$# Translating 60 elements from the element property region Viga_2.
+$# 
+$# 2 property regions translated.
+$# 
+$# Translating 2 referenced material records.
+$# 
+$# Translating 111 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.109009
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 03-Jun-21 10:52:41.
+$# The translation has completed successfully.
+$# No Analysis Requested
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 03-Jun-21 10:53:32
