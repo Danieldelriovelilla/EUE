@@ -61,7 +61,7 @@ Ni = [viga_1.gdl(end), viga_2.gdl(1)];
 
 % Solucion
 cc = [1, length(vigas.M)];
-[mod_prop, frec_prop] = f_Modos(vigas.M, vigas.K, cc);
+[vigas.modos, vigas.frecuencias] = f_Modos(vigas.M, vigas.K, cc);
 
 f = 1:2000;
 len = 0:0.01:1.1;
@@ -81,10 +81,10 @@ toc
 %% MODOS DE VIGAS INDEPENDIENTES
 
 cc = [1];
-[mod_1, frec_1] = f_Modos(viga_1.M, viga_1.K, cc);
+[viga_1.modos, viga_1.frecuencias] = f_Modos(viga_1.M, viga_1.K, cc);
     
 cc = [61];
-[mod_2, frec_2] = f_Modos(viga_2.M, viga_2.K, cc);
+[viga_2.modos, viga_2.frecuencias] = f_Modos(viga_2.M, viga_2.K, cc);
     
 %% CRAIIG-BAMPTON
 
