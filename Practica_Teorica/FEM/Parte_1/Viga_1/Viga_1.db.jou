@@ -292,3 +292,51 @@ ui_exec_function( "mesh_seed_display_mgr", "init" )
 mesh_seed_display_mgr.erase(  )
 mesh_seed_display_mgr.erase(  )
 mesh_seed_display_mgr.erase(  )
+$# Appending to existing journal file 
+$# C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\Viga_1\Viga_1.db.jo
+$# u at 09-Jun-21 00:12:57
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\danie\Desktop\EUE\Practica_Teorica\FEM\Parte_1\" // @
+"Viga_1" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_center_set( 0.000000, 0.000000 )
+ga_view_zoom_set( 0.119740 )
+ga_view_center_set( 0.000000, 0.000000 )
+ga_view_zoom_set( 0.119740 )
+ga_view_aa_set( -67., 0., -34. )
+gm_visibility_widget( " Point 1:2 Curve 1", FALSE )
+uil_toolbar.shaded_smooth(  )
+point_size( 9 )
+node_size( 9 )
+gm_visibility_widget( " Point 1:2 Curve 1", TRUE )
+gm_visibility_widget( " Point 1:2 Curve 1", FALSE )
+point_size( 1 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 09-Jun-21 00:13:55

@@ -130,7 +130,7 @@ for i = 1:length(f)
     [rms_z1_f(i,:)] = f_RMS(z1, f(i));
     [rms_z2_f(i,:)] = f_RMS(z2, f(i));
 end
-
+toc
 
 %% CG REDUCIDO
 
@@ -166,3 +166,13 @@ figure(2)
     title('z2')
     legend({'Normal','CB'})
     
+    
+h = figure;
+    heatmap(viga_1.M);
+    snapnow
+    colormap cool
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
