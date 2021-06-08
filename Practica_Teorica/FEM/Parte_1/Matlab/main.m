@@ -7,7 +7,9 @@ close all
 try 
     % Cargas las matrices pre-extraidas
     load('Data/Vigas')
+    load('Data/Bandas')
 catch
+    load('Data/Bandas')
     % Path de los archivos .pch
     path_v1 = "../Viga_1/Analisis/viga_1.pch";
     path_v2 = "../Viga_2/Analisis/viga_2.pch";
@@ -48,6 +50,7 @@ catch
     viga_3.F = zeros(length(viga_3.gdl),1);
     viga_3.F(26) = -1;
     
+    % Save data
     save('Data/Vigas', 'viga_1', 'viga_2', 'viga_3')
 end
 
@@ -86,6 +89,7 @@ cc = [1];
 cc = [61];
 [viga_2.modos, viga_2.frecuencias] = f_Modos(viga_2.M, viga_2.K, cc);
     
+
 %% CRAIIG-BAMPTON
 
 % Viga 1
@@ -134,8 +138,8 @@ cc = [1,2];
 rms_z_r = zeros(length(f), 3);
 rms_z1_r = zeros(length(f), 3);
 rms_z2_r = zeros(length(f), 3);
-red_1 = 30;
-red_2 = 30;
+red_1 = f_Num_Reducir(viga_1.frecuencias, Bandas, 5);
+red_2 = f_Num_Reducir(viga_2.frecuencias, Bandas, 5);
 
 tic
 for i = 1:length(f)
@@ -150,6 +154,7 @@ figure(1)
     loglog(f,rms_z1_f(:,2))
     hold on
     loglog(f, rms_z1_r(:,2))
+    grid on
     title('z1')
     legend({'Normal','CB'})
     
@@ -157,5 +162,7 @@ figure(2)
     loglog(f,rms_z2_f(:,2))
     hold on
     loglog(f, rms_z2_r(:,2))
+    grid on
     title('z2')
     legend({'Normal','CB'})
+    
