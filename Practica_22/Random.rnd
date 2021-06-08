@@ -1,0 +1,5 @@
+RANDPS,101,1,1,1.,0.,100022
+$
+$ From Patran Field: Random_input
+TABRND1,  100022,log,log,,,,,,+
++, 20.0000, 0.07270, 2000.00, 0.07270,endt
