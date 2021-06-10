@@ -72,14 +72,41 @@ len = 0:0.01:1.1;
 % Inicializar variables
 z = zeros(length(len), length(f));
 rms_z = zeros(length(f), 3);
+rms_z1 = zeros(51, 3);
+rms_z2 = zeros(61, 3);
 
 tic
 for i = 1:length(f)
     [z(:,i)] = f_Solucion(vigas.M, vigas.K, vigas.F, [1,length(vigas.F)], f(i));
+    z_1 = z(1:51,i);
+    z_2 = z(51:end,i);
     [rms_z(i,:)] = f_RMS(z(:,i), f(i));
+    [rms_z1(i,:)] = f_RMS(z_1, f(i));
+    [rms_z2(i,:)] = f_RMS(z_2, f(i));
 end
 toc
 
+h = figure();
+    loglog(f,rms_z(:,2), 'LineWidth', 1.)
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')
+    grid on; box on
+    Save_as_PDF(h, 'Figures/Clasico_vigas','')
+   
+h = figure();
+    loglog(f,rms_z1(:,2), 'LineWidth', 1.)
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')    
+    grid on; box on
+    Save_as_PDF(h, 'Figures/Clasico_viga_1','')
+    
+h = figure();
+    loglog(f,rms_z2(:,2), 'LineWidth', 1.)
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')
+    grid on; box on
+    Save_as_PDF(h, 'Figures/Clasico_viga_2','')
+    
 
 %% MODOS DE VIGAS INDEPENDIENTES
 
@@ -133,6 +160,7 @@ end
 toc
 
 %% CG REDUCIDO
+close all
 
 cc = [1,2];
 rms_z_r = zeros(length(f), 3);
@@ -150,29 +178,93 @@ for i = 1:length(f)
 end
 toc
 
-figure(1)
-    loglog(f,rms_z1_f(:,2))
+h = figure();
+    loglog(f,rms_z_f(:,2), 'LineWidth', 1., 'DisplayName','No reducido')
     hold on
-    loglog(f, rms_z1_r(:,2))
-    grid on
-    title('z1')
-    legend({'Normal','CB'})
-    
-figure(2)
-    loglog(f,rms_z2_f(:,2))
+    loglog(f, rms_z_r(:,2), 'LineWidth', 1., 'DisplayName','Reducido')
+    grid on; box on;
+    legend('Interpreter', 'Latex', 'Location', 'NorthWest')
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')
+    grid on; box on
+    Save_as_PDF(h, 'Figures/CB_vigas_25','') 
+
+h = figure();
+    loglog(f,rms_z1_f(:,2), 'LineWidth', 1., 'DisplayName','No reducido')
     hold on
-    loglog(f, rms_z2_r(:,2))
-    grid on
-    title('z2')
-    legend({'Normal','CB'})
+    loglog(f, rms_z1_r(:,2), 'LineWidth', 1., 'DisplayName','Reducido')
+    grid on; box on;
+    legend('Interpreter', 'Latex', 'Location', 'NorthWest')
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')
+    grid on; box on
+    Save_as_PDF(h, 'Figures/CB_viga_1_25','')
+
     
+h = figure();
+    loglog(f,rms_z2_f(:,2), 'LineWidth', 1., 'DisplayName','No reducido')
+    hold on
+    loglog(f, rms_z2_r(:,2), 'LineWidth', 1., 'DisplayName','Reducido')
+    grid on; box on;
+    legend('Interpreter', 'Latex', 'Location', 'NorthWest')
+    xlabel('$f$ [Hz]', 'Interpreter', 'Latex')
+    ylabel('$\dot q_{\mathrm{rms}}$ [Hz]', 'Interpreter', 'Latex')
+    grid on; box on
+    Save_as_PDF(h, 'Figures/CB_viga_2_25','')    
     
-h = figure;
+rms(log10(rms_z_r(:,2))-log10(rms_z_f(:,2)))
+    
+%% REPRESENTACION MATRICES
+
+% Masa viga 1
+h = figure();
     heatmap(viga_1.M);
-    snapnow
-    colormap cool
     snapnow
     colormap default
     Ax = gca;
     Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
     Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/VIga_1_M','-dpdf','-r0','-painters')
+    
+% Rigidez viga 1
+h = figure();
+    heatmap(viga_1.K);
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    % save figure as PDF
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/VIga_1_K','-dpdf','-r0','-painters')
+    
+% Masa viga 2
+h = figure();
+    heatmap(viga_2.M);
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/VIga_2_M','-dpdf','-r0','-painters')
+    
+% Rigidez viga 1
+h = figure();
+    heatmap(viga_2.K);
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/VIga_2_K','-dpdf','-r0','-painters')
