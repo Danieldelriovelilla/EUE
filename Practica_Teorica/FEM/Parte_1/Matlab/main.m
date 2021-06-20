@@ -62,6 +62,33 @@ Ni = [viga_1.gdl(end), viga_2.gdl(1)];
 [vigas.M, vigas.K, vigas.F] = ...
     f_Ensamblar(viga_1.M, viga_1.K, viga_1.F, viga_2.M, viga_2.K, viga_2.F, Ni);
 
+% Matrices de Masa 
+h = figure();
+    heatmap(vigas.M);
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/Vigas_M','-dpdf','-r0','-painters')
+    
+% Matriz de Rigidez
+h = figure();
+    heatmap(vigas.K);
+    snapnow
+    colormap default
+    Ax = gca;
+    Ax.XDisplayLabels = nan(size(Ax.XDisplayData));
+    Ax.YDisplayLabels = nan(size(Ax.YDisplayData));
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h, 'Figures/Vigas_K','-dpdf','-r0','-painters')
+
+
 % Solucion
 cc = [1, length(vigas.M)];
 [vigas.modos, vigas.frecuencias] = f_Modos(vigas.M, vigas.K, cc);
